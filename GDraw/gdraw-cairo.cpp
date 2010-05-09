@@ -1563,7 +1563,7 @@ GColour_ConvertBitmap (
 		de=DBitmap;
 		INT32 i, j, k, st;
 
-		st=4 - (DBitmapInfo->biWidth *3 % 4);
+		st=4 - ((DBitmapInfo->biWidth *3) % 4);
 
 		for(j=0; j < DBitmapInfo->biHeight; j++)
 		{
