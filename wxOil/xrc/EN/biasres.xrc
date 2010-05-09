@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<resource>
+	<object class="wxDialog" name="IDD_BIASGAIN">
+			 <pos>0,0d</pos> <size>124,149d</size>
+		<object class="wxStaticBox" name="IDC_BIASGAIN_CURVEDISPLAYGROUP">
+			 <pos>3,3d</pos> <size>118,88d</size>
+			<label></label>
+		</object>
+		<object class="wxStaticBox" name="IDC_BIASGAIN_CURVECONTROLGROUP">
+			 <pos>3,92d</pos> <size>118,54d</size>
+			<label></label>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC1">
+			 <pos>4,98d</pos> <size>7,9d</size>
+			<label>-1</label>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC2">
+			 <pos>47,98d</pos> <size>5,9d</size>
+			<label>0</label>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC3">
+			 <pos>84,98d</pos> <size>9,9d</size>
+			<label>+1</label>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC4">
+			 <pos>4,125d</pos> <size>7,9d</size>
+			<label>-1</label>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC5">
+			 <pos>47,125d</pos> <size>5,9d</size>
+			<label>0</label>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC6">
+			 <pos>84,125d</pos> <size>9,9d</size>
+			<label>+1</label>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxSlider" name="IDC_SLIDER_BIAS">
+			 <pos>5,102d</pos> <size>90,15d</size>
+			<style>wxSL_HORIZONTAL</style>
+		</object>
+		<object class="wxSlider" name="IDC_SLIDER_GAIN">
+			 <pos>5,129d</pos> <size>90,15d</size>
+			<style>wxSL_HORIZONTAL</style>
+		</object>
+		<object class="wxGridCombo" name="IDC_BIASGAINCOMBO">
+			 <pos>7,7d</pos> <size>24,-1d</size>
+		<style>wxCB_READONLY</style>
+		</object>
+		<object class="wxTextCtrl" name="IDC_EDIT_BIAS">
+			 <pos>95,102d</pos> <size>22,12d</size>
+		</object>
+		<object class="wxTextCtrl" name="IDC_EDIT_GAIN">
+			 <pos>95,129d</pos> <size>22,12d</size>
+		</object>
+		<object class="wxStaticText" name="IDC_STATIC7">
+			 <pos>34,8d</pos> <size>63,57d</size>
+			<label></label>
+		</object>
+		<object class="wxCamDrawControl" name="IDC_CURVE">
+			 <pos>34,8d</pos> <size>63,57d</size>
+		</object>
+		<object class="wxCamDrawControl" name="IDC_CURVEINTERPOLATE">
+			 <pos>7,69d</pos> <size>110,15d</size>
+		</object>
+		<title>Profile</title>
+		<label>Profile</label>
+	</object>
+</resource>

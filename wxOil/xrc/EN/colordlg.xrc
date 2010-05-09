@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resource>
+    <object class="wxDialog" name="IDD_COLOUREDITDLG">
+        <style>wxCAPTION|wxRESIZE_BORDER|wxSYSTEM_MENU|wxCLOSE_BOX</style>
+        <title>Colour editor</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>1</border>
+                <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>1</border>
+                        <option>100</option>
+                        <object class="wxOwnerDrawnComboBox" name="IDC_EDIT_NAMEMENU">
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <size>80,-1</size>
+                            <buttonsize>17,-1</buttonsize>
+                            <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>1</border>
+                        <object class="wxCamArtControl" name="IDC_EDIT_MAKESTYLE">
+                            <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER</camartstyle>
+                            <label>-</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>1</border>
+                        <object class="wxCamArtControl" name="IDC_EDIT_216ONLY">
+                            <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER</camartstyle>
+                            <label>-</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>1</border>
+                        <object class="wxCamArtControl" name="IDC_COLOURPICKER">
+                            <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER|wxCACS_NOAUTOREPEAT</camartstyle>
+                            <label>-</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>1</border>
+                        <object class="wxCamArtControl" name="IDC_EDIT_ADVANCED">
+                            <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER|wxCACS_TOGGLEBUTTON</camartstyle>
+                            <label>-</label>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>1</border>
+                <option>100</option>
+                <minsize>120,120</minsize>
+                <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALL</flag>
+                        <border>1</border>
+                        <option>100</option>
+                        <minsize>245,245</minsize>
+                        <object class="wxCamDrawControl" name="IDC_EDIT_PICKER">
+                            <style>wxFULL_REPAINT_ON_RESIZE</style>
+                            <size>245,245</size>
+                            <bestsize>245,245</bestsize>
+                            </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>1</border>
+                <object class="wxPanel" name="IDC_EDIT_ADVANCEDPANEL">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <hidden>1</hidden>
+                    <border>0</border>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <border>0</border>
+
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>0</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="spacer">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <size>245,1</size>
+                                </object>
+                            </object>
+                        </object>
+
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_NAME_COMPONENT1">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>1</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_COMPONENT1">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>45,18</size>
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_NAME_COMPONENT2">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>2</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_COMPONENT2">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>45,18</size>
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_NAME_COMPONENT3">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>3</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_COMPONENT3">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>45,18</size>
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_NAME_COMPONENT4">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>4</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_COMPONENT4">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>45,18</size>
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="spacer">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <size>1,1</size>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_NAME_WEBHEX">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>#</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_WEBHEX">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>55,18</size>
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <object class="wxOwnerDrawnComboBox" name="IDC_EDIT_COLMODEL">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>80,-1</size>
+                                        <buttonsize>17,-1</buttonsize>
+                                        <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCheckBox" name="IDC_EDIT_3D">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>&amp;3D</label>
+                                        <checked>0</checked>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCamArtControl" name="IDC_EDIT_NOCOLOUR">
+                                        <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER</camartstyle>
+                                        <label>-</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCamArtControl" name="IDC_MAKE_LOCAL">
+                                        <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER</camartstyle>
+                                        <label>-</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCamArtControl" name="IDC_EDIT_RENAME">
+                                        <camartstyle>wxCACS_PUSHBUTTON|wxCACS_ALLOWHOVER</camartstyle>
+                                        <label>-</label>
+                                    </object>
+                                </object>
+                                <object class="spacer">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <size>5,1</size>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxButton" name="ID_CC_HELP_BUTTON">
+                                        <label>Help</label>
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Create Brush</label>
+                                        <style>wxBU_EXACTFIT</style>
+                                        <size>-1,25</size>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxStaticLine" name="IDC_EDIT_STATICLINE">
+                                <style>wxLI_HORIZONTAL</style>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <object class="wxOwnerDrawnComboBox" name="IDC_EDIT_COLTYPE">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>80,-1</size>
+                                        <buttonsize>17,-1</buttonsize>
+                                        <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_EDIT_PARENTNAME">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Parent:</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <object class="wxOwnerDrawnComboBox" name="IDC_EDIT_PARENTCOL">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>80,-1</size>
+                                        <buttonsize>17,-1</buttonsize>
+                                        <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_EDIT_TINTNAME">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Shade:</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_TINT">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>45,18</size> 
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_EDIT_TINTPERCENT">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>%</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxTextCtrl" name="IDC_EDIT_SHADE">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <size>45,18</size>
+                                        <style>wxTE_LEFT|wxTE_PROCESS_ENTER</style>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_EDIT_SHADEPERCENT">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>%</label>
+                                    </object>
+                                </object>
+                                <object class="spacer">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <size>5,1</size>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_LEFT|wxALL</flag>
+                            <border>1</border>
+                            <object class="wxBoxSizer">
+                                <orient>wxHORIZONTAL</orient>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                    <border>1</border>
+                                    <object class="wxStaticText" name="IDC_EDIT_INHERITNAME">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Inherit:</label>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCheckBox" name="IDC_EDIT_INHERIT1">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Comp 1</label>
+                                        <checked>0</checked>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCheckBox" name="IDC_EDIT_INHERIT2">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Comp 2</label>
+                                        <checked>0</checked>
+                                    </object>
+                                </object>
+                                <object class="spacer">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <option>100</option>
+                                    <size>5,1</size>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCheckBox" name="IDC_EDIT_INHERIT3">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Comp 3</label>
+                                        <checked>0</checked>
+                                    </object>
+                                </object>
+                                <object class="sizeritem">
+                                    <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                    <border>1</border>
+                                    <object class="wxCheckBox" name="IDC_EDIT_INHERIT4">
+                                        <font>
+                                            <size>8</size>
+                                        </font>
+                                        <label>Comp 4</label>
+                                        <checked>0</checked>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>
+            

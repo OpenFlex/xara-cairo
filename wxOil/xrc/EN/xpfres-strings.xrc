@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+<resource>
+	<object class="wxDialog" name="STRINGTABLE_XPFRESRC">
+		<title>String table from XPFRESRC</title>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML">
+					<label>Error in capabilities XML</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE0">
+					<label>Unexpected Private node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE1">
+					<label>Unexpected Options node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE2">
+					<label>Unexpected Rasterise node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE3">
+					<label>Unexpected Spread node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE4">
+					<label>Unexpected Objects node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE5">
+					<label>Unexpected Attributes node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_PHASE6">
+					<label>Unexpected Colours node</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNEXPECTED_PHASE">
+					<label>Unexpected element</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_OPTIONS_BOUNDSLEVEL">
+					<label>Expected Options 'boundslevel' attr to be one of; 'none', 'compound', 'all'</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_SPREAD_CONVERTAS">
+					<label>Expected Spread 'as' attr to be not present or 'bitmap'</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNKNOWN_CONVTYPE">
+					<label>Expected 'as' attr to be one of; 'native', 'simple', 'stroked', 'bitmap', 'bitmapfill', 'bitmapfilltrans', 'bitmapspan', 'reformat', 'remove', 'simplergb', 'rgb', 'cmyk':</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_EXPECTED_CONVTYPE">
+					<label>Expected 'as' attr</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNEXPECTED_BOOLVALUE">
+					<label>Expected bool attr value to be one of; 'true', 'false'</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_NULLNODE">
+					<label>Unexpected null node pointer (Internal Error)</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNEXPECTED_PROPVALUE">
+					<label>Expected attribute value</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNEXPECTED_OBJTYPE">
+					<label>Expected Object type to be one of; 'Layer', 'Contour', 'Shadow', 'Bevel', 'Blend', 'Mould', 'Rectangle', 'Ellipse', 'Polygon', 'Bitmap', 'Text', 'ClipView', 'BitmapEffect', 'Feather'</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNEXPECTED_ATTRTYPE">
+					<label>Expected Attribute type to be one of; 'Fill', 'FillTrans', 'Line', 'LineTrans', 'Feather'</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_BADXML_UNEXPECTED_COLOURTYPE">
+					<label>Expected Colour type to be 'Colour'</label>
+				</object>
+			</object>
+
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_CREATEFILTERFAILED">
+					<label>Failed to create plugin filter object for #1%S (#2%08lx)</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_CREATESTREAMFAILED">
+					<label>Failed to create stream for plugin filter</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_DOEXPORTFAILED">
+					<label>DoExport failed</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_DOIMPORTFAILED">
+					<label>DoImport failed</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDE_XPF_PREPAREEXPORTFAILED">
+					<label>PrepareExport failed</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDS_CONVERTING_DOCUMENT">
+					<label>Converting document for export</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDS_EXPORTING_DOCUMENT">
+					<label>Exporting document</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDS_SAVING_XAR_DATA">
+					<label>Preparing to export document</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDS_XPF_NO_ERROR_SET">
+					<label>Plugin filter reported an error but didn't provide a message</label>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+				<object class="wxStaticText" name="IDS_XPF_MIXEDTRANSLAYER">
+					<label>Layer '#1%S' contains a mixture of transparency types that may not be represented correctly using the current settings of the filter.  Please see the help page for details of how to avoid this situation.</label>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>

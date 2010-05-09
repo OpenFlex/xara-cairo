@@ -1,0 +1,27 @@
+*** C++ ***
+
+* follow Xara C++ style conventions for indenting and commenting
+* add proper comments
+* the error handling is non-existent (exceptions?)
+* generate XAR tags for objects/groups labels (id and xml:id properties)
+* review the tree of #include's and remove useless ones
+
+*** SVG ***
+
+* fill-rule fill property
+* stroke-linecap, stroke-linejoin, stroke-miterlimit, stroke-dasharray, stroke-dashoffset
+* solidColor in <defs>
+* gradient radial fill
+* handle <defs> in the correct way: each one should have its own hashtable and
+  the filter should handle objects defined there and referenced later with <use /> (2)
+* parse <style type="text/css"> section (1)
+* bitmaps
+* texts
+
+*** Known Bugs ***
+
+* linear and radial fills have wrong coordinates defined
+* linear and radial fills using ObjectBoundingBox are not drawn
+
+* tests/rects_css.svg fails because of (1)
+* tests/paths4.svg fails because of (2)

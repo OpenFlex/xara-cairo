@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="IDD_TBITMAPSIZE">
+        <size>555,146</size>
+		<title>Bitmap Size</title>
+		<label>Bitmap Size</label>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_TOP|wxLEFT|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL</flag>
+                        <border>5</border>
+                        <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <label>Bitmap Size and Resolution</label>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxFlexGridSizer">
+                                            <cols>4</cols>
+                                            <rows>2</rows>
+                                            <vgap>0</vgap>
+                                            <hgap>0</hgap>
+                                            <growablecols>0,2</growablecols>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="IDC_T1STATIC3">
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                    <label>Width</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxTextCtrl" name="IDC_T1EDIT1">
+                                                    <size>57,20</size>
+                                                    <pos>45,30</pos>
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="IDC_T1STATIC4">
+                                                    <pos>117,34</pos>
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                    <label>Height</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxTextCtrl" name="IDC_T1EDIT2">
+                                                    <size>57,20</size>
+                                                    <pos>151,30</pos>
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="IDC_T1STATIC6">
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                    <label>Scale</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxBoxSizer">
+                                                    <orient>wxHORIZONTAL</orient>
+                                                    <object class="sizeritem">
+                                                        <flag>wxALIGN_CENTER_VERTICAL</flag>
+                                                        <border>5</border>
+                                                        <object class="wxTextCtrl" name="IDC_T1EDIT3">
+															<size>57,20</size>
+                                                            <pos>45,63</pos>
+                                                            <font>
+                                                                <size>8</size>
+                                                            </font>
+                                                        </object>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <flag>wxALIGN_CENTER_VERTICAL|wxADJUST_MINSIZE</flag>
+                                                        <border>5</border>
+                                                        <object class="wxStaticText" name="IDC_T1STATIC7">
+                                                            <pos>102,65</pos>
+                                                            <font>
+                                                                <size>8</size>
+                                                            </font>
+                                                            <label>%</label>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                                <border>5</border>
+                                                <object class="wxStaticText" name="IDC_T1STATIC2">
+                                                    <pos>117,65</pos>
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                    <label>DPI</label>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                                <border>5</border>
+                                                <object class="wxOwnerDrawnComboBox" name="IDC_T1COMBO1">
+                                                    <size>57,-1</size>
+                                                    <pos>151,63</pos>
+                                                    <font>
+                                                        <size>8</size>
+                                                    </font>
+                                                    <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                                    <buttonsize>17,-1</buttonsize>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                    <orient>wxVERTICAL</orient>
+                                    <label>Area To Save</label>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_LEFT|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxRadioButton" name="IDC_T1RADIO2">
+                                            <pos>237,27</pos>
+                                            <font>
+                                                <size>8</size>
+                                            </font>
+                                            <style>wxRB_GROUP</style>
+                                            <label>Drawing</label>
+                                            <value>0</value>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_LEFT|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxRadioButton" name="IDC_T1RADIO3">
+                                            <pos>237,52</pos>
+                                            <font>
+                                                <size>8</size>
+                                            </font>
+                                            <label>Selection</label>
+                                            <value>0</value>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_LEFT|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxRadioButton" name="IDC_T1RADIO1">
+                                            <pos>237,76</pos>
+                                            <font>
+                                                <size>8</size>
+                                            </font>
+                                            <label>Page</label>
+                                            <value>0</value>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+<!--                    <object class="sizeritem">
+                        <flag>wxGROW|wxLEFT|wxRIGHT</flag>
+                        <border>5</border>
+                        <object class="wxStaticBoxSizer" name="wxID_ANY">
+                            <orient>wxVERTICAL</orient>
+                            <label>HTML</label>
+							<hidden>1</hidden>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxCheckBox" name="IDC_T1_PUTHTMLTAGONCLIPBOARD">
+                                    <pos>13,115</pos>
+                                    <label>Put HTML Image Tag On Clipboard</label>
+                                    <checked>0</checked>
+									<hidden>1</hidden>
+                                </object>
+                            </object>
+                        </object>
+                    </object> -->
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_TOP|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Anti-aliasing</label>
+                    <font>
+                        <size>8</size>
+                    </font>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxRadioButton" name="IDC_T1RADIO_MAINTAIN_AA">
+                            <pos>342,37</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <style>wxRB_GROUP</style>
+                            <label>Maintain screen anti-aliasing</label>
+                            <value>0</value>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxRadioButton" name="IDC_T1RADIO_MINIMISE_AA">
+                            <pos>342,63</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>Minimise visible anti-aliasing</label>
+                            <value>0</value>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object class="wxPanel" name="IDD_TIMAPOPTIONS">
+        <size>555,146</size>
+		<title>Image Map</title>
+		<label>Image Map</label>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxALL</flag>
+                        <border>5</border>
+                        <option>9999</option>
+                        <object class="wxStaticBoxSizer" name="wxID_ANY">
+                            <orient>wxVERTICAL</orient>
+                            <label>Export Image Map To</label>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxBoxSizer">
+                                            <orient>wxVERTICAL</orient>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT</flag>
+                                                <border>5</border>
+                                                <object class="wxCheckBox" name="IDC_IMAPTAB_EXPORTTOFILE">
+                                                    <pos>13,42</pos>
+                                                    <label>File</label>
+                                                    <checked>0</checked>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxTOP</flag>
+                                                <border>5</border>
+                                                <object class="wxCheckBox" name="IDC_IMAPTAB_EXPORTTOCLIPBOARD">
+                                                    <pos>0,0</pos>
+                                                    <label>Clipboard</label>
+                                                    <checked>0</checked>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                        <border>5</border>
+                                        <object class="wxBoxSizer">
+                                            <orient>wxVERTICAL</orient>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT</flag>
+                                                <border>5</border>
+                                                <object class="wxRadioButton" name="IDC_IMAPTAB_REPLACE">
+                                                    <pos>90,43</pos>
+                                                    <label>Replace existing file</label>
+                                                    <value>0</value>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxALIGN_LEFT|wxTOP</flag>
+                                                <border>5</border>
+                                                <object class="wxRadioButton" name="IDC_IMAPTAB_INSERT">
+                                                    <pos>90,21</pos>
+                                                    <label>Insert Image Map into Existing File</label>
+                                                    <value>0</value>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW</flag>
+                                <border>5</border>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                        <border>5</border>
+                                        <option>9999</option>
+                                        <object class="wxTextCtrl" name="IDC_IMAPTAB_PATH">
+                                            <pos>13,65</pos>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxButton" name="IDC_IMAPTAB_BROWSE">
+                                            <pos>181,65</pos>
+                                            <label>Browse...</label>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxGROW|wxLEFT</flag>
+                        <border>5</border>
+                        <object class="wxStaticBoxSizer" name="wxID_ANY">
+                            <orient>wxHORIZONTAL</orient>
+                            <label>Dreamweaver Integration</label>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxCheckBox" name="IDC_IMAPTAB_ADDDESIGNNOTE">
+                                    <pos>13,115</pos>
+                                    <label>Add Design Note</label>
+                                    <checked>0</checked>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_IMAPTAB_STATIC3">
+                                    <pos>123,117</pos>
+                                    <label>Dreamweaver 3 is not installed</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_IMAPTAB_STATIC4">
+                                    <pos>121,117</pos>
+                                    <label>Current drawing must be saved</label>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Image Map Options</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_IMAPTAB_STATIC1">
+                            <size>-1,13</size>
+                            <pos>295,27</pos>
+                            <label>Name</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL</flag>
+                        <border>5</border>
+                        <object class="wxOwnerDrawnComboBox" name="IDC_IMAPTAB_MAPNAME">
+                            <size>183,-1</size>
+                            <pos>295,42</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <style>wxCB_SORT|wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                            <buttonsize>17,-1</buttonsize>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_IMAPTAB_STATIC2">
+                            <size>141,-1</size>
+                            <pos>295,68</pos>
+                            <label>Approximate curves with lines</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxOwnerDrawnComboBox" name="IDC_IMAPTAB_APPROX">
+                            <size>183,-1</size>
+                            <pos>295,86</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <style>wxCB_SORT|wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                            <buttonsize>17,-1</buttonsize>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCheckBox" name="IDC_IMAPTAB_RECTANGLES">
+                            <pos>295,113</pos>
+                            <label>Save all clickable areas as rectangles</label>
+                            <checked>0</checked>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object class="wxPanel" name="IDD_TBROWSER">
+        <size>555,146</size>
+		<title>Browser Preview</title>
+		<label>Browser Preview</label>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_TOP|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Background Options</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxRadioButton" name="IDC_T5RADIO1">
+                            <pos>13,30</pos>
+                            <style>wxRB_GROUP</style>
+                            <label>Plain Background</label>
+                            <value>0</value>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxRadioButton" name="IDC_T5RADIO2">
+                            <pos>13,56</pos>
+                            <label>Document Background</label>
+                            <value>0</value>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxRadioButton" name="IDC_T5RADIO3">
+                            <pos>13,82</pos>
+                            <label>Bitmap As Background</label>
+                            <value>0</value>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxRadioButton" name="IDC_T5RADIO4">
+                            <pos>13,108</pos>
+                            <label>Chequered Background</label>
+                            <value>0</value>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_TOP|wxALL</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                    <orient>wxVERTICAL</orient>
+                    <label>Additional Information</label>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCheckBox" name="IDC_T5CHECK1">
+                            <pos>187,32</pos>
+                            <label>Include Image Information</label>
+                            <checked>0</checked>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCheckBox" name="IDC_T5CHECK2">
+                            <pos>187,56</pos>
+                            <label>Include Image Map</label>
+                            <checked>0</checked>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_TOP|wxRIGHT|wxTOP|wxBOTTOM</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxVERTICAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxButton" name="IDC_IMMEDIATE_BROWSER_PREVIEW">
+                            <pos>360,17</pos>
+                            <label>Browser Preview</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCheckBox" name="IDC_BROWSER_PREVIEW">
+                            <pos>360,48</pos>
+                            <label>Show all previews in browser</label>
+                            <checked>0</checked>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object class="wxPanel" name="IDD_TBITMAPOPTIONS">
+        <size>555,146</size>
+		<title>Options</title>
+		<label>Options</label>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_LEFT|wxLEFT|wxRIGHT|wxTOP</flag>
+                <border>5</border>
+                <object class="wxCheckBox" name="IDC_OPTIONSTAB_CHECK1">
+                    <pos>9,9</pos>
+                    <font>
+                        <size>8</size>
+                    </font>
+                    <label>&amp;Progressive</label>
+                    <checked>0</checked>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_LEFT|wxLEFT|wxRIGHT|wxTOP</flag>
+                <border>5</border>
+                <object class="wxStaticBoxSizer" name="IDC_OPTIONSTAB_JPEG_TEXT1">
+                    <orient>wxVERTICAL</orient>
+                    <label>JPEG Quality</label>
+                    <font>
+                        <size>8</size>
+                    </font>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_LEFT|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_OPTIONSTAB_JPEG_TEXT2">
+                            <pos>21,50</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>0%</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxBoxSizer">
+                            <orient>wxHORIZONTAL</orient>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxSlider" name="IDC_OPTIONSTAB_JPEG_SLIDER">
+                                    <size>118,17</size>
+                                    <pos>21,66</pos>
+                                    <style>wxSL_HORIZONTAL|wxSL_INVERSE</style>
+                                    <value>0</value>
+                                    <min>0</min>
+                                    <max>100</max>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_OPTIONSTAB_JPEG_TEXT4">
+                                    <size>33,-1</size>
+                                    <pos>150,71</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <label>100%</label>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_LEFT|wxLEFT|wxRIGHT|wxTOP</flag>
+                <border>5</border>
+                <object class="wxCheckBox" name="IDC_OPTIONSTAB_CHECK2">
+                    <size>256,-1</size>
+                    <font>
+                        <size>8</size>
+                    </font>
+                    <label>X</label>
+                    <checked>0</checked>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_LEFT|wxALL</flag>
+                <border>5</border>
+                <object class="wxCheckBox" name="IDC_OPTIONSTAB_CHECK3">
+                    <size>256,-1</size>
+                    <font>
+                        <size>8</size>
+                    </font>
+                    <label>Y</label>
+                    <checked>0</checked>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object class="wxPanel" name="IDD_PALETTE_TAB">
+        <size>647,191</size>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <object class="wxFlexGridSizer">
+                            <cols>2</cols>
+                            <rows>2</rows>
+                            <vgap>0</vgap>
+                            <hgap>0</hgap>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_T2STATIC1">
+                                    <pos>12,17</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <label>Dithering:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxOwnerDrawnComboBox" name="IDC_DITHERING_COMBO">
+                                    <size>145,-1</size>
+                                    <pos>91,14</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                    <buttonsize>17,-1</buttonsize>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_T2STATIC2">
+                                    <pos>12,51</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <label>Palette:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxOwnerDrawnComboBox" name="IDC_PALETTE_COMBO">
+                                    <size>145,-1</size>
+                                    <pos>91,48</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                    <buttonsize>17,-1</buttonsize>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_T2STATIC3">
+                                    <pos>12,85</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <label>Colour depth:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                <border>5</border>
+                                <object class="wxOwnerDrawnComboBox" name="IDC_COLOUR_DEPTH_COMBO">
+                                    <size>145,-1</size>
+                                    <pos>91,80</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                    <buttonsize>17,-1</buttonsize>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                                <border>5</border>
+                                <object class="wxStaticText" name="IDC_T2STATIC4">
+                                    <pos>12,119</pos>
+                                    <font>
+                                        <size>8</size>
+                                    </font>
+                                    <label>Max colours:</label>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                <border>5</border>
+                                <object class="wxBoxSizer">
+                                    <orient>wxHORIZONTAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxTextCtrl" name="IDC_COLOURS_USED_EDIT">
+                                            <size>40,20</size>
+                                            <pos>91,114</pos>
+                                            <font>
+                                                <size>8</size>
+                                            </font>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                                        <border>5</border>
+                                        <object class="wxOwnerDrawnComboBox" name="IDC_COLOR_MODEL_LIST">
+                                            <size>96,-1</size>
+                                            <pos>140,114</pos>
+                                            <font>
+                                                <size>8</size>
+                                            </font>
+                                            <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                                            <buttonsize>17,-1</buttonsize>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <object class="wxCamDrawControl" name="IDC_T2_PALETTE_CONTROL">
+                            <size>386,131</size>
+                            <pos>248,14</pos>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_HORIZONTAL</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_T2STATIC6">
+                            <pos>12,153</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>Value:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_T2STATIC7">
+                            <size>10,-1</size>
+                            <pos>59,155</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>R</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxTextCtrl" name="IDC_RED_EDIT">
+                            <size>42,20</size>
+                            <pos>73,150</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_T2STATIC8">
+                            <size>10,-1</size>
+                            <pos>120,155</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>G</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxTextCtrl" name="IDC_GREEN_EDIT">
+                            <size>42,20</size>
+                            <pos>134,150</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="IDC_T2STATIC9">
+                            <size>10,-1</size>
+                            <pos>182,155</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>B</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxTextCtrl" name="IDC_BLUE_EDIT">
+                            <size>42,20</size>
+                            <pos>194,150</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_LOCKED_COLOUR">
+                            <size>26,31</size>
+                            <pos>248,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_WEB_SAFE_COLOUR">
+                            <size>26,31</size>
+                            <pos>274,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_TRANSPARENT_BACKGROUND">
+                            <size>26,31</size>
+                            <pos>301,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_TRANSPARENT_COLOUR">
+                            <size>26,31</size>
+                            <pos>327,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_DELETE_COLOUR">
+                            <size>26,31</size>
+                            <pos>364,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_RESTORE_COLOUR">
+                            <size>26,31</size>
+                            <pos>390,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxCamArtControl" name="IDC_T2_SYSTEM_COLOURS">
+                            <size>26,31</size>
+                            <pos>425,153</pos>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                        <border>5</border>
+                        <object class="wxStaticText" name="ID_STATICTEXT">
+                            <size>43,-1</size>
+                            <pos>467,155</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <label>Sort By:</label>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                        <border>5</border>
+                        <object class="wxOwnerDrawnComboBox" name="IDC_T2_SORT_LIST">
+                            <size>119,-1</size>
+                            <pos>518,150</pos>
+                            <font>
+                                <size>8</size>
+                            </font>
+                            <style>wxCB_READONLY|wxTE_PROCESS_ENTER</style>
+                            <buttonsize>17,-1</buttonsize>
+                        </object>
+                    </object>
+                </object>
+            </object>
+		</object>
+		<title>Palette Options</title>
+		<label>Palette Options</label>
+	</object>
+</resource>

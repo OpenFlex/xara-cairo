@@ -1,0 +1,101 @@
+# -*-shell-script-*-
+
+[Meta]
+RootName: @xaralx.org/xaralx:0.7
+DisplayName: Xara Xtreme Vector Graphics Tool
+DisplayName[de]: Xara Xtreme Vektorgrafik-Programm
+DisplayName[fr]: Logiciel d'illustration vectorielle Xara Xtreme
+DisplayName[it]: Xara Xtreme Programma di Grafica Vettoriale
+ShortName: xaralx
+Maintainer: Neil Howe <neil@xara.com>
+Packager: Anonymous <anonymous@nowhere.com>
+Summary: Xara Xtreme is a vector graphics and photo tool
+Summary[de]: Xara Xtreme ist ein Vektorgrafik- und Bildbearbeitungsprogramm
+Summary[fr]: Xara Xtreme est un logiciel d'illustration vectorielle polyvalent et rapide
+Summary[it]: Xara Xtreme è un programma di grafica vettoriale e fotoritocco
+URL: http://www.xaraxtreme.org/
+License: GNU General Public License, Version 2
+SoftwareVersion: 0.7
+AutopackageTarget: 1.0
+
+# Only uncomment InterfaceVersion if your package exposes interfaces to other software,
+# for instance if it includes DSOs or python/perl modules. See the developer guide for more info,
+# or ask on autopackage-dev if you don't understand interface versioning in autopackage.
+#
+# InterfaceVersion: 0.0
+
+[Description]
+Xara Xtreme is primarily a vector graphics (drawing and illustration) program but is
+one of the new generation of cross-over products that handles photos and
+drawings with equal ease. See xaraxtreme.org for details. Xara Xtreme on Linux is a 
+port of the Windows version of Xara Xtreme (see www.xara.com/xtreme).
+
+[Description:de]
+Xara Xtreme ist hauptsächlich ein Vektorgrafikprogramm zum Erstellen von
+Zeichnungen und Illustrationen. Als Vertreter einer neuen Generation von
+Grafikprogrammen bietet Xara Xtreme jedoch neben seinen Werkzeugen zum
+Erstellen von Vektorgrafiken auch leistungsfähige Funktionen zum Bearbeiten
+von Fotos an. Weitergehende Informationen finden Sie unter xaraxtreme.org.
+Bei Xara Xtreme for Linux handelt es sich um eine Portierung der Windows-
+Version von Xara Xtreme (siehe www.xara.com/xtreme).
+
+[Description:fr]
+Xara Xtreme est avant tout un logiciel de dessin et d'illustration vectoriel,
+mais il se veut aussi un outil transversal, capable de manipuler photos,
+textes et dessins avec souplesse. Visitez xaraxtreme.org pour plus
+d'information. Xara Xtreme pour Linux est le portage entièrement libre
+de la version Windows de Xara Xtreme (cf www.xara.com/xtreme).
+
+[Description:it]
+Xara Xtreme è principalmente un programma di grafica vettoriale (disegni ed illustrazioni),
+è un software della nuova generazione di prodotti cross-over che permette di gestire
+disegni e foto con la stessa facilità. Vedere xaraxtreme.org per dettagli. Xara Xtreme
+per Linux è un port della versione Windows di Xara Xtreme (vedere www.xara.com/xtreme).
+
+[BuildPrepare]
+#prepareBuild
+cp -r ../xaralx/* $build_root
+
+[BuildUnprepare]
+#unprepareBuild
+
+[Imports]
+echo * | import
+
+[Prepare]
+# Dependency checking
+# require @whatever.you/need 1.0
+
+[Install]
+# Put your installation script here
+installExe bin/xaralx
+installIcon xaralx.png
+
+# Install the icon so that on GNOME XAR files will show the icon.
+((cp xaralx.png /usr/share/icons/hicolor/48x48/mimetypes/gnome-mime-application-vnd.xara.png 2>/dev/null) || /bin/true )
+((gtk-update-icon-cache -f "$PREFIX/share/icons/hicolor/" 2>/dev/null) || /bin/true )
+
+installDesktop "Graphics/Vector Graphics" xaralx.desktop
+installMime xaralx.xml
+installGnome2Mime mime-storage/gnome/*
+installMan 1 share/xaralx/doc/xaralx.1
+copyFiles share/xaralx/doc "$PREFIX/share/xaralx"
+mkdir -p "$PREFIX/share/xaralx/doc/en"
+((tar xfz xaralxHelp.tar.gz -C "$PREFIX/share/xaralx/doc/en" 2>/dev/null) || /bin/true )
+copyFiles share/xaralx/Examples "$PREFIX/share/xaralx"
+copyFiles share/xaralx/Templates "$PREFIX/share/xaralx"
+# copyFiles bin "$PREFIX/share/xaralx"
+# copyFiles video "$PREFIX/share/xaralx"
+
+# SVG filter
+installExe bin/xarasvgfilter
+installExe bin/xarasvgfilterui
+copyFiles share/xaralx/filters "$PREFIX/share/xaralx"
+
+((update-desktop-database 2>/dev/null) || /bin/true )
+((kbuildsycoca 2>/dev/null) || /bin/true )
+
+[Uninstall]
+# Usually just the following line is enough to uninstall everything
+uninstallFromLog
+rm -rf "$PREFIX/share/xaralx/doc/en"

@@ -1,0 +1,11 @@
+<FilterConfig>
+  <Filter name="SVGFilter">
+    <DisplayName>SVG</DisplayName>
+    <Extensions>svg</Extensions>
+    <CanImport>xarasvgfilter -c -f %IN%</CanImport>
+    <PrepareImport>xarasvgfilterui -i -f %OUT% -x %XML%</PrepareImport>
+    <DoImport>xarasvgfilter -i -g -f %IN%</DoImport>
+    <PrepareExport>xarasvgfilterui -e -f %OUT% -x %XML%</PrepareExport>
+    <DoExport>xarasvgfilter -e -g -f %OUT% -x %XML%</DoExport>
+  </Filter>
+</FilterConfig>

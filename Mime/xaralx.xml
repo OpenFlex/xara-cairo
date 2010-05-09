@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"
+xmlns:apkg="http://autopackage.org/xdgmime-extensions">
+  <mime-type type="application/vnd.xara">
+         <comment>Xara document</comment>
+         <comment xml:lang="de">Xara-Dokument</comment>
+         <comment xml:lang="fr">Illustration vectorielle Xara</comment>
+         <comment xml:lang="it">Documento Xara</comment>
+        
+         <magic priority="80">
+                <match type="string" value="XARA" offset="0"/>
+         </magic>
+         <glob pattern="*.xar"/>
+         <glob pattern="*.web"/>
+	 <alias type="application/x-extension-xar"/>
+         <apkg:icon>xaralx.png</apkg:icon>
+  </mime-type>
+</mime-info>
+
