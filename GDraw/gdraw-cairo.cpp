@@ -115,7 +115,15 @@ xcl_create_diamond_color_pattern(GCDATA *data);
 static INT32
 xcl_fill_with_diamond_color_pattern(GCDATA *data, cairo_surface_t *mask);
 
+#ifdef CAIRO_HAS_MESH_PATTERN 
 
+static INT32
+xcl_fill_with_mesh_color_pattern(GCDATA *data, cairo_surface_t *mask);
+
+static cairo_pattern_t *
+xcl_create_mesh_color_pattern(GCDATA *data);
+
+#endif
 
 /*
 *	Cache for bitmaps (not used : things go wrong when exporting png/jpg )
@@ -938,9 +946,48 @@ GColour_Set3WayGraduation (
     pcPOINT   PointA, pcPOINT   PointB, pcPOINT   PointD
     )
 {
-    STUB ("GColour_Set3WayGraduation");
+ /*   STUB ("GColour_Set3WayGraduation");*/
 	statlist[43].count++;
-    return 0;
+#ifdef CAIRO_HAS_MESH_PATTERN 
+	GCDATA *data=dp_list[pContext->Data[0]];
+	double x, y;
+/*
+	printf("GColour_Set3WayGraduation\n");
+	printf("Style=%X\n", Style);
+*/
+	x=toFL(PointA->x);
+	y=toFL(PointA->y);
+	cairo_user_to_device(data->cr, &x, &y);
+	data->cpat.ax=x;
+	data->cpat.ay=y;
+	printf("Point A : %f   %f\n", x, y);
+
+	x=toFL(PointB->x);
+	y=toFL(PointB->y);
+	cairo_user_to_device(data->cr, &x, &y);
+	data->cpat.bx=x;
+	data->cpat.by=y;
+	printf("Point B : %f   %f\n", x, y);
+
+	x=toFL(PointD->x);
+	y=toFL(PointD->y);
+	cairo_user_to_device(data->cr, &x, &y);
+	data->cpat.cx=x;
+	data->cpat.cy=y;
+	printf("Point C : %f   %f\n", x, y);
+
+	data->cpat.style=Style;
+	data->cpat.style |=0x33000000;
+	data->transparency=(~Style & 0x00FF0000) >> 16;
+
+	data->cpat.value1=ColourA;
+	data->cpat.value2=ColourB;
+	data->cpat.value3=ColourD;
+
+	data->source=S_PATTERN;
+
+#endif
+	return 0;
 }
 
 INT32
@@ -966,7 +1013,47 @@ GColour_Set4WayGraduation (
 {
     STUB ("GColour_Set4WayGraduation");
 	statlist[45].count++;
-    return 0;
+
+#ifdef CAIRO_HAS_MESH_PATTERN 
+	GCDATA *data=dp_list[pContext->Data[0]];
+	double x, y;
+/*
+	printf("GColour_Set4WayGraduation\n");
+	printf("Style=%X\n", Style);
+*/
+
+	x=toFL(PointA->x);
+	y=toFL(PointA->y);
+	cairo_user_to_device(data->cr, &x, &y);
+	data->cpat.ax=x;
+	data->cpat.ay=y;
+
+	x=toFL(PointB->x);
+	y=toFL(PointB->y);
+	cairo_user_to_device(data->cr, &x, &y);
+	data->cpat.bx=x;
+	data->cpat.by=y;
+
+	x=toFL(PointD->x);
+	y=toFL(PointD->y);
+	cairo_user_to_device(data->cr, &x, &y);
+	data->cpat.cx=x;
+	data->cpat.cy=y;
+
+	data->cpat.style=Style;
+	data->cpat.style |=0x44000000;
+	data->transparency=(~Style & 0x00FF0000) >> 16;
+
+	data->cpat.value1=ColourA;
+	data->cpat.value2=ColourB;
+	data->cpat.value3=ColourC;
+	data->cpat.value4=ColourD;
+
+	data->source=S_PATTERN;
+
+#endif
+
+	return 0;
 }
 
 INT32
@@ -2260,6 +2347,13 @@ xcl_fill_with_pattern(GCDATA *data, cairo_surface_t *mask)
 	cairo_pattern_t	*pat;
 	UINT32			c;
 
+#ifdef CAIRO_HAS_MESH_PATTERN
+	if((data->cpat.style & 0xFF000000) == 0x33000000
+	||  (data->cpat.style & 0xFF000000) == 0x44000000){
+		xcl_fill_with_mesh_color_pattern(data, mask);
+		return 0;
+	}
+#endif
 	if((data->cpat.style & 0xF) == 3){
 		xcl_fill_with_diamond_color_pattern(data, mask);
 		return 0;
@@ -2485,6 +2579,137 @@ xcl_create_diamond_color_pattern(GCDATA *data)
 	return pat;
 }
 
+#ifdef CAIRO_HAS_MESH_PATTERN
+static INT32
+xcl_fill_with_mesh_color_pattern(GCDATA *data, cairo_surface_t *mask)
+{
+	cairo_pattern_t *pat;
+	cairo_t *cr=data->cr;
+
+	pat=xcl_create_mesh_color_pattern(data);
+
+	if(mask){	
+		cairo_save(cr);
+			cairo_clip(cr);
+			cairo_identity_matrix(cr);
+			cairo_set_source(cr, pat);
+			cairo_mask_surface(cr, mask, data->tpat_offset_x, data->tpat_offset_y);
+		cairo_restore(cr);
+	}else{
+		cairo_save(cr);
+			cairo_identity_matrix(cr);
+
+			cairo_set_source(cr, pat);
+			cairo_fill(cr);
+		cairo_restore(cr);
+	}
+	cairo_pattern_destroy(pat);
+	return 0;
+}
+
+static cairo_pattern_t *
+xcl_create_mesh_color_pattern(GCDATA *data)
+{
+	cairo_pattern_t	*pat;
+	cairo_matrix_t		matrix;
+	double			a, b, c, d, e, f, cx, cy;
+	patterndata		*tp=&data->cpat;
+	cairo_status_t		err;
+	cairo_surface_t		*surf;
+	cairo_t			*cr;
+
+	c=tp->ax;
+	f=tp->ay;
+	b=(tp->cx - c)/256.0;
+	e=(tp->cy - f)/256.0;
+	a=(tp->bx - c)/256.0;
+	d=(tp->by - f)/256.0;
+
+	cairo_matrix_init(&matrix, a, d, b, e, c, f);
+
+	err=cairo_matrix_invert(&matrix);
+	if(err)
+		printf("ERROR : in xcl_create_mesh_color_pattern ( invert matrix)\ncairo error=%s\n",
+					cairo_status_to_string(err));
+
+	pat=cairo_pattern_create_mesh();
+
+	cairo_pattern_begin_patch(pat);
+
+	cairo_pattern_move_to(pat, 0, 0);
+	cairo_pattern_line_to(pat, 255, 0);
+/*	if((tp->style & 0xFF000000)==0x44000000)*/
+		cairo_pattern_line_to(pat, 255, 255);
+	/*else
+		cairo_pattern_line_to(pat, 255, 0);
+*/
+	cairo_pattern_line_to(pat, 0, 255);
+	cairo_pattern_line_to(pat, 0, 0);
+
+	cairo_pattern_set_corner_color_rgba(pat, 0,
+				( tp->value1 & 0xFF)/255.0,
+				(( tp->value1 & 0xFF00) >>8)/255.0,
+				(( tp->value1 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+
+	cairo_pattern_set_corner_color_rgba(pat, 1,
+				( tp->value2 & 0xFF)/255.0,
+				(( tp->value2 & 0xFF00) >>8)/255.0,
+				(( tp->value2 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+
+	if((tp->style & 0xFF000000)==0x44000000)
+	{
+		cairo_pattern_set_corner_color_rgba(pat, 2,
+				( tp->value3 & 0xFF)/255.0,
+				(( tp->value3 & 0xFF00) >>8)/255.0,
+				(( tp->value3 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+
+
+		cairo_pattern_set_corner_color_rgba(pat, 3,
+				( tp->value4 & 0xFF)/255.0,
+				(( tp->value4 & 0xFF00) >>8)/255.0,
+				(( tp->value4 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+	}
+	else
+	{
+		cairo_pattern_set_corner_color_rgba(pat, 2,
+				( tp->value2 & 0xFF)/255.0,
+				(( tp->value2 & 0xFF00) >>8)/255.0,
+				(( tp->value2 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+
+		cairo_pattern_set_corner_color_rgba(pat, 3,
+				( tp->value3 & 0xFF)/255.0,
+				(( tp->value3 & 0xFF00) >>8)/255.0,
+				(( tp->value3 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+	}
+	cairo_pattern_end_patch(pat);
+
+	surf=cairo_image_surface_create(CAIRO_FORMAT_ARGB32, 256, 256);
+	cr=cairo_create(surf);
+	cairo_set_source(cr, pat);
+	cairo_paint(cr);
+
+	cairo_pattern_destroy(pat);
+	pat=cairo_pattern_create_for_surface(surf);
+
+	cairo_destroy(cr);
+	cairo_surface_destroy(surf);
+
+	cairo_pattern_set_matrix(pat, &matrix);
+	if((tp->style & 0xF)==2)
+		cairo_pattern_set_extend(pat, CAIRO_EXTEND_REFLECT);
+	else
+		cairo_pattern_set_extend(pat, CAIRO_EXTEND_PAD);
+
+	return pat;
+}
+
+#endif
 
 static INT32
 xcl_fill_with_surface(GCDATA *data, cairo_surface_t *mask)
