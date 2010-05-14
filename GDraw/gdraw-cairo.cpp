@@ -960,21 +960,21 @@ GColour_Set3WayGraduation (
 	cairo_user_to_device(data->cr, &x, &y);
 	data->cpat.ax=x;
 	data->cpat.ay=y;
-	printf("Point A : %f   %f\n", x, y);
+/*	printf("Point A : %f   %f\n", x, y);*/
 
 	x=toFL(PointB->x);
 	y=toFL(PointB->y);
 	cairo_user_to_device(data->cr, &x, &y);
 	data->cpat.bx=x;
 	data->cpat.by=y;
-	printf("Point B : %f   %f\n", x, y);
+/*	printf("Point B : %f   %f\n", x, y);*/
 
 	x=toFL(PointD->x);
 	y=toFL(PointD->y);
 	cairo_user_to_device(data->cr, &x, &y);
 	data->cpat.cx=x;
 	data->cpat.cy=y;
-	printf("Point C : %f   %f\n", x, y);
+/*	printf("Point C : %f   %f\n", x, y);*/
 
 	data->cpat.style=Style;
 	data->cpat.style |=0x33000000;

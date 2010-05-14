@@ -26,7 +26,7 @@
 #include <cairo.h>
 
 
-#define CAIRO_HAS_MESH_PATTERN
+/*#define CAIRO_HAS_MESH_PATTERN */
 
 
 #define MIN_LINE_WIDTH 0.25
