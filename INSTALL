@@ -10,6 +10,23 @@ unlimited permission to copy, distribute and modify it.
 Basic Installation
 ==================
 
+Installation from the git tree (xara-cairo)
+==================
+
+To create the configure script, run...
+
+./autogen.sh
+
+...in the root derectory.
+
+After that, tou can use the normal './configure', 'make' sequence
+that will build the executable and place it  in the root directory.
+
+You can run the program from there as it is not complete atm.
+( so no need to do a 'make install')
+
+==================
+
 These are generic installation instructions.
 
    The `configure' shell script attempts to guess correct values for
