@@ -1867,10 +1867,7 @@ GDraw_SetMatrix ( pGCONTEXT pContext,pcGMATRIX Matrix )
 		printf("Invalid context in GDraw_SetMatrix\n");
 		return 0;
 	}
-	/*
-	*	this calculation might not be correct
-	*	it seems to work but zooming > 200% gives many errors on screen.
-	*/
+
 	matrix.xx=(double)(Matrix->AX)/(1 << FX);
 	matrix.yx=(double)(Matrix->AY)/(1 << FX);
 	matrix.xy=(double)(Matrix->BX)/(1 << FX);
@@ -1884,7 +1881,6 @@ GDraw_SetMatrix ( pGCONTEXT pContext,pcGMATRIX Matrix )
 		matrix.x0, matrix.y0);
 */
 	cairo_set_matrix(data->cr, &matrix);
-
 	return 0;
 }
 
@@ -2637,13 +2633,13 @@ xcl_create_mesh_color_pattern(GCDATA *data)
 	cairo_pattern_begin_patch(pat);
 
 	cairo_pattern_move_to(pat, 0, 0);
-	cairo_pattern_line_to(pat, 255, 0);
+	cairo_pattern_line_to(pat, 256, 0);
 /*	if((tp->style & 0xFF000000)==0x44000000)*/
-		cairo_pattern_line_to(pat, 255, 255);
-	/*else
-		cairo_pattern_line_to(pat, 255, 0);
+		cairo_pattern_line_to(pat, 256, 256);
+/*	else
+		cairo_pattern_line_to(pat, 256, 0);
 */
-	cairo_pattern_line_to(pat, 0, 255);
+	cairo_pattern_line_to(pat, 0, 256);
 	cairo_pattern_line_to(pat, 0, 0);
 
 	cairo_pattern_set_corner_color_rgba(pat, 0,
@@ -2676,9 +2672,9 @@ xcl_create_mesh_color_pattern(GCDATA *data)
 	else
 	{
 		cairo_pattern_set_corner_color_rgba(pat, 2,
-				( tp->value2 & 0xFF)/255.0,
-				(( tp->value2 & 0xFF00) >>8)/255.0,
-				(( tp->value2 & 0xFF0000) >> 16)/255.0,
+				(( tp->value2 & 0xFF)/255.0 + ( tp->value3 & 0xFF)/255.0)/2.0,
+				((( tp->value2 & 0xFF00) >>8)/255.0 + (( tp->value3 & 0xFF00) >>8)/255.0)/2.0,
+				((( tp->value2 & 0xFF0000) >> 16)/255.0 + (( tp->value3 & 0xFF0000) >> 16)/255.0)/2.0,
 				data->transparency/255.0);
 
 		cairo_pattern_set_corner_color_rgba(pat, 3,
@@ -2686,6 +2682,9 @@ xcl_create_mesh_color_pattern(GCDATA *data)
 				(( tp->value3 & 0xFF00) >>8)/255.0,
 				(( tp->value3 & 0xFF0000) >> 16)/255.0,
 				data->transparency/255.0);
+
+
+		cairo_pattern_set_control_point (pat, 2, 128, 128);
 	}
 	cairo_pattern_end_patch(pat);
 
@@ -2694,6 +2693,49 @@ xcl_create_mesh_color_pattern(GCDATA *data)
 	cairo_set_source(cr, pat);
 	cairo_paint(cr);
 
+	if((tp->style & 0xFF000000)==0x33000000)
+	{
+		if((tp->style & 0xF)==2)
+		{
+			cairo_move_to(cr, 256, 0);
+			cairo_line_to(cr, 256, 256);
+			cairo_line_to(cr, 0, 256);
+			cairo_close_path(cr);
+
+			cairo_translate(cr, 128, 128);
+			cairo_scale(cr, -1, 1);
+			cairo_rotate(cr, -M_PI/2.0);
+			cairo_translate(cr, -128, -128);
+	
+			cairo_set_source(cr, pat);
+			cairo_fill(cr);
+		}
+	}
+	/*	else
+		{
+			cairo_pattern_t *pat1=cairo_pattern_create_linear(0, 256, 256,0);
+			cairo_pattern_add_color_stop_rgba(pat1, 0,
+				( tp->value3 & 0xFF)/255.0,
+				(( tp->value3 & 0xFF00) >>8)/255.0,
+				(( tp->value3 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+
+			cairo_pattern_add_color_stop_rgba(pat1, 1,
+				( tp->value2 & 0xFF)/255.0,
+				(( tp->value2 & 0xFF00) >>8)/255.0,
+				(( tp->value2 & 0xFF0000) >> 16)/255.0,
+				data->transparency/255.0);
+
+			cairo_move_to(cr, 256, 256);
+			cairo_line_to(cr, 0, 256);
+			cairo_line_to(cr, 256, 0);
+			cairo_close_path(cr);
+			cairo_set_source(cr, pat1);
+			cairo_fill(cr);
+			cairo_pattern_destroy(pat1);
+		}
+	}
+*/
 	cairo_pattern_destroy(pat);
 	pat=cairo_pattern_create_for_surface(surf);
 
@@ -3167,8 +3209,9 @@ GDraw_StrokePath (
 	/*
 	*	For dev : prints the path in pixel-coords
 	*/
-/*	printf("StrokePath : Path with length %d was :\n", Length);*/
-/*	for(c=0; c < Length; c++)
+/*
+	printf("StrokePath : Path with length %d was :\n", Length);
+	for(c=0; c < Length; c++)
 	{
 		x1=toFL(Points[c].x);
 		y1=toFL(Points[c].y);
@@ -3300,6 +3343,7 @@ xcl_set_cairo_path(
 		}
 		else if(Types[c]==MY_CLOSE_PATH)
 		{
+			cairo_line_to(cr, toFL(Points[c].x), toFL(Points[c].y));
 			cairo_close_path(cr);
 			c++;
 		}
@@ -3315,7 +3359,6 @@ xcl_set_cairo_path(
 	}
 	if(Close)
 		cairo_close_path(cr);
-
 	return 0;
 }
 
