@@ -302,8 +302,8 @@ typedef unsigned long long	UINT64,	ULONGLONG;
 //typedef INT32		LONG;
 //
 // So we will define them as something nasty
-wxDEPRECATED(typedef UINT32		ULONG);
-wxDEPRECATED(typedef INT32		LONG);
+//wxDEPRECATED(typedef UINT32		ULONG);
+//wxDEPRECATED(typedef INT32		LONG);
 
 
 typedef INT8	*PINT8;
@@ -594,7 +594,7 @@ public:
 
 const size_t			MAX_PATH = 256;
 
-#if !defined(__WXMAC__)
+#if !defined(__WXMAC__) && !defined(__FreeBSD__) && !defined(__OpenBSD__)
 inline size_t _msize( PVOID ptr )
 {
 	return malloc_usable_size( ptr );

@@ -482,6 +482,8 @@ BOOL OutputPNG::OutputPNGHeader(CCLexFile *File, LPBITMAPINFOHEADER pInfo,
 	png_ptr		= NULL;
 	info_ptr	= NULL;
 
+	palette = NULL;
+
 	try
 	{
 		// Work out the palette size 
@@ -578,11 +580,10 @@ TRACEUSER( "Jonathan", _T("PNG write: X,y dpi = %d %d\n"),info_ptr->x_pixels_per
 
 		BitsPerPixel				= pInfo->biBitCount;
 TRACEUSER( "Jonathan", _T("PNG write: Bitdepth = %d\n"),BitsPerPixel);
-		info_ptr->palette			= NULL;
-		info_ptr->num_palette		= 0;
-		//info_ptr->trans_values	= 0;	// - transparent pixel for non-paletted images
-		info_ptr->trans				= NULL;	// - array of transparent entries for paletted images
-		info_ptr->num_trans			= 0;	// - number of transparent entries
+		palette		= NULL;
+		num_palette	= 0;
+		trans		= NULL;	// - array of transparent entries for paletted images
+		num_trans	= 0;	// - number of transparent entries
 TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
 		if ( BitsPerPixel <= 8 )
 		{
@@ -592,9 +593,12 @@ TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
 			// set the palette if there is one
 			info_ptr->valid |= PNG_INFO_PLTE;
 			INT32 PaletteEntries = pInfo->biClrUsed;
-			info_ptr->palette = (png_color_struct *)CCMalloc(PaletteEntries * sizeof (png_color));
-			if (info_ptr->palette == NULL)
+
+			palette = (png_colorp)png_malloc(png_ptr, PNG_MAX_PALETTE_LENGTH * png_sizeof (png_color));
+			if (palette == NULL)
 				File->GotError( _R(IDS_OUT_OF_MEMORY) );
+
+			png_set_PLTE(png_ptr, info_ptr, palette, num_palette);
 			
 			info_ptr->num_palette = PaletteEntries;
 			png_color_struct * pPNGPalette = info_ptr->palette;
@@ -634,7 +638,7 @@ TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
 				// We will only create as many as we require, i.e. up to the transparent colour entry
 				// rather a full palettes worth
 				INT32 NumEntries = TransparentColour + 1;
-				info_ptr->trans				= (png_byte *)CCMalloc(NumEntries * sizeof (png_byte));	
+				trans = (png_byte *)CCMalloc(NumEntries * sizeof (png_byte));	
 				if (info_ptr->trans)
 				{
 					// Set the number of transparent entries
@@ -653,50 +657,39 @@ TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
 		}
 		else if (BitsPerPixel == 24) 
 		{
-			// We must be 24 bpp
-			info_ptr->bit_depth = BitsPerPixel/3;	// - holds the bit depth of one of the image channels
-			info_ptr->color_type = PNG_COLOR_TYPE_RGB;	// - describes the channels and what they mean
-			// optional significant bit chunk
-			//info_ptr->valid |= PNG_INFO_sBIT;
-			// otherwise, if we are dealing with a color image then
-			//info_ptr->sig_bit.red = BitsPerPixel/3;
-			//info_ptr->sig_bit.green = BitsPerPixel/3;
-			//info_ptr->sig_bit.blue = BitsPerPixel/3;
-			//info_ptr->sig_bit.gray = 0;
-			//info_ptr->sig_bit.alpha = 0;
+			png_set_IHDR(png_ptr, info_ptr,
+				Width,
+				Height,
+				8, /* bit_depth */
+				PNG_COLOR_TYPE_RGB,
+				PNG_INTERLACE_NONE,
+				PNG_COMPRESSION_TYPE_BASE,
+				PNG_FILTER_TYPE_BASE);
 		}
 		else if (BitsPerPixel == 32) 
 		{
-			// We must be a 32 bpp
-			info_ptr->bit_depth = BitsPerPixel/4;	// - holds the bit depth of one of the image channels
-			info_ptr->color_type = PNG_COLOR_TYPE_RGB_ALPHA;	// - describes the channels and what they mean
-			// optional significant bit chunk
-			//info_ptr->valid |= PNG_INFO_sBIT;
-			// otherwise, if we are dealing with a color image then
-			//info_ptr->sig_bit.red = BitsPerPixel/4;
-			//info_ptr->sig_bit.green = BitsPerPixel/4;
-			//info_ptr->sig_bit.blue = BitsPerPixel/4;
-			// if the image has an alpha channel then
-			//info_ptr->sig_bit.alpha = BitsPerPixel/4;
-			//info_ptr->sig_bit.gray = 0;
-			
-			// get rid of filler bytes, pack rgb into 3 bytes.  The filler number is not used.
-			// Only required if stripping 32bpp down to 24bpp
-			//png_set_filler(png_ptr, 0xFF, PNG_FILLER_BEFORE);
+			png_set_IHDR(png_ptr, info_ptr,
+				Width,
+				Height,
+				8, /* bit_depth */
+				PNG_COLOR_TYPE_RGB_ALPHA,
+				PNG_INTERLACE_NONE,
+				PNG_COMPRESSION_TYPE_BASE,
+				PNG_FILTER_TYPE_BASE);
 		}
 		else
 			ERROR2(FALSE,"OutputPNG::OutputPNGHeader Unknown bit depth");
 
-TRACEUSER( "Jonathan", _T("PNG write: bit_depth = %d color_type = %d\n"),info_ptr->bit_depth,info_ptr->color_type);
+TRACEUSER( "Jonathan", _T("PNG write: bit_depth = %d color_type = %d\n"),
+    png_get_bit_depth(png_ptr, info_ptr),
+    png_get_color_type(png_ptr, info_ptr));
 
 		// Could use:-
 		// if we are dealing with a grayscale image then
 		//info_ptr->sig_bit.gray = true_bit_depth;
 
-		// gamma		- the gamma the file is written at
-		info_ptr->hist			= NULL;	// - histogram of palette
-		info_ptr->text			= NULL;	// - text comments in the file.
-		info_ptr->num_text		= 0;	// - number of comments
+		png_set_hIST(png_ptr, info_ptr, NULL);
+		png_set_text(png_ptr, info_ptr, NULL, 0); 
 
 		// optional gamma chunk is strongly suggested if you have any guess
 		// as to the correct gamma of the image
@@ -708,8 +701,12 @@ TRACEUSER( "Jonathan", _T("PNG write: bit_depth = %d color_type = %d\n"),info_pt
 		// write the file information
 		png_write_info(png_ptr, info_ptr);
 
-TRACEUSER( "Jonathan", _T("PNG write: pixel_depth %d channels %d\n"),png_ptr->pixel_depth, png_ptr->channels);
-TRACEUSER( "Jonathan", _T("PNG write: rowbytes %d color_type %d\n"),png_ptr->rowbytes, png_ptr->color_type);
+TRACEUSER( "Jonathan", _T("PNG write: pixel_depth %d channels %d\n"),
+	png_get_bit_depth(png_ptr, info_ptr),
+	png_get_channels(png_ptr, info_ptr));
+TRACEUSER( "Jonathan", _T("PNG write: rowbytes %d color_type %d\n"),
+	png_get_rowbytes(png_ptr, info_ptr),
+	png_get_color_type(png_ptr, info_ptr));
 		// Set up the transformations you want.
 		// Note: that these are all optional.  Only call them if you want them
 
@@ -777,17 +774,11 @@ BOOL OutputPNG::CleanUpPngStructures()
 	{
 		if (info_ptr)
 		{
-			// They do not seem to have catered for the palette and transparency structures
-			if (info_ptr->palette)
-			{
-				CCFree(info_ptr->palette);
-				info_ptr->palette = NULL;
-			}
-			if (info_ptr->trans)
-			{
-				CCFree(info_ptr->trans);
-				info_ptr->trans = NULL;
-			}
+			png_free(png_ptr, palette);
+			palette=NULL;
+
+			png_free(png_ptr, trans);
+			trans=NULL;
 		}
 
 		// clean up after the write, and free any memory allocated

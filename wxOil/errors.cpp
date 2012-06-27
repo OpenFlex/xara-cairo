@@ -1813,7 +1813,7 @@ void Error::DumpStack(UINT32 frames)
 
 ********************************************************************************************/
 
-#if !defined(__WXMAC__) && !defined(__FreeBSD__)
+#if !defined(__WXMAC__) && !defined(__FreeBSD__) && !defined(__OpenBSD__)
 void Error::StackWalker::OnStackFrame(const wxStackFrame & frame)
 {
 #ifdef _DEBUG

@@ -595,7 +595,7 @@ public:
 	static void DumpStack(UINT32 frames=0);
 
 // FreeBSD does not provide backtrace()
-#if !defined(__WXMAC__) && !defined(__FreeBSD__)
+#if !defined(__WXMAC__) && !defined(__FreeBSD__) && !defined(__OpenBSD__) 
 	class StackWalker : public wxStackWalker
 	{
 		public:

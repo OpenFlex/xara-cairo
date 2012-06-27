@@ -477,7 +477,7 @@ BOOL PNGUtil::ReadFromFile( CCLexFile *File, LPBITMAPINFO *Info, LPBYTE *Bits,
 			)
 		{
 			// Palette is at info_ptr->palette
-			INT32 PaletteSize = 1 << info_ptr->bit_depth;
+			INT32 PaletteSize = 1 << png_get_bit_depth(png_ptr, info_ptr);
 			// Read in palette into the palette of the DIB
 			LPRGBQUAD lpPalette = (*Info)->bmiColors;
 			TRACEUSER( "Jonathan", _T("PNG read: allocate palette and copy size %d\n"),PaletteSize);
@@ -497,7 +497,7 @@ BOOL PNGUtil::ReadFromFile( CCLexFile *File, LPBITMAPINFO *Info, LPBYTE *Bits,
 		{
 			// We have a greyscale image and so generate a greyscale palette
 			// Palette is at info_ptr->palette
-			INT32 PaletteSize = 1 << info_ptr->bit_depth;
+			INT32 PaletteSize = 1 << png_get_bit_depth(png_ptr, info_ptr);
 			TRACEUSER( "Jonathan", _T("PNG read: Greyscale, so set up a greyscale palette for the DIB size %d\n"),PaletteSize);
 			// Read in palette into the palette of the DIB
 			LPRGBQUAD lpPalette = (*Info)->bmiColors;

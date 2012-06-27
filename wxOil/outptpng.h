@@ -165,6 +165,10 @@ private:
 	// PNG related items (NOTE: p at end means pointer and hence implied *)
 	png_structp png_ptr;
 	png_infop info_ptr;
+	png_colorp palette;
+	int num_palette;
+	png_byte* trans;
+	int num_trans;
 
 	BOOL CleanUpPngStructures();
 

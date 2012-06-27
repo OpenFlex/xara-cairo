@@ -102,9 +102,9 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include "camtypes.h"
 //#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #if !defined(__WXMAC__)
-#include <malloc.h>
+#include <stdlib.h>
 #else
-#include <malloc/malloc.h>
+#include <sys/malloc.h>
 #endif
 //#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
@@ -679,10 +679,17 @@ size_t RetailCCGetBlockSize(LPVOID Block)
 	if (Block==NULL)
 		return 0;
 
-#if !defined(__WXMAC__)
-	return _msize(Block);
-#else
+#if defined(__OpenBSD__)
+	// OpenBSD, NetBSD, not supported
+	return 0;
+#elif defined(__linux__)
+	// Linux, FreeBSD
+	return malloc_usable_size(Block);
+#elif defined(__WXMAC__)
+	// MacOS X
 	return malloc_size(Block);
+#else
+	return _msize(Block);
 #endif
 }
 
