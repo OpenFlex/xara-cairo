@@ -3,11 +3,18 @@ xara-cairo
 
 Yet another port of XaraXL intended to build against modern open source libraries on BSD and Linux.
 
-Tasks
------
+Requirements
+------------
 
-1. Eradicate implementation-specific use of [malloc]
-2. Make it work with [libpng-1.5]
+* wxWidgets-2.8
+* cairo-1.10
+* png-1.5
+* ImageMagick-6
+
+* autoconf-2
+* gmake-3
+* subversion
+* unzip
 
 Building - BSD
 --------------

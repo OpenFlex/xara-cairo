@@ -20,7 +20,6 @@ releases
 stamp-h
 stamp-h1
 stamp-h.in
-*~
 .*.sw?
 *.a
 *.o

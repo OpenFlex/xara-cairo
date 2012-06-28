@@ -680,7 +680,8 @@ size_t RetailCCGetBlockSize(LPVOID Block)
 		return 0;
 
 #if defined(__OpenBSD__)
-	// OpenBSD, NetBSD, not supported
+	// OpenBSD, NetBSD, do not have a function for probing the size of a
+	// reference returned by malloc
 	return 0;
 #elif defined(__linux__)
 	// Linux, FreeBSD
