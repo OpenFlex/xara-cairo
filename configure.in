@@ -1,3 +1,5 @@
+# Build requires a lot of RAM, perhaps we need to add -Wl,-no-keep-memory
+
 AC_INIT(wxOil/camelot.cpp)
 AC_CANONICAL_TARGET
 AM_INIT_AUTOMAKE(XaraLX, 0.7)

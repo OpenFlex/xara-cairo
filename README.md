@@ -19,4 +19,3 @@ Building - BSD
 [libpng-1.5]: http://www.libpng.org/pub/png/libpng-manual.txt
 [malloc]: http://stackoverflow.com/questions/3886539/how-to-find-how-much-space-is-allocated-by-a-call-to-malloc
 [pngexample]: http://svn.ghostscript.com/ghostscript/tags/libpng-1.2.8/example.c
-[_GSocket_conflict]: http://lists.freebsd.org/pipermail/freebsd-gnome/2009-December/023562.html
