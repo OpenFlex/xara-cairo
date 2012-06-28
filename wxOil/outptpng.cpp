@@ -557,41 +557,44 @@ TRACEUSER( "Jonathan", _T("PNG write: Width = %d Height = %d\n"),Width,Height);
 		//png_set_compression_window_bits(png_ptr, 15);
 		//png_set_compression_method(png_ptr, 8);
 
-		info_ptr->valid	= 0;	// - this describes which optional chunks to write to the
-								// file.  Note that if you are writing a
-								// PNG_COLOR_TYPE_PALETTE file, the PLTE chunk is not
-								// optional, but must still be marked for writing.  To
-								// mark chunks for writing, OR valid with the 
-								// appropriate PNG_INFO_<chunk name> define.
-		// Set the file information here
-		info_ptr->width = Width;	// - holds the width of the file
-		info_ptr->height = Height;	// - holds the height of the file
+		// - this describes which optional chunks to write to the
+		// file.  Note that if you are writing a
+		// PNG_COLOR_TYPE_PALETTE file, the PLTE chunk is not
+		// optional, but must still be marked for writing.  To
+		// mark chunks for writing, OR valid with the 
+		// appropriate PNG_INFO_<chunk name> define.
+		png_get_valid(png_ptr, info_ptr, 0);
 		
 		// resolution of image
-		info_ptr->valid |= PNG_INFO_pHYs;
-		info_ptr->x_pixels_per_unit = pInfo->biXPelsPerMeter;
-		info_ptr->y_pixels_per_unit = pInfo->biYPelsPerMeter;
-		info_ptr->phys_unit_type = 1;	// meter
-TRACEUSER( "Jonathan", _T("PNG write: X,y dpi = %d %d\n"),info_ptr->x_pixels_per_unit, info_ptr->y_pixels_per_unit);
-		if (InterlaceState)
-			info_ptr->interlace_type = 1;	// - currently 0 for none, 1 for interlaced
-		else
-			info_ptr->interlace_type = 0;	// - currently 0 for none, 1 for interlaced
+		png_set_invalid(png_ptr, info_ptr, PNG_INFO_pHYs);
+		png_set_pHYs(png_ptr, info_ptr,
+			pInfo->biXPelsPerMeter,
+			pInfo->biYPelsPerMeter,
+			1); //meter
+TRACEUSER( "Jonathan", _T("PNG write: x,y dpi = %d %d\n"),
+	png_get_x_pixels_per_inch(png_ptr, info_ptr),
+	png_get_y_pixels_per_inch(png_ptr, info_ptr));
 
 		BitsPerPixel				= pInfo->biBitCount;
-TRACEUSER( "Jonathan", _T("PNG write: Bitdepth = %d\n"),BitsPerPixel);
+TRACEUSER( "Jonathan", _T("PNG write: Bitdepth = %d\n"), BitsPerPixel);
 		palette		= NULL;
 		num_palette	= 0;
 		trans		= NULL;	// - array of transparent entries for paletted images
 		num_trans	= 0;	// - number of transparent entries
-TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
+TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"), TransparentColour);
 		if ( BitsPerPixel <= 8 )
 		{
-			info_ptr->bit_depth = BitsPerPixel;	// - holds the bit depth of one of the image channels
-			info_ptr->color_type = PNG_COLOR_TYPE_PALETTE;	// - describes the channels and what they mean
-												// see the PNG_COLOR_TYPE_ defines for more information
+			png_set_IHDR(png_ptr, info_ptr,
+				Width,
+				Height,
+				BitsPerPixel,
+				PNG_COLOR_TYPE_PALETTE,
+				PNG_INTERLACE_NONE,
+				PNG_COMPRESSION_TYPE_BASE,
+				PNG_FILTER_TYPE_BASE);
+
 			// set the palette if there is one
-			info_ptr->valid |= PNG_INFO_PLTE;
+			png_set_invalid(png_ptr, info_ptr, PNG_INFO_PLTE);
 			INT32 PaletteEntries = pInfo->biClrUsed;
 
 			palette = (png_colorp)png_malloc(png_ptr, PNG_MAX_PALETTE_LENGTH * png_sizeof (png_color));
@@ -599,9 +602,7 @@ TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
 				File->GotError( _R(IDS_OUT_OF_MEMORY) );
 
 			png_set_PLTE(png_ptr, info_ptr, palette, num_palette);
-			
-			info_ptr->num_palette = PaletteEntries;
-			png_color_struct * pPNGPalette = info_ptr->palette;
+			png_color_struct * pPNGPalette = palette;
 			// ... set palette colors ...
 	 		if (pQuadPalette && PaletteEntries > 0)
 			{
@@ -638,13 +639,13 @@ TRACEUSER( "Jonathan", _T("PNG write: TransColour = %d\n"),TransparentColour);
 				// We will only create as many as we require, i.e. up to the transparent colour entry
 				// rather a full palettes worth
 				INT32 NumEntries = TransparentColour + 1;
-				trans = (png_byte *)CCMalloc(NumEntries * sizeof (png_byte));	
-				if (info_ptr->trans)
+				trans = (png_byte*)png_malloc(png_ptr, NumEntries * sizeof (png_byte));
+				if (trans)
 				{
 					// Set the number of transparent entries
-					info_ptr->num_trans			= NumEntries;
-					png_byte * pTransEntry		= info_ptr->trans;
-					info_ptr->valid |= PNG_INFO_tRNS;
+					num_trans			= NumEntries;
+					png_byte * pTransEntry		= trans;
+					png_set_invalid(png_ptr, info_ptr, PNG_INFO_tRNS);
 					for (INT32 i = 0; i < TransparentColour; i++)
 					{
 						*pTransEntry = 255;	// set it fully opaque
@@ -691,12 +692,6 @@ TRACEUSER( "Jonathan", _T("PNG write: bit_depth = %d color_type = %d\n"),
 		png_set_hIST(png_ptr, info_ptr, NULL);
 		png_set_text(png_ptr, info_ptr, NULL, 0); 
 
-		// optional gamma chunk is strongly suggested if you have any guess
-		// as to the correct gamma of the image
-		//info_ptr->valid |= PNG_INFO_gAMA;
-		//info_ptr->gamma = gamma;
-
-		// other optional chunks
 
 		// write the file information
 		png_write_info(png_ptr, info_ptr);
