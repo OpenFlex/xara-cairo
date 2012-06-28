@@ -122,7 +122,9 @@ DECLARE_SOURCE( "$Revision: 1535 $" );
 #include FT_TYPE1_TABLES_H
 
 #ifdef __WXGTK20__
+#define GSocket GlibSocket
 #include <gtk/gtk.h>
+#undef GSocket
 extern GtkWidget *wxGetRootWindow();
 #endif
 
