@@ -571,9 +571,9 @@ TRACEUSER( "Jonathan", _T("PNG write: Width = %d Height = %d\n"),Width,Height);
 			pInfo->biXPelsPerMeter,
 			pInfo->biYPelsPerMeter,
 			1); //meter
-TRACEUSER( "Jonathan", _T("PNG write: x,y dpi = %d %d\n"),
-	png_get_x_pixels_per_inch(png_ptr, info_ptr),
-	png_get_y_pixels_per_inch(png_ptr, info_ptr));
+TRACEUSER( "Jonathan", _T("PNG write: x,y px per cm = %d %d\n"),
+	png_get_x_pixels_per_meter(png_ptr, info_ptr) / 1000,
+	png_get_y_pixels_per_meter(png_ptr, info_ptr) / 1000);
 
 		BitsPerPixel				= pInfo->biBitCount;
 TRACEUSER( "Jonathan", _T("PNG write: Bitdepth = %d\n"), BitsPerPixel);
