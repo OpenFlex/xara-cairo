@@ -249,10 +249,14 @@ static void CharLower( TCHAR *psz )
 		*psz = camTolower( *psz );
 }
 
-#include <sys/types.h>
-typedef __int8_t        BYTE;
-typedef __int8_t        INT8;
-typedef __uint8_t       UINT8;
+// BYTE must be compatible with png_byte, which is defined as unsigned char
+// even though it's 16 bits on FreeBSD
+// 
+//#if SIZEOF_CHAR == 1
+typedef unsigned char		BYTE;
+typedef signed char			INT8;
+typedef unsigned char		UINT8;
+//#else
 
 #if SIZEOF_SHORT == 2
 typedef unsigned short		WORD;
@@ -293,15 +297,6 @@ typedef unsigned long long	UINT64,	ULONGLONG;
 #else
 #error "Can't define QWORD, no built-in type with 8 byte length"
 #endif
-
-// These types are deprecated
-//typedef UINT32		ULONG;
-//typedef INT32		LONG;
-//
-// So we will define them as something nasty
-//wxDEPRECATED(typedef UINT32		ULONG);
-//wxDEPRECATED(typedef INT32		LONG);
-
 
 typedef INT8	*PINT8;
 typedef INT16	*PINT16;

@@ -1,7 +1,8 @@
 xara-cairo
 ==========
 
-Yet another port of XaraXL intended to build against modern open source libraries on BSD and Linux.
+Yet another port of XaraXL intended to build against modern open source
+libraries on BSD and Linux.
 
 Build Requirements
 ------------------
@@ -21,15 +22,25 @@ Build Requirements
 * g++
 * unzip
 
-BSD
----
+OpenBSD
+-------
 
     $ AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68 ./autogen.sh 
     $ AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68 ./configure
     $ gmake
 
-Linux
------
+FreeBSD
+-------
+
+    # cd /usr/X11R6/bin
+	# ln wxgtk2u-2.8-config wx-config
+
+    $ ./autogen.sh 
+    $ ./configure
+    $ gmake
+
+Ubuntu
+------
 
     $ ./autogen.sh 
     $ ./configure
