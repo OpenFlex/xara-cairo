@@ -178,11 +178,7 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include <iostream>
 #include <sstream>
 #include <new>
-#if !defined(__WXMAC__)
-#include <malloc.h>
-#else
-#include <malloc/malloc.h>
-#endif
+#include <stdlib.h>
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 #include <libxml/tree.h>

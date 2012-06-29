@@ -101,13 +101,10 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 
 #include "camtypes.h"
 //#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-#if !defined(__WXMAC__)
 #include <stdlib.h>
-#else
-#include <sys/malloc.h>
+#if defined(__FreeBSD__)
+	#include <malloc_np.h>
 #endif
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 #include "tunemem.h"
@@ -683,8 +680,7 @@ size_t RetailCCGetBlockSize(LPVOID Block)
 	// OpenBSD, NetBSD, do not have a function for probing the size of a
 	// reference returned by malloc
 	return 0;
-#elif defined(__linux__)
-	// Linux, FreeBSD
+#elif defined(__linux__) || defined(__FreeBSD__)
 	return malloc_usable_size(Block);
 #elif defined(__WXMAC__)
 	// MacOS X

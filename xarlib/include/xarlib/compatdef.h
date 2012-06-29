@@ -249,13 +249,10 @@ static void CharLower( TCHAR *psz )
 		*psz = camTolower( *psz );
 }
 
-#if SIZEOF_CHAR == 1
-typedef unsigned char		BYTE;
-typedef signed char			INT8;
-typedef unsigned char		UINT8;
-#else
-#error "Can't define BYTE, no built-in type with 1 byte length"
-#endif
+#include <sys/types.h>
+typedef __int8_t	BYTE;
+typedef __int8_t	INT8;
+typedef __uint8_t	UINT8;
 
 #if SIZEOF_SHORT == 2
 typedef unsigned short		WORD;
