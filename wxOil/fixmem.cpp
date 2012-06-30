@@ -101,10 +101,17 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 
 #include "camtypes.h"
 //#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include <stdlib.h>
+
 #if defined(__FreeBSD__)
-	#include <malloc_np.h>
+#include <malloc_np.h>
 #endif
+
+#if defined(__linux__)
+#include <malloc.h>
+#endif
+
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 #include "tunemem.h"
