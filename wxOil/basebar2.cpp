@@ -4563,9 +4563,10 @@ void BaseBar::StartDrag(wxPoint point, DlgDragType TypeOfDrag)
 
 // -----------------------------------------------------------------------------------------
 // Message map - maintained by Class Wizard.
-
+// 
 BEGIN_EVENT_TABLE( BaseBar, wxWindow )
-#pragma message( __LOCMSG__ "Removed BaseBar message map" )
+// Disable pragmas that have global scope; won't work on GCC 4.6+
+//#pragma message( __LOCMSG__ "Removed BaseBar message map" )
 /*	ON_WM_NCCALCSIZE()
 	ON_WM_NCPAINT()
 	ON_WM_NCACTIVATE()

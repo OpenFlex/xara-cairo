@@ -10,9 +10,12 @@ config.cache
 config.h
 config.h.in
 config.log
+config.guess
+config.sub
 config.status
 configure
 configure.scan
+depcomp
 doltcompile
 doltlibtool
 libtool

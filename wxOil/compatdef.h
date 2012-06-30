@@ -586,13 +586,6 @@ public:
 
 const size_t			MAX_PATH = 256;
 
-#if !defined(__WXMAC__) && !defined(__FreeBSD__) && !defined(__OpenBSD__)
-inline size_t _msize( PVOID ptr )
-{
-	return malloc_usable_size( ptr );
-}
-#endif
-
 #elif defined(__WXMSW__) /////////// MS WINDOWS SPECIFIC //////////////////////
 
 #include <tchar.h>
