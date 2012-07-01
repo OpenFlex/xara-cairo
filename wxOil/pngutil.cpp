@@ -689,7 +689,7 @@ void PNGUtil::DefaultErrorHandler()
 			pFile->GotError(_R(IDS_UNKNOWN_PNG_ERROR));
 	}
 
-	// This is the fall back position of oh my god we must stop execution as otherwise things
+	// This is the fall back position where we must stop execution as otherwise things
 	// will go pear shaped.
 //	ERROR2RAW(MessageID);
 	ERROR2RAW(1);

@@ -445,7 +445,6 @@ PORTNOTE("text", "no TrueType font manager in wxOil")
 				
 				default:
 				delete[] pGlyphBuffer;
-				TRACE( _T("oh my god\n"));
 				AfxThrowMemoryException();
 			}
 
