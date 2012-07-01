@@ -18,15 +18,12 @@ Build Requirements
 * libtool-2.4
 * gmake-3.8
 * ImageMagick-6.6
-* subversion
-* g++
-* unzip
 
 OpenBSD
 -------
 
-    $ AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68 ./autogen.sh 
-    $ AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68 ./configure
+    $ export AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68
+    $ ./autogen.sh && ./configure
     $ gmake
 
 FreeBSD
@@ -35,15 +32,13 @@ FreeBSD
     # cd /usr/X11R6/bin
 	# ln wxgtk2u-2.8-config wx-config
 
-    $ ./autogen.sh 
-    $ ./configure
+    $ ./autogen.sh && ./configure
     $ gmake
 
-Ubuntu
-------
+Linux
+-----
 
-    $ ./autogen.sh 
-    $ ./configure
+    $ ./autogen.sh && ./configure
     $ make
 
 [libpng-1.5]: http://www.libpng.org/pub/png/libpng-manual.txt
