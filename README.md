@@ -45,8 +45,9 @@ Linux
 News
 ----
 
-2012-06-29: Builds on FreeBSD 9.0
-2012-06-27: Builds on OpenBSD 5.1
+- 2012-07-02: Builds on Debian 6.0
+- 2012-06-29: Builds on FreeBSD 9.0
+- 2012-06-27: Builds on OpenBSD 5.1
 
 Delta from xara-cairo-0.7
 -------------------------
