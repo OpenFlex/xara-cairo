@@ -2,7 +2,7 @@
 
 AC_INIT(wxOil/camelot.cpp)
 AC_CANONICAL_TARGET
-AM_INIT_AUTOMAKE(XaraLX, 0.7)
+AM_INIT_AUTOMAKE(XaraLX, 0.8)
 
 AC_PREFIX_PROGRAM( pkg-config )
 

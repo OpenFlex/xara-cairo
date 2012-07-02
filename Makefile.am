@@ -1,4 +1,4 @@
-export XARAFLAGS = -O1 -g -Wno-write-strings \
+export XARAFLAGS = -Wno-write-strings \
 	-I../PreComp -I../wxOil -I$(TOPDIR)/Kernel -I$(TOPDIR)/wxOil -I$(TOPDIR)/wxOil/Res \
 	-I$(TOPDIR)/tools -I$(TOPDIR)/GDraw -I$(TOPDIR)/PreComp -I$(TOPDIR)/wxXtra \
 	-DUSE_NATIVE_XLONG -DBUILDSHADOWS -DOLD_MATRIX_TRANSFORMATIONS \

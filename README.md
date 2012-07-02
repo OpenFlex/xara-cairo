@@ -18,6 +18,7 @@ Build Requirements
 * libtool-2.4
 * gmake-3.8
 * ImageMagick-6.6
+* subversion
 
 OpenBSD
 -------
@@ -41,7 +42,34 @@ Linux
     $ ./autogen.sh && ./configure
     $ make
 
-[libpng-1.5]: http://www.libpng.org/pub/png/libpng-manual.txt
+News
+----
+
+2012-06-29: Builds on FreeBSD 9.0
+2012-06-27: Builds on OpenBSD 5.1
+
+Delta from xara-cairo-0.7
+-------------------------
+
+- Adapted to [libpng-1.5](http://www.libpng.org/pub/png/libpng-manual.txt)
+- Don't print memory warnings for platforms without malloc_usable_size(3)
+- Build no longer requires unzip utility
+- Compile with -Wno-write-strings 
+- Use stdlib.h instead of malloc.h on BSD systems
+- Removed stale project files for XCode and Visual Studio
+- Patched to allow wxWidgets and glib2 to coexist
+
+History
+-------
+
+- 2010-05-11: First attempt at replacing CDraw with cairo [announced](http://lists.cairographics.org/archives/cairo/2010-May/019862.html) along with a new Git repo at git://repo.or.cz/xara-cairo.git
+- 2007-11-06: Last commit to SVN
+- 2007-01-30: Xara LTD [aquired by Magix](http://www.talkgraphics.com/showthread.php?25654-Xara-acquired-by-MAGIX)
+- 2007-10-09: Xara Extreme marked broken and removed from FreeBSD ports
+- 2006-04-04: XaraXL added to [FreeBSD ports](http://www.freebsdsoftware.org/graphics/xaralx.html)
+- 2006-03-16: SVN repository made public at
+  [xaraxtreme.org](http://www.xaraxtreme.org/) under the GPLv2 + a binary blob for the CDraw rendering engine
+
+
 [malloc]: http://stackoverflow.com/questions/3886539/how-to-find-how-much-space-is-allocated-by-a-call-to-malloc
-[pngexample]: http://svn.ghostscript.com/ghostscript/tags/libpng-1.2.8/example.c
 [malloc_usable_size]: http://readlist.com/lists/netbsd.org/current-users/3/17022.html
