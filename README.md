@@ -11,13 +11,12 @@ Build Requirements
 * gtk2-2.0
 * cairo-1.10
 * libxml-2.7
-* png-1.5.6
+* png-1.5
 * autoconf-2.6
 * automake-1.10
 * gettext-0.18
 * libtool-2.4
 * gmake-3.8
-* ImageMagick-6.6
 * subversion
 
 OpenBSD
@@ -31,8 +30,7 @@ FreeBSD
 -------
 
     # cd /usr/X11R6/bin
-	# ln wxgtk2u-2.8-config wx-config
-
+    # ln wxgtk2u-2.8-config wx-config
     $ ./autogen.sh && ./configure
     $ gmake
 
@@ -45,6 +43,7 @@ Linux
 News
 ----
 
+- 2012-07-03: Builds on Ubuntu 12
 - 2012-07-02: Builds on Debian 6.0
 - 2012-06-29: Builds on FreeBSD 9.0
 - 2012-06-27: Builds on OpenBSD 5.1
@@ -59,6 +58,8 @@ Delta from xara-cairo-0.7
 - Use stdlib.h instead of malloc.h on BSD systems
 - Removed stale project files for XCode and Visual Studio
 - Patched to allow wxWidgets and glib2 to coexist
+- Compile on gcc 4.6 without -fpermissive
+- Removed conflicting jconfig.h to enable builds against libjpeg-turbo
 
 History
 -------

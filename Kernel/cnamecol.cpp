@@ -144,8 +144,10 @@ CNamedColourReplacer::CNamedColourReplacer()
 
 CNamedColourReplacer::CNamedColourReplacer(ColourFillAttribute* pFillAttr, DocColour* pColour)
 {
-	// call the default constructor that NULLs all the member pointers
-	CNamedColourReplacer::CNamedColourReplacer();
+	// Calling CNamedColourReplacer::CNamedColourReplacer() would require -fpermissive
+	// on gcc 4.6. Instead just zero the same member pointers
+	m_pColourFill	 = NULL;
+	m_pReplaceColour = NULL;
 	Initialise(pFillAttr, pColour);
 }
 

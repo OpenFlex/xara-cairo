@@ -59,7 +59,7 @@ if test "$DebugEnable" = "yes"; then
 	WARN_FLAGS=""
 else
 	DEBUG_FLAGS=""
-	OPT_FLAGS="-O3"
+	OPT_FLAGS="-O1"
 	WARN_FLAGS=""
 fi
 

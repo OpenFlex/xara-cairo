@@ -2,6 +2,7 @@
 .libs
 .perf
 Makefile
+Makefile.in
 aclocal.m4
 autom4te.cache
 autoscan.log
@@ -34,5 +35,13 @@ stamp-h.in
 *.gch
 XaraLX
 xarasvgfilter*
-
-
+m4/*
+mkinstalldirs~
+TODO
+README
+NEWS
+ChangeLog
+COPYING
+AUTHORS
+ABOUT-NLS
+missing
