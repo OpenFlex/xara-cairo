@@ -964,7 +964,7 @@ typedef struct OutlineDecompositionState {
 #define FREETYPE_CALLBACK_CONST
 #endif
 #else
-#error "XaraLX requires FreeType 2"
+#error "FreeType 2 required"
 #endif
 
 /********************************************************************************************

@@ -1,8 +1,6 @@
-# Build requires a lot of RAM, perhaps we need to add -Wl,-no-keep-memory
-
 AC_INIT(wxOil/camelot.cpp)
 AC_CANONICAL_TARGET
-AM_INIT_AUTOMAKE(XaraLX, 0.8)
+AM_INIT_AUTOMAKE(xara-cairo, 0.8)
 
 AC_PREFIX_PROGRAM( pkg-config )
 
@@ -161,7 +159,7 @@ RESOURCE_DIR_DEFINE=
 AC_ARG_WITH(resource-dir,
 [[  --with-resource-dir=DIR The absoulte path to root of resource directory
                             structure; defaults to using binreloc before 
-                            falling back to /usr/share/xaralx]],
+                            falling back to /usr/share/xara-cairo]],
 [
     if test "$withval" != "yes" -a "$withval" != ""; then
         RESOURCE_DIR_DEFINE="-DRESOURCE_DIR=\\\"$withval\\\""

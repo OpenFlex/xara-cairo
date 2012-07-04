@@ -33,7 +33,7 @@ stamp-h.in
 *-uninstalled.pc
 .vimrc
 *.gch
-XaraLX
+xara-cairo
 xarasvgfilter*
 m4/*
 mkinstalldirs~

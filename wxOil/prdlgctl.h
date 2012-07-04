@@ -109,8 +109,6 @@ private:
 	static wxPrintDialogData m_DefaultDialogData;
 	static BOOL m_HaveSavedDefaultDialogData;
 
-// New methods for XaraLX
-
 public:
 	BOOL OnPreparePrinting(BOOL bPrintSetupOnly = FALSE);
 	BOOL UpdatePrinterSettings(BOOL RedrawPrintBorders = TRUE);

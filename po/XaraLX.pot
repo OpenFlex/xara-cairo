@@ -26177,7 +26177,7 @@ msgstr  ""
 msgid   "WIBBLE/WOBBLE"
 msgstr  ""
 
-msgid   "When animated, indicates that XaraLX is rendering"
+msgid   "When animated, indicates that xara-cairo is rendering"
 msgstr  ""
 
 msgid   "Within the bar:"

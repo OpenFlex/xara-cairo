@@ -35,23 +35,23 @@ endif
 # We clean these here not in the wxOil makefile to prevent a loop
 MOSTLYCLEANFILES=wxOil/xrc/xrc.d wxOil/xrc/xrc.stamp Resources/*
 
-bin_PROGRAMS		= XaraLX
+bin_PROGRAMS		= xara-cairo
 
-XaraLX_CXXFLAGS = $(XARALXCXXFLAGS)
-XaraLX_CPPFLAGS = $(XARALXCPPFLAGS)
+xaracairo_CXXFLAGS = $(XARALXCXXFLAGS)
+xaracairo_CPPFLAGS = $(XARALXCPPFLAGS)
 
 if DARWIN_LINK
-    XaraLX_SOURCES	= Kernel/*.o wxOil/*.o tools/*.o wxXtra/*.o GDraw/*.o
-    XaraLX_LDSOURCE = $(XaraLX_SOURCES)
+    xaracairo_SOURCES	= Kernel/*.o wxOil/*.o tools/*.o wxXtra/*.o GDraw/*.o
+    xaracairo_LDSOURCE = $(xaracairo_SOURCES)
 else
-    XaraLX_SOURCES	= Kernel/libKernel.a wxOil/libwxOil.a tools/libTools.a wxXtra/libwxXtra.a GDraw/libGDraw-cairo.a
-    XaraLX_LDSOURCE = -Wl,--start-group $(XaraLX_SOURCES) -Wl,--end-group
+    xaracairo_SOURCES	= Kernel/libKernel.a wxOil/libwxOil.a tools/libTools.a wxXtra/libwxXtra.a GDraw/libGDraw-cairo.a
+    xaracairo_LDSOURCE = -Wl,--start-group $(xaracairo_SOURCES) -Wl,--end-group
 endif
-XaraLX_LDFLAGS		= --debug $(WX_LIBS) $(LIBS) $(LIBXML2_LIBS)
-XaraLX_LD			?= $(CXX)
+xaracairo_LDFLAGS		= --debug $(WX_LIBS) $(LIBS) $(LIBXML2_LIBS)
+xaracairo_LD			?= $(CXX)
 
-XaraLX$(EXEEXT) : $(XaraLX_SOURCES)
-	$(XaraLX_LD) $(XaraLX_LDSOURCE) $(XaraLX_LDFLAGS) -o $@
+xara-cairo$(EXEEXT) : $(xaracairo_SOURCES)
+	$(xaracairo_LD) $(xaracairo_LDSOURCE) $(xaracairo_LDFLAGS) -o $@
 
 UNZIP = unzip
 

@@ -89,7 +89,7 @@ public:
 	// I expect this will involve far less work than trying to attach a CCFile to a 
 	// external process though to handle the progress indication correctly, stderr will 
 	// need to be attached to in such a way that the loop that waits for the process to 
-	// exit can read the progress values from stderr and update the XaraLX progress system
+	// exit can read the progress values from stderr and update the progress system
 	BOOL GetExportFile(PathName* pPath, CCLexFile** ppNewFile);
 	BOOL GetCapabilities(CCLexFile* pFile, PathName* pPath, CapabilityTree* pCapTree);
 	BOOL DoExport(CCLexFile* pXarFile, PathName* pPath);

@@ -1693,7 +1693,7 @@ void CCamApp::DoAboutBox()
 	wxString			strMessage;
 
 #if defined(__WXMSW__)
-	strMessage = wxString::Format( wxT("Xara Xtreme\nVersion: %s\nCDraw Version: %d.%03d\nUsage: XaraLX.exe [xar-file...]"), 
+	strMessage = wxString::Format( wxT("Xara Xtreme\nVersion: %s\nCDraw Version: %d.%03d\nUsage: xara-ciaro [xar-file...]"), 
 		g_pszAppVersion, HIWORD(GDraw_GetVersion()), LOWORD(GDraw_GetVersion()) );
 #else
 #if FALSE == wxUSE_UNICODE

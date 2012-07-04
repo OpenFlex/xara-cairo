@@ -537,10 +537,6 @@ const UINT32 TAG_COMPOUNDRENDER_SIZE			= 4 + 16;	// Flags + 2 * Coord
 // ObjectBounds records size
 const UINT32 TAG_OBJECTBOUNDS_SIZE			= 16;		// 2 * Coord
 
-/////////////////////////////////////////////////////////////////////////////
-// XaraLX 0.6
-/////////////////////////////////////////////////////////////////////////////
-
 // ------------------------------------------------------------
 // New text tags for tabbing and paragraph-based indent support
 

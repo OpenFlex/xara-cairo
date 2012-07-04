@@ -8,7 +8,7 @@
 #noinst_LIBRARIES	= libXar.a
 
 # Manually set the package include dir, else we install libraries
-# in /usr/include/XaraLX which is not a good thing
+# in /usr/include/xara-cairo which is not a good thing
 pkgincludedir=$(includedir)/xarlib
 
 # Main target

@@ -1,7 +1,7 @@
 xara-cairo
 ==========
 
-Yet another port of XaraXL intended to build against modern open source
+Yet another port of XaraLX intended to build against modern open source
 libraries on BSD and Linux.
 
 Build Requirements
@@ -60,6 +60,7 @@ Delta from xara-cairo-0.7
 - Patched to allow wxWidgets and glib2 to coexist
 - Compile on gcc 4.6 without -fpermissive
 - Removed conflicting jconfig.h to enable builds against libjpeg-turbo
+- Concise Copyright and GPLv3 notice
 
 History
 -------

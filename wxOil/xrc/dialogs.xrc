@@ -10238,7 +10238,7 @@
                 <object class="wxCamArtControl" name="IDB_SL_RENDN">
                     <camartstyle></camartstyle>
                     <tooltip>Rendering indicator</tooltip>
-                    <help>When animated, indicates that XaraLX is rendering</help>
+                    <help>When animated, indicates that xara-cairo is rendering</help>
                 </object>
             </object>
             <object class="spacer">

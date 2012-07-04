@@ -7,7 +7,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: PACKAGE VERSION\n"
         "Report-Msgid-Bugs-To: bugs@xara.com\n"
-        "POT-Creation-Date: 2012-07-02 11:28-0400\n"
+        "POT-Creation-Date: 2012-07-04 04:39-0400\n"
         "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
         "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26178,7 +26178,7 @@ msgstr  ""
 msgid   "WIBBLE/WOBBLE"
 msgstr  ""
 
-msgid   "When animated, indicates that XaraLX is rendering"
+msgid   "When animated, indicates that xara-cairo is rendering"
 msgstr  ""
 
 msgid   "Within the bar:"

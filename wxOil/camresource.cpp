@@ -814,14 +814,14 @@ BOOL CamResource::CheckResourcePath( const wxString &str1, const wxString &str2 
 
 	if (!same && s_GenerateXRCCheck)
 	{
-		wxMessageBox(_T("You have requested XaraLX to generate a checksum for resources which may not match the binary in question. "
-						"A checksum will be generated, but the program may not be stable."), _T("XaraLX Resource system warning"));
+		wxMessageBox(_T("You requested xara-cairo to generate a checksum for resources which may not match the binary in question. "
+						"A checksum will be generated, but the program may not be stable."), _T("Resource system warning"));
 
 		wxFile f;
 		f.Create(str2, wxFile::write);
 		if (!f.IsOpened() || (f.Write(mem1, size1) != size1))
 		{
-			wxMessageBox(_T("Failed to write xrc.check file ")+str2, _T("XaraLX resource system"));
+			wxMessageBox(_T("Failed to write xrc.check file ")+str2, _T("Xara resource system"));
 		}
 		f.Close();
 		same=TRUE;
@@ -1424,7 +1424,7 @@ BOOL CamResource::Init()
 	if (!m_pLocale) return FALSE;
 	m_pLocale->Init(wxLANGUAGE_DEFAULT, wxLOCALE_LOAD_DEFAULT | wxLOCALE_CONV_ENCODING);
 	m_pLocale->AddCatalogLookupPathPrefix(GetResourceFilePath(_T("")));
-	m_pLocale->AddCatalog(_T("XaraLX"));
+	m_pLocale->AddCatalog(_T("xara-cairo"));
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 	TRACET(_T("CamResource::Init() launching splash screen"));
@@ -2241,7 +2241,7 @@ BOOL CamResource::LoadwxBitmap (wxBitmap & rBitmap, const TCHAR * pFileName, BOO
 		if( NULL == fpResFile )
 		{
 			wxMessageBox( _T("In order for the  toolbar resources to be locatable "
-				"you must either run the XaraLX executable from the current directory or "
+				"you must either run the xara-cairo executable from the current directory or "
 				"specify the entire path to it."), _T("Resource loading error") );
 			
 			return FALSE;
