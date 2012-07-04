@@ -1,8 +1,4 @@
-// $Id: zdeflate.cpp 1282 2006-06-09 09:46:49Z alex $
-
 // This class contains all the file deflating code
-
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 
 #include "camtypes.h"
 //#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]

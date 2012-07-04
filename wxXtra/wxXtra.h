@@ -1,5 +1,3 @@
-// $Id: wxXtra.h 1702 2006-08-16 15:21:09Z alex $
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 // The following line makes normalize.pl skip type fixing
 /* SKIPFIXTYPES: START */
 

@@ -1,5 +1,3 @@
-// $Header: /Camelot/winoil/gifutil.h 12    20/05/97 16:18 Neville $
-
 // Header for GIFUtil which suprisingly enough contains lots of
 // useful routines for:-
 //		reading in a GIF file as a bitmap

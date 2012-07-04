@@ -1,5 +1,3 @@
-// $Id: platform.h 1344 2006-06-20 19:52:02Z alex $
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 // The following line makes normalize.pl skip type fixing
 /* SKIPFIXTYPES: START */
 

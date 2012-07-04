@@ -1,5 +1,3 @@
-// $Id: treebook.h 1089 2006-05-16 17:57:54Z alex $
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 // The following line makes normalize.pl skip type fixing
 /* SKIPFIXTYPES: START */
 

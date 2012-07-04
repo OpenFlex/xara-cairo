@@ -1,8 +1,6 @@
-// $Id: mtrand.h 751 2006-03-31 15:43:49Z alex $
 #ifndef MTRAND_H
 #define MTRAND_H
 
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 // Mersenne Twister random number generator -- a C++ class MTRand
 // Based on code by Makoto Matsumoto, Takuji Nishimura, and Shawn Cokus
 // Richard J. Wagner  v1.0  15 May 2003  rjwagner@writeme.com

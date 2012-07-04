@@ -1,10 +1,10 @@
-// $Id: jerror.h 751 2006-03-31 15:43:49Z alex $
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 /*
-Modified for Xara LX for 64-bit portability and for type compatibility with 
+Modified for Xara LX for 64-bit portability and for type compatibility with
 the other Xara LX code (use of INT32 instead of INT32, etc.)
 */
+
 #include "jpgermgr.h"
+
 /*
  * jerror.h
  *

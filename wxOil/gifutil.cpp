@@ -1,10 +1,5 @@
-// $Header: /Camelot/winoil/gifutil.cpp 19    25/03/99 16:16 Markn $
-
 // Contains useful routines for compressing a bitmap out to a GIF format file and
 // routines to load that file back in.
-
-/*
-*/
 
 #include "camtypes.h"
 #include "ensure.h"

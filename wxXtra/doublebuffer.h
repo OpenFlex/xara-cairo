@@ -1,5 +1,3 @@
-// $Id: doublebuffer.h 751 2006-03-31 15:43:49Z alex $
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 // The following line makes normalize.pl skip type fixing
 /* SKIPFIXTYPES: START */
 

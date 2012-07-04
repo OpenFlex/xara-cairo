@@ -1,10 +1,7 @@
-// $Id: zlib.h 751 2006-03-31 15:43:49Z alex $
-
-/* @@tag:xara-cn-tp@@ THIRD PARTY COPYRIGHT */
 /* zlib.h -- interface of the 'zlib' general purpose compression library
   version 1.2.2, October 3rd, 2004
 
-  MODIFIED FOR USE IN XARA LX - THIS IS NOT THE ORIGINAL UNMODIFIED SOURCE CODE
+  MODIFIED FOR USE IN XARA LX
 
   Copyright (C) 1995-2004 Jean-loup Gailly and Mark Adler
 

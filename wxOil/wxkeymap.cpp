@@ -1,5 +1,3 @@
-// $Id: wxOil/wxkeymap.cpp, 1, 01-Jan-2006, Anonymous $
-
 #include "camtypes.h"
 #include "wxkeymap.h"
 #include "vkextra.h"
