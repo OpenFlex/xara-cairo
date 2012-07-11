@@ -17,7 +17,6 @@ Build Requirements
 * gettext-0.18
 * libtool-2.4
 * gmake-3.8
-* subversion
 
 OpenBSD
 -------
@@ -53,7 +52,6 @@ Delta from xara-cairo-0.7
 
 - Adapted to [libpng-1.5](http://www.libpng.org/pub/png/libpng-manual.txt)
 - Don't print memory warnings for platforms without malloc_usable_size(3)
-- Build no longer requires unzip utility
 - Compile with -Wno-write-strings 
 - Use stdlib.h instead of malloc.h on BSD systems
 - Removed stale project files for XCode and Visual Studio
@@ -61,6 +59,7 @@ Delta from xara-cairo-0.7
 - Compile on gcc 4.6 without -fpermissive
 - Removed conflicting jconfig.h to enable builds against libjpeg-turbo
 - Reduced source line count by 142k using a concise Copyright and GPLv2 notice
+- Build no longer requires svn and unzip
 
 History
 -------

@@ -30,11 +30,6 @@ AC_ARG_ENABLE(international,
                              [Disable building of international resources]),
               InternationalEnable="$enableval", InternationalEnable="yes")
 
-AC_ARG_ENABLE(svnversion,
-              AS_HELP_STRING([--disable-svnversion],
-                             [Disable svn versioning]),
-              SvnVersionEnable="$enableval", SvnVersionEnable="yes")
-
 AC_ARG_ENABLE(xarlib,
               AS_HELP_STRING([--enable-xarlib],
                              [Enable build of the xarlib filter library]),
@@ -370,10 +365,6 @@ AM_GNU_GETTEXT_VERSION([0.14.3])
 	BUILDRESFLAGS="-i $BUILDRESFLAGS"
 fi
 
-if test "$SvnVersionEnable" = "yes" ; then
-	BUILDRESFLAGS="-s $BUILDRESFLAGS"
-fi
-
 # Force XarLibEnable on if we are to build the filters
 if test "$FiltersEnable" = "yes"; then
 	XarLibEnable="yes"
@@ -394,7 +385,6 @@ AM_CONDITIONAL(PRECOMPILE_ENABLE, [test "$PrecompileEnable" = "yes"])
 AM_CONDITIONAL(STATIC_ENABLE, [test "$StaticEnable" = "yes"])
 AM_CONDITIONAL(DARWIN_LINK, [test "$DarwinLink" = "yes"])
 AM_CONDITIONAL(INTERNATIONAL_ENABLE, [test "$InternationalEnable" = "yes"])
-AM_CONDITIONAL(SVNVERSION_ENABLE, [test "$SvnVersionEnable" = "yes"])
 AM_CONDITIONAL(XARLIB_ENABLE, [test "$XarLibEnable" = "yes"])
 AM_CONDITIONAL(FILTERS_ENABLE, [test "$FiltersEnable" = "yes"])
 
