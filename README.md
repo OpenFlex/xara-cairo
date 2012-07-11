@@ -60,7 +60,7 @@ Delta from xara-cairo-0.7
 - Patched to allow wxWidgets and glib2 to coexist
 - Compile on gcc 4.6 without -fpermissive
 - Removed conflicting jconfig.h to enable builds against libjpeg-turbo
-- Concise Copyright and GPLv3 notice
+- Reduced source line count by 142k using a concise Copyright and GPLv2 notice
 
 History
 -------
