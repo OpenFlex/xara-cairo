@@ -17,10 +17,6 @@
 #ifndef INC_CVERSION
 #define INC_CVERSION
 
-#if defined(__WXMSW__)
 #include "staticversion.h"
-#else
-#include "svnversion.h"
-#endif
 
 #endif // INC_CVERSION

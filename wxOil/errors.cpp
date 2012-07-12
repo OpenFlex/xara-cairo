@@ -277,10 +277,8 @@ public:
 		// Add the applications version information
 		wxXmlNode *nodeVersion = new wxXmlNode(wxXML_ELEMENT_NODE, _T("camelot"));
 		nodeVersion->AddProperty(_T("xtremeversion"), wxString(g_pszAppVersion));
-		nodeVersion->AddProperty(_T("xtremerevision"), wxString(g_pszSvnVersion));
 		nodeVersion->AddProperty(_T("xaradrawversion"), wxString::Format(_T("%d.03d"), HIWORD(GDraw_GetVersion()), LOWORD(GDraw_GetVersion())));
 		nodeVersion->AddProperty(_T("xaradrawrevision"), pszCDrawVer);
-		nodeVersion->AddProperty(_T("builddate"), CAMELOT_BUILD_DATE);
 		nodeRoot->AddChild(nodeVersion);
 	}
 };

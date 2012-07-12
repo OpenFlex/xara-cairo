@@ -550,19 +550,8 @@ bool CCamApp::OnInit()
 	{
 		wxString			strMessage;
 
-#if defined(__WXMSW__)
 		strMessage = wxString::Format( wxT("Xara Xtreme\nVersion: %s\nCDraw Version: %d.%03d\n"), 
 			g_pszAppVersion, HIWORD(GDraw_GetVersion()), LOWORD(GDraw_GetVersion()) );
-#else
-#if FALSE == wxUSE_UNICODE
-		TCHAR*			pszCDrawVer = GDraw_GetSvnVersion();
-#else
-		TCHAR			pszCDrawVer[32];
-		camMbstowcs( pszCDrawVer, GDraw_GetSvnVersion(), 31 );
-#endif
-		strMessage = wxString::Format( wxT("Xara Xtreme\nVersion: %s (%s)\nCDraw Version: %d.%03d (%s)\nBuild date: %s\n"), 
-			g_pszAppVersion, g_pszSvnVersion, HIWORD(GDraw_GetVersion()), LOWORD(GDraw_GetVersion()), pszCDrawVer, CAMELOT_BUILD_DATE );
-#endif
 
 		camPrintf( strMessage.c_str() );
 		
@@ -1692,19 +1681,8 @@ void CCamApp::DoAboutBox()
 {
 	wxString			strMessage;
 
-#if defined(__WXMSW__)
 	strMessage = wxString::Format( wxT("Xara Xtreme\nVersion: %s\nCDraw Version: %d.%03d\nUsage: xara-ciaro [xar-file...]"), 
 		g_pszAppVersion, HIWORD(GDraw_GetVersion()), LOWORD(GDraw_GetVersion()) );
-#else
-#if FALSE == wxUSE_UNICODE
-	TCHAR*			pszCDrawVer = GDraw_GetSvnVersion();
-#else
-	TCHAR			pszCDrawVer[32];
-	camMbstowcs( pszCDrawVer, GDraw_GetSvnVersion(), 31 );
-#endif
-	strMessage = wxString::Format( wxT("Xara Xtreme\nVersion: %s (%s)\nBuild date: %s\nBuilt against: " wxVERSION_STRING "\n" /*"wxWidgets linked to %s\n" */ "Usage: xaralx [xar-file...]"), 
-		g_pszAppVersion, g_pszSvnVersion, CAMELOT_BUILD_DATE /*,_T("Unknown")*/ );
-#endif
 
 	(void)wxMessageBox( strMessage, wxT("About Xara Xtreme") );
 }

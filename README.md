@@ -23,6 +23,7 @@ OpenBSD
 
     $ export AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68
     $ ./autogen.sh
+    $ ./configure
     $ gmake
 
 FreeBSD
@@ -31,12 +32,14 @@ FreeBSD
     # cd /usr/X11R6/bin
     # ln wxgtk2u-2.8-config wx-config
     $ ./autogen.sh
+    $ ./configure
     $ gmake
 
 Linux
 -----
 
     $ ./autogen.sh
+    $ ./configure
     $ make
 
 News

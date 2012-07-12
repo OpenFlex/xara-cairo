@@ -101,8 +101,6 @@ mkdir ("$outputdir");
 mkdir ("$outputdir/xrc");
 mkdir ("$outputdir/xrc/$xaralanguage");
 
-print STDERR "Testing for new resources and svn version\n";
-
 # Resource system
 # get the timestamp
 my $omtime=0;
