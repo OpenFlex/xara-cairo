@@ -39,8 +39,6 @@ CC_IMPLEMENT_DYNCREATE(CamResource, CCObject)
 ResIDToString * CamResource::pHash = NULL;
 ResIDToString * CamResource::pObjectNameHash = NULL;
 wxFileSystem * CamResource::pwxFileSystem = NULL;
-wxBitmap * CamResource::pSplashBitmap= NULL;
-wxAdvSplashScreen * CamResource::pSplashScreen = NULL;
 wxString * CamResource::pResourcePath = NULL;
 CamResourceRemember * CamResource::pFirstRemember=NULL;
 BOOL CamResource::HaveCheckedResourcePath = FALSE;
@@ -1426,11 +1424,6 @@ BOOL CamResource::Init()
 	m_pLocale->AddCatalogLookupPathPrefix(GetResourceFilePath(_T("")));
 	m_pLocale->AddCatalog(_T("xara-cairo"));
 
-#if !defined(EXCLUDE_FROM_XARLIB)
-	TRACET(_T("CamResource::Init() launching splash screen"));
-	if (!Splash()) return FALSE;
-#endif
-
 #ifdef XML_STRINGS
 	TRACET(_T("CamResource::Init() now loading internal resources, calling InitXmlResource"));
 	// Load the internal resources
@@ -1647,20 +1640,6 @@ BOOL CamResource::DeInit()
 		pObjectNameHash = NULL;
 	}
 
-#if !defined(EXCLUDE_FROM_XARLIB)
-	if (pSplashScreen)
-	{
-		delete (pSplashScreen);
-		pSplashScreen = NULL;
-	}
-
-	if (pSplashBitmap)
-	{
-		delete (pSplashBitmap);
-		pSplashBitmap = NULL;
-	}
-#endif	// EXCLUDE_FROM_XARLIB
-
 	if (m_pLocale)
 	{
 		delete (m_pLocale);
@@ -1670,100 +1649,6 @@ BOOL CamResource::DeInit()
 	return TRUE;
 }
 
-
-#if !defined(EXCLUDE_FROM_XARLIB)
-
-/********************************************************************************************
-
->	static BOOL CamResource::Splash()
-
-
-	Author:		Alex_Bligh <alex@alex.org.uk>
-	Created:	02/12/2005
-	Inputs:		None
-	Outputs:	None
-	Returns:	TRUE if succeeded, FALSE if fails
-	Purpose:	Put up a splash screen
-	Errors:		via wxMessageBox
-	SeeAlso:	-
-
-********************************************************************************************/
-
-BOOL CamResource::Splash()
-{
-	TRACET(_T("CamResource::Splash() called"));
-
-	if (pSplashBitmap) delete pSplashBitmap;
-	pSplashBitmap=NULL;
-
-	
-	pSplashBitmap = new wxBitmap();
-	if (!pSplashBitmap) return FALSE;
-
-	// We'd like to get the bitmap name from the resources, but, urm, we haven't yet
-	// loaded them
-	if (!LoadwxBitmap(*pSplashBitmap, _T("startup-lx.png") ))
-	{
-		TRACE(_T("Cannot load splash bitmap - possible resource compilation error?"));
-		return TRUE;
-	}
-
-	if (!pSplashBitmap->Ok()) return FALSE;
-
-	pSplashScreen = new wxAdvSplashScreen(*pSplashBitmap,
-		wxSPLASH_CENTRE_ON_SCREEN | wxSPLASH_NO_TIMEOUT,
-		0, NULL, -1, wxDefaultPosition, wxDefaultSize,
-		wxNO_BORDER
-#if 0 && !defined (_DEBUG)
-		|wxSTAY_ON_TOP // Only stay on top in non-debug builds - too annoying for preinit debugging
-#endif
-		  );
-	if (!pSplashScreen) return FALSE;
-
-  	wxYield();
-
-	return TRUE;
-}
-#endif	// EXCLUDE_FROM_XARLIB
-
-/********************************************************************************************
-
->	static BOOL CamResource::DoneInit(BOOL CanYield=TRUE)
-
-
-	Author:		Alex_Bligh <alex@alex.org.uk>
-	Created:	02/12/2005
-	Inputs:		None
-	Outputs:	None
-	Returns:	TRUE if succeeded, FALSE if fails
-	Purpose:	Signals to the resouce system initialization is completed. The splah
-				screen can thus be removed
-	Errors:		via wxMessageBox
-	SeeAlso:	-
-
-********************************************************************************************/
-
-BOOL CamResource::DoneInit(BOOL CanYield /*=TRUE*/)
-{
-	TRACET(_T("CamResource::DoneInit() called"));
-#if !defined(EXCLUDE_FROM_XARLIB)
-	if (pSplashScreen)
-	{
-        if (CanYield)
-			::wxYield();
-		pSplashScreen->Destroy();
-		pSplashScreen = NULL;
-		if (CanYield)
-	        ::wxYield();
-	}
-	if (pSplashBitmap)
-	{
-		delete (pSplashBitmap);
-		pSplashBitmap = NULL;
-	}
-#endif	// EXCLUDE_FROM_XARLIB
-	return TRUE;
-}
 
 /********************************************************************************************
 

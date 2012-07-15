@@ -253,17 +253,6 @@ int /*TYPENOTE: Correct*/ CCamApp::FilterEvent( wxEvent& event )
 		wxSetCursor( *wxSTANDARD_CURSOR );
 	}
 
-	if (( event.GetEventType() == wxEVT_CREATE )
-		&& pEventObject
-		&& (pEventObject->IsKindOf(CLASSINFO(wxTopLevelWindow)))
-		&& !(pEventObject->IsKindOf(CLASSINFO(wxAdvSplashScreen))) // Don't trigger this on the creation of the splash screen itself
-		&& !(pEventObject->IsKindOf(CLASSINFO(wxSplashScreen)))
-		)
-	{
-		// a top level window is about to be created. End the splash screen if it is up as it may obscure it
-		CamResource::DoneInit(FALSE);	
-	}
-
 #if defined(_DEBUG)
 	if( event.GetEventType() == wxEVT_CHAR )
 	{
@@ -1004,9 +993,6 @@ bool CCamApp::OnInit()
 		for ( UINT32 i=0 ; i<parser.GetParamCount() ; i++ )
 			m_docManager->CreateDocument(parser.GetParam(i),wxDOC_SILENT);
 	}
-
-	// Remove the splash screen
-	CamResource::DoneInit();
 
 	CXMLUtils::Initialise();
 

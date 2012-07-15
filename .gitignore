@@ -33,6 +33,7 @@ stamp-h.in
 *-uninstalled.pc
 .vimrc
 *.gch
+wxOil/resources.h
 xara-cairo
 xarasvgfilter*
 m4/*

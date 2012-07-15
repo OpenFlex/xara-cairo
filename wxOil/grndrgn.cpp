@@ -989,7 +989,6 @@ void GRenderRegion::InitBmpBits()
 		return;
 
 	LPBITMAPINFOHEADER bh = &pBitmapInfo->bmiHeader;
-	BYTE* pSetBits = (BYTE*)pBits;
 
 	BOOL UseInternalFormat = FALSE;
 	if(m_DoCompression)
@@ -1006,43 +1005,19 @@ void GRenderRegion::InitBmpBits()
 	// bogus info from the bmp header dimensions)
 	// NB this assumes that the bmp buff lpBits was allocated using AllocDIB (usually via GetLPBits() fn)
 	UINT32 BmpSize = GetDIBBitsSize( bh );
-	UINT32 Index = 0;
 
 	if(bh->biBitCount==32)
 	{
 		// 32bpp
 		if(UseInternalFormat)
 		{
-//			TRACEUSER( "Gerry", _T("Initialising GRR to transparent black\n"));
-/*			while(Index < BmpSize)
-			{*/
-				// initial values for using internal alpha channelled format
-				// fully transparent black bacground
-/*
-				pSetBits[Index++] = 0x00;
-				pSetBits[Index++] = 0x00;
-				pSetBits[Index++] = 0x00;
-				pSetBits[Index++] = 0xFF;
-
-
-			}*/
 			/*  changed 2010 for_cairo		 */
 			memset( pBits, 0x00, BmpSize );
 			/*printf("INIT TRANSP %d   x  %d\n", bh->biWidth, bh->biHeight );*/
 		}
 		else
 		{
-//			TRACEUSER( "Gerry", _T("Initialising GRR to opaque white\n"));
-/*			while(Index < BmpSize)
-			{*/
-				// fully opaque white background
-/*				pSetBits[Index++] = 0xFF;
-				pSetBits[Index++] = 0xFF;
-				pSetBits[Index++] = 0xFF;
-				pSetBits[Index++] = 0x00;
-
-			}
-*/			/*  changed 2010 for_cairo		 */
+			/*  changed 2010 for_cairo		 */
 			memset( pBits, 0xFF, BmpSize );
 			/*printf("INIT WHITE %d   x  %d\n", bh->biWidth, bh->biHeight );*/
 		}

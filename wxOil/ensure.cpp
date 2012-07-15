@@ -183,7 +183,6 @@ static void InternalAssert(const TCHAR * AssertDescription, const char * lpszFil
 	else
 
 	{
-		CamResource::DoneInit();
 		CCamApp::DisableSystem();
 
 		// e.g. if this an MFC assert, don't use our lovely error handler becuase that itself

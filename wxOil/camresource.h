@@ -32,7 +32,6 @@
 class CCLexFile;
 class wxFSFile;
 class wxBimtap;
-class wxAdvSplashScreen;
 class wxHelpProvider;
 
 typedef UINT32 ResourceID;
@@ -153,7 +152,6 @@ private:
 	static void ProcessWindowAndChildren(wxWindow * pWindow);
 	static void GetBinaryFileInfo (void **pPtr, UINT32 *pSize);
 	static BOOL InitXmlResource();
-	static BOOL Splash();
 	static BOOL CheckResourcePath( const wxString &str1, const wxString &str2 );
 	static const TCHAR * FixObjectName(const TCHAR * ObjectName);
 	static BOOL AddBitmaps(wxString &Path);
@@ -168,9 +166,6 @@ private:
 	static wxString * pResourcePath;
 	static BOOL HaveCheckedResourcePath;
 	static CamResourceRemember * pFirstRemember;
-
-	static wxBitmap * pSplashBitmap;
-	static wxAdvSplashScreen * pSplashScreen;
 
 	static ResourceStringToBitmap * pBitmapHash;
 
@@ -243,8 +238,6 @@ public:
 
 	static BOOL Init();
 	static BOOL DeInit();
-
-	static BOOL DoneInit(BOOL CanYield=TRUE);
 
 	static wxLocale * GetLocale() {return m_pLocale;}
 

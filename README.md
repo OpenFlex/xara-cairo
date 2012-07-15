@@ -22,8 +22,7 @@ OpenBSD
 -------
 
     $ export AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68
-    $ ./autogen.sh
-    $ ./configure
+    $ ./autogen.sh && ./configure
     $ gmake
 
 FreeBSD
@@ -31,15 +30,13 @@ FreeBSD
 
     # cd /usr/X11R6/bin
     # ln wxgtk2u-2.8-config wx-config
-    $ ./autogen.sh
-    $ ./configure
+    $ ./autogen.sh && ./configure
     $ gmake
 
 Linux
 -----
 
-    $ ./autogen.sh
-    $ ./configure
+    $ ./autogen.sh && ./configure
     $ make
 
 News
@@ -63,6 +60,7 @@ Delta from xara-cairo-0.7
 - Removed conflicting jconfig.h to enable builds against libjpeg-turbo
 - Reduced source line count by 142k using a concise Copyright and GPLv2 notice
 - Build no longer requires svn and unzip
+- No more splash screen
 
 History
 -------

@@ -508,8 +508,6 @@ INT32 InformGeneral(UINT32 Error, UINT32 modID, UINT32 ErrorMsg,
 		return OK;
 	}
 
-	CamResource::DoneInit();
-
 	pMessage->Wrap(400);
 	//pMessage->Enable(false); // this annoyingly does not grey it
 	//pMessage->SetBackgroundColour(pBox->GetBackgroundColour());
