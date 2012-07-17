@@ -22,7 +22,7 @@ OpenBSD
 -------
 
     $ export AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68
-    $ ./autogen.sh && ./configure
+    $ ./autogen.sh && ./configure --enable-filters 
     $ gmake
 
 FreeBSD
@@ -30,13 +30,13 @@ FreeBSD
 
     # cd /usr/X11R6/bin
     # ln wxgtk2u-2.8-config wx-config
-    $ ./autogen.sh && ./configure
+    $ ./autogen.sh && ./configure --enable-filters
     $ gmake
 
 Linux
 -----
 
-    $ ./autogen.sh && ./configure
+    $ ./autogen.sh && ./configure --enable-filters
     $ make
 
 News
@@ -61,6 +61,7 @@ Delta from xara-cairo-0.7
 - Reduced source line count by 142k using a concise Copyright and GPLv2 notice
 - Build no longer requires svn and unzip
 - No more splash screen
+- Exclude files from the repo that are auto-generated or copied
 
 History
 -------
