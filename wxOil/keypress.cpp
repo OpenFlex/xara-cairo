@@ -343,7 +343,7 @@ FilePath KeyPress::GetHotKeysFilename()
 
 	wxStandardPaths		Paths;
 	wxString	strPath( Paths.GetUserConfigDir() );
-	strPath += _T("/.xaralx/hotkeys");
+	strPath += _T("/.xara/hotkeys");
 
 	if (wxFile::Exists(strPath))
 		result.SetPathName(strPath, FALSE);

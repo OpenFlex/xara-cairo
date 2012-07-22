@@ -45,7 +45,7 @@ OILPreferences* OILPreferences::Init()
 {
 	wxStandardPaths		Paths;
 	wxString	strPath( Paths.GetUserConfigDir() );
-	strPath += _T("/.xaralx");
+	strPath += _T("/.xara");
 
 	// Delete any file that exists where the directory should be
 	if (wxFile::Exists(strPath))
@@ -59,7 +59,7 @@ OILPreferences* OILPreferences::Init()
 
 	// Open config storage
 	strPath += _T("/preferences");
-	OILPreferences* pPrefs = new OILPreferences(_T("xaralx"), _T("Xara"), strPath);
+	OILPreferences* pPrefs = new OILPreferences(_T("xara"), _T("Xara"), strPath);
 
 	TRACEUSER( "jlh92", _T("OILPreferences::Init2 %s\n"), PCTSTR(strPath) );
 	

@@ -198,7 +198,7 @@ PORTNOTETRACE("other","CTemplateManager::Init - remove code to setup paths");
 
 #if defined(_DEBUG)
 		if( !SGLibOil::DirExists( m_TemplatesPath ) )
-			m_TemplatesPath = _T("/usr/share/xaralx/Templates/");
+			m_TemplatesPath = _T("/usr/share/xara/Templates/");
 #endif
 	}
 
@@ -206,7 +206,7 @@ PORTNOTETRACE("other","CTemplateManager::Init - remove code to setup paths");
 	{
 		wxString		strHome( ::wxGetHomeDir() );
 		m_LocalTemplatesPath = (PCTSTR)strHome;
-		m_LocalTemplatesPath += _T("/.xaralx/templates/");
+		m_LocalTemplatesPath += _T("/.xara/templates/");
 	}
 
 	TRACEUSER( "jlh92", _T("Using %s as template store\n"), PCTSTR(m_TemplatesPath) );

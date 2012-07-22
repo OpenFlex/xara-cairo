@@ -1024,8 +1024,8 @@ bool CCamApp::OnInit()
 	GiveFocusToFocusableOffspring( m_pMainFrame );
 	
 	// Create timer used for background rendering.
-//	m_Timer.SetOwner(this,CAM_TIMER_ID);
-//	m_Timer.Start(CAM_TIMER_FREQUENCY);
+	m_Timer.SetOwner(this,CAM_TIMER_ID);
+	m_Timer.Start(CAM_TIMER_FREQUENCY);
 
 	InInitOrDeInit = FALSE; // Now allow the user a chance to save their work on a SEGV
 
@@ -1076,7 +1076,7 @@ INT32 CCamApp::OnExit( void )
 	}
 
 	// Rendering is back on idle events for now as it actually works
-//	m_Timer.Stop();
+	m_Timer.Stop();
 
 #if defined(FILELIST)
 	{

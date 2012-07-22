@@ -39,14 +39,6 @@ Linux
     $ ./autogen.sh && ./configure --enable-filters
     $ make
 
-News
-----
-
-- 2012-07-03: Builds on Ubuntu 12
-- 2012-07-02: Builds on Debian 6.0
-- 2012-06-29: Builds on FreeBSD 9.0
-- 2012-06-27: Builds on OpenBSD 5.1
-
 Delta from xara-cairo-0.7
 -------------------------
 
@@ -62,6 +54,7 @@ Delta from xara-cairo-0.7
 - Build no longer requires svn and unzip
 - No more splash screen
 - Exclude files from the repo that are auto-generated or copied
+- Builds on Ubuntu 12, Debian 6.0, FreeBSD 9.0 and OpenBSD 5.1
 
 History
 -------
