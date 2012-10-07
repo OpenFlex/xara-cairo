@@ -22,7 +22,7 @@ OpenBSD
 -------
 
     $ export AUTOMAKE_VERSION=1.10 AUTOCONF_VERSION=2.68
-    $ ./autogen.sh && ./configure --enable-filters 
+    $ ./autogen.sh && ./configure --enable-filters
     $ gmake
 
 FreeBSD
