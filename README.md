@@ -41,6 +41,7 @@ Linux
 
 Delta from xara-cairo-0.7
 -------------------------
+(eradman)
 
 - Adapted to [libpng-1.5](http://www.libpng.org/pub/png/libpng-manual.txt)
 - Don't print memory warnings for platforms without malloc_usable_size(3)
@@ -55,6 +56,11 @@ Delta from xara-cairo-0.7
 - No more splash screen
 - Exclude files from the repo that are auto-generated or copied
 - Builds on Ubuntu 12, Debian 6.0, FreeBSD 9.0 and OpenBSD 5.1
+
+(ed44)
+
+- fix the colorline in the HSV coloreditor
+- fix PNG/JPEG bitmap import/handling
 
 History
 -------

@@ -798,11 +798,16 @@ GColour_BuildGraduationTable (
 */
 	GCDATA *data=dp_list[pContext->Data[0]];
 
-	data->cpat.value1=StartColour;
-	data->cpat.value2=EndColour;
+	if(HSVFlag==2){/* 	Only used for the hsv-line in the color-editor gui */
+		data->psource=PAT_HSV;
+	}else{
+		
 
-	data->psource=PAT_COLORS;
+		data->cpat.value1=StartColour;
+		data->cpat.value2=EndColour;
 
+		data->psource=PAT_COLORS;
+	}
 	return 0;
 }
 
@@ -1485,6 +1490,8 @@ GColour_SetTilePattern (
 	else
 		cairo_surface_reference(data->surface);
 */
+	cairo_surface_mark_dirty(data->surface);
+
 	data->source=S_SURFACE;
 	return 0;
 }
@@ -2360,7 +2367,32 @@ xcl_fill_with_pattern(GCDATA *data, cairo_surface_t *mask)
 	}else{
 		pat=xcl_create_cairo_pattern(&data->cpat, 0, 0, PATTERN_LINEAR);
 	}
-	if(data->psource==PAT_LIST)
+	
+	if(data->psource==PAT_HSV)
+	{
+		/* 	Only used for the hsv-line in the color-editor gui */
+			cairo_pattern_add_color_stop_rgba(pat, 0.0,
+							1.0, 0.0 ,0.0,1.0);
+			
+			cairo_pattern_add_color_stop_rgba(pat, 0.165,
+							1.0, 0.0 ,1.0,1.0);
+			
+			cairo_pattern_add_color_stop_rgba(pat, 0.33,
+							0.0, 0.0 ,1.0,1.0);
+			
+			cairo_pattern_add_color_stop_rgba(pat, 0.5,
+							0.0, 1.0 ,1.0,1.0);
+			
+			cairo_pattern_add_color_stop_rgba(pat, 0.66,
+							0.0, 1.0 ,0.0,1.0);
+			
+			cairo_pattern_add_color_stop_rgba(pat, 0.825,
+							1.0, 1.0 ,0.0,1.0);
+			
+			cairo_pattern_add_color_stop_rgba(pat, 1.0,
+							1.0, 0.0 ,0.0,1.0);
+	}
+	else if(data->psource==PAT_LIST)
 	{
 		UINT32 i;
 

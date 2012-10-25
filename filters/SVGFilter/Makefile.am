@@ -3,7 +3,7 @@ bin_PROGRAMS = xarasvgfilter xarasvgfilterui
 # Note TOPDIR seems to have one too many ".."s in to work. So don't use it
 if LOCAL_XARLIB_ENABLE
 # note includes are built, so no need to refer to topdir
-XARLIB_CFLAGS2 = -01 -g -Wno-write-strings \
+XARLIB_CFLAGS2 = -O1 -g -Wno-write-strings \
 				-DEXCLUDE_FROM_XARLIB -DUSE_NATIVE_XLONG -DBUILDSHADOWS -DOLD_MATRIX_TRANSFORMATIONS -DVECTOR_STROKING -DEXCLUDE_FROM_XARLIB -DNEW_SHADOW_RENDER -DNO_XARACMS \
 				-DNEW_FEATURES -DSHOWPORTNOTE -DDO_EXPORT \
 				-I../../xarlib/include $(WX_CXXFLAGS)

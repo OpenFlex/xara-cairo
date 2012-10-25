@@ -93,7 +93,8 @@ typedef struct _mapdata{
 
 enum PAT_SOURCE{
 	PAT_COLORS,
-	PAT_LIST
+	PAT_LIST,
+	PAT_HSV
 };
 
 enum T_SOURCE{
