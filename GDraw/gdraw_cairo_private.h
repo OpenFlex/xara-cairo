@@ -89,6 +89,7 @@ typedef struct _mapdata{
 	double cy;
 	INT32 width;
 	INT32 height;
+	UINT32	style;
 }mapdata;
 
 enum PAT_SOURCE{

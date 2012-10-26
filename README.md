@@ -58,6 +58,7 @@ Fixes and Additions
 
 (ed44)
 
+- Fix the EXTEND_REPEAT and EXTEND_REFLECT options og the bitmap fill
 - Fix the bitmap gallery
 - Fix the colorline in the HSV coloreditor
 - Fix PNG/JPEG bitmap import/handling

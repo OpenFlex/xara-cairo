@@ -1391,7 +1391,22 @@ GColour_SetTilePattern (
 		BitmapInfo->biBitCount);
 */
 /*	printf("TileOffset = %d\n", TileOffset);*/
+/*	printf("Style = %X\n", Style);
+	printf("DefaultColour = %d\n", DefaultColour);
+*/
 
+	/*
+	 * 	Style parameter
+	 * 	Style & 0xF= :	
+	 * 		1 ==	single
+	 * 		2 ==	repeat
+	 * 		3 ==	repeat inverted
+	 * 
+	 * 	(~Style & 0x00FF0000) >> 16; == transparency
+	 * 
+	 * 
+	 */
+	
 	if(BitmapInfo->biBitCount !=24
 	&& BitmapInfo->biBitCount !=32)
 		return 0;
@@ -1404,10 +1419,10 @@ GColour_SetTilePattern (
 	UINT32 cd, cs, t;
 	UINT32 *dd, *ss;
 
-/*	printf("Style=%08X\n", Style);*/
-
 	data->transparency=(~Style & 0x00FF0000) >> 16;
-
+	
+	data->mdata.style=Style;
+	
 	data->mdata.width=BitmapInfo->biWidth;
 	data->mdata.height=BitmapInfo->biHeight;
 
@@ -2827,6 +2842,11 @@ xcl_fill_with_surface(GCDATA *data, cairo_surface_t *mask)
 		else
 		{
 			cairo_set_source_surface(cr, data->surface, 0, 0);
+			
+			if((md->style & 0xF) ==2)
+				cairo_pattern_set_extend(cairo_get_source(cr), CAIRO_EXTEND_REPEAT);
+			else if((md->style & 0xF) ==3)
+				cairo_pattern_set_extend(cairo_get_source(cr), CAIRO_EXTEND_REFLECT);
 
 			if(mask){
 				cairo_clip(cr);
