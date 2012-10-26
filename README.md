@@ -1,7 +1,7 @@
 xara-cairo
 ==========
 
-An fast, 100% open source vector drawing program designed based on XaraLX
+An fast, 100% open source vector drawing program based on XaraLX
 
 Build Requirements
 ------------------
@@ -58,6 +58,7 @@ Fixes and Additions
 
 (ed44)
 
+- Fix the bitmap gallery
 - Fix the colorline in the HSV coloreditor
 - Fix PNG/JPEG bitmap import/handling
 

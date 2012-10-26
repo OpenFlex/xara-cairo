@@ -2015,12 +2015,16 @@ GDraw_FillRectangle ( pGCONTEXT pContext,pcRECT Rectangle )
 	y2=toFL(Rectangle->bottom);
 
 	cairo_rectangle(cr, x1, y1, x2 - x1, y2 - y1);
-
-	cairo_set_source_rgb(cr, (data->color & 0xFF)/255.0,
+	
+	if(data->source==S_SURFACE){
+		xcl_fill_with_surface(data, NULL);
+	}else{
+		cairo_set_source_rgb(cr, (data->color & 0xFF)/255.0,
 						((data->color & 0xFF00) >>8)/255.0,
 						((data->color & 0xFF0000) >> 16)/255.0);
 
-	cairo_fill(cr);
+		cairo_fill(cr);
+	}
 
 	cairo_user_to_device(cr, &x1, &y1);
 	cairo_user_to_device(cr, &x2, &y2);
