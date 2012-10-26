@@ -1,8 +1,7 @@
 xara-cairo
 ==========
 
-Yet another port of XaraLX intended to build against modern open source
-libraries on BSD and Linux.
+An fast, 100% open source vector drawing program designed based on XaraLX
 
 Build Requirements
 ------------------
@@ -39,8 +38,9 @@ Linux
     $ ./autogen.sh && ./configure --enable-filters
     $ make
 
-Delta from xara-cairo-0.7
--------------------------
+Fixes and Additions
+-------------------
+
 (eradman)
 
 - Adapted to [libpng-1.5](http://www.libpng.org/pub/png/libpng-manual.txt)
@@ -55,16 +55,16 @@ Delta from xara-cairo-0.7
 - Build no longer requires svn and unzip
 - No more splash screen
 - Exclude files from the repo that are auto-generated or copied
-- Builds on Ubuntu 12, Debian 6.0, FreeBSD 9.0 and OpenBSD 5.1
 
 (ed44)
 
-- fix the colorline in the HSV coloreditor
-- fix PNG/JPEG bitmap import/handling
+- Fix the colorline in the HSV coloreditor
+- Fix PNG/JPEG bitmap import/handling
 
 History
 -------
 
+- 2012-07-03: This fork of xara-cairo builds on Ubuntu 12, Debian 6.0, FreeBSD 9.0 and OpenBSD 5.1
 - 2010-05-11: First attempt at replacing CDraw with cairo [announced](http://lists.cairographics.org/archives/cairo/2010-May/019862.html) along with a new Git repo at git://repo.or.cz/xara-cairo.git
 - 2007-11-06: Last commit to SVN
 - 2007-01-30: Xara LTD [aquired by Magix](http://www.talkgraphics.com/showthread.php?25654-Xara-acquired-by-MAGIX)
