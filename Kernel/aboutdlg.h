@@ -18,7 +18,6 @@
 #ifndef INC_ABOUTDLG
 #define INC_ABOUTDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 #define OPTOKEN_ABOUTDLG _T("AboutDlg")    

@@ -18,7 +18,6 @@
 #ifndef INC_OILPREFS
 #define INC_OILPREFS
 
-//#include "prefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

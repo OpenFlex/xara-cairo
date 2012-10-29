@@ -21,7 +21,6 @@
 #define INC_STACK
 // Declaration of the stack and MarkedStack classes
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

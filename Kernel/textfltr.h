@@ -21,8 +21,6 @@
 #ifndef INC_TEXTFLTR
 #define INC_TEXTFLTR
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "stack.h"
 
 

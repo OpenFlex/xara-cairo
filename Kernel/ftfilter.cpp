@@ -19,12 +19,10 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "chapter.h"
 #include "nodepath.h"
 
 #include "ftfilter.h"
-//#include "oilfltrs.h"	// Web oil filter i.e. Windows UI specific details e.g. extension - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"	// IDs
 #include "webparam.h"
 #include "xarprefs.h"

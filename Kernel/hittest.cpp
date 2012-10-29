@@ -18,20 +18,10 @@
 
 #include "camtypes.h"
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
 #include "rendbits.h"
 #include "objreg.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "qualattr.h"
 #include "attrmap.h"
 #include "nodeshad.h"

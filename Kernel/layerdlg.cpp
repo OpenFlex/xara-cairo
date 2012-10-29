@@ -21,17 +21,12 @@
 */ 
 
 #include "camtypes.h" 
-//#include "ensure.h"   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"   
 //#include "barsdlgs.h"
 //#include "simon.h"
-//#include "dialogop.h" // DialogOp header  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"   // Dialog manager class    
 #include "layerdlg.h"   
 #include "mainfrm.h"
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layermgr.h"
 
 CC_IMPLEMENT_DYNCREATE(LayerDlg, DialogOp)   

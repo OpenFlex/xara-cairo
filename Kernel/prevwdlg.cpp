@@ -34,11 +34,8 @@
 #include "dlgview.h"	// DialogView
 
 //#include "rikdlg.h"		// _R(IDB_SLIDERBASE), _R(IDB_SLIDERSLIDER)
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ctrlhelp.h"
-//#include "docvmsg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "spread.h"		// GetFirstFrameLayer() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "xshelpid.h"	//For the help ID
 

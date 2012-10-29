@@ -22,7 +22,6 @@
 #ifndef INC_IMAGEMAPFILTERDLG
 #define INC_IMAGEMAPFILTERDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "filtimop.h"
 #include "bmpprefs.h"	//For SelectionType
 

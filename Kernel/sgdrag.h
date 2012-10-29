@@ -22,9 +22,6 @@
 
 
 #include "draginfo.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "monotime.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class SGDisplayRootScroll;

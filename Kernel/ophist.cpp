@@ -26,16 +26,12 @@
 /*
 */ 
 #include "camtypes.h"  
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
              
 #include "ophist.h"  
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 #include "helpids.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "barsdlgs.h"
 #include <limits.h>

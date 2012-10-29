@@ -22,13 +22,8 @@
 #include "qualops.h"
 #include "menuops.h"
 //#include "mario.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "rik.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "barsdlgs.h"
 #include "bubbleid.h"
 #include "brushmsg.h"

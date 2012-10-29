@@ -24,9 +24,6 @@
 #include "menucmds.h"
 #include "menupref.h"
 #include "menuops.h"
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 #include "oilfiles.h"
 

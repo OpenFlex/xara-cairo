@@ -19,14 +19,7 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "transop.h" 
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selstate.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 #include "progress.h"
 #include "selector.h"
@@ -36,7 +29,6 @@
 //#include "clikdrag.h"
 #include "cutop.h"
 //#include "mario.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodecont.h"
 //#include "dragtool.h"	// for DragTool.
 
@@ -44,14 +36,11 @@
 #include "slicehelper.h"	//For helper functions
 
 //But I had to include all of these to get it to work!!...
-//#include "cxfrech.h"		//For CamelotRecordHandler - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"		//For UserAttr
 #include "tmpltatr.h"		//For TemplateAttribute
 #include "ophist.h"
 
 //Graham 30/9/96: Need to maintain a node list for Drop Copy
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // declare this files version number to the program and give our name in memory dumps
 DECLARE_SOURCE("$Revision: 1393 $");

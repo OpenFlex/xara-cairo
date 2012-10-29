@@ -22,9 +22,6 @@
 
 // include
 #include "textfltr.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "htmllist.h"
 
 

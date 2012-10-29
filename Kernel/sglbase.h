@@ -19,11 +19,6 @@
 #ifndef INC_SGLBASE
 #define INC_SGLBASE
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "inetop.h"
 //#include "stl.h"
 #include <list>

@@ -21,8 +21,6 @@
 #ifndef INC_GALBAR
 #define INC_GALBAR
 
-//#include "dockbar.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "basebar.h"
 
 #ifndef WIN32

@@ -22,17 +22,10 @@
 
 #include "camtypes.h"
 #include "qualattr.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // For now all GetxxxQuality fns are based on ArtWorks values. Once we are happy
 // with them they should be made inline fns.

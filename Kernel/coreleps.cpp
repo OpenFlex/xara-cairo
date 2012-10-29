@@ -27,10 +27,7 @@
 #include <sstream>
 
 #include "nodepath.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "cdrfiltr.h"
 
 

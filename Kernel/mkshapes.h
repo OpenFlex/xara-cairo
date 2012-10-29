@@ -20,7 +20,6 @@
 #ifndef INC_MKSHAPES
 #define INC_MKSHAPES 
 
-//#include "selop.h"         - in camtypes.h [AUTOMATICALLY REMOVED]
 #include <list>
 
 #define OPTOKEN_MAKE_SHAPES _T("ConvertToShapes")

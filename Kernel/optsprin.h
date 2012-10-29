@@ -22,13 +22,11 @@
 #ifndef INC_OPTSPRIN
 #define INC_OPTSPRIN
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 #include "printctl.h"
 
 //--------------------------------------------------
 class Layer;
-//#include "stockcol.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

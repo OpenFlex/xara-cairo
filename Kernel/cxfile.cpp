@@ -18,12 +18,8 @@
 #include "camtypes.h"
 
 #include "cxfile.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfmap.h"
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "progress.h"
 //#include "filtrres.h"
 
@@ -35,11 +31,9 @@
 #endif
 
 #include "cxftags.h"	// The tag definitions
-//#include "cxfdefs.h"	// The constants - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "zutil.h"		// ZLIB_VERSIONNO
 
 #if !defined(EXCLUDE_FROM_XARLIB)
-//#include "camfiltr.h"	// BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 #else
 #include "rechcomp.h"
 #endif

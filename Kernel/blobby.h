@@ -31,14 +31,7 @@
 #ifndef INC_BLOBBY
 #define INC_BLOBBY
     
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h"    - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h"  	   	// Operation class   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h"  	// The DialogOp types - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"		// the dialogue box manager 
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_BLOBBY _T("Blobby")
 

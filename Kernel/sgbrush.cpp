@@ -20,15 +20,11 @@
 #include "camtypes.h"
 #include "sgbrush.h"
 #include "sgline.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brshcomp.h"
 #include "qualattr.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgcol.h"
 #include "lineattr.h"
 #include "ppbrush.h"
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brushmsg.h"
 #include "ndoptmz.h"
 //#include "rik.h"

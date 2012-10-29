@@ -19,7 +19,6 @@
 #include "camtypes.h"
 #include "pressure.h"
 
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathtrap.h"
 #include "valfunc.h"
 

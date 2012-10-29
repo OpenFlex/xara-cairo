@@ -16,7 +16,6 @@
 
 
 #include "camtypes.h"
-//#include "varstr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /**************************************************************************************

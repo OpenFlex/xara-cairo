@@ -19,19 +19,12 @@
 */
     
 #include "camtypes.h"                          
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
 
-//#include "camfiltr.h"	// Record handling classes for attributes - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechattr.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "mario.h"		// for _R(IDE_NOMORE_MEMORY)
 //#include "hotlink.h"	// for _R(IDS_USERATTRIBUTE_ID)

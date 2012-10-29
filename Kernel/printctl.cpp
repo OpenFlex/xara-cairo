@@ -21,15 +21,11 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colcontx.h"
 #include "colourix.h"
 #include "colormgr.h"
 #include "colplate.h"
 #include "camelot.h"
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "justin2.h"
 //#include "markn.h"
 #include "osrndrgn.h"
@@ -38,11 +34,8 @@
 #include "printctl.h"
 #include "prntview.h"
 //#include "resource.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prnmks.h"
 //#include "isetres.h"
 

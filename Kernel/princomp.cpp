@@ -24,13 +24,8 @@
 
 #include "princomp.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colourix.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "printctl.h"
 #include "saveeps.h"
 

@@ -20,8 +20,6 @@
 #define INC_DEBUGDLG
 
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 #define OPTOKEN_DEBUGDLG _T("DebugDlg")

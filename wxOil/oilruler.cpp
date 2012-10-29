@@ -24,24 +24,18 @@
 // No rulers in Webster
 #ifndef WEBSTER
 
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilruler.h"
 //#include "mainfrm.h"
 //#include "camafx.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
-//#include "winrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camview.h"
 #include "rulers.h"
 //#include "fonts.h"
 #include "guides.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "statline.h"
 //#include "ed.h"
 #include "ctrlhelp.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "richard2.h"	// For naughty inline strings...
 #include "basebar.h"
 #include "brushmsg.h"

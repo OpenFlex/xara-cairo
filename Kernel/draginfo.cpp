@@ -24,7 +24,6 @@
 
 #include "draginfo.h"
 #include "dragmsg.h"
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "mario.h"
 

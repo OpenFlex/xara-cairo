@@ -25,7 +25,6 @@
 
 //#include "atm.h"
 #include "fontbase.h"
-//#include "pathtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CharDescription;
 class DocCoord;

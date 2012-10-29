@@ -27,7 +27,6 @@
 #include <string.h>						// for memset()
 #include "csrstack.h"
 #include "oilprog.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "keypress.h"
 #include "unicdman.h"
 

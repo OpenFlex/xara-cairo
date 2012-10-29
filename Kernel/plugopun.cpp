@@ -24,11 +24,9 @@
 //#include "plugres.h"		// _R(IDS_PLUGIN_FAMILY)
 
 #include "plugmngr.h"		// main plug-in manager
-//#include "app.h"			// GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "simon.h"			// _R(IDS_NO_DOC) _R(IDS_NO_OBJECTS_SELECTED)
 #include "nodebmp.h"		// NodeBitmap
-//#include "fillattr.h"		// AttrFillGeometry - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Place any IMPLEMENT type statements here
 CC_IMPLEMENT_DYNCREATE(PlugInUndoOp, SelOperation);

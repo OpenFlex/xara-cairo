@@ -20,7 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // file version number
 DECLARE_SOURCE("$Revision: 1282 $");

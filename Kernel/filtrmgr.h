@@ -20,7 +20,6 @@
 #define INC_FILTRMGR
 
 #include "ccarray.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 typedef UINT32 FileFormatID;
 

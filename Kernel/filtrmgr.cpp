@@ -18,7 +18,6 @@
 #include "camtypes.h"
 #include "filtrmgr.h"
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fileform.h"
 
 #if defined(DEBUG_THIS)

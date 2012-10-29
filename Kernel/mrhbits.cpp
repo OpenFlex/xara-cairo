@@ -18,9 +18,7 @@
 
 #include "camtypes.h"
 #include "mrhbits.h"		// TODO
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "bitmap.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndrgn.h"
 #include "grndbmp.h"
 #include "fillattr2.h"

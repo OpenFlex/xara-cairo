@@ -18,11 +18,9 @@
 #include "camtypes.h"
 //#include "node.h"
 //#include "ink.h"
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "saveeps.h"
 
 // Save/load
-//#include "cxfrec.h"		// CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "cxftags.h"
 //#include "cxfdefs.h"
@@ -58,7 +56,6 @@
 #include "gclips.h"
 #include "blobs.h"
 #include "nodeblnd.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "quality.h"
 //#include "qualattr.h"
 #include "gdraw.h"

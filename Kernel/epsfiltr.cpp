@@ -19,51 +19,36 @@
 
 
 #include "camtypes.h"
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include <ctype.h>
 
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitfilt.h"
 #include "ccdc.h"
 #include "colcomp.h"
 #include "csrstack.h"
-//#include "doccomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prvwflt.h"
 #ifndef WEBSTER
 //#include "extfilts.h"
 #endif //WEBSTER
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 #include "lineattr.h"
 #include "nativeps.h"	// old native filter based on eps, used for version 1.1  
 #include "nodeelip.h"
 #include "nodepath.h"
 #include "noderect.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
 #include "paper.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"        
 //#include "resource.h"
 //#include "rik.h"
 #include "saveeps.h"
 #include "sglayer.h"
 #include "sprdmsg.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gclips.h"
 #include "nodetxts.h"
 #include "nodetxtl.h"
 #include "nodershp.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "insertnd.h"
 #include "fontman.h"
 #include "guides.h"
@@ -71,7 +56,6 @@
 //#include "will2.h"
 #include "moldshap.h"
 #include "ai_bmp.h"
-//#include "epsclist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "epscdef.h"
 #include "nodetext.h"
 

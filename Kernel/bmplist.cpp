@@ -21,13 +21,7 @@
 */
 
 #include "camtypes.h"
-//#include "bmplist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "will.h"
 //#include "native.h"			// The new designed native filter, used for v2
 //#include "nativeps.h"		// The old style EPS native filter, used in v1.1

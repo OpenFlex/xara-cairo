@@ -20,7 +20,6 @@
 #ifndef INC_OPTSUNDO
 #define INC_OPTSUNDO
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 
 /********************************************************************************************

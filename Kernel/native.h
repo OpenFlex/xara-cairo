@@ -19,7 +19,6 @@
 #ifndef INC_NATIVE
 #define INC_NATIVE
 
-//#include "camfiltr.h"	// 	BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpprefs.h"	// SelectionType
 
 class WebPrefsDlgParam;

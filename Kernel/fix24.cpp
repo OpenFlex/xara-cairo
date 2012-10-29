@@ -29,8 +29,6 @@
 
 
 #include "camtypes.h"
-//#include "fixed24.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fix24.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

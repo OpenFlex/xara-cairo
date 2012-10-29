@@ -23,7 +23,6 @@
 #include "camtypes.h"
 #include "metaview.h"
 #include "vstate.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 CC_IMPLEMENT_DYNAMIC(MetafileView, View)

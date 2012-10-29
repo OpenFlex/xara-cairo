@@ -22,8 +22,6 @@
 #define INC_SGMENU
 
 #include "contmenu.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

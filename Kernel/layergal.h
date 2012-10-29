@@ -19,8 +19,6 @@
 #ifndef INC_LAYERGAL
 #define INC_LAYERGAL
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 
 class LayerSGallery;

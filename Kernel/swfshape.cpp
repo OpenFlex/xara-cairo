@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swfexpdc.h"
 #include "swfshape.h"
 

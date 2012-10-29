@@ -18,8 +18,6 @@
 #ifndef INC_PAGE
 #define	INC_PAGE
 
-//#include "npaper.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class RenderRegion;
 

@@ -21,7 +21,6 @@
 #define INC_DRAGBMP
 
 #include "draginfo.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 class CWxBitmap;

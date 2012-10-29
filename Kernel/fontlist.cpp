@@ -22,11 +22,7 @@
 
 #include "camtypes.h"
 #include "fontlist.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

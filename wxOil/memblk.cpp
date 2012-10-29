@@ -24,11 +24,8 @@
 
 #include <errno.h>
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "andy.h"
 //#include "simon.h"				// for _R(IDS_CONTINUE)
-//#include "memblk.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 
 #ifndef WIN32

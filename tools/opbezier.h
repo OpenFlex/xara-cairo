@@ -19,8 +19,6 @@
 #ifndef INC_OPBEZIER
 #define INC_OPBEZIER
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BezierTool;
 class Cursor;

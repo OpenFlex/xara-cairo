@@ -25,7 +25,6 @@
 #ifndef INC_PRINTPREFS
 #define INC_PRINTPREFS
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

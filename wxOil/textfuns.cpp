@@ -22,7 +22,6 @@
 #include "camtypes.h"
 #include "textfuns.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "fontman.h"
 #ifndef EXCLUDE_FROM_XARALX

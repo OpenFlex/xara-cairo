@@ -18,22 +18,12 @@
 
 #include "camtypes.h"	// Camelot data types.
 #include "page.h"		// For Page.
-//#include "ops.h"		// For Operation. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h"		// For SelOperation. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h"		// For CCLexFile. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h"	// For Document, DocCoord. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathname.h"	// For PathName. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h"		// For Spread. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h"	// For colours. - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"	// For progress functions.
 //#include "nev.h"		// Resources for error messages.
 #include "nodeshad.h"	// For NodeShadow.
 #include "userattr.h"	// Needed for TemplateAttribute.
-//#include "cxfrech.h"	// Needed for TemplateAttribute. - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tmpltatr.h"	// For TemplateAttribute.
 
-//#include "oilfltrs.h"	// For FlashOILFilter. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h"	// Filter attributes. - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"	// Resources for this class.
 #include "bitfilt.h"	// For static drawing size function.
 //#include "simon.h"		// Button name resources.

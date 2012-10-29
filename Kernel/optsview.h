@@ -22,9 +22,6 @@
 #ifndef INC_OPTSVIEW
 #define INC_OPTSVIEW
 
-//#include "unittype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 
 /********************************************************************************************

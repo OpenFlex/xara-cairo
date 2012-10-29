@@ -25,25 +25,15 @@
 */
 
 #include "camtypes.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prnmks.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fileutil.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nativeop.h"
 #include "layer.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colormgr.h"
 #include "prnmkcom.h"
 #include "qualattr.h"
-//#include "matrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dbugtree.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cctime.h"
 #include "nodetxts.h"
 #include "nodetxtl.h"

@@ -16,22 +16,11 @@
 
 
 #include "camtypes.h"
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "ophist.h"
 
-//#include "range.h"                         - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h"   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h"      - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selstate.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cpyact.h"
 #include "clipint.h"
 #include "pathedit.h"
@@ -41,10 +30,7 @@
 //#include "markn.h"
 #include "progress.h"
 #include "invalid.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodeblnd.h"
 #include "nodetxtl.h"
 #include "nodetxts.h"

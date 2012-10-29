@@ -21,8 +21,6 @@
 #ifndef INC_CLIPATTR
 #define INC_CLIPATTR
 
-//#include "attrval.h"	// derivation from AttributeValue. - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h"		// for Path member variable. - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "clipres.h"
 
 /********************************************************************************************

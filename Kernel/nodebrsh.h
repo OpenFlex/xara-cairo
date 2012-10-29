@@ -20,7 +20,6 @@
 #ifndef INC_NODEBRSH
 #define INC_NODEBRSH
 
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodeBrushMaker;
 class NodeBrushPath;

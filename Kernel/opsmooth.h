@@ -22,7 +22,6 @@
 #ifndef INC_OPSMOOTH
 #define INC_OPSMOOTH
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_SMOOTHSELECTION _T("SmoothSelection")
 #define SMOOTH_CONSTANT 27000000

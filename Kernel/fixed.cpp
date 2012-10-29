@@ -20,7 +20,6 @@
 
 
 #include "camtypes.h"
-//#include "fixed.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

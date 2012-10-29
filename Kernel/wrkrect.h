@@ -19,7 +19,6 @@
 #ifndef INC_WRKRECT
 #define INC_WRKRECT
 
-//#include "wrkcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /***********************************************************************************************

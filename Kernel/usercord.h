@@ -19,7 +19,6 @@
 #ifndef INC_USERCORD
 #define INC_USERCORD
 
-//#include "coord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class DocCoord;
 class Spread;

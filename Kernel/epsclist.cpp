@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "epsclist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "epscdef.h"
 
 CC_IMPLEMENT_DYNAMIC ( EPSCommentList, CCObject )

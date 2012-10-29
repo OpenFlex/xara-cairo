@@ -22,7 +22,6 @@
 #ifndef NGITEM_H
 #define NGITEM_H
 
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "justin3.h"
 
 class Node;

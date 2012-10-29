@@ -20,7 +20,6 @@
 #define INC_BMPFILTR
 
 #include "bitfilt.h"
-//#include "outptdib.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpprefs.h"  // SelectionType
 //#include "imglib.h"
 //#include "accures.h"

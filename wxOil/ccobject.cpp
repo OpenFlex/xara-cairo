@@ -26,10 +26,7 @@
 #include <new>
 #endif
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 
 

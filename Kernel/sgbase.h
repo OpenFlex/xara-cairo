@@ -33,8 +33,6 @@
 #define INC_SGBASE
 
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class TEMPLATE;		// TO DO: You may or not need this

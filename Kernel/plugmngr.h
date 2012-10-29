@@ -21,8 +21,6 @@
 #ifndef INC_PLUGINMANAGER
 #define INC_PLUGINMANAGER
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "plugin.h"
 #include "plugop.h"
 

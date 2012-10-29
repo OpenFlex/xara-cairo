@@ -25,21 +25,13 @@
 //#include "filtrres.h"
 
 // code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clipmap.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
 #include "nodetxts.h"
 #include "nodetext.h"
 #include "nodetxtl.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textfuns.h"
 
 // resource headers

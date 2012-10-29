@@ -24,15 +24,9 @@
 #include "toollist.h"
 //#include "ensure.h"
 //#include "mainfrm.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "basebar.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "keypress.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "toolmsg.h"
 #include "usercord.h"

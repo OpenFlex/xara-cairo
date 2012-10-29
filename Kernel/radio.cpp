@@ -18,8 +18,6 @@
 
 
 #include "camtypes.h"
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "radio.h"
 
 

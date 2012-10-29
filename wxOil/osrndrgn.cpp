@@ -25,26 +25,15 @@
 
 #include "osrndrgn.h"	// This also includes 'rndrgn.h' and 'paths.h'
 #include <math.h>		// Uses 'atn' to find the angle of a line
-//#include "app.h"		// Need definition of 'Camelot' - in camtypes.h [AUTOMATICALLY REMOVED]
 // #include "mainfrm.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "winrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rendbits.h"
 #include "grndrgn.h"
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "devcolor.h"
 #include "oilbitmap.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 // #include "oiltool.h"
 #include "camview.h"
 // #include "fonts.h"		// For FixedSystem font from the FontFactory
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fuzzclip.h"
 #include "nodeelip.h"
 #include "noderect.h"
@@ -52,7 +41,6 @@
 #include "printctl.h"
 #include "psrndrgn.h"
 #include "palman.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "maskedrr.h"
 // #include "prdlgctl.h"
 #include "textfuns.h"

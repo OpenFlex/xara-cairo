@@ -26,12 +26,10 @@
 #include "csrstack.h"
 
 #include "rendwnd.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prntview.h"
 #include "osrndrgn.h"
 #include "scroller.h"
 #include "rulers.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "localenv.h"
 #include "zoomops.h"
 #include "vkextra.h"

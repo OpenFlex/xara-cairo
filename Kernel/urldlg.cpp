@@ -22,7 +22,6 @@
 //#include "urlres.h"		//URL dialog resources
 //#include "resimmap.h"	//URL import string resources
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "xshelpid.h"	//For the help ID
 

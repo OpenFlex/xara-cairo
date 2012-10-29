@@ -15,8 +15,6 @@
  */
 
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 class TextChar;

@@ -20,24 +20,14 @@
 // The implementation of the NodeRenderableInk attribute optimisation routines 
 
 #include "camtypes.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objreg.h"
 #include "ndoptmz.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 #include "nodedoc.h"
 #include "ndmldgrp.h"
 #include "nodemldr.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // for the template attribute
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h" 
 

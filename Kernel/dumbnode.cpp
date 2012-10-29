@@ -20,7 +20,6 @@
 DECLARE_SOURCE("$Revision: 1282 $");
 
 #include "dumbnode.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 
 /********************************************************************************************

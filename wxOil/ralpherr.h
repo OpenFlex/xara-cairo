@@ -20,7 +20,6 @@
 #ifndef IDTOHRESULT_H
 #define IDTOHRESULT_H
 
-//#include "ralphint.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 //#include "andy.h"
 //#include "will.h"

@@ -19,9 +19,6 @@
 #define	INC_DLGEVT
 
 #include "drawctl.h"
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ktimer.h"
 
 class	DialogManager;

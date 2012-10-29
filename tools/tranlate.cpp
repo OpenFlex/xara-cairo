@@ -22,7 +22,6 @@
 #include "camtypes.h"
 #include "tranlate.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "rik.h"
 //#include "clikdrag.h"
 

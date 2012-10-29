@@ -23,7 +23,6 @@
 #include "camtypes.h"
 
 #include "camdoc.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camview.h"
 #include "camframe.h"
 //#include "Res/UKEnglish/stringtbl.h"

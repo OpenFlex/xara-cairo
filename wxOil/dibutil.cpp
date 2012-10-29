@@ -21,13 +21,8 @@
 */
 
 #include "camtypes.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndrgn.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "andy.h"
 //#include "outptdib.h"
 #include "bitfilt.h"
@@ -35,10 +30,7 @@
 #include "progress.h"
 #include "tunemem.h"
 //#include "outptgif.h"	 	// GIF_TRANS_COLOUR
-//#include "bitmap.h"			// KernelBitmap class - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"		// CWxBitmap class
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h"		// BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gpalopt.h"
 //#include "bmapprev.h"
 #include "hardwaremanager.h"

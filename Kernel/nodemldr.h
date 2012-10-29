@@ -19,11 +19,7 @@
 #ifndef INC_NODEMOULDER
 #define INC_NODEMOULDER
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "selop.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_NODEMOULDER _T("MoulderObject")
 

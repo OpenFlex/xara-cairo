@@ -28,13 +28,8 @@ DECLARE_SOURCE("$Revision: 1282 $");
 #include "sprdmsg.h"
 //#include "markn.h"
 //#include "simon.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layermgr.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "insertnd.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "barsdlgs.h" 
 #include "guides.h" 

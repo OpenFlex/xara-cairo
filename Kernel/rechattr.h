@@ -18,7 +18,6 @@
 #ifndef INC_RECHATTR
 #define INC_RECHATTR
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 

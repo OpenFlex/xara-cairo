@@ -19,9 +19,6 @@
 #ifndef INC_GRID_H
 #define INC_GRID_H
 
-//#include "npaper.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // The following enum defines the eight select blobs of a grid in a specific way. These values are used to
 // reference the coords available from NodeGrid::GetBlobCoords.

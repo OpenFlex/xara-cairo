@@ -18,8 +18,6 @@
 
 #include "camtypes.h"
 #include "riffform.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colourix.h"
 #include "collist.h"
 

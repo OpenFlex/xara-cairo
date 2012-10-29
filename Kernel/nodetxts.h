@@ -18,8 +18,6 @@
 #ifndef INC_NODETXTS
 #define INC_NODETXTS
 
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "matrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodePath;
 class CaretNode; 

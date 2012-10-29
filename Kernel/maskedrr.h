@@ -20,7 +20,6 @@
 #define INC_MASKEDRR
 
 #include "grndbmp.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class FlatTranspFillAttribute;
 class StrokeTranspAttribute;

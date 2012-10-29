@@ -24,13 +24,9 @@
 #include "grndbrsh.h"
 #include "grnddib.h"
 #include "grndrgn.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
 //#include "gdrawasm.h"
 #include "palman.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 #include "freehand.h"
 #include "freeinfo.h"

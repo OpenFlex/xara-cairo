@@ -19,15 +19,11 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
-//#include "docview.h"	// DocView - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pngfiltr.h"
 #include "pngutil.h"	// PNG utility class
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"
 //#include "bmpfiltr.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "nodebmp.h"
 //#include "wbitmap.h"	// Windows specific bitmap information	 
@@ -36,7 +32,6 @@
 //#include "filtrres.h"	// Filter ids
 //#include "will3.h"		// for _R(IDS_GENOPTPALMSGID)
 #include "outptpng.h"	// PNG filter type, includes imglib.h 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "maskfilt.h"	// MaskedFilter class
 #include "bmapprev.h"	// tab preview dialog
 #include "palman.h"		// PaletteManager::FindFirstDontUseColourInPalette

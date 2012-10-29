@@ -21,8 +21,6 @@
 
 #include "camtypes.h"
 #include "rifffile.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "riffdata.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

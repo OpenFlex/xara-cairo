@@ -18,21 +18,15 @@
 
 #include "camtypes.h"
 
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colcomp.h"
 #include "collist.h"
 #include "colourix.h"
 #include "colormgr.h"
 #include "colpick.h"
 #include "comattrmsg.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragcol.h"
 #include "dragmgr.h"
 #include "fileutil.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "galres.h"
 //#include "galstr.h"
 //#include "isetres.h"
@@ -49,7 +43,6 @@
 #include "sgmenu.h"
 
 #include "ccdc.h"		// For render-into-dialogue support
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 //#include "richard2.h"	// resources to remove naughty inline strings
 #include "ccolbar.h"	// EnsureLibraryColoursPresent

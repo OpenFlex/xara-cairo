@@ -21,8 +21,6 @@
 
 #include "clicarea.h"	//For ImagemapClickableArea and derived classes
 #include "filtimop.h"	//For ImagemapFilterOptions::GetOriginOfExportArea
-//#include "paths.h"		//For Path::Scale - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h"	//For DocCoord::Scale - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNAMIC(Imagemap, List)
 

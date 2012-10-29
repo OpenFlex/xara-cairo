@@ -22,11 +22,7 @@
 #ifndef INC_PRINTMARKS
 #define INC_PRINTMARKS
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lddirect.h"
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class String_256;
 class NodeGroup;

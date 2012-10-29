@@ -28,10 +28,7 @@
 // Includes
 #include "camtypes.h"
 #include "fntcache.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "textfuns.h"
 #include "grndrgn.h"
 #include "gdraw.h"

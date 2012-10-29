@@ -19,7 +19,6 @@
 #ifndef INC_KEYPRESS
 #define INC_KEYPRESS
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 enum KeyPressSysMsgHandle
 {

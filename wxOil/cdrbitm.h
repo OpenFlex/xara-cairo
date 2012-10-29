@@ -24,7 +24,6 @@
 #define INC_CDRBITM
 
 #include "rifffile.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CDRFilter;
 

@@ -22,7 +22,6 @@
 #ifndef NGDIALOG_H
 #define NGDIALOG_H
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

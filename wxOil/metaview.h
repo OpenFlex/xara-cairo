@@ -19,7 +19,6 @@
 #ifndef INC_METAVIEW
 #define INC_METAVIEW
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

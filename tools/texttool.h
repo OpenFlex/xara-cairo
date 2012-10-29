@@ -19,7 +19,6 @@
 #ifndef INC_TEXTTOOL
 #define INC_TEXTTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "transop.h"
 
 class Cursor;

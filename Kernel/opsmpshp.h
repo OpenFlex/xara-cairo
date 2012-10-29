@@ -20,7 +20,6 @@
 #ifndef INC_OPSMPSHP
 #define INC_OPSMPSHP
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Spread;
 class NodeEllipse;

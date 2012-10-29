@@ -21,7 +21,6 @@
 
 #include "camtypes.h"
 #include "invalid.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // declare the source
 DECLARE_SOURCE("$Revision: 1282 $");

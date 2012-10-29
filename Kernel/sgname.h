@@ -30,11 +30,8 @@
 #ifndef SGNAME_H
 #define SGNAME_H
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgdrag.h"
 #include "dragbmp.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "attrsets.h"
 

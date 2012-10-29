@@ -16,11 +16,8 @@
 
 
 #include "camtypes.h"
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Save/load
-//#include "cxfrec.h"		// CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "cxftags.h"
 
@@ -29,7 +26,6 @@
 //#include "cntres.h"
 #include "gdraw.h"
 #include "gclips.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
 #include "blobs.h"
 #include "objchge.h"

@@ -19,13 +19,10 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camframe.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "barsdlgs.h"
 #include "colcontx.h"
 #include "colormgr.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "isetattr.h"
 //#include "isetres.h"
 //#include "jason.h"

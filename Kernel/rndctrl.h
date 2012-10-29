@@ -23,7 +23,6 @@
 #ifndef INC_RNDCTRL
 #define INC_RNDCTRL
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

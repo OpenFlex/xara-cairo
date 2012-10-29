@@ -30,10 +30,7 @@
 //#ifndef WEBSTER
 
 //#include "barsdlgs.h"	// _R(IDD_BARCONTROLSTORE), _R(IDC_BTN_UNITSETUPDLG) ...
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "dialogop.h"	// DialogOp header - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "optsres.h"	// error strings
 //#include "will.h"		// for _R(IDS_CLOSEDOCS)
 //#include "resource.h"	// for _R(IDS_CANCEL)
@@ -45,7 +42,6 @@
 #include "prpslyrs.h"	// Layer properties tab handler
 #include "prpsgds.h"	// Guides properties tab handler
 
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sprdmsg.h"	// spread messages
 #include "layermsg.h"	// spread messages
 #include "colmsg.h"		// more messages

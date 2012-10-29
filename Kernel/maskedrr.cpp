@@ -21,11 +21,7 @@
 
 #include "camtypes.h"
 #include "maskedrr.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNAMIC(MaskedRenderRegion, GRenderBitmap)

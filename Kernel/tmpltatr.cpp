@@ -20,10 +20,7 @@
     
 #include "camtypes.h"
 
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tmpltatr.h"
 
 #include "gadget.h"
@@ -32,10 +29,7 @@
 
 //#include "tmpltdlg.h"	// for slight bodginess
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "tmpltarg.h"	// WizOp
 
@@ -47,7 +41,6 @@
 #include "ngsentry.h"
 
 #ifdef _DEBUG
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #endif
 
 DECLARE_SOURCE("$Revision: 1688 $");

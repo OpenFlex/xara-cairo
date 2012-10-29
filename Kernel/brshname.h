@@ -19,7 +19,6 @@
 #ifndef BRSHNAME
 #define BRSHNAME
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brshcomp.h"
 
 /********************************************************************************************

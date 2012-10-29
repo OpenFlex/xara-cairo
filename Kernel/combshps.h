@@ -20,8 +20,6 @@
 #define INC_COMBSHPS
 
 //#include "selop.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "effects_stack.h"
 

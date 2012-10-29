@@ -35,17 +35,12 @@
 
 #include "camelot.h"
 //#include "mainfrm.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "camdoctp.h"
 #include "camdoc.h"
 
 #include "menuops.h"
 #include "menucmds.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "toollist.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "mario.h"
 #include "helpids.h"
@@ -58,7 +53,6 @@
 //#include "peter.h"
 //#include "will.h"
 //#include "justin.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "csrstack.h"
 //#include "tooldlg.h"
 #include "progress.h"
@@ -71,7 +65,6 @@
 #include "fileutil.h"	//For file util function
 //#include "rik.h"		//For _R(IDS_DEFAULTDOCNAME)
 
-//#include "group.h"		// for blends - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"		// for the sub menu stuff
 
 //#include "webdialog.h"	// specials/update dialogs

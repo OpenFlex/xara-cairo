@@ -23,26 +23,15 @@
 #include "pathedit.h"
 
 // Code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "csrstack.h"
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h"				// for CCMalloc and CCFree - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"			// for getting the line width of a NodePath
 #include "nodepath.h"
 #include "ndtxtpth.h"
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 #include "pathops.h"
 #include "progress.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrmap.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "bubbleid.h"
 #include "ndbldpth.h"
 #include "nodeblnd.h"
@@ -59,7 +48,6 @@
 //#include "simon.h"
 //#include "viewrc.h"
 //#include "phil.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brshattr.h"
 #include "opbevel.h"
 #include "nodemold.h"

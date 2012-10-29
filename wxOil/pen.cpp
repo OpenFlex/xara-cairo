@@ -23,7 +23,6 @@
 
 #include "pen.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "will.h"
 #include "camelot.h"
 //#include "gdihlp16.h"

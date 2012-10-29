@@ -25,8 +25,6 @@
 
 #include "webop.h"
 #include "nativeop.h"
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"
 
 //#include "barsdlgs.h"

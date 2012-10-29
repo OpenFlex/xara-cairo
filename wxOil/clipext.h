@@ -19,12 +19,7 @@
 #ifndef INC_CLIPEXT
 #define INC_CLIPEXT
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clipmap.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scrcamvw.h"
 
 

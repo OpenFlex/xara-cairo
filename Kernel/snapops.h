@@ -19,7 +19,6 @@
 #ifndef INC_SNAPOPS
 #define INC_SNAPOPS
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define	OPTOKEN_SHOWGRID		_T("ShowGrid")
 #define	OPTOKEN_SNAPTOGRID		_T("SnapToGrid")

@@ -21,7 +21,6 @@
 #define INC_DRAGMSG
 
 
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class DragManagerOp;

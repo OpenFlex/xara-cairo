@@ -20,7 +20,6 @@
 #ifndef INC_UNITCOMP
 #define INC_UNITCOMP
 
-//#include "doccomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BaseCamelotFilter;
 class CXaraFileRecord;

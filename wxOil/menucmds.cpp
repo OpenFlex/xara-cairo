@@ -33,12 +33,9 @@
 #include "camframe.h"
 #include "camdoc.h"
 //#include "camvw.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "printing.h"
 #include "helpuser.h"
 #include "menuops.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camview.h"
 //#ifdef WEBSTER
 //#include "ollie.h"
@@ -47,11 +44,9 @@
 //#include "registry.h"
 #include "product.h"
 //#include "resimmap.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fileutil.h"
 #include "sgliboil.h"
 //#endif //webster
-//#include "group.h"			// for management of blend stuff - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechblnd.h"		// so that can reset blend pointers
 //#include "urls.h"
 #include "filedlgs.h"

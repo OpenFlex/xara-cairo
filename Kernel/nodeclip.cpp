@@ -22,9 +22,7 @@
 #include "nodeclip.h"	// header file
 //#include "clipres.h"	// ClipView resources
 
-//#include "cxfrec.h"		// save/load - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	//
-//#include "camfiltr.h"	// - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "mario.h"		// for _R(IDE_NOMORE_MEMORY)
 

@@ -22,9 +22,6 @@
 #ifndef INC_PropertyTabsS
 #define INC_PropertyTabsS
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "unittype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h"		// units e.g. Millimeters - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

@@ -18,11 +18,7 @@
 #ifndef INC_CXFILE
 #define INC_CXFILE
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "taglists.h"
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #if defined(EXCLUDE_FROM_XARLIB)
 #include "xarlib.h"
 #endif

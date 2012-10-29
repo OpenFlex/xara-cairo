@@ -19,7 +19,6 @@
 #ifndef INC_SOFTSHADOWTOOLINFO
 #define INC_SOFTSHADOWTOOLINFO
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #ifdef BUILDSHADOWS
 

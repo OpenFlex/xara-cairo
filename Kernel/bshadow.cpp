@@ -19,10 +19,6 @@
 #ifdef BUILDSHADOWS
 
 #include "bshadow.h"
-//#include "gconsts.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gdraw.h"
 
 #include "camprofile.h"

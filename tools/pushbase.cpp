@@ -20,7 +20,6 @@
 #include "camtypes.h"
 #include <afxdllx.h>
 #include "module.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pushtool.h"
 //#include "zoomtool.h"
 //#include "freehand.h"

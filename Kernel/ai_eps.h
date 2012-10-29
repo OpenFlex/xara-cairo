@@ -20,9 +20,6 @@
 #ifndef INC_AI_EPS
 #define INC_AI_EPS
 
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "impbmp.h"
 
 // All the commands used by AI EPS files.

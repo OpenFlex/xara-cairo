@@ -21,11 +21,6 @@
 
 #include "camtypes.h"
 #include "moldpers.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 //#include "justin.h"
 #include "moldedit.h"

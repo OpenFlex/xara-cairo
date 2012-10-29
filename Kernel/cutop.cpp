@@ -22,15 +22,8 @@
 #include "camtypes.h" 
 #include "cutop.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clipint.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h" 
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
 #include "objchge.h"
 
@@ -39,14 +32,11 @@
 //#include "jason.h"
 //#include "peter.h"
 //#include "simon.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "textops.h"
 #include "nodetxts.h"		// For temporary disabling of text subselection copying/cutting
 //#include "barsdlgs.h"		// button controls
 
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ndoptmz.h"
 #include "progress.h"
 #include "transop.h"
@@ -58,11 +48,7 @@
 #include "opgrad.h"
 #include "blobs.h"
 
-//#include "cxfdefs.h"		// for TemplateAttribute - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 
@@ -72,7 +58,6 @@
 //#include "will2.h"			// for _R(IDS_FILLTOOL_FILLINFOBARNAME)
 #include "filltool.h"		// for GradInfoBarOp
 #include "ngitem.h"			// for SGNameItem
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "effects_stack.h"
 #include "ophist.h"
 

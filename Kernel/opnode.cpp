@@ -17,13 +17,9 @@
 // Implementation of the node operations
 
 #include "camtypes.h"
-//#include "selop.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opnode.h"	
 
 #include "objchge.h"	
-//#include "app.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tmpltres.h"	
 
 

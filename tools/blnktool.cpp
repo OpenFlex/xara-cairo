@@ -23,8 +23,6 @@
 #include "oilfiles.h"
 #include "csrstack.h"
 //#include "viewrc.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 #include "blobs.h"			// for blob rendering.
 //#include "mike.h"			// <******* Remember to include your own personal .h file

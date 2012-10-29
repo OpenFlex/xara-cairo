@@ -22,12 +22,9 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camdoc.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "native.h"
 //#include "rik.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "filtrres.h"
 

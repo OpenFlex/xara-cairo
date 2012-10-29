@@ -4,7 +4,6 @@
 #define INC_ZSTREAM
 
 #include <fstream>
-//#include "ccfile.h"		// FilePos - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "zutil.h"
 #include "zdeflate.h"

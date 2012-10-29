@@ -51,15 +51,10 @@
 // FontDataItemHandle
 
 #include "camtypes.h"
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 //#include "peter.h"
 #include "nodetxts.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
 #include "nodetext.h"
 #include "cxftext.h"

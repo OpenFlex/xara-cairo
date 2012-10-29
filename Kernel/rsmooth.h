@@ -22,8 +22,6 @@
 #ifndef INC_RETSMOOTH
 #define INC_RETSMOOTH
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define SMOOTH_MAX (2000*2000)
 #define SMOOTH_MIN (256*256)

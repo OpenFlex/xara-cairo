@@ -19,7 +19,6 @@
 #include "filtimop.h"
 
 //#include "resimmap.h"		//For _R(IDS_IMAGEMAP_DEFAULTMAPNAME)
-//#include "app.h"			//For GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitfilt.h"		//For GetSizeOfDrawing
 
 CC_IMPLEMENT_DYNAMIC(ImagemapFilterOptions, CCObject)

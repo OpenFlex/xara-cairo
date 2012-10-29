@@ -32,15 +32,9 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 
@@ -48,7 +42,6 @@
 //#include "wbitmap.h"
 #include "dragmgr.h"
 //#include "scrvw.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "resource.h"
 //#include "galstr.h"

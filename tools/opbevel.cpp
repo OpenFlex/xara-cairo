@@ -28,19 +28,10 @@
 #ifdef BUILDSHADOWS
 
 // Code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrbev.h"
 #include "nodebev.h"
 #include "progress.h"
 #include "objchge.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetxts.h"
 #include "nodetxtl.h"
 #include "nodeblnd.h"
@@ -48,16 +39,12 @@
 #include "nodemold.h"
 #include "mkshapes.h"
 #include "groupops.h"
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
 #include "bevtool.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodecont.h"
 #include "nodeshad.h"
 #include "opshadow.h"
 #include "textops.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "csrstack.h"
 #include "nodetxts.h"
 #include "nodeblnd.h"

@@ -20,19 +20,14 @@
 #include "sglinepr.h"
 
 #include "camelot.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "galstr.h"
 //#include "galres.h"
 #include "mainfrm.h"
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgdrag.h"
 #include "sgmenu.h"
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgstroke.h"
 #include "strkcomp.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "app.h"			// for RedrawStrokesInDocuments - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"		// for RedrawStrokesInDocuments
 #include "strkattr.h"		// for RedrawStrokesInDocuments
 #include "ppstroke.h"		// for RedrawStrokesInDocuments

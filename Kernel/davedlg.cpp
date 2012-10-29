@@ -22,39 +22,29 @@
 //#include "bevres.h"		//URL dialog resources
 //#include "resimmap.h"	//URL import string resources
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "xshelpid.h"	//For the help ID
 
 // includes for additions to the rendering tree
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
 #include "bitmpinf.h"
 #include "bmpfiltr.h"
 
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 
 #include "bmpexdoc.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "chapter.h"
 
 #include "beveler.h"
 
-//#include "oilcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "justin3.h"
 
-//#include "selop.h"        - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "mkshapes.h" 
 #include "groupops.h"
 

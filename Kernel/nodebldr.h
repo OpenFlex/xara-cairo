@@ -19,13 +19,7 @@
 #ifndef INC_NODEBLDR
 #define INC_NODEBLDR
 
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class RenderRegion;
 class Spread;

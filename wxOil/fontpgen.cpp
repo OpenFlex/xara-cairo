@@ -21,22 +21,14 @@
 #ifndef EXCLUDE_GALS
 #include "bfxalu.h"
 #include "textfuns.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h"			   - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndrgn.h"
 #include "wbitmap.h"
-//#include "outptdib.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontpgen.h"
 #include "progress.h"
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgcol.h"
 #include "unicdman.h"
 
-//#include "thumb.h" // not normally needed - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Implement the dynamic class bits...
 CC_IMPLEMENT_DYNAMIC(StringToBitmap, BitmapEffectBase)

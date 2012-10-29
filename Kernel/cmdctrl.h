@@ -38,9 +38,6 @@
 #ifndef INC_CMD_CONTROL
 #define INC_CMD_CONTROL
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 >	class CCAPI CmdControl : public ListItem

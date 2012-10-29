@@ -19,7 +19,6 @@
 #ifndef INC_TEXTACTS
 #define INC_TEXTACTS
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class TextStory;
 class TextChar;

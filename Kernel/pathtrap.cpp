@@ -20,7 +20,6 @@
 
 #include "pathtrap.h"
 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 CC_IMPLEMENT_DYNAMIC(NormCoord, CCObject)

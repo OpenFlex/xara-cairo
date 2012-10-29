@@ -23,8 +23,6 @@
 #include "exceptio.h"
 //#include "andy.h"
 //#include "alex.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1464 $");
 

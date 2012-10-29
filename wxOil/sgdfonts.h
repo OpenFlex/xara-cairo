@@ -21,7 +21,6 @@
 
 #ifndef EXCLUDE_GALS
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragbmp.h"
 #include "sgdrag.h"
 

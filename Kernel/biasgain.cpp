@@ -20,7 +20,6 @@
 
 #include "camtypes.h"
 
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clamp.h"
 
 

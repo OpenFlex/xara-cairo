@@ -21,8 +21,6 @@
 #ifndef INC_COLLIST
 #define INC_COLLIST
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BaseDocument;
 

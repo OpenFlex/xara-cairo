@@ -28,11 +28,9 @@ DECLARE_SOURCE("$Revision: 1389 $");
 
 #include "psdc.h"
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "prntview.h"
 #include "psrndrgn.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
 
 CC_IMPLEMENT_DYNAMIC(PSPrintDC, KernelDC);

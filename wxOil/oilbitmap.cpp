@@ -24,10 +24,6 @@
 
 #include "cartprov.h"
 #include "oilbitmap.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "bitmpinf.h"
 //#include "rndrgn.h"
@@ -40,17 +36,14 @@
 //#include "oilfiles.h"
 //#include "andy.h"
 //#include "extfilts.h"	// Accusoft filters (load that bitmap!)
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prdlgctl.h"
 #include "printctl.h"
 //#include "richard2.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colcontx.h"
 #include "colormgr.h"
 #include "colplate.h"
 
 #include "bitfilt.h"	// BaseBitmapFilter
-//#include "camfiltr.h"	// BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // for CMX export
 //#include "cmxrendr.h"

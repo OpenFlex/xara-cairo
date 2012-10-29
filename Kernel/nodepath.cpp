@@ -23,9 +23,7 @@
 #include "nodepath.h"
 
 #include <math.h>
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "contmenu.h"
 #include "lineattr.h"
@@ -37,10 +35,8 @@
 #include "nodetxts.h"
 #include "saveeps.h"
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 #include "cxfile.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechpath.h"
 
 //#include "simon.h"
@@ -62,7 +58,6 @@
 //#include "blendatt.h"
 #include "nodebldr.h"
 //#include "ndbldpth.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gblend.h"
 #include "blndhelp.h"
 #include "opdrbrsh.h"

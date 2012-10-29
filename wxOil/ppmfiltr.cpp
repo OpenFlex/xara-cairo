@@ -20,15 +20,11 @@
 #include "camtypes.h"
 #include "ppmfiltr.h"
 //#include "andy.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "nodebmp.h"
 //#include "bmpfiltr.h"
 #include "progress.h"
 #include "oilbitmap.h"	// Windows specific bitmap information	 
-//#include "docview.h"	// DocView - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "bitmap.h"		// kernel bitmap
 //#include "bmpres.h"		// general bitmap filter based resources
 //#include "resource.h"		// _R(IDS_OUTOFMEMORY)

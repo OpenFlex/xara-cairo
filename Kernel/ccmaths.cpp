@@ -17,10 +17,6 @@
 
 
 #include "camtypes.h"
-//#include "fixed.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "xlong.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccmaths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixed16.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

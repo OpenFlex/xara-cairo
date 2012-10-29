@@ -25,21 +25,16 @@
 
 //#include "prevwres.h"		// _R(IDS_DISPLAY_FRAME_GALLERY) _R(IDD_ANIMATIONBAR) ...
 #include "sgframe.h"		// FrameSGallery
-//#include "spread.h"			// Spread - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"			// _R(IDS_NO_DOC)
-//#include "app.h"			// GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h"			// CCMalloc - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prevwdlg.h"		// OPTOKEN_PREVIEWDIALOG
 #include "grndbmp.h"		// GRenderBitmap
 #include "filedlgs.h"		// ExportFileDialog
 //#include "tim.h"			// _R(IDT_CANT_FIND_FILTER)
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "nev.h"			// _R(IDN_USER_CANCELLED)
 #include "layermsg.h"		// layer messages REDRAW_LAYER
 
 //#include "accures.h"		// _R(IDN_FILTEREXT_GIF)
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "nodebmp.h"		// NodeBitmap
 #include "insertnd.h"		// InsertionNode
@@ -56,7 +51,6 @@
 #include "gpalopt.h" // for the palette optimiser
 #include "mrhbits.h"
 #include "page.h"
-//#include "quality.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

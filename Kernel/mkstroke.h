@@ -20,7 +20,6 @@
 #ifndef INC_MKSTROKE
 #define INC_MKSTROKE 
 
-//#include "selop.h"         - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_MAKE_STROKE _T("ConvertToStroke")
    

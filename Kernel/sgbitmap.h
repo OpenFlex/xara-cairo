@@ -19,8 +19,6 @@
 #ifndef INC_SGBASE
 #define INC_SGBASE
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragbmp.h"
 #include "sgdrag.h"
 //#include "bmpsdlg.h"

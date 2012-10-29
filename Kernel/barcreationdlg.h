@@ -18,7 +18,6 @@
 #ifndef INC_BARCREATIONDLG
 #define INC_BARCREATIONDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_BARCREATIONDLG _T("BarCreationDlg")
 #define OPTOKEN_BARSTATESDLG _T("BarStatesDlg")

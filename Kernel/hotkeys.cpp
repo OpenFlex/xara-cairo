@@ -21,15 +21,10 @@
 
 #include "camtypes.h"
 #include "hotkeys.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "keypress.h"
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilfiles.h"
 //#include "mario.h"
 #include "vkextra.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "toollist.h"
 #include "dragmgr.h"
 #include "basebar.h"

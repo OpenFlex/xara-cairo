@@ -22,10 +22,6 @@
 #ifndef INC_SHAPEOPS
 #define INC_SHAPEOPS
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h"						  - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_EDITREGULARSHAPE	_T("EditRegularShape")
 #define OPTOKEN_DRAGREGULARSHAPE	_T("DragRegularShape")

@@ -21,13 +21,8 @@
 
 #include "camtypes.h"
 #include "opnudge.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 //#include "resource.h"
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
 
 
@@ -35,7 +30,6 @@
 #include "slicehelper.h"	//For helper functions
 
 //But I had to include all of these to get it to work!!...
-//#include "cxfrech.h"		//For CamelotRecordHandler - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"		//For UserAttr
 #include "tmpltatr.h"		//For TemplateAttribute
 

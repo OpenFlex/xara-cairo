@@ -22,8 +22,6 @@
 #ifndef INC_FONTMAN
 #define INC_FONTMAN
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontbase.h"
 // #include "ccpanose.h" - included in fontbase.h
 

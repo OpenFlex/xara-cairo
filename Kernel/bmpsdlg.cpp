@@ -21,9 +21,7 @@
 //#include "bmpdlgr.h"
 //#include "bmpsdlgr.h"
 //#include "will3.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "giffiltr.h"
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
 #include "bmpprefs.h"		
 

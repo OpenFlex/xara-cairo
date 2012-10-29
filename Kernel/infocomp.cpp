@@ -27,15 +27,10 @@
 
 #include "infocomp.h"
 
-//#include "basedoc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "camfiltr.h"	// BaseCamelotFilter - version 2 native filter - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	// TAG_DOCUMENTCOMMENT
-//#include "cxfdefs.h"	//  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfile.h"		// CXF_UNKNOWN_SIZE
 //#include "expcol.h"		// ExportedColours handling class
-//#include "cxfrec.h"		// CXaraFileRecord handler - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "exphint.h"	// ExportHint class
 #include "ophist.h"

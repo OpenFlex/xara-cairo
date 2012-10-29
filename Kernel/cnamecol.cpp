@@ -17,8 +17,6 @@
 
 #include "camtypes.h"
 #include "cnamecol.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 CC_IMPLEMENT_DYNCREATE(CNamedColourReplacer, CCObject);

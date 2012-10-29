@@ -17,7 +17,6 @@
 
 #include "camtypes.h"
 
-//#include "bitmapcachekey.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction

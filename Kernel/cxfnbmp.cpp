@@ -28,11 +28,8 @@
 
 #include "nodebmp.h"
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfile.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfnbmp.h"
 
 /********************************************************************************************

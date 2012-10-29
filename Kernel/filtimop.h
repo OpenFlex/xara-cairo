@@ -19,8 +19,6 @@
 #ifndef INC_IMAGEMAPFILTEROPTIONS
 #define INC_IMAGEMAPFILTEROPTIONS
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpprefs.h"
 #include "flatfact.h"
 				 

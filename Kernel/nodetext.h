@@ -24,8 +24,6 @@
 #define EXPORT_TEXT 0
 #endif
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "matrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetxts.h"
 #include "textfuns.h"
 

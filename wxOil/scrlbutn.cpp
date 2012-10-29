@@ -24,9 +24,7 @@
 
 #include "scroller.h"
 #include "scrlbutn.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "mainfrm.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brushmsg.h" 
 
 #ifdef _DEBUG

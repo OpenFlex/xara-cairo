@@ -22,8 +22,6 @@
 */
 
 #include "camtypes.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "zstream.h"
 #include "zdeflate.h"

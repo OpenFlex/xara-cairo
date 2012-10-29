@@ -21,9 +21,6 @@
 #define INC_PREVIEWDLG
 
 // Find out about the DialogOp Class
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ktimer.h"
 //#include "impexpop.h"
 #include "frameops.h"

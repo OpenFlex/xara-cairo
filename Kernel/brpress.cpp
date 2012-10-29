@@ -19,7 +19,6 @@
 
 #include "camtypes.h"
 #include "brpress.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pen.h"
 #include "ndbldpth.h"
 

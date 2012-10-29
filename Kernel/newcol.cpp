@@ -30,7 +30,6 @@
 //#include "justin2.h"
 
 #include "ccdc.h"		// For render-into-dialogue support
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 
 

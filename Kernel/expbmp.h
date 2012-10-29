@@ -20,8 +20,6 @@
 #ifndef INC_EXPBMP
 #define INC_EXPBMP
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BitmapListComponent;
 class KernelBitmap;

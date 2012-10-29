@@ -19,20 +19,11 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodecach.h"
 #include "objchge.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "printctl.h"
 //#include "princomp.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpcomp.h"
 
 // operation headers

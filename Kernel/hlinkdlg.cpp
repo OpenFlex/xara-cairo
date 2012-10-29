@@ -30,25 +30,20 @@
 
 #include "ccdc.h"			// specific #includes needed for kernel-rendered dialogues
 
-//#include "app.h"			//for GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h"			//for selection range stuff - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "noderend.h"
 //#include "barsdlgs.h"		// _R(IDD_BARCONTROLSTORE), _R(IDC_BTN_WEBADDRESSDLG)
 
 //#include "hotdlg.h"			//The dialog rc file
 //#include "hotlink.h"		//The string resource rc file
 
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"
 
 #include "webattr.h"
 
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "nodetxts.h"
 
 #include "webaddr.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

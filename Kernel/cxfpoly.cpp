@@ -28,14 +28,9 @@
 
 #include "camtypes.h"
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodershp.h"
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfile.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfrgshp.h"
 #include "cxfpoly.h"
 

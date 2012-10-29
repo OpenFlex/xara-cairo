@@ -20,8 +20,6 @@
 #include "ai_layer.h"
 
 //#include "tim.h"
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision");
 

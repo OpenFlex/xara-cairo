@@ -21,8 +21,6 @@
 #ifdef BUILDSHADOWS
 
 //#include "control.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h"		// CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clipattr.h"
 
 class ContextMenu;

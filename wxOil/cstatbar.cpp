@@ -19,13 +19,11 @@
 
 #include "camtypes.h"
 #include <afxpriv.h>
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fonts.h"
 #include "csrstack.h"
 #include "cstatbar.h"
 #include "ctrlhelp.h"
 #include "statline.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include <afxcmn.h>
 
 #define IS_CHICAGO ((LOBYTE(LOWORD(GetVersion()))) > 3) 

@@ -19,7 +19,6 @@
 #ifndef OVERRIDELISTITEM
 #define OVERRIDELISTITEM
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

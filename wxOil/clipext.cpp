@@ -28,12 +28,8 @@
 //#include "jason.h"
 
 // **** TEMPORARY BODGE includes for crappy bitmap export
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "layer.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgview.h"
 #include "vstate.h"
 #include "wbitmap.h"
@@ -46,16 +42,13 @@
 #include "camdoc.h"
 #include "camelot.h"
 #include "srvritem.h"
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #endif
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // --- Support for node types used in scanning the document tree for KeepClipboardOnExit
 #include "nodeblnd.h"
 #include "nodebmp.h"
 #include "bitmpinf.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 // ---
 
 // --- OLE clipboard

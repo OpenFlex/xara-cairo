@@ -34,7 +34,6 @@
 //#include "makebmp.h"
 #include "page.h"
 #include "pngfiltr.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "will3.h"
 #include "fileutil.h"
 #include "filtrmgr.h"	//For FilterManager::FindFilterFromID
@@ -54,9 +53,7 @@
 #include "osrndrgn.h"
 //#include "rikdlg.h"		// _R(IDB_SLIDERBASE), _R(IDB_SLIDERSLIDER)
 //#include "justin.h"		// for _R(IDS_ZOOM_INFO_FORMAT) a % readout
-//#include "oilfltrs.h"	// for find filter ext - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "exprwres.h"	// for _R(IDS_BITMAPPREVIEWDIALOG)
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1745 $");
 

@@ -29,8 +29,6 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "barsdlgs.h"
 #include "bubbleid.h" 
 #include "camelot.h" 
@@ -43,26 +41,17 @@
 #include "colourix.h"
 #include "colpick.h"
 #include "ctrlhelp.h"
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"
-//#include "dlgtypes.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragcol.h"
 #include "dragmgr.h"
 #include "dragpick.h"
-//#include "ensure.h"   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "helpuser.h"		// For HelpUser()
-//#include "ink.h"			// For NodeRenderableInk - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "jason.h"
 #include "keypress.h"		// For constrain, escape, and OnKeyPress stuff
 #include "lineattr.h"		// For AttrStrokeColour
-//#include "msg.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "newcol.h"			// New colour dlg
 #include "nodedoc.h"
 #include "oilprog.h"		// For Beep()
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "optsmsgs.h"		// For OptionsChangingMsg
 #include "progress.h"
 //#include "resource.h"
@@ -73,11 +62,9 @@
 
 #include "ccdc.h"			// For render-into-dialogue support
 #include "dlgcol.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 #include "palman.h"
 
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 
 // include files necessary for correctly supporting camelots CColourPicker custom control

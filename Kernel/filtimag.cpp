@@ -18,20 +18,15 @@
 #include "camtypes.h"
 #include "filtimag.h"
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "resource.h"		// for _R(IDS_OUT_OF_MEMORY)
 
-//#include "camfiltr.h"		// for BaseCamelotFilter progress update - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h"			// Camelot - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "resimmap.h"		// Imagemap resources
 
 #include "fimagdlg.h"		//Imagemap dialog
 #include "filtimag.h"
 
-//#include "docview.h"		//For DocView::GetCurrent - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clipint.h"		//For InternalClipboard::CopyText
 #include "helpuser.h"		//For GetNextMsgHelpContext
 

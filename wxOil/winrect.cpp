@@ -21,10 +21,6 @@
 
 #include "camtypes.h"
 
-//#include "winrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

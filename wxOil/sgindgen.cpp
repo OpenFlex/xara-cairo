@@ -23,33 +23,24 @@
 #include "sgindgen.h"
 
 /*#include "ccfile.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgliboil.h"
 //#include "richard.h"
 #include "progress.h"
 //#include "resource.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #ifndef WEBSTER
 #include "extfilts.h"
 #include "imglib.h"
 #include "img_err.h"
 #endif	//WEBSTER
 //#include "accures.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 #include "sgscanf.h"
 //#include "simon.h"		// for _R(IDS_CONTINUE)
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "richard2.h"
-//#include "camfiltr.h"	// BaseCamelotFilter - new version 2 native/web filter - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfdefs.h"		// CXF_IDWORD1, signature of new file format - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "bmpexdoc.h"
 #include "bmpfiltr.h"
 #include "prvwflt.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 */
 
 extern BOOL MakeShortPath(LPTSTR lpszPath, size_t cchMaxLen);

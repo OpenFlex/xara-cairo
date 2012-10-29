@@ -22,7 +22,6 @@
 
 #include "camelot.h"
 #include "camframe.h"
-//#include "camresource.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "Res/tbbitmap.h"
 
@@ -31,7 +30,6 @@
 #include "menuops.h"
 #include "qualops.h"
 #include "zoomops.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "speedtst.h"
 #include "oilmenus.h"
 #include "csrstack.h"

@@ -21,10 +21,7 @@
 
 #include "camtypes.h"
 #include "scanrr.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
 #include "nodebldr.h"
 

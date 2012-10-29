@@ -20,8 +20,6 @@
 #ifndef INC_BRSHBEC
 #define INC_BRSHBEC
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Node;
 class CCAttrMap;

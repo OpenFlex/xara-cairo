@@ -24,24 +24,15 @@
 // Include files 
 #include "camtypes.h"
 #include "layermgr.h"
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mainfrm.h" 
 #include "infobar.h" 
 //#include "simon.h"
 //#include "mario.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bubbleid.h"
 //#include "sliceres.h" // for the resource id move to active layer
 #include "objchge.h" // for the allow op flags
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "will2.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

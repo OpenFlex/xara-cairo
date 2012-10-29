@@ -26,7 +26,6 @@
 #include "oilmenus.h"
 #include "menupref.h"
 #include "cutop.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "effects_stack.h"
 #include "opliveeffects.h"
 

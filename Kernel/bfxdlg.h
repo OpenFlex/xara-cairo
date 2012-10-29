@@ -19,8 +19,6 @@
 #ifndef INC_BFXDLG
 #define INC_BFXDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_BFXOP _T("BfxOp")
 

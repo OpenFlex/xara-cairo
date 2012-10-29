@@ -19,8 +19,6 @@
 #ifndef INC_BLOBS
 #define INC_BLOBS
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodeRenderable;
 class RenderRegion;

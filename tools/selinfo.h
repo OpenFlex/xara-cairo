@@ -20,7 +20,6 @@
 #ifndef SELINFO_INC
 #define SELINFO_INC
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 
 class KeyPress;

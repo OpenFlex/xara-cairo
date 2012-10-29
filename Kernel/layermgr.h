@@ -29,10 +29,6 @@
 
 // Include files 
 #include "layer.h"
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h"         - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_LYRCHNG _T("LayerChange")	// Optoken for the layer change operation 
 #define OPTOKEN_MOVE_SEL_TO_ACTIVE_LAYER _T("MoveSelToActiveLayer")

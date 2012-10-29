@@ -19,8 +19,6 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepostpro.h"
 #include "attrmap.h"
 
@@ -28,7 +26,6 @@
 //#include "resource.h"
 //#include "mario.h"
 #include "lineattr.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE( "$Revision: 1282 $" );
 

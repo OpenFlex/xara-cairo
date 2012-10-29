@@ -26,17 +26,12 @@
 #include "ngitem.h"
 #include "ngsetop.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sginit.h"
 #include "dragmgr.h"
 
 #include "scrvw.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 #include "grndbmp.h"
 #include "wbitmap.h"

@@ -17,7 +17,6 @@
 
 #include "camtypes.h"
 
-//#include "animparams.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNAMIC(AnimPropertiesParam, OpParam)
 

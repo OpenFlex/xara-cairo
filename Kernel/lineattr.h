@@ -20,12 +20,7 @@
 #ifndef INC_LINEATTR
 #define INC_LINEATTR
 
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fillattr2.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BlendAttrParam;
 class BaseCamelotFilter;

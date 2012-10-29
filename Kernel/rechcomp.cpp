@@ -23,11 +23,9 @@
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 #include "colcomp.h"	// Document colour component, handles import of colours
-//#include "camfiltr.h"	// BaseCamelotFilter - version 2 native filter - in camtypes.h [AUTOMATICALLY REMOVED]
 #endif
 
 #include "cxftags.h"	// TAG_DEFINERGBCOLOUR TAG_DEFINECOMPLEXCOLOUR
-//#include "cxfrec.h"		// TAG_STARTCOMPRESSION TAG_STOPCOMPRESSION - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1688 $");
 

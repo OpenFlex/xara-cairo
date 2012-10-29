@@ -26,7 +26,6 @@
 #define SGLINE2_H
 
 #include "sgline.h"
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

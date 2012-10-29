@@ -18,7 +18,6 @@
 
 
 #include "camtypes.h"
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 
 #include "jinclude.h"

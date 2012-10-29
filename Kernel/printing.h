@@ -21,8 +21,6 @@
 #ifndef INC_PRINTING
 #define	INC_PRINTING
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define	 OPTOKEN_PRINT			_T("Print")
 #define	 OPTOKEN_PRINT_SETUP	_T("PrintSetup")

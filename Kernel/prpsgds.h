@@ -25,12 +25,8 @@
 #ifndef INC_PROPERTIESGUIDES
 #define INC_PROPERTIESGUIDES
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layerprp.h"
 #include "snap.h"
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodeGuideline;
 class Layer;

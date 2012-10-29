@@ -22,7 +22,6 @@
 
 #include "dropdown.h"
 #include "gbrush.h"
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class IndexedColour;

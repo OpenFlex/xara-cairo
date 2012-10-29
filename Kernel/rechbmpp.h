@@ -18,7 +18,6 @@
 #ifndef INC_RECHBMPP
 #define INC_RECHBMPP
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

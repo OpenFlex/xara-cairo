@@ -20,8 +20,6 @@
 #ifndef INC_PRINTCTL
 #define INC_PRINTCTL
 
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colplate.h"
 
 class Spread;

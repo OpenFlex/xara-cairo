@@ -21,15 +21,7 @@
 
 #include "camtypes.h"
 #include "blobs.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
-//#include "docvmsg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Declare the source version number
 DECLARE_SOURCE("$Revision: 1601 $");

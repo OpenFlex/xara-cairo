@@ -21,9 +21,6 @@
 
 #include "camtypes.h"
 #include "snap.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grid.h"
 #include "statline.h"
 #include "layer.h"

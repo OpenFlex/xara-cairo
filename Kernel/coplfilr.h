@@ -19,10 +19,8 @@
 #ifndef INC_COPLFILR
 #define INC_COPLFILR
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colcomp.h"
 #include "impcol.h"
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vector3d.h"
 
 class String_64;

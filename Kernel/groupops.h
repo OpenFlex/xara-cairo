@@ -20,7 +20,6 @@
 #ifndef INC_GROUPOPS
 #define INC_GROUPOPS 
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
         
 class NodeGroup;
 class NodeGroupTransparency;

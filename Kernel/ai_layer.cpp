@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ai5_eps.h"
 #include "ai_layer.h"
 

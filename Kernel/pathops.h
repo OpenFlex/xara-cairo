@@ -25,10 +25,7 @@
 #define OPTOKEN_SELECTALLPATHPOINTS _T("SelectAllPathPoints")
 #define OPTOKEN_DESELECTALLPATHPOINTS _T("DeSelectAllPathPoints")
 
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "transop.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

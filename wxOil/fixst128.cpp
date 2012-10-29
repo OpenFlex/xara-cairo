@@ -16,7 +16,6 @@
 
 
 #include "camtypes.h"
-//#include "fixst128.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DEFINE_BUFSIZE(128);
 

@@ -19,14 +19,8 @@
 #ifndef INC_CONTOURTOOL
 #define INC_CONTOURTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "biasgdgt.h"
-//#include "iprofile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bevtrap.h"
 #include "dragtool.h"
 

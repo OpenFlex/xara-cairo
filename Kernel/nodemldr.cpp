@@ -24,18 +24,15 @@
 //#include "mike.h"
 #include "nodepath.h"
 #include "nodebmp.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "moldshap.h"
 #include "ndmldink.h"
 #include "ndmldgrp.h"
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 #include "cameleps.h"
 #include "aw_eps.h"
 //#include "oilprog.h"
 
 #include "moldpers.h"	// For MouldPerspecive class definition
-//#include "fillattr.h" 	// For AttrFillGeometry::MakePerspective() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "extender.h"
 #include "ngcore.h"		// NameGallery, for stretching functionality

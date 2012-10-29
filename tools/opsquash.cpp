@@ -22,11 +22,8 @@
 #include "camtypes.h"
 #include "opsquash.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "rik.h"
 #include "selector.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "clikdrag.h"
 
 

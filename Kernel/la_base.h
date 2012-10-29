@@ -24,7 +24,6 @@
 #ifndef LA_BASE_H
 #define LA_BASE_H
 
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

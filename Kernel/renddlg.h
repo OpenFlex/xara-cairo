@@ -21,8 +21,6 @@
 
 
 // Find out about the DialogOp Class
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_RENDERDEMODLG _T("RenderDemoDlg")
 

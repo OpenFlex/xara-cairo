@@ -18,32 +18,19 @@
 // Implementation of the Contour operations
 
 #include "camtypes.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opcntr.h"
 //#include "cntres.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodecntr.h"
 #include "ncntrcnt.h"
 #include "progress.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "attrmap.h"
 #include "gclips.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opbevel.h"
 #include "nodecont.h"
 #include "objchge.h"
 #include "blndtool.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebldr.h"
 #include "ppbevel.h"	//	for bevel helpers
 #include "fitcurve.h"

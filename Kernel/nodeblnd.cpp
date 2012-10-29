@@ -22,26 +22,19 @@
 #include "nodeblnd.h"
 //#include "markn.h"
 //#include "mario.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
 //#include "rndrgn.h"
 #include "aw_eps.h"
 #include "cameleps.h"
 #include "objchge.h"
 #include "nodebldr.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "contmenu.h"
 #include "blndtool.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ndbldpth.h"
 #include "attrmap.h"
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechblnd.h"
 #include "nodershp.h"
 //#include "opshadow.h"

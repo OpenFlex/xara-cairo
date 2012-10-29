@@ -22,7 +22,6 @@
 
 #include "nodebldr.h"
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BitmapFillAttribute;
 

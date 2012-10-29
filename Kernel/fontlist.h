@@ -23,8 +23,6 @@
 #ifndef INC_FONTLIST
 #define INC_FONTLIST
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrmap.h"
 //#include "fontbase.h"
 

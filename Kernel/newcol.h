@@ -20,8 +20,6 @@
 #define INC_NEWCOL
 
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Prototypes
 class IndexedColour;

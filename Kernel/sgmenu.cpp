@@ -23,7 +23,6 @@
 #include "camtypes.h"
 
 #include "sgmenu.h"
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

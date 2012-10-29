@@ -19,7 +19,6 @@
 #ifndef INC_PALMAN
 #define INC_PALMAN
 
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CDC;
 class CPalette;

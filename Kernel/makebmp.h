@@ -20,7 +20,6 @@
 #ifndef	INC_MAKEBMP
 #define	INC_MAKEBMP
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "giffiltr.h"
 
 #define OPTOKEN_CONVERTTOBITMAP _T("ConvertToBitmap")	

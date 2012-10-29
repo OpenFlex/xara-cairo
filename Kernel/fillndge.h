@@ -20,7 +20,6 @@
 #define INC_FILLNDGE
 
 #include "tranlate.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_FILLNUDGE 		_T("FillNudge")
 

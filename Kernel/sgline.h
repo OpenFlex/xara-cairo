@@ -19,8 +19,6 @@
 #ifndef INC_SGLINE
 #define INC_SGLINE
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brshgdgt.h"
 
 

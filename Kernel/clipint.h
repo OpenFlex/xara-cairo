@@ -21,7 +21,6 @@
 #ifndef INC_CLIPINT
 #define INC_CLIPINT
 
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class Layer;

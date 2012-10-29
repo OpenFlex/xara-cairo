@@ -20,7 +20,6 @@
 #include "camtypes.h"
 #include "samplist.h"
 #include "brshcomp.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pen.h"
 
 CC_IMPLEMENT_DYNAMIC(CSampleItem, CCObject);

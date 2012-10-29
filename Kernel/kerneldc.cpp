@@ -24,8 +24,6 @@
 
 #include "kerneldc.h"
 #include "colourix.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1432 $");
 

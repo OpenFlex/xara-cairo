@@ -19,10 +19,6 @@
 #ifndef INC_ZOOMTOOL
 #define INC_ZOOMTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccmaths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Cursor;
 class Spread;

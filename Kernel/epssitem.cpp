@@ -15,8 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "epsstack.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "epssitem.h"
 
 CC_IMPLEMENT_MEMDUMP(EPSStackItem, ListItem)

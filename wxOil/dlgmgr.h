@@ -27,12 +27,6 @@
 //------------------------------------------------------------------------------------------
 // Include files
  
-//#include "ccobject.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h"  // Dialog types         - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "basestr.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "convert.h"   - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "stack.h"
 //#include "xaraprop.h"
 

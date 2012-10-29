@@ -18,7 +18,6 @@
 
 
 #include "camtypes.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gadget.h"
 
 

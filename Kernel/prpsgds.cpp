@@ -34,8 +34,6 @@
 #include "prpsgds.h"
 #include "guides.h"
 #include "coldrop.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 #include "sglayer.h"
 #include "colourix.h"

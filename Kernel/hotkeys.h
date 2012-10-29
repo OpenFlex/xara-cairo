@@ -19,7 +19,6 @@
 #ifndef INC_HOTKEYS
 #define INC_HOTKEYS
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KeyPress;
 class OpDescriptor;

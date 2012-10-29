@@ -24,7 +24,6 @@
 
 #include "bmpprefs.h"
 #include "webparam.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

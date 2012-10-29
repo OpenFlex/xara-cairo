@@ -22,16 +22,11 @@
 
 #include "camtypes.h"
 
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oiltool.h"
 //#include "resource.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "csrstack.h"
 #include "cartprov.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camframe.h"
 #include "drawctl.h"
 

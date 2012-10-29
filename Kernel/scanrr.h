@@ -19,8 +19,6 @@
 #ifndef INC_SCANRR
 #define INC_SCANRR
 
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

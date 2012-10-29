@@ -29,10 +29,8 @@
 #ifdef BUILDSHADOWS
 
 // code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "csrstack.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilfiles.h"
 #include "opshadow.h"
 #include "shadinfo.h"

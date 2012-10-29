@@ -22,15 +22,11 @@
 
 #include "camtypes.h"
 #include "cmxfiltr.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cmxexdc.h"
 #include "cmxrendr.h"
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 //#include "cmxres.h"
 

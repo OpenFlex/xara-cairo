@@ -18,9 +18,7 @@
 // Implements bits of the stuff defined in cxflists.h
 
 #include "camtypes.h"
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxflists.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 
 /***********************************************************************************************

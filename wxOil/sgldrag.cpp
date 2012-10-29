@@ -24,9 +24,6 @@
 //#include "viewrc.h"
 //#include "resource.h"
 #include "camview.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "nodepath.h"
 #include "lineattr.h"

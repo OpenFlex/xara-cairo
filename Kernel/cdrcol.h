@@ -24,7 +24,6 @@
 
 #include "impcol.h"
 #include "cdrform.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define IMPORTED_TO_DOCCOLOUR(X, Y) DocColour X((Y).Model, &((Y).Colour));
 

@@ -21,7 +21,6 @@
 
 #include "camtypes.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ngcore.h"
 #include "ngdialog.h"
 #include "ngitem.h"
@@ -44,17 +43,14 @@
 //#include "helppath.h"
 //#include "mario.h"
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 #include "layer.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 #include "zoomops.h"
 #include "transop.h"
 //#include "slicetool.h"
 //#include "sliceres.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opscale.h"
 #include "opsquash.h"
 #include "attrappl.h" // Matt - 12/02/2001 - For OpApplyAttribToSelected

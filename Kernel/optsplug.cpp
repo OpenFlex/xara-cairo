@@ -25,7 +25,6 @@
 #include "optsplug.h"
 //#include "prefsdlg.h"	// dialog/gadget ids
 //#include "optsres.h"	// error strings
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ollie.h"		// For _R(IDS_NO_WEB_UTILITY) and _R(IDS_NO_WEB_PAGE)
 //#include "resource.h"	// For _R(IDS_OK)
 

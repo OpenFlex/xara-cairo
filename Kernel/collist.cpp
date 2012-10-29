@@ -25,12 +25,10 @@
 
 #include "camtypes.h"
 
-//#include "basedoc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "colcontx.h"
 #include "collist.h"
 //#include "colormgr.h"
 #include "colourix.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "jason.h"
 
 

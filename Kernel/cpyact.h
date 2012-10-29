@@ -20,7 +20,6 @@
 
 #ifndef INC_CPYACT
 #define INC_CPYACT
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

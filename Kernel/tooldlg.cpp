@@ -24,22 +24,15 @@
 */
 
 #include "camtypes.h"
-//#include "ensure.h"   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h" // _R(IDB_WINDOWTOOLBARS)  
 //#include "barsdlgs.h"
 //#include "phil.h"
 //#include "mario.h"
-//#include "dialogop.h" // DialogOp header - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"   // Dialog manager class
 #include "tooldlg.h"
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "mainfrm.h"
 #include "csrstack.h"
 //#include "infobar.h"
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 
 //#include "printdlg.h"

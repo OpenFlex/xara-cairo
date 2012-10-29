@@ -21,11 +21,7 @@
 
 #include "camtypes.h"
 //#include "bars.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bmplist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fraclist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobby.h"
 #include "groupops.h"
 #include "zordops.h"
@@ -40,15 +36,11 @@
 #include "bfxdlg.h"
 #include "dbugtree.h"
 #include "printing.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "filedlgs.h"
 #include "nativeop.h"
 #include "filelist.h"
 #include "exceptio.h"
 #include "infobar.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "speedtst.h"
 #include "snapops.h"
 #include "oppull.h"
@@ -65,7 +57,6 @@
 #include "snapops.h"
 #include "opwhat.h"
 #include "impexpop.h"
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "xaracms.h"
 #include "tipsdlg.h"
 //#include "oleprefs.h"

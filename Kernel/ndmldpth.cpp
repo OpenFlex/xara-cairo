@@ -29,13 +29,10 @@
 #include "aw_eps.h"
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 #include "blobs.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
 //#include "ngcore.h"		// NameGallery, for stretching functionality
 
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1315 $");
 

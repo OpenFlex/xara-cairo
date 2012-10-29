@@ -23,14 +23,7 @@
 #ifndef INC_OSRNDRGN
 #define INC_OSRNDRGN
 
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h"	// We access path objects directly (we are a friend) - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "wincoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "winrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rendtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gbrush.h"
-//#include "gconsts.h" // Test only - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class GradFillAttribute;
 class BitmapFillAttribute;

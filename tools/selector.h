@@ -21,9 +21,7 @@
 
 #include "dragtool.h"
 #include "transop.h"
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_SELECTOR_DRAGBOX		_T("SelectorDragBox")
 #define OPTOKEN_SELECTOR_DRAGCENTRE		_T("SelectorDragCentre")

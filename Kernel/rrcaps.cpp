@@ -21,7 +21,6 @@
 */
 
 #include "camtypes.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_MEMDUMP(RRCaps, CC_CLASS_MEMDUMP)

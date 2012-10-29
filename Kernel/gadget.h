@@ -19,7 +19,6 @@
 #ifndef INC_GADGET
 #define INC_GADGET
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #ifndef ENSURE_NOT_NULL
 #define ENSURE_NOT_NULL(p)	ERROR2IF(p == NULL, 0, "NULL Args");

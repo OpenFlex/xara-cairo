@@ -18,10 +18,7 @@
 // A PNG import/export filter 
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h"	// DocView - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "maskfilt.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "wbitmap.h"	// Windows specific bitmap information	 
 #include "grndbmp.h"
 #include "maskedrr.h"	// MaskedRenderRegion derived off GRenderBitmap
@@ -31,17 +28,12 @@
 //#include "will3.h"		// for _R(IDS_GENOPTPALMSGID)
 //#include "bmpres.h"		// general bitmap filter based resources (_R(IDE_TIGIFFILTER_MASKFAILED)/MASK)
 //#include "bmpfiltr.h"	// for GetDefaultDither()
-//#include "outptdib.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmapprev.h"	// To get the current transparent colour
 #include "exjpeg.h"
-//#include "cxfrec.h"		// for CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mrhbits.h"	// For CBMPBits.
 #include "selall.h"		// For OPTOKEN_EDITSELECTALL.
 #include "palman.h"		// For PaletteManager.
-//#include "ink.h"		// For DeselectAll. - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
-//#include "spread.h"		// For the spread interface. - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"		// For the page interface.
 
 CC_IMPLEMENT_DYNAMIC(MaskedFilter, BaseBitmapFilter)

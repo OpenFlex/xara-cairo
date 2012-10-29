@@ -18,8 +18,6 @@
 #ifndef NODECNTR_H
 #define NODECNTR_H
 
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class ExtendParams;
 class NodeContourController;

@@ -19,9 +19,6 @@
 #ifndef INC_PATHEDIT
 #define INC_PATHEDIT
 
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 
 #define OPTOKEN_JOINSHAPEOP		_T("JoinShapes")

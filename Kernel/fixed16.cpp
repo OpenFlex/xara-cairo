@@ -17,7 +17,6 @@
 
 
 #include "camtypes.h"
-//#include "fixed16.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

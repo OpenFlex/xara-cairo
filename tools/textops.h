@@ -30,7 +30,6 @@
 #ifndef INC_TEXTOPS
 #define INC_TEXTOPS
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cutop.h"
 
 class BaseTextClass;

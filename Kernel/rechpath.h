@@ -18,7 +18,6 @@
 #ifndef INC_RECHPATH
 #define INC_RECHPATH
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 class NodePath;

@@ -18,17 +18,10 @@
 
 #include "camtypes.h"
 #include "fillramp.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
 #include "colormgr.h"
 #include "colcomp.h"		// for ColourListComponent
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Place any IMPLEMENT type statements here
 CC_IMPLEMENT_DYNCREATE(RampItem, ListItem);

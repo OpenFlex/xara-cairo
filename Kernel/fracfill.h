@@ -19,7 +19,6 @@
 #ifndef INC_FRACFILL
 #define INC_FRACFILL
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 

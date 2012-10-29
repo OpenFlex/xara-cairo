@@ -20,7 +20,6 @@
 #define INC_ZORDOPS
 
 
-//#include "selop.h"         - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_BRINGTOFRONT _T("BringToFront")
 #define OPTOKEN_PUTTOBACK _T("PutToBack")  

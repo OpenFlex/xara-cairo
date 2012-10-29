@@ -18,7 +18,6 @@
 #ifndef INC_RECHSMTH
 #define INC_RECHSMTH
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

@@ -16,7 +16,6 @@
 
 
 #include "camtypes.h"
-//#include "fixstr64.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DEFINE_BUFSIZE(64);
 

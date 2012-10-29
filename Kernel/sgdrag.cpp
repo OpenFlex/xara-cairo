@@ -24,14 +24,10 @@
 
 #include "camtypes.h"
 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "galres.h"
 //#include "galstr.h"
 //#include "resource.h"
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgdrag.h"
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 DECLARE_SOURCE("$Revision: 1282 $");

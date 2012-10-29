@@ -18,21 +18,14 @@
 
 
 #include "camtypes.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "riffform.h"
 #include "progress.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cdrfiltr.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "combshps.h"
 #include "nodetxts.h"
 #include "attrmap.h"

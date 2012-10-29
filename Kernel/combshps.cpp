@@ -23,21 +23,15 @@
 #include "combshps.h"
 //#include "markn.h"
 //#include "resource.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "gclip.h"
 #include "gclips.h"
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 #include "grndrgn.h"
 //#include "combbuts.h"
 #include "gdraw.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrmap.h"
 #include "opbevel.h"
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetxts.h"
 #include "brshattr.h"
 #include "strkattr.h"

@@ -25,9 +25,6 @@
 #ifndef VSTATE_H
 #define VSTATE_H
 
-//#include "coord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "wrkcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
 
 class View;

@@ -41,7 +41,6 @@ typedef void		   *IXMLDOMDocumentPtr;
 //#include "selop.h"
 #include "menuitem.h"
 //#include "xpehost.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Range;
 class ListRange;

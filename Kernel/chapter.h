@@ -20,7 +20,6 @@
 #ifndef INC_CHAPTER
 #define	INC_CHAPTER
 
-//#include "npaper.h"			// for NodeRenderablePaper - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class RenderRegion;
 class Spread;

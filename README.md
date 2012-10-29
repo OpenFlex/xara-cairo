@@ -55,6 +55,7 @@ Fixes and Additions
 - Build no longer requires svn and unzip
 - No more splash screen
 - Exclude files from the repo that are auto-generated or copied
+- Removed 4391 to obsolete header file references
 
 (ed44)
 

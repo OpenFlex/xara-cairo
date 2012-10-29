@@ -20,8 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "ccmaths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "handles.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "csrstack.h"
 #include "bfxbase.h"
 #include "module.h"
@@ -29,9 +27,7 @@
 #include "opbreak.h"
 #include "opsmooth.h"
 #include "moldedit.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ngsetop.h"
 //#include "xpoilflt.h"
 

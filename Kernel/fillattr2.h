@@ -23,8 +23,6 @@
 #ifndef INC_FILLATTR2
 #define INC_FILLATTR2
 
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /***********************************************************************************************
 

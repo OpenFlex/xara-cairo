@@ -20,7 +20,6 @@
 #ifndef INC_CREATEFONTTHUMBNAILS
 #define INC_CREATEFONTTHUMBNAILS
 
-//#include "ops.h" //class Operation - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class SGDisplayPreviewFonts;
 

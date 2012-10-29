@@ -18,15 +18,10 @@
 
 #include "camtypes.h"
 
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "isetattr.h"
 //#include "isetres.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Native file load/save includes
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 //#include "tim.h"			// For _R(IDE_FILE_WRITE_ERROR)
 

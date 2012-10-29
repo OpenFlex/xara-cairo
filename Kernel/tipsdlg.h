@@ -18,9 +18,7 @@
 #ifndef INC_TIPSDLG
 #define INC_TIPSDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tipsres.h"
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "txtattr.h"		// for Justification
 
 

@@ -19,9 +19,6 @@
 #ifndef INC_OPTSPAGE
 #define INC_OPTSPAGE
 
-//#include "unittype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 
 //#include "undoop.h"

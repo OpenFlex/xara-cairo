@@ -25,7 +25,6 @@
 #ifndef INC_PROPERTIESLAYERS
 #define INC_PROPERTIESLAYERS
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "property.h"
 #include "layerprp.h"
 

@@ -19,14 +19,8 @@
 #ifndef INC_BITFILT
 #define INC_BITFILT
 
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpprefs.h"  // SelectionType
-//#include "dibconv.h"   // for XARADITHER enum - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "quality.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpsrc.h"		// for OFFSET
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "filtimop.h"	//For ImagemapFilterOptions
 
 class GRenderRegion;

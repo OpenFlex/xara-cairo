@@ -19,9 +19,6 @@
 #ifndef INC_STRKATTR
 #define INC_STRKATTR
 
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class PathProcessorStroke;

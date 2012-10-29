@@ -21,7 +21,6 @@
 #ifndef INC_ROTATE
 #define INC_ROTATE
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Cursor;
 class RotateInfoBarOp;

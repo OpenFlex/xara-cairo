@@ -21,13 +21,9 @@
 #include "camtypes.h"
 
 #include "dbugtree.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
 #include "oildbug.h"
 #include "nodedoc.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 #include "userattr.h"
 #include "ngsentry.h"

@@ -19,8 +19,6 @@
 #ifndef INC_PATHPROC
 #define INC_PATHPROC
 
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define PROC_CACHE_SIZE 0x1000
 

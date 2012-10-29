@@ -19,10 +19,7 @@
 #ifndef	INC_BLEND
 #define	INC_BLEND
 
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #pragma warning(disable: 4786)
 #include <list>

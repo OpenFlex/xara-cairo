@@ -22,14 +22,10 @@
 
 #include "camtypes.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "toollist.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oiltool.h"
 //#include "viewrc.h"
 //#include "resource.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pushtool.h"
 //#include "mario.h"
 #include "csrstack.h"
@@ -38,7 +34,6 @@
 //#include "markn.h"
 #include "oilfiles.h"
 #include "blobs.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 #include "zoomops.h"
 

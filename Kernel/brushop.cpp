@@ -26,12 +26,9 @@
 #include "brushmsg.h"
 #include "brushdlg.h"
 #include "freehand.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgline.h"
 #include "freeinfo.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "toollist.h"
-//#include "bitmapcache.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNCREATE( OpChangeBrushDefinition, UndoableOperation );
 CC_IMPLEMENT_DYNCREATE(ChangeBrushDefAction, Action);

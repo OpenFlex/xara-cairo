@@ -32,7 +32,6 @@
 #include "bfxopun.h"		// BfxPlugInUndoOp
 #include "bfxdlg2.h"		// BfxPlugInDlg
 
-//#include "app.h"			// GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "menuitem.h"		// MenuItem
 #include "menupref.h"		// CreateMenuItem
 

@@ -20,11 +20,6 @@
 #ifndef INC_NODESHAP
 #define INC_NODESHAP
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class RenderRegion;
 class Spread;

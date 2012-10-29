@@ -20,7 +20,6 @@
 #ifndef INC_CORELEPS
 #define INC_CORELEPS
 
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

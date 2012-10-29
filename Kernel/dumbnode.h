@@ -20,7 +20,6 @@
 
 // A collection of nodes which do nothing but sit there.
 
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************
 >	class StartDocument : public Node

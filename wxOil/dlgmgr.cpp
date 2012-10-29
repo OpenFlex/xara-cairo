@@ -21,24 +21,13 @@
 #include "camtypes.h"
 
 #include "dlgmgr.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixstr8.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "infobar.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "dlgbar.h"
 //#include "cheklist.h"
 //#include "custmsg.h"
 //#include "sgallery.h"
 //#include "galbar.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
 //#include "bitbutn.h"
 //#include "bitc1ded.h"
@@ -64,7 +53,6 @@
 #include "cartprov.h"
 #include "cartctl.h"
 #include "osrndrgn.h"
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "statline.h"
 #include <wx/imaglist.h>
 

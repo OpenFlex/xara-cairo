@@ -20,7 +20,6 @@
 #ifndef INC_GDRAWCON
 #define	INC_GDRAWCON
 
-//#include "gconsts.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 class TranspGradTable;
 
 /*******************************************************************************************

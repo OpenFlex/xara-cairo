@@ -20,9 +20,6 @@
 #ifndef INC_SGLFILLS
 #define INC_SGLFILLS
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sglib.h"
 #include "dragbmp.h"
 #include "sgdrag.h"

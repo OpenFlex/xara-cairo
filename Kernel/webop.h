@@ -22,7 +22,6 @@
 #define INC_WEBOP
 
 #include "nativeop.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define	OPTOKEN_SAVEASWEB			_T("SaveAsWeb")
 #define	OPTOKEN_SAVEASNATIVEV2		_T("SaveAsNativeV2")

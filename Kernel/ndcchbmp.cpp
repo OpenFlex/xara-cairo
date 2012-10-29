@@ -22,18 +22,13 @@
 #include "camtypes.h"
 #include "ndcchbmp.h"
 #include "nodebmp.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
 //#include "simon.h"
 //#include "mario.h"
 //Record Handling
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodecach.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "extender.h"
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

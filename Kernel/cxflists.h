@@ -17,8 +17,6 @@
 
 // Defines the various lists and list items used by the new file format
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodePath;
 class TextStory;

@@ -29,7 +29,6 @@
 #include "xpfcaps.h"
 #include "cxftags.h"
 #include "chapter.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"
 #include "nodedoc.h"
 #include "progress.h"

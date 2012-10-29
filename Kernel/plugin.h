@@ -28,8 +28,6 @@
 #ifndef INC_PLUGINITEM
 #define INC_PLUGINITEM
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 class Document;

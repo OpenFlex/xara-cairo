@@ -20,7 +20,6 @@
 #ifndef INC_LAYERDLG
 #define INC_LAYERDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 class LyrDetails; 
 
 #define OPTOKEN_LAYERDLG _T("LayerDlg")    

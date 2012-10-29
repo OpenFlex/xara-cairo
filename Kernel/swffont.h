@@ -14,7 +14,6 @@
  * for more details.
  */
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #ifndef INC_FLASH_FONT_RECORD
 #define INC_FLASH_FONT_RECORD

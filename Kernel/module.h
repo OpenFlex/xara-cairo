@@ -19,7 +19,6 @@
 #ifndef INC_MODULE
 #define INC_MODULE
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class OILModule; 		// #include "oilmods.h"
 class ModuleList; 		// #include "modlist.h"

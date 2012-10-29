@@ -21,25 +21,18 @@
 #include "brshattr.h"
 #include "brshcomp.h"
 //#include "rik.h"     // for the strings
-//#include "basestr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "samplist.h"
 
 // Native file load/save includes
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 //#include "tim.h"			// For _R(IDE_FILE_WRITE_ERROR)
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // various includes
 #include "lineattr.h"
 #include "ndbldpth.h"  // for cpathpointinfo
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "blendatt.h"
 #include "pbecomea.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brpress.h"
 #include "pen.h"
 //#include "colormgr.h"

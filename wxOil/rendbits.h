@@ -19,7 +19,6 @@
 #define INC_RENDBITS
 
 #include "osrndrgn.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 enum BitmapContents

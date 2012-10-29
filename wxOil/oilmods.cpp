@@ -29,11 +29,9 @@
 
 #include "module.h"
 #include "oilmods.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "modlist.h"
 //#include "dll_lib.h"
 //#include "andy.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "viewmod.h"
 //#include "zoomres.h"
 

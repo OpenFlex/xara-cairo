@@ -20,7 +20,6 @@
 #include "fileutil.h"
 
 #include "camelot.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgliboil.h"
 
 // Place any IMPLEMENT type statements here

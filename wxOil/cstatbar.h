@@ -19,7 +19,6 @@
 #ifndef INC_CCSTATUSBAR
 #define INC_CCSTATUSBAR
 
-//#include "flags.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ed.h"
 //#include "eddlg.h"
 

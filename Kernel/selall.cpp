@@ -23,16 +23,11 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "selall.h"
 //#include "phil.h"
 #include "helpids.h"
 //#include "resource.h"
 //#include "barsdlgs.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
 #include "blobs.h"
 

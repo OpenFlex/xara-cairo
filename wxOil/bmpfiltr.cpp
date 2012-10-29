@@ -21,9 +21,6 @@
 #include "camtypes.h"
 #include "bmpfiltr.h"
 //#include "andy.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "nodebmp.h"
 #ifndef WEBSTER
@@ -31,11 +28,9 @@
 #endif //WEBSTER
 #include "oilbitmap.h"	// Platform specific bitmap information
 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "accuflts.h"	// instead of imglib.h for 'BMP_UNCOMPRESSED'
 #include "bmapprev.h"	// tab preview dialog
-//#include "cxfrec.h"		// for CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "exjpeg.h"
 
 CC_IMPLEMENT_DYNAMIC(BMPFilter, BaseBitmapFilter)

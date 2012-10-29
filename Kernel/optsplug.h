@@ -19,7 +19,6 @@
 #ifndef INC_OPTSPLUGINS
 #define INC_OPTSPLUGINS
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 
 //class PlugInManager;

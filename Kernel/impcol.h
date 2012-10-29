@@ -20,10 +20,7 @@
 #ifndef INC_IMPCOL
 #define INC_IMPCOL
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colourix.h"
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class ColourListComponent;
 

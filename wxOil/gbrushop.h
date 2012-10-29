@@ -20,8 +20,6 @@
 #ifndef INC_GBRUSHOP
 #define	INC_GBRUSHOP
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /******************************************************************************************
 

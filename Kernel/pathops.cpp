@@ -22,15 +22,11 @@
 #include "camtypes.h"
 #include "pathops.h"
 								
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"				  						
 #include "pathedit.h"
 #include "objchge.h"
 //#include "peter.h"
 #include "progress.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 DECLARE_SOURCE("$Revision: 1282 $");

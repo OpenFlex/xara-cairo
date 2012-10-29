@@ -22,7 +22,6 @@
 #ifndef NGSETOP_H
 #define NGSETOP_H
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ngiter.h"
 
 class SGNameItem;

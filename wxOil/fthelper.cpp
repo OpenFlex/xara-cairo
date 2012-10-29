@@ -19,7 +19,6 @@
 
 #include "fthelper.h"
 #include "fileutil.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #define NO_CAMTYPES
 #include "templman.h"	// Scary bits
 

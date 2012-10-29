@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swfplace.h"
 
 // Global definitions of the static member variables.

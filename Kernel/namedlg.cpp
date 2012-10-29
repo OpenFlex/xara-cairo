@@ -19,7 +19,6 @@
 */
     
 #include "camtypes.h"                          
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "namedlg.h"
 
 //#include "tmpltres.h"

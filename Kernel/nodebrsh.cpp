@@ -20,8 +20,6 @@
 #include "nodebrsh.h"
 //#include "group.h"
 //#include "rndrgn.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 //#include "nodershp.h"
 #include "ndbrshpt.h"

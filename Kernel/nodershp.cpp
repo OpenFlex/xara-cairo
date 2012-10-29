@@ -22,28 +22,19 @@
 #include "nodershp.h"
 
 // Code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "cameleps.h"
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 #include "swfrndr.h"		// For the Flash render region class.
 #include "contmenu.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 //#include "pathedit.h"
 #include "ophist.h"
 //#include "resource.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "shapeops.h"
 #include "snap.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Headers for the new native format.
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfrgshp.h"
 
 // Resource headers.

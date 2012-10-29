@@ -22,15 +22,12 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colormgr.h"
 #include "colplate.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "devcolor.h"
 #include "grndrgn.h"
 #include "gradtbl.h"
 //#include "xaracms.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fillramp.h"
 
 DECLARE_SOURCE("$Revision: 1372 $");

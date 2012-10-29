@@ -18,15 +18,12 @@
 #ifndef INC_BMPSDLG
 #define INC_BMPSDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 PORTNOTE("gif","Removed gifutil usage")
 #ifndef EXCLUDE_FROM_XARALX
 #include "gifutil.h"
 #endif
 
-//#include "outptgif.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BmpDlgParam;
 

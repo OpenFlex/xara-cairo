@@ -20,7 +20,6 @@
 #ifndef INC_EXPHINT
 #define INC_EXPHINT
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 enum ExportHintBitmapType
 {

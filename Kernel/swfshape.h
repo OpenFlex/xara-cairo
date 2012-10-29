@@ -17,8 +17,6 @@
 #ifndef INC_FLASH_SHAPE_RECORD
 #define INC_FLASH_SHAPE_RECORD
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define SWF_MAX_COLOURS				8
 #define SWF_MAX_PIXEL_DIMENSION		4350		// maximum size of an object in pixels. Actually this 

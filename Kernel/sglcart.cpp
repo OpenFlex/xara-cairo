@@ -20,35 +20,24 @@
 #include "sglcart.h"
 #include <io.h>
 
-//#include "app.h"		// For GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "galstr.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sginit.h"
 #include "sglcart.h"	// This .cpp file's corresponding header
 #include "sglib.h"
 #include "sgmenu.h"
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sglfills.h"
 #include "thumbmsg.h"
 #include "grnddib.h"
 //#include "galres.h"
 //#include "richard.h"
 #include "sgliboil.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "filedlgs.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 #include "camelot.h"
 #include "dragmgr.h"
 //#include "viewrc.h"		// FOR _R(IDC_CANDROPONPAGE)
 //#include "resource.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scrcamvw.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgscanf.h"
 #include "sglbase.h"
 #include "sgrmfile.h"	// For Lib settings
@@ -68,16 +57,12 @@
 #define SAVEASWELL 1
 // For batching...
 #include <stdio.h>
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
 #include "pagesize.h"
 #include "optspage.h"
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grid.h"
 #include "zoomops.h"
 #include "layer.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "collist.h"
 #include "colourix.h"
 #include "colormgr.h"

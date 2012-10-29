@@ -17,7 +17,6 @@
 #ifndef INC_PATHNMEX
 #define INC_PATHNMEX
 
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

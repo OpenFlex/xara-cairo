@@ -22,14 +22,9 @@
 #include "page.h"
 //#include "simon.h"
 //#include "mario.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "exceptio.h"		// For BlowUpOnCrashMe() method      
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "snap.h"
 #include "nodedoc.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ralphint.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 
 //static INT32 	abs(INT32 n) 		{ if (n<0) return (0-n); else return (n);}

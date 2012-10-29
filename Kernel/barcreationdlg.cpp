@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "barcreationdlg.h"		//This file's header
 #include "menuops.h"	
 #include "ccdc.h"			// specific #includes needed for kernel-rendered dialogues
@@ -31,7 +30,6 @@
 
 // these are for the template attribute definitions
 // required for the scanning for existing bar attribs
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 

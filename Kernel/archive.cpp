@@ -21,8 +21,6 @@
 
 #include "camtypes.h"
 #include "archive.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "intelmac.h"
 
 // An implement to match the Declare in the .h file.

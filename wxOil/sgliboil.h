@@ -19,11 +19,6 @@
 #ifndef INC_SGLIBOIL
 #define INC_SGLIBOIL
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "scrvw.h"
 
 class Library;

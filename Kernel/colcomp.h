@@ -20,9 +20,6 @@
 #ifndef INC_COLCOMP
 #define INC_COLCOMP
 
-//#include "doccomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "epsstack.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class ColourList;
 class DocColour;

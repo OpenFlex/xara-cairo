@@ -25,9 +25,6 @@
 #ifndef INC_PNGUTIL
 #define	INC_PNGUTIL
 
-//#include "ccfile.h"						// needs FilePos - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibconv.h"					// needs DIBConvert - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h"					// needs FNPTR_SCANLINE - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "png.h"						// png_colorp
 
 /********************************************************************************************

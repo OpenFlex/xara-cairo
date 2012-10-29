@@ -19,7 +19,6 @@
 #ifndef INC_LAYERMSG
 #define INC_LAYERMSG
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /*********************************************************************************************

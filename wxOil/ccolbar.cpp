@@ -34,8 +34,6 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "ccolbar.h"
 #include "colcontx.h"
@@ -45,15 +43,10 @@
 #include "colourix.h"
 #include "colpick.h"
 #include "comattrmsg.h"
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ctrlhelp.h"
 #include "devcolor.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragmgr.h"
 //#include "galres.h"			// For drag cursors
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "jason.h"
 #include "keypress.h"
 #include "lineattr.h"
@@ -61,7 +54,6 @@
 #include "camframe.h"
 #include "opgrad.h"
 #include "palman.h"
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"		// For push tool cursor
 #include "sgcolour.h"		// For AutoScroll preference
 #include "statline.h"

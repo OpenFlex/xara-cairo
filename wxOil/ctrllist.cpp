@@ -22,7 +22,6 @@
 #include "cartprov.h"
 #include "dlgevt.h"
 #include "dlgmgr.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNCREATE(ControlList, CCObject)
 

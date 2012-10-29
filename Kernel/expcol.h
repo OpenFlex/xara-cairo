@@ -20,9 +20,6 @@
 #ifndef INC_EXPCOL
 #define INC_EXPCOL
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "colmodel.h"	// PColourRGBT - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class ColourListComponent;
 class IndexedColour;

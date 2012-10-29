@@ -30,8 +30,6 @@
 #include "colormgr.h"
 #include "devcolor.h"
 #include "dlgmgr.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 
 

@@ -17,9 +17,7 @@
 
                     
 #include "camtypes.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 //#include "hotlink.h"
 //#include "unicdman.h"

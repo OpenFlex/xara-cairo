@@ -19,8 +19,6 @@
 #ifndef INC_TRACERGN
 #define INC_TRACERGN
 
-//#include "coord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class UndoableOperation;
 class Path;

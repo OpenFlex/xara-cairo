@@ -24,9 +24,7 @@
 #ifndef LATTROPS_H
 #define LATTROPS_H
 
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "la_base.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_CHANGE_LINE_JOIN	TEXT("ChangeLineJoin")
 #define OPTOKEN_CHANGE_LINE_CAP		TEXT("ChangeLineCap")

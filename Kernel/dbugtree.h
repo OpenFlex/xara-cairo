@@ -18,7 +18,6 @@
 #ifndef INC_DBUGTREE
 #define INC_DBUGTREE
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // -----------------------------------------------------------------------------------------
 // DebugTreeDlg for displaying the Camelot tree

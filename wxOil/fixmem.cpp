@@ -19,7 +19,6 @@
 
 
 #include "camtypes.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include <stdlib.h>
 

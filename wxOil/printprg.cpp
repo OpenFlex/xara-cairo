@@ -27,12 +27,10 @@
 
 #include "printprg.h"
 //#include "printdlg.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "custmsg.h"
 //#include "markn.h"
 //#include "simon.h"
 //#include "andy.h"
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 //#include "justin2.h"
 #include "prncamvw.h"

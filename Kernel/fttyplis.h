@@ -21,7 +21,6 @@
 #ifndef INC_FTTYPLIS
 #define INC_FTTYPLIS
 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 typedef enum
 {

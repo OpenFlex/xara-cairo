@@ -28,10 +28,6 @@
 //#include "prefsdlg.h"	// dialog/gadget ids
 //#include "optsres.h"	// error strings
 #include "optstune.h"
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h"		// units - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "convert.h"	// BytesToString and StringToBytes - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tunemem.h"
 //#include "resource.h"	// Needs _R(IDS_OK) for InformWarning
 //#include "justin2.h"

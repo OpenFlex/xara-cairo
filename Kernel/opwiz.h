@@ -30,8 +30,6 @@
 #ifndef INC_<THIS_FILE>
 #define	INC_<THIS_FILE>
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define	 OPTOKEN_<OPTOKEN> "<OPTOKEN>"
 

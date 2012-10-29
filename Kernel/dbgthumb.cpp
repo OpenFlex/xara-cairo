@@ -19,8 +19,6 @@
 //GTODO: Tidy up these includes
 #include "camtypes.h"
 
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h"			//For Camelot.GetFilterManager() - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "barsdlgs.h"		//For _R(IDD_BARCONTROLSTORE)
 
 #include "urlimp.h"

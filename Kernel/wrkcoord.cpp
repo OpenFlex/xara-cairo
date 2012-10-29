@@ -17,8 +17,6 @@
 
 
 #include "camtypes.h" 
-//#include "wrkcoord.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilcoord.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

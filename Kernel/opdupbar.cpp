@@ -23,17 +23,13 @@
 //#include "simon.h"
 
 #include "transop.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "slice.h"
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 
 #include "progress.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "ngcore.h"
 #include "ngitem.h"

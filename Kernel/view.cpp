@@ -22,20 +22,11 @@
 
 #include "camtypes.h"
 #include "camview.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vstate.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "ccdc.h"
 #include "chapter.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scanrr.h"
 #include "grndbmp.h"
 #include "maskedrr.h"
@@ -58,7 +49,6 @@
 #include "nodebev.h"
 #include "prncamvw.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prnmks.h"
 #include "prnmkcom.h"
 

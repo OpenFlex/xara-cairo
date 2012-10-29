@@ -22,7 +22,6 @@
 #include "dlgevt.h"
 #include "dlgmgr.h"
 #include "camframe.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ctrllist.h"
 #include "dropdown.h"
 #include "griddropdown.h"

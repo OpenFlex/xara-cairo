@@ -20,11 +20,8 @@
 
 #include "sgstroke.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ppstroke.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "strkattr.h"
 
 #include "dlgcol.h"

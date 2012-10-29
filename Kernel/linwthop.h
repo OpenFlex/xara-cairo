@@ -23,7 +23,6 @@
 // OpToken
 #define OPTOKEN_CHANGELINEWIDTH _T("ChangeLineWidth")
 
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 >	class ChangeLineWidthOpDesc : public OpDescriptor

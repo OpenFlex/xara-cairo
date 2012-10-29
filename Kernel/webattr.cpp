@@ -22,15 +22,9 @@
 #include "webattr.h"
 //#include "hotlink.h"
 //#include "mario.h"		//For _R(IDE_NOMORE_MEMORY)
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixed16.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 #include "rechattr.h"	// Record handling classes for attributes
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resimmap.h"	//_R(IDS_TAG_WEBADDRESS)
 DECLARE_SOURCE("$Revision: 1361 $");
 

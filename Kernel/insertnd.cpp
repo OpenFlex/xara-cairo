@@ -21,7 +21,6 @@ DECLARE_SOURCE("$Revision: 1282 $");
 
 #include "insertnd.h"
 //#include "mario.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNAMIC(InsertionNode, Node); 
 

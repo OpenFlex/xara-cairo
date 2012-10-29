@@ -20,7 +20,6 @@
 #define INC_PATHTRAP
 
 #include "pathproc.h"
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 // Forward declarations

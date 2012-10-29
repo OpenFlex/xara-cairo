@@ -22,7 +22,6 @@
 #ifndef NGSENTRY_H
 #define NGSENTRY_H
 
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ngprop.h"
 #include "opbarcreation.h"
 #include <vector>

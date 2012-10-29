@@ -20,7 +20,6 @@
 
 #include "pathpcs.h"
 
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNAMIC(PathProcessor, CCObject);
 

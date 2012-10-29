@@ -19,7 +19,6 @@
 #ifndef INC_FREEEPS
 #define INC_FREEEPS
 
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "impcol.h"
 
 

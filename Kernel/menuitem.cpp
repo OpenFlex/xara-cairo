@@ -26,9 +26,7 @@
 
 #include "camtypes.h"
 #include "menuitem.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilmenus.h"
 #include "hotkeys.h"
 

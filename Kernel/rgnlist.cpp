@@ -18,19 +18,12 @@
 
 #include "camtypes.h"
 
-//#include "rgnlist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camview.h"
 #include "paper.h"
 //#include "menucmds.h"
 #include "camelot.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ctrlhelp.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "statline.h"
 #include "dragmgr.h"
 #include "prncamvw.h"

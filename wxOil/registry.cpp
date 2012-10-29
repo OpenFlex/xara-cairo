@@ -25,10 +25,8 @@
 
 #include "camtypes.h"
 #include <comcat.h>
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "registry.h"
 #include "camelot.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "product.h"
 #include "cversion.h"
 #include "brandinf.h"

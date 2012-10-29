@@ -25,7 +25,6 @@
 #ifdef BUILDSHADOWS
 
 // code headers
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 //#include "osrndrgn.h"
 
@@ -35,20 +34,14 @@
 #include "transop.h"
 
 // Save/load
-//#include "cxfdefs.h"	// TAG_SHADOWCONTROLLER_SIZE - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	// TAG_SHADOWCONTROLLER
-//#include "cxfrec.h"		// CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechshad.h"	// ShadowRecordHandler
 //#include "shadres.h"
 #include "opshadow.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrbev.h"
 #include "lineattr.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrappl.h"
 #include "blobs.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opgrad.h"
 #include "opbevel.h"
 #include "nbevcont.h"
@@ -58,7 +51,6 @@
 //#include "opcntr.h"
 #include "blndtool.h"
 #include "ncntrcnt.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "extender.h"
 #include "ngcore.h"		// NameGallery, for stretching functionality
 #include "cmxrendr.h"

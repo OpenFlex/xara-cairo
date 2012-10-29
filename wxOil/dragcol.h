@@ -20,9 +20,7 @@
 #ifndef INC_DRAGCOL
 #define INC_DRAGCOL
 
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "draginfo.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class IndexedColour;
 

@@ -19,8 +19,6 @@
 #ifndef INC_WEBADDRESSDLG
 #define INC_WEBADDRESSDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "webattr.h"
 
 #define OPTOKEN_WEBADDRESSDLG _T("WebAddressDlg")

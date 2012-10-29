@@ -21,18 +21,15 @@
 
 #include "camtypes.h"
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prdlgctl.h"
 //#include "printdlg.h"
 #include "printprg.h"
 #include "princomp.h"
 #include "optsprin.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "printmsg.h"
 #include "prnprefs.h"	// PrintPrefsDlg;;InvokeDialog
 #include "helpuser.h"
 #include "camelot.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
 #include "ctrlhelp.h"
 //#include "richard2.h"

@@ -21,8 +21,6 @@
 
 #include "camtypes.h"
 
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "oilprefs.h"
 

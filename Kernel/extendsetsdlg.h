@@ -21,7 +21,6 @@
 
 #include "chcklist.h"	// for CTextCheckListBox
 #include "extender.h"	// for bitwise extend-type flags
-//#include "dialogop.h"	// for DialogOp - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class SGNameItem;
 

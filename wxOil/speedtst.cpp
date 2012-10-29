@@ -23,8 +23,6 @@
 #include "camtypes.h"
 //#include "camconfig.h"
 #include "speedtst.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "andy.h"
 //#include "will.h"
@@ -34,16 +32,12 @@
 #include "camprofile.h"
 
 /*
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include <time.h>
 #include "mainfrm.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rgnlist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "xadraw.h"
 #include "zoomops.h"
 #include "wrkrect.h"
-//#include "bitmapcache.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 */
 
 CC_IMPLEMENT_DYNCREATE(OpTimeDraw, Operation)

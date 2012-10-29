@@ -28,7 +28,6 @@
 #include "fontdrop.h"
 
 #include "camelot.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontbase.h"
 #include "textinfo.h"
 #include "gbrush.h"
@@ -37,7 +36,6 @@
 //#include "richard2.h"
 
 // These required for the document drop font handling class
-//#include "app.h"		// FONTMANAGER - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"	// BeginSlowJob ...
 //#include "mario.h"		// _R(IDS_NO_FONTSINDOC)
 #include "fontlist.h"

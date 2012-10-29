@@ -24,11 +24,7 @@
 #define INC_BEZTOOL
 
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rectangl.h"
 #include "rsmooth.h"
 

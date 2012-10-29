@@ -24,17 +24,7 @@
 
 #include "camframe.h"
 #include "camelot.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "andy.h"			// for ID?_OVERWRITE, _R(IDE_FORMATNOTSUPPORTED)
 //#include "nev.h"			// _R(IDN_USER_CANCELLED), _R(IDN_FILTERNOTPRESENT), _R(IDS_OPMENUIMPORT_ONE), _R(IDS_OPMENUEXPORT_ONE)
 #include "optsmsgs.h"		// options messages IMPORTWITHLAYERS
@@ -49,7 +39,6 @@
 
 #include "bitfilt.h"		// BaseBitmapFilter
 #include "cameleps.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "will3.h"
 #include "bmpsdlg.h"
 #include "exjpeg.h"

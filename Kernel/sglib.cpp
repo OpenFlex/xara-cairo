@@ -22,16 +22,11 @@
 #include <io.h>
 
 #include "ccdc.h"		// For render-into-dialogue support
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
 #include "nodebmp.h"
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgliboil.h"
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "thumbmsg.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "richard.h"
 //#include "richard2.h"
 //#include "richard3.h"

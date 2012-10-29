@@ -14,10 +14,8 @@
  * for more details.
  */
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 #include "swfshape.h"	// For FlashColour.
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #ifndef INC_FLASH_TEXT_RECORD
 #define INC_FLASH_TEXT_RECORD

@@ -17,11 +17,8 @@
 
 
 #include "camtypes.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tunemem.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
 #include "colormgr.h"
 #include "colplate.h"

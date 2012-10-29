@@ -22,7 +22,6 @@
 #ifndef INC_BFXPIXOP
 #define INC_BFXPIXOP
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 

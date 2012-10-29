@@ -22,15 +22,9 @@
 #include "camtypes.h"
 #include "fillndge.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opnudge.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "will.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Spread;
 

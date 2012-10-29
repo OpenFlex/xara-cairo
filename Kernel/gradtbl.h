@@ -20,10 +20,6 @@
 #ifndef INC_GRADTBL
 #define INC_GRADTBL
 
-//#include "gconsts.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "gradtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "biasgain.h"			// for CProfileBiasGain (i.e.  profiled fills/transparency!) - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class DocColour;
 class ColourContext;

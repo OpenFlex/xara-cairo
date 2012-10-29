@@ -18,11 +18,8 @@
 #ifndef INC_SAVEEPS
 #define INC_SAVEEPS
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "kerneldc.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vectrndr.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class EPSExportDC;
 class KernelBitmap;

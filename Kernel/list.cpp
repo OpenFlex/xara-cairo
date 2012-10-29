@@ -26,8 +26,6 @@
 
 #include "camtypes.h"
 													
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNAMIC( List, CCObject )
 

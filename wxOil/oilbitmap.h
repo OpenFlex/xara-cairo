@@ -20,7 +20,6 @@
 #ifndef INC_WBITMAP
 #define	INC_WBITMAP
 
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Filter;
 class BitmapInfo;

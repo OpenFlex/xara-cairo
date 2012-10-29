@@ -21,7 +21,6 @@
 #define BRSHCOMP
 
 #include "linecomp.h"
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BrushRef;
 class BaseCamelotFilter;

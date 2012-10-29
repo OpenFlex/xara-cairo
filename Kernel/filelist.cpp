@@ -24,10 +24,7 @@
 
 #include "camelot.h"
 #include "camdoc.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bubbleid.h"
 
 // An implement to match the Declare in the .h file.

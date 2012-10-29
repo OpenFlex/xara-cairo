@@ -20,7 +20,6 @@
 #ifndef	PROGRESS__INC
 #define	PROGRESS__INC
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // **** DEPRECATED INTERFACE **** 
 // Use the calls provided by the ProgressState class (kernel\progstat.h) in future. DO NOT USE these ones!

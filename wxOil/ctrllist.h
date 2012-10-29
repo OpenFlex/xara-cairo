@@ -18,7 +18,6 @@
 #ifndef INC_CTRLLIST
 #define	INC_CTRLLIST
 
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class DialogOp;
 

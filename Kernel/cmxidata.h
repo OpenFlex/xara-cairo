@@ -20,7 +20,6 @@
 #define CMXIDATA_H
 
 #include "cmxibits.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 
 class CMXImportLayer;

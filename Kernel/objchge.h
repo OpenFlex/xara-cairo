@@ -19,7 +19,6 @@
 #ifndef INC_OBJCHANGE
 #define INC_OBJCHANGE
 
-//#include "node.h"	// for ChangeCode enum - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Node;
 class UndoableOperation;

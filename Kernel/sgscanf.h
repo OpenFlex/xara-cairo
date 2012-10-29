@@ -19,7 +19,6 @@
 #ifndef INC_SGSCANF
 #define INC_SGSCANF
 
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class PathName;
 class SuperGallery;

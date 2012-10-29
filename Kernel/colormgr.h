@@ -22,8 +22,6 @@
 
 #include "colourix.h"
 #include "collist.h"
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colmsg.h"       
 //#include "xaracms.h"
 

@@ -17,7 +17,6 @@
 
 #include "camtypes.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "offattr.h"
 
 #include "GDrawIntf.h"
@@ -25,7 +24,6 @@
 #include "grndrgn.h"		// GRenderRegion
 
 // Bitmap manipulation
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"
 
 //#include "winrect.h"		// CalculateWinRect

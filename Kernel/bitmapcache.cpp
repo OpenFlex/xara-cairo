@@ -17,7 +17,6 @@
 
 #include "camtypes.h"
 
-//#include "bitmapcache.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /*********************************************************************************************
 

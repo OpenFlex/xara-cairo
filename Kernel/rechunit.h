@@ -23,7 +23,6 @@
 class UnitListComponent;
 
 // Header for the attribute record handling classes for the v2 file format
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 

@@ -18,7 +18,6 @@
 
 #include "camtypes.h"
 
-//#include "app.h"		// For GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 //nclude "gallery.h"	// For _R(IDC_GALLERY_LISTBOX)
 //#include "galstr.h"
 //#include "galres.h"
@@ -32,7 +31,6 @@
 //#include "will.h"		// For OpShowBitmapGallery ID's
 //nclude "bitmap.h"	
 #include "bitmpinf.h"	
-//#include "fillattr.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
 //nclude "attrmgr.h"	
 #include "nodebmp.h"	
 //nclude "convert.h"	
@@ -42,15 +40,12 @@
 #include "dragbmp.h"
 //nclude "viewrc.h"		// FOR _R(IDC_CANDROPONPAGE)
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tracedlg.h"
 #include "bfxdlg.h"
 //nclude "bfxalu.h"
 //nclude "bitmapfx.h"
 #include "impexpop.h"	// Import/Export ops
 //#include "scrcamvw.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //nclude "sglib.h"
 

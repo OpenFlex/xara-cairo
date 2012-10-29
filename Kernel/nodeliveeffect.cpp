@@ -19,21 +19,13 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodeliveeffect.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "xpehost.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpcomp.h"	
 #include "oilbitmap.h"
 #include "bshadow.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "lineattr.h"
 #include "blndtool.h"

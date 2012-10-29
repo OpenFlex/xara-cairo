@@ -18,11 +18,8 @@
 #define INC_CAMVIEW_H
 
 //#include "docview.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "clikmods.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "rendwnd.h"
 #include "wrkrect.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "wx/dnd.h"
 

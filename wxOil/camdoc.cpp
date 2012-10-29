@@ -16,7 +16,6 @@
 
 #include "camtypes.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 //#include "justin.h"
 
@@ -26,7 +25,6 @@
 #include "tmplmngr.h"
 
 #include "camdoc.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "menuops.h"
 #include "camelot.h"
 #include "filedlgs.h"

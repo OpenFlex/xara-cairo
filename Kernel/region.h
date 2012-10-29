@@ -23,7 +23,6 @@
 #ifndef INC_REGION
 #define INC_REGION
 
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

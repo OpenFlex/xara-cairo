@@ -23,15 +23,11 @@
 #include "camtypes.h"
 //WEBSTER-ranbirr-13/11/96
 #ifndef WEBSTER
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 //#include "prefsdlg.h"	// dialog/gadget ids
 //#include "optsres.h"	// error strings
 #include "optsmsgs.h"	// error strings
 #include "optsview.h"
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h"		// units - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccolbar.h"	// show new state of colour bar
 //#include "jason.h"		// _R(IDS_COLCONTEXTNAME)
 #include "colcontx.h"	// For ColourContexts

@@ -24,8 +24,6 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
 #include "layer.h"
 
@@ -35,21 +33,15 @@
 
 //#include "filtrres.h"	// _R(IDS_WEBPREFSDLG)
 
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "rikdlg.h"		// _R(IDB_SLIDERBASE), _R(IDB_SLIDERSLIDER)
 //#include "xardlg.h"		// Resource file for the base dialogue.
 //#include "webdlg.h"		// Resource file for the dialogue.
 
-//#include "dialogop.h"	// DialogOp header - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"		// Dialogue manager class
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "justin2.h"	// _R(IDS_PERCENT_FORMAT)
 
 #include "bmpcomp.h"	// bitmap list
-//#include "bitmap.h"		// kernel bitmap  - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // This is not compulsory, but you may as well put it in so that the correct version
 // of your file can be registered in the .exe

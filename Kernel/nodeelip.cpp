@@ -27,7 +27,6 @@
 //#include "app.h"
 #include "aw_eps.h"
 #include "blobs.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "opsmpshp.h"
 //#include "osrndrgn.h"
 //#include "rik.h"

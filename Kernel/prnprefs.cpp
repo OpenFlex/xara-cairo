@@ -27,12 +27,8 @@
 #include "camtypes.h"
 //	WEBSTER-ranbirr-13/11/96
 #ifndef WEBSTER
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h"	// DialogOp header - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 #include "prnprefs.h"
-//#include "docview.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "optsres.h"	// error strings
 //#include "prefsdlg.h"	// _R(IDD_DOCUMENTOPTIONS)
 #include "prnmks.h"

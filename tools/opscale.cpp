@@ -22,7 +22,6 @@
 #include "camtypes.h"
 #include "opscale.h"
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "rik.h"
 #include "selector.h"
 //#include "clikdrag.h"

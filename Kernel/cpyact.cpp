@@ -21,7 +21,6 @@
 #include "camtypes.h"
 #include "cpyact.h"
 #include "clipint.h" // Internal clipboard
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
 
 DECLARE_SOURCE($Revision: 1282 $);

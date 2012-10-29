@@ -20,7 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bfxbase.h"
 #include "bfxalu.h"
 

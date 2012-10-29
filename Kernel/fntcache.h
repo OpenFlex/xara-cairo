@@ -25,10 +25,7 @@
 #ifndef INC_FNTCACHE
 #define INC_FNTCACHE
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gcache.h"
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include <limits.h>
 
 

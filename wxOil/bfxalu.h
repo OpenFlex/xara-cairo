@@ -22,13 +22,11 @@
 #ifndef INC_BFXALU
 #define INC_BFXALU
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 class KernelBitmap;
 class OILBitmap;
 
 #ifndef EXCLUDE_FROM_RALPH
 
-//#include "gconsts.h" // For GMATRIX - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tracectl.h" // for enum TraceMethod - annoying...
 
 class GDrawContext;

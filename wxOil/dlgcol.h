@@ -21,7 +21,6 @@
 #define INC_DLGCOL
 
 
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /***********************************************************************************************

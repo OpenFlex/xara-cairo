@@ -20,7 +20,6 @@
 #define IMAGEMAPLIST
 
 #include "overlist.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "flatfact.h"
 
 class CCLexFile;

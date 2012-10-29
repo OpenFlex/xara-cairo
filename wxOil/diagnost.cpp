@@ -21,7 +21,6 @@
 
 #include "camtypes.h"
 #include "diagnost.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 
 static INT32 OutputDiagnostics = 0;

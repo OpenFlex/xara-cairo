@@ -18,7 +18,6 @@
 #include "camtypes.h"
 
 //#include "camconfig.h"
-//#include "camresource.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 #include "cartctl.h"
@@ -27,7 +26,6 @@
 #endif
 
 //#include "camelot.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define PRELOAD_BITMAPS 0
 

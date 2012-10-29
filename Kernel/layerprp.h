@@ -28,9 +28,6 @@
 #ifndef INC_LAYERPROPERTYTABS
 #define INC_LAYERPROPERTYTABS
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "unittype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h"		// units e.g. Millimeters - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "property.h"	// PropertyTabs class
 
 class LayerPropertyTabs;

@@ -18,7 +18,6 @@
 #ifndef INC_FINFODLG
 #define INC_FINFODLG
 
-//#include "dialogop.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontbase.h"		// font manager and associated items
 #include "fileinfolist.h"
 

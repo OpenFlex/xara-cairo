@@ -22,7 +22,6 @@
 
 #include "toollist.h"
 //#include "oiltool.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1361 $");
 

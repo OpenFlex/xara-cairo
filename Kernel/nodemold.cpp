@@ -41,20 +41,12 @@
 #include "moldenv.h"
 #include "moldpers.h"
 //#include "mario.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
 #include "nodepath.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "aw_eps.h"
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 //#include "moldtool.h"
-//#include "fillattr.h" 	// For AttrFillGeometry::RemovePerspective() - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h" 	// For _R(IDS_OK)/CANCEL
 //#include "will.h"
 //#include "tim.h"
@@ -63,11 +55,7 @@
 #include "moldedit.h"
 
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechmld.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"		// for BlobManager.
 #include "slicehelper.h"
 

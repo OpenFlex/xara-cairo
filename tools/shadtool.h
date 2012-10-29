@@ -23,12 +23,8 @@
 
 #ifdef BUILDSHADOWS
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "shadinfo.h"
 #include "dragtool.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opliveeffects.h"
 
 class Cursor;

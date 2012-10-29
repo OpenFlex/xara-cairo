@@ -20,7 +20,6 @@
 #ifndef INC_GBRUSH
 #define	INC_GBRUSH
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class DocColour;
 class ColourContext;

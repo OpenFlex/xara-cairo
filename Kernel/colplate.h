@@ -20,8 +20,6 @@
 #ifndef INC_COLPLATE
 #define INC_COLPLATE
 
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class IndexedColour;
 

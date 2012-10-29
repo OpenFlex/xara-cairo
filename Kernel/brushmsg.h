@@ -20,7 +20,6 @@
 #ifndef BRUSHMSG
 #define BRUSHMSG
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brshcomp.h"
 
 /********************************************************************************************

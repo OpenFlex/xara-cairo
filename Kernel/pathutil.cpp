@@ -21,10 +21,8 @@
 */
 
 #include "camtypes.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathutil.h"
 #include <math.h>
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "macros.h"
 
 #define	EPSILON	(ldexp(1.0,-MAXDEPTH-1))	// Flatness control value

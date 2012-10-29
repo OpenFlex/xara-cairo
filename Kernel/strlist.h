@@ -19,7 +19,6 @@
 #ifndef STRINGLISTITEM
 #define STRINGLISTITEM
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

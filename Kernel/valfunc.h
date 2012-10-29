@@ -19,7 +19,6 @@
 #ifndef INC_VALFUNC
 #define INC_VALFUNC
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CamelotFileRecord;
 class BaseCamelotFilter;

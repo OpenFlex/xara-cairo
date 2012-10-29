@@ -19,9 +19,6 @@
 #ifndef INC_ISETATTR
 #define INC_ISETATTR
 
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

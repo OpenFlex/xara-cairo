@@ -19,10 +19,7 @@
 
 #include "camtypes.h"
 #include "bmpseq.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpcomp.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 // Place any IMPLEMENT type statements here

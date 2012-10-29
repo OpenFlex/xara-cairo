@@ -22,7 +22,6 @@
 #define INC_COLMENU
 
 #include "contmenu.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

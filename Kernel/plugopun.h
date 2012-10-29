@@ -20,7 +20,6 @@
 #ifndef INC_PLUGINUNDOOP
 #define INC_PLUGINUNDOOP
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmapRef;
 class NodeBitmap;

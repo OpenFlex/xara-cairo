@@ -23,23 +23,16 @@
 #include "nbevcont.h"
 #include "noderect.h"
 #include "ppbevel.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 // Code headers
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gclips.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathtrap.h"
 //#include "rndrgn.h"
 #include "grndrgn.h"
 #include "grndbmp.h"
 #include "nodebmp.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpcomp.h"
 #include "attrbev.h"
 //#include "xadrwold.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 //#include "bevres.h"
 #include "lineattr.h"

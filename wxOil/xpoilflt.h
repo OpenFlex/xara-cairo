@@ -20,7 +20,6 @@
 #ifndef INC_XPOILFLT
 #define INC_XPOILFLT
 
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "xpfcaps.h"
 #include "xmlutils.h"
 #include "camprocess.h"

@@ -24,7 +24,6 @@
 
 #include "sgdrag.h"
 #include "dragbmp.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class SGNameItem;
 class DragTarget;

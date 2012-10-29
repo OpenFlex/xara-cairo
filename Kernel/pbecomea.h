@@ -21,7 +21,6 @@
 #ifndef INC_PBECOMEA
 #define INC_PBECOMEA
 
-//#include "becomea.h"	// derivation from BecomeA. - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

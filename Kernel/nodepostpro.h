@@ -18,8 +18,6 @@
 #ifndef NODEPOSTPRO_H
 #define NODEPOSTPRO_H
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CCAttrMap;
 

@@ -20,8 +20,6 @@
 #ifndef WXOIL_GRIDDROPDOWN_H
 #define WXOIL_GRIDDROPDOWN_H
 
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gridcombo.h"
 
 // class DialogManager;

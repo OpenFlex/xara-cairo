@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathproc.h"
 #include "pathtrap.h"
 #include "bevtrap.h"

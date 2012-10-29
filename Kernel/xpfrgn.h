@@ -18,8 +18,6 @@
 #ifndef INC_XPFRGN
 #define INC_XPFRGN
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class PluginNativeFilter;
 class CapabilityTree;

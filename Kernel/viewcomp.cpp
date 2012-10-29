@@ -22,21 +22,14 @@
 
 #include "camtypes.h"
 #include "viewcomp.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "webparam.h"
 //#include "xarprefs.h"
 //#include "webprefs.h"
 #include "bitfilt.h"		// For standard bounds calc routines.
-//#include "quality.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
 
 #include "cxftags.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rechview.h"
 
 #include "zoomops.h"

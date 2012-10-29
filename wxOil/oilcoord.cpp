@@ -18,17 +18,8 @@
 
 #include "camtypes.h"
 
-//#include "oilcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "wrkcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "paper.h"
-//#include "xmatrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "chapter.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

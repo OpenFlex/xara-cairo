@@ -19,8 +19,6 @@
 #ifndef INC_HTMLLIST
 #define INC_HTMLLIST
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 #define HTMLTAG_TYPE	INT32

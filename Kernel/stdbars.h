@@ -31,14 +31,7 @@
 #ifndef INC_STDBARS
 #define INC_STDBARS
     
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h"    - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h"  	   	// Operation class   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h"  	// The DialogOp types - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgmgr.h"		// the dialogue box manager 
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // -----------------------------------------------------------------------------------------
 // StandardBar used to test the Dialog system

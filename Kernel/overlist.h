@@ -19,7 +19,6 @@
 #ifndef OVERRIDELIST
 #define OVERRIDELIST
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "overitem.h"	//OverrideListItem
 
 /***********************************************************************************************

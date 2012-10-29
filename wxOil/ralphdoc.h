@@ -24,11 +24,7 @@ class Document;
 class RalphView;
 
 //#include <afxole.h>
-//#include "ralphint.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "wrkcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccafile.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // constant used for claiming timer for window
 const INT32				CAM_TIMER_ID = 42;

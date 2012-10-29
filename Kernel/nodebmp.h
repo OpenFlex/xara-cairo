@@ -21,9 +21,7 @@
 #define INC_NODEBMP
 
 
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "noderect.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "xpehost.h"	// For OPTOKEN_XPE_EDIT
 
 class SelOperation;

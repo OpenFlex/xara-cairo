@@ -19,7 +19,6 @@
 #ifndef INC_OPFREE
 #define INC_OPFREE
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "selop.h"
 
 class NodeBlend;

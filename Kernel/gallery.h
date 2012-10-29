@@ -22,8 +22,6 @@
 #if FALSE
 // GALLERIES ARE DEFUNCT - SEE SuperGallery INSTEAD
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ordlist.h"
 
 

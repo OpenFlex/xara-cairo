@@ -21,16 +21,11 @@
 #include "camtypes.h"
 #include "giffiltr.h"
 //#include "andy.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "nodebmp.h"
 #include "bmpfiltr.h"
 #include "progress.h"
 #include "oilbitmap.h"	// Windows specific bitmap information
-//#include "docview.h"	// DocView - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "richard2.h"	// resource strings _R(IDS_GIFFILTR_FAILED_MASK)
 //#include "accures.h"	// Accusoft filter ids and messages 
@@ -40,7 +35,6 @@
 #include "maskfilt.h"	// MaskedFilter class
 #include "bmpsdlg.h"
 #include "frameops.h"	// GIFAnimationExportParam
-//#include "spread.h"		// Pasteboard rect - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmapprev.h"	// tab preview dialog
 #include "palman.h"		// MakePaletteBrowserCompatible
 #include "sprdmsg.h"	// SpreadMsg::ANIMATIONPROPERTIESCHANGED
@@ -51,13 +45,10 @@
 #include "camdoc.h"
 #include "menuops.h"
 
-//#include "outptdib.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h"		// for CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "mrhbits.h"	//  For CBMPBits::RenderSelectionToBMP
 #include "selall.h"		//  For OPTOKEN_EDITSELECTALL
 #include "bmpprefs.h"
-//#include "animparams.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tmplmngr.h"
 
 DECLARE_SOURCE("$Revision: 1461 $");

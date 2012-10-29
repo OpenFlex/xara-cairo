@@ -34,19 +34,13 @@
 #include "camtypes.h"
 #include "grndbmp.h"
 #include "colcontx.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibconv.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
-//#include "outptdib.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "palman.h"
 #include "progress.h"
 #include "GDrawIntf.h"			// GAT
 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "app.h"		// GetApplication - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmapprev.h"
 
 #define FIXEDBANDSIZE 512

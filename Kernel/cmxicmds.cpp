@@ -17,7 +17,6 @@
 // handles CMX commands
 
 #include "camtypes.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "riffform.h"
 #include "progress.h"
 #include "nodepath.h"
@@ -29,7 +28,6 @@
 #include "cmxidata.h"
 #include "cmxibits.h"
 #include "cmxibitm.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "riffform.h"
 #include "progress.h"
 #include "nodepath.h"

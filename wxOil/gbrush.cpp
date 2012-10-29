@@ -22,8 +22,6 @@
 #include "gbrush.h"
 //#include "ensure.h"
 #include "devcolor.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndrgn.h"
 //#include "app.h"
 #include "gbrushop.h"
@@ -32,7 +30,6 @@
 //#include "ccolbar.h"
 #include "gdrawcon.h"
 #include "gdraw.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "palman.h"
 
 CC_IMPLEMENT_MEMDUMP(GBrush, ListItem)

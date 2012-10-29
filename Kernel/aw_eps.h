@@ -20,11 +20,7 @@
 #ifndef INC_AW_EPS
 #define INC_AW_EPS
 
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "saveeps.h"
-//#include "epsstack.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixstr64.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodemold.h"
 
 // A structure to hold details of the last grad fill end colour read.

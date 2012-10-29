@@ -21,8 +21,6 @@
 #ifndef INC_CONTEXTMENU
 #define INC_CONTEXTMENU
 
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "clikmods.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class MenuItem;
 class Spread;

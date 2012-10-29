@@ -20,8 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "basestr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cctime.h"
 #include <time.h>
 

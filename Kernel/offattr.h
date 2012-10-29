@@ -24,7 +24,6 @@
 //	1 - call classes member functions,
 //	2 - use the class type for one of the members (not required if have pointer to class ??)
 //	3 - to derive a superclass??
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gla.h"
 
 ////////////////////////

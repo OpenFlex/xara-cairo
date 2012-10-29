@@ -20,22 +20,15 @@
 */
 
 #include "camtypes.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bfxalu.h"
 #include "GDrawIntf.h"
 #include "gdrawcon.h"
-//#include "bitmap.h"			   - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
 #include "oilbitmap.h"
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "accures.h"
 //#include "extfilts.h"
 //#include "resource.h" // for _R(IDS_OUT_OF_MEMORY)
 #include "tracectl.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bmplist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bfxpixop.h"
 //#include "bfxrc.h"
 #include "progress.h"

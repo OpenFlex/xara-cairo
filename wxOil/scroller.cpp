@@ -22,16 +22,12 @@
 
 #include "camtypes.h"
 
-//#include "ccmaths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camdoc.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "scrcamvw.h"
 #include "scroller.h"
 //#include "scrlbutn.h"
 //#include "scrlthmb.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "csrstack.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camdoc.h"
 #include "camframe.h"
 #include "vstate.h"

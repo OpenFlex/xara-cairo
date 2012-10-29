@@ -15,8 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vectrndr.h"
 
 CC_IMPLEMENT_DYNAMIC( VectorFileRenderRegion, RenderRegion )

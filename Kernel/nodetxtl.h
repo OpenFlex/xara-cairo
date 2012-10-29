@@ -19,10 +19,7 @@
 #ifndef INC_NODETXTL
 #define INC_NODETXTL
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetxts.h"
-//#include "attrmgr.h"	// for FormatRegion::GetTracking() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class EOLNode;
 class CharMetrics;

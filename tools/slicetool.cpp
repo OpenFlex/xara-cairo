@@ -21,15 +21,10 @@
 #include "oilfiles.h"
 #include "csrstack.h"
 //#include "viewrc.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 
 #include "layer.h"		// knowing about layers
-//#include "document.h"	// being able to get the spread - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "slice.h"		// for the export slices op
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h"		// knowing about ink nodes - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sprdmsg.h"	// SpreadMsg
 #include "layermsg.h"	// the layer messaging
 
@@ -40,8 +35,6 @@
 //#include "simon.h" // some string resources
 
 // for the use of wix temple attribs
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 

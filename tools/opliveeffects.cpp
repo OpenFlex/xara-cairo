@@ -23,7 +23,6 @@
 //#include "phil.h"				// for _R(IDS_GREY_WHEN_SELECT_INSIDE)
 #include "nodeliveeffect.h"
 #include "mainfrm.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "xpehost.h"
 #include "progress.h"
 #include "liveeffectstool.h"
@@ -36,7 +35,6 @@
 #include "grnddib.h"
 #include "fthrattr.h"
 #include "opfeathr.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "contmenu.h"
 #include "shadtool.h"
 #include "objchge.h"

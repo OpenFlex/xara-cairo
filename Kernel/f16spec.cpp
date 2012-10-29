@@ -24,7 +24,6 @@
 #include "f16spec.h"
 //#include "source.h"
 #include <math.h>
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "andy.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

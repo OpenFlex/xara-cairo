@@ -30,7 +30,6 @@
 #include "colormgr.h"
 #include "colourix.h"
 #include "colpick.h"
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scunit.h"
 #include "ctrlhelp.h"
 //#include "jason.h"

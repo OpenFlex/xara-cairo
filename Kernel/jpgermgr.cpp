@@ -21,7 +21,6 @@
 
 #include "jpgermgr.h"
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"		// for Error strings
 
 // Place any IMPLEMENT type statements here

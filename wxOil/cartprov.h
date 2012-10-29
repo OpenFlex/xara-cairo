@@ -18,7 +18,6 @@
 #ifndef INC_CARTPROV
 #define	INC_CARTPROV
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CamArtCacheEntry;
 class wxCamArtProviderEvent;

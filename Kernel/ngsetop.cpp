@@ -29,13 +29,9 @@
 #include "ngsentry.h"
 #include "ngsetop.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "keypress.h"
 //#include "nodetext.h"		// text tool bodges :(
 
-//#include "cxfrech.h"		// Wix ObjectName attributes - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 

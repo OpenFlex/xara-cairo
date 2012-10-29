@@ -39,20 +39,12 @@
 #include "dragcol.h"
 #include "dragpick.h"
 #include "dragbmp.h"
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "diagnost.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "scrcamvw.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "clikmods.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "transop.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ctrlhelp.h"
 //#include "fonts.h"
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "menuops.h"
 #include "hotkeys.h"
 //#include "oilkeys.h"
@@ -60,12 +52,10 @@
 #include "progress.h"
 #include "oilmenus.h"
 #include "clipint.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
 #include "fntcache.h"
 #include "pathops.h"
 #include "tunemem.h"
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prncamvw.h"
 #include "oilruler.h"
 //#include "registry.h"
@@ -82,7 +72,6 @@
 #include "hlinkdlg.h"
 #include "strkcomp.h"
 #include "tmpltdlg.h"
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "styles.h"
 #include "brshcomp.h"
 //#include "dlgcthlp.h"

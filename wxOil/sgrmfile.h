@@ -19,9 +19,6 @@
 #ifndef INC_SGRMFILE
 #define INC_SGRMFILE
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class PathName;
 class String_256;

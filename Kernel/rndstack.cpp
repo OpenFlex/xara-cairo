@@ -22,12 +22,7 @@
 
 #include "camtypes.h"
 
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndstack.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

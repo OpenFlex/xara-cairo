@@ -18,13 +18,11 @@
 
 
 #include "camtypes.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "jinclude.h"
 #include "jpglib_namespace.h"
 #include "jpgermgr.h"
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"			// for _R(IDE_FILE_WRITE_ERROR)
 
 #include "jpgdest.h"

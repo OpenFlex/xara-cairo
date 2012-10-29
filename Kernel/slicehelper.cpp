@@ -20,10 +20,8 @@
 #include "camtypes.h"
 
 #include "layer.h"		// knowing about layers
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // for the use of wix temple attribs
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 

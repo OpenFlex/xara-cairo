@@ -23,8 +23,6 @@
 #include "camview.h"
 //#include "draginfo.h"
 //#include "dragtrgt.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "clikmods.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scrvw.h"
 
 /*

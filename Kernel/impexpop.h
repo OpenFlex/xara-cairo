@@ -20,8 +20,6 @@
 #ifndef INC_IMPORTEXPORTOP
 #define INC_IMPORTEXPORTOP
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "bmpsdlg.h"
 
 // These used to be are OILy as they used to invoke common dialogs etc

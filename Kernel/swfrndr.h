@@ -18,7 +18,6 @@
 #define INC_FLASH_RENDER_H
 
 #include "fillramp.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vectrndr.h"
 #include "nodetext.h"
 #include "nodeshad.h"

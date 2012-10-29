@@ -20,14 +20,7 @@
 #define __CMXEXDC_H
 
 #include "kerneldc.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cmxform.h"
-//#include "pathtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "gradtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "arrows.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Filter;
 class CCDiskFile;

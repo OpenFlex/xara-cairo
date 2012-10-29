@@ -18,7 +18,6 @@
 #ifndef INC_RECHSHADOW
 #define INC_RECHSHADOW
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 

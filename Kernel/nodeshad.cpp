@@ -30,19 +30,13 @@
 #include "noderect.h"
 
 // Code headers
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gclips.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathtrap.h"
 #include "grndrgn.h"
 #include "nodebmp.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpcomp.h"
 
 // New Bitmap Shadowing code
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bshadow.h"
 
 // necessary for special case with bevelling
@@ -50,14 +44,10 @@
 #include "nodebev.h"
 
 // Save/load
-//#include "cxfdefs.h"	// TAG_SHADOW_SIZE - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	// TAG_SHADOW
-//#include "cxfrec.h"		// CXaraFileRecord - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h"	// BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swfrndr.h"	// FlashRenderRegion
 #include "cmxrendr.h"	// CMXRenderRegion
 #include "ai_epsrr.h"	// AIEPSRenderRegion
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
 
 // Resource headers
@@ -67,8 +57,6 @@
 #include "moldtool.h"
 //#include "mario.h"
 #include "attrappl.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "attrmap.h"
 #include "extender.h"
@@ -80,7 +68,6 @@
 #include "blndhelp.h"
 #include "osrndrgn.h"
 //#include "progress.h"
-//#include "spread.h"		// for class Spread - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "qualattr.h"	// for class QualityAttribute
 //#include "rendbits.h"	// for class OSRenderBitmap
 #include "nodebldr.h"	// for class NodeCompoundBlendBecomeA
@@ -89,7 +76,6 @@
 #include "nodecntr.h"	// for ContourBecomeA
 #include "nodecont.h"	// for default shadow settings
 #include "fthrattr.h"	// for feather bodge.
-//#include "quality.h"	// for quality setting info - used for caching. - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brshattr.h"	// for AttrBrushType, which we don't want applied to us.
 #include "opfeathr.h"	// for OpChangeFeatherSize, which we don't want operating on us.
 #include "nodeliveeffect.h"

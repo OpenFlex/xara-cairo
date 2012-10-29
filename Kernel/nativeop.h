@@ -21,8 +21,6 @@
 #define INC_NATIVEOP
 
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define	OPTOKEN_NATIVELOAD		wxT("NativeLoad")
 #define	OPTOKEN_NATIVESAVE		wxT("NativeSave")

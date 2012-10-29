@@ -24,18 +24,12 @@
 #include <math.h>
 
 #include "nodepath.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "kerneldc.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodeblnd.h"
 #include "nodebldr.h"
 #include "layer.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodemold.h"
 #include "ndmldgrp.h"
 #include "nodemldr.h"

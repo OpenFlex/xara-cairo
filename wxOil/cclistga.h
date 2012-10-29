@@ -21,10 +21,6 @@
 #include <afx.h>
 #include <afxtempl.h>
 #include <afxcoll.h>
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixstr16.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define ID_HEADER	179 // an arbitrary ID for the header
 // These defines have to be even to avoid having to pad bitmap scanlines

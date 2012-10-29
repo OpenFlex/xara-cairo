@@ -19,8 +19,6 @@
 #include "camtypes.h"
 #include "webaddr.h"
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "resimmap.h"
 	

@@ -17,7 +17,6 @@
 #ifndef INC_FLASH_BITMAP_RECORD
 #define INC_FLASH_BITMAP_RECORD
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

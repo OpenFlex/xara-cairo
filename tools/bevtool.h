@@ -24,13 +24,8 @@
 
 #ifdef BUILDSHADOWS
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bevinfo.h"
-//#include "clikmods.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragtool.h"
 
 class Cursor;

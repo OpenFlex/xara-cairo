@@ -20,7 +20,6 @@
 #define INC_PATHSTRK
 
 #include "pathtrap.h"
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "strkcomp.h"
 

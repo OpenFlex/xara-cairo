@@ -18,16 +18,12 @@
 
 #include "camtypes.h"
 
-//#include "app.h"		//For GetApplication::FindSelection - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "fimagdlg.h"
 //#include "imagdlg.h"	//Imagemap dialog resources
 //#include "resimmap.h"	//General imagemap resources
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "winrect.h"	//For WinRect - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"	//For OSRenderRegion::BitmapDocRectToWin
 #include "bitfilt.h"	//For BaseBitmapFilter::GetSizeOfDrawing
 #include "bmpfiltr.h"	//For BMPFilter::GetDefaultExportDPI

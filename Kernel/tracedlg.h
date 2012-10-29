@@ -21,10 +21,7 @@
 
 
 // Find out about the DialogOp Class
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "undoop.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tracectl.h"
 //#include <afxtempl.h>
 

@@ -15,7 +15,6 @@
  */
 
 
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Node;
 

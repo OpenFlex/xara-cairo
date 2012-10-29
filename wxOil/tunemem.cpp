@@ -21,8 +21,6 @@
 
 #include "camtypes.h"
 #include "tunemem.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_MEMDUMP(TunedMemory, CC_CLASS_MEMDUMP)

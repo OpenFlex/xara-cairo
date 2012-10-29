@@ -21,7 +21,6 @@ DECLARE_SOURCE("$Revision: 1608 $");
 
 #include "stdbars.h"
 #include "statline.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 
 CC_IMPLEMENT_DYNCREATE(StandardBar, DialogOp)

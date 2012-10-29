@@ -23,34 +23,21 @@
 
 
 // Code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"							
 #include "cameleps.h"
 #include "contmenu.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "lineattr.h"
 #include "nodetext.h"
 #include "nodetxtl.h"
 #include "objchge.h"
 //#include "opbreak.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathproc.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textops.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textfuns.h"
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 #include "ai_epsrr.h"
 #include "progress.h"
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftext.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "impstr.h"
 #include "unicdman.h"
 #include "extender.h"	// for ExtendParams

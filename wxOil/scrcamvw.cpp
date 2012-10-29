@@ -23,28 +23,20 @@
 #include "camtypes.h"
 
 
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scrcamvw.h"
 #include "scrvw.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "camdoc.h"
 //#include "ccmdikid.h"
 #include "vstate.h"
 #include "rendwnd.h"
 //#include "scroller.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oiltool.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "justin.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
 #include "csrstack.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mainfrm.h"
 //#include "oilkeys.h"
-//#include "monotime.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pen.h"
 //#include "bars.h"
 #include "impexpop.h"	// Import/Export ops
@@ -53,7 +45,6 @@
 #include "prntview.h"
 //#include "prncamvw.h"
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "dragmgr.h"
 //#include "dragcol.h"
 //#include "viewrc.h"
@@ -67,7 +58,6 @@
 //#include "rulers.h"
 #include "keypress.h"
 //#include "localenv.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "cutop.h"
 #include "insertnd.h"

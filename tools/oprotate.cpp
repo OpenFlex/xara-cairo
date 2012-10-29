@@ -22,10 +22,6 @@
 #include "camtypes.h"
 #include "oprotate.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "rik.h"
 #include "selector.h"
 //#include "clikdrag.h"

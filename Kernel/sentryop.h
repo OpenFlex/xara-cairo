@@ -20,7 +20,6 @@
 #ifndef INC_SENTRYOP
 #define INC_SENTRYOP        
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

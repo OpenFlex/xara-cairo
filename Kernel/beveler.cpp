@@ -21,7 +21,6 @@
 //#include "app.h"
 //#include "bmanip.h"
 //#include "paths.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "wincoord.h"
 //#include "bitmap.h"
 //#include "rndrgn.h"

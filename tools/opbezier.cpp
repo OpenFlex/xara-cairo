@@ -22,10 +22,8 @@
 #include "camtypes.h"
 #include "opbezier.h"	
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "beztool.h"
 #include "blobs.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "jim.h"
 #include "nodepath.h"
 #include "progress.h"

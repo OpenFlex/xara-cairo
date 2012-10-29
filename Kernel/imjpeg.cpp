@@ -18,17 +18,13 @@
 // A JPEG import filter 
 
 #include "camtypes.h"
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "progress.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filtrres.h"
 //#include "andy.h"			// for _R(IDE_FORMATNOTSUPPORTED)
 //#include "resource.h"		// for _R(IDS_OUT_OF_MEMORY)
 //#include "accures.h"		// for _R(IDW_CANCELLEDBMPIMPORT)
 #include "bmpsrc.h"			// for (JPEG)BitmapSource
-//#include "camfiltr.h"		// for GetCurrentRecordSize() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "imjpeg.h"
 #include "jpgsrc.h"

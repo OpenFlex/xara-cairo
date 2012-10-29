@@ -21,8 +21,6 @@
 #ifndef INC_NDOPTMZ
 #define INC_NDOPTMZ											  
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

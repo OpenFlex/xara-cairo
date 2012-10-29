@@ -18,7 +18,6 @@
 #ifndef INC_NODEBLENDPATH
 #define INC_NODEBLENDPATH
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "brpress.h"
 

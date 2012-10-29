@@ -19,9 +19,7 @@
 
 
 #include "camtypes.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndwing.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilmods.h"
 #include "camelot.h"
 

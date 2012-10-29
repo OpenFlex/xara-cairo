@@ -20,11 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "arrows.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixed16.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gdraw.h"
 #include "grndrgn.h"			// for REAL_GDRAW
 

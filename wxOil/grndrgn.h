@@ -23,15 +23,8 @@
 #ifndef INC_GRNDRGN
 #define INC_GRNDRGN
 
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rendtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "winrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gdrawcon.h"
-//#include "monotime.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "GDrawIntf.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class GradFillAttribute;
 class BitmapFillAttribute;

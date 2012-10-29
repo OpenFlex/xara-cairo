@@ -24,11 +24,7 @@
 #define INC_PUSHTOOL
 
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "bars.h"
 
 

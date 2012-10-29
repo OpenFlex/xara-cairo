@@ -21,7 +21,6 @@
 #include "camtypes.h"
 #include "exphint.h"
 
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 //#include "filtrres.h"
 

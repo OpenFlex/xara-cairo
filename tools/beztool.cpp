@@ -24,22 +24,16 @@
 #include "camtypes.h"
 #include "beztool.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "bezbar.h"
 #include "blobs.h"
 #include "csrstack.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "finfodlg.h"
 #include "keypress.h"
 //#include "jim.h"
 #include "lineattr.h"
 //#include "mario.h"
 //#include "markn.h"
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ndtxtpth.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodedoc.h"
 #include "nodershp.h"
 #include "nodetxts.h"
@@ -47,7 +41,6 @@
 #include "oilmods.h"
 #include "opbreak.h"
 #include "opbezier.h"
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opnudge.h"
 #include "pathedit.h"
 #include "pathndge.h"
@@ -56,7 +49,6 @@
 #include "progress.h"
 //#include "resource.h"
 //#include "rik.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "viewrc.h"
 #include "vkextra.h"
 #include "nodeblnd.h"

@@ -24,9 +24,6 @@
 #include "nodetxts.h"
 #include "nodetxtl.h"
 #include "nodetext.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

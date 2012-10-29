@@ -19,9 +19,6 @@
 #ifndef INC_MOULDSHAPES
 #define INC_MOULDSHAPES
 
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodemold.h"
 
 class KernelBitmap;

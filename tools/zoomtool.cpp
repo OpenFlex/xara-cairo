@@ -21,10 +21,8 @@
 #include "camtypes.h"
 
 //#include "opdesc.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "stockcol.h"
 //#include "lineattr.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "barsdlgs.h"
 //#include "errors.h"
@@ -36,13 +34,10 @@
 //#include "progress.h"
 #include "osrndrgn.h"
 //#include "mainfrm.h"
-//#include "winrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
 //#include "oilfiles.h"
 //#include "dlgmgr.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "app.h"
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "justin.h"
 //#include "markn.h"
 //#include "blobs.h"

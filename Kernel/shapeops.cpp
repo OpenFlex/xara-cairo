@@ -21,22 +21,16 @@
 #include "camtypes.h"
 #include "shapeops.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "csrstack.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "nodershp.h"
 #include "pathedit.h"
 //#include "peter.h"
 #include "progress.h"
 //#include "resource.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "viewrc.h"
 #include "objchge.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define PATRACE if(IsUserName("Peter")) TRACE
 

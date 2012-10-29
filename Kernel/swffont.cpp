@@ -15,7 +15,6 @@
  */
 
 #include "camtypes.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swffont.h"
 
 CC_IMPLEMENT_DYNAMIC( FlashFontRecord, CCObject )

@@ -19,7 +19,6 @@
 #ifndef INC_OPRETRO
 #define INC_OPRETRO
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class OpState;
 class NodePath;

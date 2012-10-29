@@ -20,7 +20,6 @@
 
 #include "camtypes.h"
 #include "nodecont.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "viewmod.h"
 //#ifndef _AFXDLL
 // tools that can go in DLLs go here

@@ -24,16 +24,10 @@
 //
 
 #include "camtypes.h"
-//#include "rndrgn.h"          - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
 //#include "tim.h"
 #include "diagnost.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "qualattr.h"
 #include "osrndrgn.h"
 #include "fuzzclip.h"
@@ -49,7 +43,6 @@
 #include "ppbrush.h"
 #include "clipattr.h"
 #include "gradtbl.h"
-//#include "capturemanager.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "oilbitmap.h"	// TEMP BODGE for testing
 

@@ -21,24 +21,13 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "stockcol.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "csrstack.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oilkeys.h"
 #include "oilfiles.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodedoc.h"
-//#include "selmsg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docvmsg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "selector.h"
 #include "selinfo.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 #include "keypress.h"
 #include "vkextra.h"
@@ -77,7 +66,6 @@
 #include "slicehelper.h"	//For helper functions
 
 //But I had to include all of these to get it to work!!...
-//#include "cxfrech.h"		//For CamelotRecordHandler - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"		//For UserAttr
 #include "tmpltatr.h"		//For TemplateAttribute
 

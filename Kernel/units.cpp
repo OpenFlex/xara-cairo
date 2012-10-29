@@ -20,10 +20,8 @@
 */
 
 #include "camtypes.h"
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 //#include "justin2.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oilfiles.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

@@ -20,10 +20,7 @@
 
 // Include files 
 #include "camtypes.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "toollist.h"
 //#include "simon.h"
 #include "attrappl.h"
@@ -59,7 +56,6 @@
 #include "lineattr.h"
 #include "coldlog.h"
 
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 #include "ophist.h"
 

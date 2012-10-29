@@ -23,8 +23,6 @@
 #include "pmaskrgn.h"
 #include "osrndrgn.h"
 #include "nodebmp.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNAMIC(PrintingMaskedRenderRegion, MaskedRenderRegion)

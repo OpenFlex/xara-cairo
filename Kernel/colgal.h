@@ -26,7 +26,6 @@
 
 #include "gallery.h"
 
-//#include "sgallery.h"	// To replace the colour gallery with a supergallery - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgcolour.h"
 
 

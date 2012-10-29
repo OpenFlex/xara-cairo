@@ -29,7 +29,6 @@
 #define SCROLLER__INC
 
 #include "camelot.h"
-//#include "ccmaths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /////////////////////////////////////////////////////////////////////////////

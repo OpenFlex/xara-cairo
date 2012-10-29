@@ -17,17 +17,12 @@
 
 #include "camtypes.h"
 
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfile.h"
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #if !defined(EXCLUDE_FROM_XARLIB)
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #endif
 
 //#include "ccpanose.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "unicdman.h"
 
 #include "fttyplis.h"

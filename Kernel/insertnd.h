@@ -20,7 +20,6 @@
 
 // InsertNode - a node which indicates the current insertion position in each document
 
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************
 >	class InsertionNode : public Node

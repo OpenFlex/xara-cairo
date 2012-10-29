@@ -17,7 +17,6 @@
 // 
 #include "camtypes.h"
 //#include "richard3.h"
-//#include "convert.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "scunit.h"
 
 CC_IMPLEMENT_MEMDUMP(Qualifier, CC_CLASS_MEMDUMP)

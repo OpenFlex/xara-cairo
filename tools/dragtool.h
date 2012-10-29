@@ -18,7 +18,6 @@
 #ifndef INC_DRAGTOOL
 #define INC_DRAGTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "transop.h"
 
 /********************************************************************************************

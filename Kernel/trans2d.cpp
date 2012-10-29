@@ -18,10 +18,6 @@
 // 2D Matrix transformation classes
 
 #include "camtypes.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "matrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNAMIC(Trans2DMatrix, TransInvertable)
 

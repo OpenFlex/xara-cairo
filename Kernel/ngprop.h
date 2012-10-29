@@ -22,7 +22,6 @@
 #ifndef NGPROP_H
 #define NGPROP_H
 
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "extender.h"	// for extend byte-flags
 #include <list>
 

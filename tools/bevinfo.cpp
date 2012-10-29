@@ -20,7 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "app.h"
 //#include "resource.h"
 #include "bevinfo.h"
@@ -39,7 +38,6 @@
 //#include "unittype.h"
 //#include "attrmgr.h"
 //#include "attrbev.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "bevtool.h"
 #include "selall.h"

@@ -18,13 +18,10 @@
 
 #include <math.h>
 #include "camtypes.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cmxexdc.h"
 #include "cmxform.h"
 #include "riffform.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colormgr.h"
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "cversion.h"
 #include "prvwflt.h"

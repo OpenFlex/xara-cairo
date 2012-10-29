@@ -19,9 +19,6 @@
 #ifndef INC_BLANKTOOL
 #define INC_BLANKTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Cursor;
 class Spread;

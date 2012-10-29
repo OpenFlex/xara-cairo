@@ -24,13 +24,8 @@
 
 #include "camtypes.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 #include "layer.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prnmkcom.h"
 //#include "prnmks.h"
 

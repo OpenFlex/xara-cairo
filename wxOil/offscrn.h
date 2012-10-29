@@ -19,7 +19,6 @@
 #define INC_OFFSCREEN_RR
 
 // structs, typedefs, defines
-//#include "gconsts.h"		// GCONTEXT - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // class definitions
 //	1 - call classes member functions,

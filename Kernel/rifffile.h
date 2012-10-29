@@ -20,8 +20,6 @@
 #define INC_RIFFFILE
 
 #include "riffform.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 typedef enum {
 	RIFFOBJECTTYPE_NONE,			// initial condition

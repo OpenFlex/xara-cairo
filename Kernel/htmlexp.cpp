@@ -18,13 +18,10 @@
 #include "camtypes.h"
 #include "htmlexp.h"
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "resimmap.h"		// For all the HTML tag resources
 
-//#include "ccfile.h"			//For CCLexFile - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "paths.h"			//For writing out paths - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 CC_IMPLEMENT_DYNAMIC(HTMLExportFilter, Filter)

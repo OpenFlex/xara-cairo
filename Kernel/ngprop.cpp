@@ -31,13 +31,11 @@
 #include "extender.h"
 //#include "extendsetsdlg.h"
 
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "mkshapes.h"
 #include "impexpop.h"
 #include "bitfilt.h"
 #include "bmpprefs.h"
 #include "bmapprev.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "extfilts.h"
 #include "exjpeg.h"
 //#include "filedlgs.h"
@@ -53,11 +51,9 @@
 //#include "tim.h"
 //#include "justin3.h"
 
-//#include "fixmem.h"		// For CCFree() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Matt - 13/02/2001 - For TemplateAttribute and Controller Nodes...
 //#include "galstr.h"
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 #include "nodershp.h"

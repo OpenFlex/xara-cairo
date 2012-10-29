@@ -20,7 +20,6 @@
 #ifndef INC_COLPICK
 #define INC_COLPICK
 
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class ColourList;
 class ColourContext;

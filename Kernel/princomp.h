@@ -20,7 +20,6 @@
 #ifndef INC_PRINCOMP
 #define INC_PRINCOMP
 
-//#include "doccomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class EPSExportDC;
 class PrintControl;

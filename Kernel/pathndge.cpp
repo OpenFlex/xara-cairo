@@ -22,14 +22,10 @@
 #include "camtypes.h"
 #include "pathndge.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 #include "nodepath.h"
 #include "opnudge.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathedit.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

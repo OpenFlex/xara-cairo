@@ -18,8 +18,6 @@
 
 #include "camtypes.h"
 
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 //#include "prnmkcom.h"
 //#include "princomp.h"

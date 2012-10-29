@@ -20,8 +20,6 @@
 #ifndef INC_CCDC
 #define	INC_CCDC
 
-//#include "rendtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class CCDC : public ListItem

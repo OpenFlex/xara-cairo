@@ -21,9 +21,7 @@
 
 #include "filtimop.h"	//For ImagemapFilterOptions
 #include "filtirr.h"	//For ImagemapRenderRegion
-//#include "filters.h"	//For AuldLangSyne - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "htmlexp.h"	//The HTML export filter
-//#include "list.h"		//For the list class - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CCLexFile;
 class Operation;

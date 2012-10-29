@@ -21,7 +21,6 @@
 
 //class NodeGroup;
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_WHATSTHIS _T("WhatsThis")
    

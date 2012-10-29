@@ -23,29 +23,20 @@
 #ifndef EXCLUDE_GALS
 #include "sgfonts.h"
 
-//#include "app.h"		// For GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "galstr.h"
-//#include "convert.h"	// For Millipoint convs - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"		// For render-into-dialogue support
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
-//#include "bitmap.h"		// For bitmap stuff ! - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"	// For more bitmap stuff
 #include "nodebmp.h"	// For bitmap drawing stuff
 #include "progress.h"	// For hourglass stuff
 //#include "galres.h"
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "wbitmap.h"
 //#include "richard.h"	
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgscanf.h"
 #include "sglib.h"
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "thumbmsg.h"
 #include "fontpgen.h"	// For Font thumbnail generation
 #include "sginit.h"
-//#include "basestr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 #include "sgliboil.h"	// For various stuff
 #include "dlgmgr.h"
@@ -55,9 +46,6 @@
 #include "fontman.h"
 #include "sgmenu.h"
 #include "fontbase.h"
-//#include "stockcol.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h"	// For apply - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h"	// For apply - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textinfo.h"	// For apply
 #include "nodetext.h"	// For status line stuff
 #include "dragmgr.h"	// For status line stuff
@@ -65,7 +53,6 @@
 #include "sgdfonts.h"	// Font dragging stuff
 #include "fontlist.h"	// For checking font usage on deinstall
 //#include "richard2.h"	// New reosurce strings
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "keypress.h"
 //#include "camnet.h"
 //#include "inetop.h"

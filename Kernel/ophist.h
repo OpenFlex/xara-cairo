@@ -33,9 +33,6 @@
 #ifndef INC_OPHIST
 #define INC_OPHIST
     
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "opdesc.h"    - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_UNDO _T("Undo")
 #define OPTOKEN_REDO _T("Redo")

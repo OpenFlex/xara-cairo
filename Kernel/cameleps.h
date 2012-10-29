@@ -21,10 +21,8 @@
 #define INC_CAMELEPS
 
 #include "aw_eps.h"
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "saveeps.h"
 #include "nodemold.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 class OILBitmap;

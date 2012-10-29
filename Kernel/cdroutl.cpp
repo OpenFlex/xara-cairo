@@ -22,8 +22,6 @@
 #include "camtypes.h"
 #include "cdrfiltr.h"
 #include "nodepath.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "impcol.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

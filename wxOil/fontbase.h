@@ -26,9 +26,6 @@
 #ifndef INC_FONTBASE
 #define INC_FONTBASE
 
-//#include "fontclass.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccpanose.h"
 
 class  DocCoord;

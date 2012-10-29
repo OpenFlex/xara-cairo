@@ -20,11 +20,7 @@
 
 #include "blendatt.h"
 #include "pathpcs.h"
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "quality.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "qualattr.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "control.h"
 
 class NodeContour;

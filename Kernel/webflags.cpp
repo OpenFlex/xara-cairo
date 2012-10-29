@@ -19,7 +19,6 @@
 #include "camtypes.h"
 #include "webflags.h"
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

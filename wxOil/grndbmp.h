@@ -19,7 +19,6 @@
 #define	INC_GRNDBMP
 
 #include "grnddib.h"
-//#include "dibconv.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class OILBitmap;
 

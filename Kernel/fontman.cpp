@@ -25,8 +25,6 @@
 #include "nodetxtl.h"
 #include "nodetext.h"
 #include "fontman.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "richard2.h"
 
 DECLARE_SOURCE( "$Revision: 1642 $" );

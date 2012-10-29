@@ -20,7 +20,6 @@
 #ifndef INC_CCASYNCHFILE
 #define INC_CCASYNCHFILE
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class LoadContext;
 

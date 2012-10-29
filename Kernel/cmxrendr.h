@@ -19,9 +19,7 @@
 #ifndef __CMXRENDR_H
 #define __CMXRENDR_H
 
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vectrndr.h"
-//#include "rrcaps.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodeshad.h"
 
 class NodeBevel;

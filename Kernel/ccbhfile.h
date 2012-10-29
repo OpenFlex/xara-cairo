@@ -18,7 +18,6 @@
 #ifndef INC_CCBHFILE
 #define INC_CCBHFILE
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 const UINT32 BinHexMaxLineLength = 100;
 

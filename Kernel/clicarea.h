@@ -20,8 +20,6 @@
 #define IMAGEMAPCLICKABLEAREA
 
 #include "overitem.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "flatfact.h"
 
 class CCLexFile;

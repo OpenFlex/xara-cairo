@@ -21,8 +21,6 @@
 #ifndef INC_PENEDIT
 #define INC_PENEDIT
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "stockcol.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // #include "pentool.h"
 

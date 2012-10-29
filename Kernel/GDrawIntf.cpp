@@ -27,8 +27,6 @@
 #include "GDrawIntf.h"
 #include "XaDrwOld.h"
 #include "GVersion.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gradtbl.h"
 
 #include "grndrgn.h"

@@ -27,15 +27,11 @@
 #include "zoomtool.h"
 
 //#include "xlong.h"
-//#include "wrkcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "app.h"
 #include "csrstack.h"
 //#include "document.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "progress.h"
 #include "selector.h"		// for static InflateByBlobBorder function
 

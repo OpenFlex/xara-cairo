@@ -20,19 +20,13 @@
 */
 
 #include "camtypes.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bfxatom.h"
 
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // for test
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
 #include "bitmpinf.h"
 #include "chapter.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
 #include "bfxtest.h"
 #include "bfxalu.h"

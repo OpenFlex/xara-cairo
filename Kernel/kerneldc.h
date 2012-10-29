@@ -21,8 +21,6 @@
 #define INC_KERNELDC
 
 #include "ccdc.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 // Used to control the output of 'user space values' (See KernelDC::OutputUserSpaceValue).

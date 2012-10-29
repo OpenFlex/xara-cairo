@@ -46,11 +46,7 @@
 #include "colcontx.h"	// Colour separation commands
 #include "colormgr.h"
 #include "colplate.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "app.h"		// Bitmap colour matching commands - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bmplist.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
 
 #include "prnmks.h"		// Printer marks
@@ -58,11 +54,9 @@
 #include "princomp.h"	// Print component (for always overprint black)
 #include "printctl.h"
 
-//#include "bmplist.h"	// For bitmap list dumps - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "nodecont.h"	// ShadowType
 
-//#include "attrmgr.h"	// For Stroke Provider commands - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "groupops.h"
 #include "lineattr.h"
 #include "mkshapes.h"
@@ -77,12 +71,10 @@
 #include "cachrand.h"
 #include "cachweak.h"
 #include "cachfifo.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opimgset.h"
 
 #include "opliveeffects.h"
 //#include "xpehost.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include <time.h>
 #include <stdlib.h>

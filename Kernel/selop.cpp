@@ -18,14 +18,8 @@
 //*/
  
 #include "camtypes.h"
-//#include "selop.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selstate.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 DECLARE_SOURCE("$Revision: 1282 $");

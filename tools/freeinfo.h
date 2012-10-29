@@ -20,7 +20,6 @@
 #ifndef FREEINFO_INC
 #define FREEINFO_INC
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 class FreeHandTool;
 
 #include "brshgdgt.h"

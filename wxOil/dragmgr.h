@@ -23,8 +23,6 @@
 
 #include "draginfo.h"
 #include "dragmsg.h"
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Cursor;
 enum ObjectDragTarget;

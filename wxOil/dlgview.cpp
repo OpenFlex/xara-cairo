@@ -23,7 +23,6 @@
 #include "camtypes.h"
 #include "dlgview.h"
 #include "vstate.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "osrndrgn.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

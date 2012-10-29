@@ -18,15 +18,6 @@
 // */ 
 
 #include "camtypes.h"
-//#include "pump.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "comattrmsg.h"
 #include "optsmsgs.h"
 #include "colmsg.h"

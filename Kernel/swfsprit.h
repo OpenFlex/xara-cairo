@@ -17,8 +17,6 @@
 #ifndef INC_FLASH_SPRITE
 #define INC_FLASH_SPRITE
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixst256.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swfplace.h"
 
 /********************************************************************************************

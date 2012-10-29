@@ -21,8 +21,6 @@
 #define INC_SGLAYER
 
 
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "layergal.h"
 

@@ -31,7 +31,6 @@
 /*
 */
 #include "camtypes.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 
@@ -40,11 +39,8 @@ DECLARE_SOURCE("$Revision: 1282 $");
 #include "lineattr.h"
 //#include "resource.h"
 #include "page.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 //#include "simon.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "blobtab.h"
 #include <stdlib.h>
 

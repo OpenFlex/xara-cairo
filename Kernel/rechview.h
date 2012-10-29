@@ -18,7 +18,6 @@
 #ifndef INC_RECHVIEW
 #define INC_RECHVIEW
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 class DocView;

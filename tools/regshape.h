@@ -19,12 +19,9 @@
 #ifndef INC_REGSHAPETOOL
 #define INC_REGSHAPETOOL
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodershp.h"
 #include "shapeops.h"
 //#include "peter.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "viewrc.h"
 #include "dragtool.h"
 

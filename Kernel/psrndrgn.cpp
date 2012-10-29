@@ -25,9 +25,6 @@
 #include "psrndrgn.h"
 #include "psdc.h"
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textfuns.h"
 #include "devcolor.h"
 #include "camelot.h"
@@ -37,9 +34,7 @@
 #include "oilfiles.h"
 #include "unicdman.h"  //For MBCS support
 //#include "xaracms.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "printctl.h"
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1365 $");
 

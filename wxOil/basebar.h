@@ -19,8 +19,6 @@
 #ifndef INC_BASEBAR
 #define INC_BASEBAR
 
-//#include "dockbar.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 #ifndef WIN32

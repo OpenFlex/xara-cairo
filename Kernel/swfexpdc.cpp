@@ -21,28 +21,16 @@
 
 #include "camelot.h"
 #include "colormgr.h"
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bevtrap.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fillramp.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathutil.h"
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "zstream.h"
 
 #include "fontman.h"
-//#include "app.h"			// For FONTMANAGER - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "prvwflt.h"
 #include "pngfiltr.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swfrndr.h"
 #include "kerneldc.h"
 #include "swfexpdc.h"

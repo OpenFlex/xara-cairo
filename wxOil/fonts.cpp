@@ -24,8 +24,6 @@
 
 #include <stdlib.h>
 #include "fonts.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 #include "camelot.h"
 #include "unicdman.h"

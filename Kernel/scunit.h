@@ -21,7 +21,6 @@
 
 // Definition of the scale units class
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /*********************************************************************************************
 

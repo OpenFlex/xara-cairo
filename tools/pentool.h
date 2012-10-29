@@ -20,11 +20,7 @@
 #ifndef INC_PENTOOL
 #define INC_PENTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wrkrect.h"
-//#include "binds.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "viewrc.h"
 #include "penedit.h"
 

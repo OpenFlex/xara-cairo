@@ -19,10 +19,6 @@
 #ifndef INC_SGLIB
 #define INC_SGLIB
 
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgtree.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgscan.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "camnet.h"
 
 /************************************************************************************/

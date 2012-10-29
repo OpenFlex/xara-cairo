@@ -23,9 +23,7 @@
 #define INC_BMPPREFS
 
 //#include "bmpdlg.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "dialogop.h"
-//#include "dibconv.h"				// for DITHER - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gpalopt.h"
 #include "filter_types.h"
 

@@ -26,7 +26,6 @@
 
 #include "colcomp.h"	// colour document component
 //#include "resource.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colormgr.h"
 #include "progress.h"
 //#include "ben.h"

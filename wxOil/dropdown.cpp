@@ -30,7 +30,6 @@
 
 #include "camelot.h"
 #include "dropdown.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "palman.h"
 
 

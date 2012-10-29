@@ -20,7 +20,6 @@
 #ifndef INC_VIEWCOMP
 #define INC_VIEWCOMP
 
-//#include "doccomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BaseCamelotFilter;
 class Quality;

@@ -19,19 +19,12 @@
 */
     
 #include "camtypes.h"                          
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "mario.h"
 //#include "simon.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "doccolor.h"
 #include "colcomp.h"
-//#include "basedoc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
-//#include "ink.h"		// for EffectsParentBounds(NodeRenderableInk*) - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodedoc.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 
 DECLARE_SOURCE("$Revision: 1282 $");

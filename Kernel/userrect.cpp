@@ -18,7 +18,6 @@
 
 #include "camtypes.h"
 #include "userrect.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 
@@ -330,7 +329,6 @@ Initial revision
 
 DECLARE_SOURCE("$Revision: 1282 $");
 
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 >	DocRect UserRect::ToSpread(Spread* pSpread)

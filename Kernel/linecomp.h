@@ -22,8 +22,6 @@
 #define INC_LINECOMP
 
 
-//#include "doccomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "linedef.h"
 class LineDefinition;
 class BaseCamelotFilter;

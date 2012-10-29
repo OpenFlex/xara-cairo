@@ -19,7 +19,6 @@
 #ifndef INC_RECHDOC
 #define INC_RECHDOC
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 class Document;

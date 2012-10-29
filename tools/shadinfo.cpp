@@ -29,29 +29,21 @@
 #include "shadinfo.h"
 //#include "shadbar.h"
 //#include "shadres.h"
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
 //#include "barsdlgs.h"
 //#include "rikdlg.h"
 //#include "justin2.h"
 //#include "simon.h"			// #define _R(IDS_AND)
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "unittype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "optsmsgs.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathops.h"
 #include "opshadow.h"
 #include "opbevel.h"
 #include "nodeshad.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cutop.h"
 #include "blobs.h"
 #include "camelot.h"
 #include "dragmgr.h"
 //#include "biasres.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 #include "biasdlg.h"
 #include "nodeblnd.h"

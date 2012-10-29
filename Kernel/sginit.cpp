@@ -19,10 +19,8 @@
 #include "camtypes.h"
 #include "sginit.h"
 
-//#include "app.h"		// For GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layergal.h"	// For OpDisplayLayerGallery et al
 #include "newcol.h"		// For NewColourDlg
-//#include "sgallery.h"	// For SGalleryOptionsDlg and SGallerySearchDlg - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgbitmap.h"	// For OpDisplayBitmapGallery
 #include "sgcolour.h"	// For OpDisplayColourGallery && ColourSGallery::Init
 //#include "sgfonts.h"	// For OpDisplayFontsGallery
@@ -30,7 +28,6 @@
 //#include "sglfills.h"	// For OpDisplayLibFillsGallery
 #include "sgline.h"		// For OpDisplayLineGallery
 #include "ngdialog.h"	// For OpDisplayNameGallery & OpNGPropertyIndexDesc
-//#include "sgscan.h"		// For Library::InitLibPrefs() - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layerprp.h"	// For LayerPropertiesDlg::Init()
 #include "aprps.h"
 //#include "frameops.h"	// OpGrabFrame::Init()

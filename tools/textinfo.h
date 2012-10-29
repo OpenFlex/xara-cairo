@@ -19,7 +19,6 @@
 #ifndef INC_TEXTINFO
 #define INC_TEXTINFO
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontbase.h"
 #include "usercord.h"
 

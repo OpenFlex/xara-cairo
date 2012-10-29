@@ -24,7 +24,6 @@
 
 #include "camtypes.h"                          
 //#include "mario.h"    // for _R(IDE_NOMORE_MEMORY)    
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "chapter.h"
 #include "nodedoc.h"
 #include "page.h"
@@ -35,13 +34,11 @@
 #include "nodepath.h"
 #include "ndoptmz.h"
 #include "dbugtree.h"
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 #include "nodetxts.h"
 
 #include "extender.h"
 #include "ngcore.h"		// NameGallery, for stretching functionality
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #ifdef RALPH
 #include "ralphcri.h"

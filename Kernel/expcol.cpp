@@ -24,7 +24,6 @@
 
 #include "expcol.h"
 #include "colourix.h"
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

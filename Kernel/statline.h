@@ -19,10 +19,7 @@
 #ifndef INC_STATUSLINE
 #define INC_STATUSLINE
 
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "flags.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camframe.h"
-//#include "monotime.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "stdbars.h"
 //#include "ed.h"
 #include "ktimer.h"

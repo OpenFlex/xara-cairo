@@ -17,8 +17,6 @@
 
 
 #include "camtypes.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 
@@ -333,7 +331,6 @@ Initial revision
 DECLARE_SOURCE("$Revision: 1282 $");
 
 #include "userrect.h"
-//#include "oilrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 >	DocRect DocRect::ToSpread(Spread* pSpread, View* pView)

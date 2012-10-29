@@ -27,7 +27,6 @@
 #include "ngsentry.h"
 #include "ngsetop.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sginit.h"
 #include "comattrmsg.h"
 
@@ -40,7 +39,6 @@
 //#include "justin3.h"
 #include "slicehelper.h"
 // for the use of wix temple attribs
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 

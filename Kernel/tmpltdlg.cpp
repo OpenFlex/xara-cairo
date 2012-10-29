@@ -17,21 +17,14 @@
 // The dialog that lets Mr Smart User make attributes templatable
 
 #include "camtypes.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tmpltdlg.h"
 
 //#include "tmpltres.h"
 //#include "barsdlgs.h"		// _R(IDD_BARCONTROLSTORE)
 #include "xshelpid.h"
 
-//#include "app.h"			//for GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 
@@ -42,7 +35,6 @@
 
 #include "attraggl.h"
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opnode.h"
 
 #include "tmpltarg.h"

@@ -20,10 +20,8 @@
 #define INC_PPMFILTR
 
 #include "bitfilt.h"
-//#include "outptdib.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpprefs.h"  	// SelectionType
 #include "maskedrr.h"	// MaskedRenderRegion derived off GRenderBitmap
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 //class OILFilter;

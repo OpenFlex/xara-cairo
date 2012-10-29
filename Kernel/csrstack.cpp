@@ -23,10 +23,7 @@
 #include "camtypes.h"
 
 #include "csrstack.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision $");
 

@@ -16,7 +16,6 @@
 
 
 #include "camtypes.h"
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxfmap.h"
 
 CC_IMPLEMENT_DYNAMIC(CXaraFileMapTagToHandler,CCObject);

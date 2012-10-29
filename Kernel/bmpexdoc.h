@@ -18,7 +18,6 @@
 #ifndef INC_BMPEXPDOC
 #define INC_BMPEXPDOC
 
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 class KernelBitmap;

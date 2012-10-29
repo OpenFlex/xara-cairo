@@ -21,7 +21,6 @@
 #ifndef INC_CTRLHELP
 #define INC_CTRLHELP
 
-//#include "monotime.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class OpDescriptor;
 class ControlTable;

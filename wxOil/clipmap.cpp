@@ -29,7 +29,6 @@
 #include "clipmap.h"
 
 // --- text includes  **** !!!! BODGE
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 #include "nodetext.h"
 #include "nodetxtl.h"
@@ -38,17 +37,12 @@
 
 // --- Bitmap Mapping includes
 #include "bitmpinf.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "jason.h"
 #include "nodebmp.h"
 #include "wbitmap.h"
 #include "scrcamvw.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // ---
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "nev.h"
 
 #include "cmxifltr.h"

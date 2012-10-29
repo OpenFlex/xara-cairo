@@ -21,13 +21,9 @@
 #include "camtypes.h"
 
 #include "cxftree.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
 #include "oildbug.h"
 #include "nodedoc.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 //#include <ios.h>
 #include "bubbleid.h"
@@ -38,7 +34,6 @@
 #include "cxfile.h"
 #include "cxftfile.h"
 #include "cxftags.h"
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // new tree control stuff
 #include "clipint.h"

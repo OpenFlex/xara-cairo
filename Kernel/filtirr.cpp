@@ -19,9 +19,6 @@
 #include "camtypes.h"
 #include "filtirr.h"
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "imagemap.h" //For Imagemap
 #include "webattr.h"  //For WebAddressAttribute

@@ -19,7 +19,6 @@
 #ifndef INC_SPRDMSG
 #define INC_SPRDMSG
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /*********************************************************************************************

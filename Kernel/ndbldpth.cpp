@@ -20,13 +20,9 @@
 
 #include "camtypes.h"
 #include "blobs.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodeblnd.h"
 #include "objchge.h"
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ndbldpth.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ngcore.h"		// NameGallery, for stretching functionality
 
 //#include "aw_eps.h"
@@ -34,10 +30,7 @@
 //#include "app.h"
 
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "ophist.h"
 

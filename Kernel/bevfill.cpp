@@ -16,7 +16,6 @@
 
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bevfill.h"
 
 CC_IMPLEMENT_DYNAMIC(CBevelFills, CCObject)

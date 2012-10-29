@@ -18,7 +18,6 @@
 #ifndef INC_CAMPROFILE
 #define	INC_CAMPROFILE
 
-//#include "ccobject.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 typedef enum
 {

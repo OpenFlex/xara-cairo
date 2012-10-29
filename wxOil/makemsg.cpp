@@ -24,8 +24,6 @@
 **************************************************************************************/
 
 #include "camtypes.h"
-//#include "basestr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /**************************************************************************************

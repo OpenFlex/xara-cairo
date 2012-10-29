@@ -19,8 +19,6 @@
 #ifndef INC_LOCALENV
 #define INC_LOCALENV
 
-//#include "opdesc.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

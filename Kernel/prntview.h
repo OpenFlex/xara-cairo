@@ -20,8 +20,6 @@
 #ifndef INC_PRNTVIEW
 #define INC_PRNTVIEW
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "printctl.h"
 
 class PrintView : public View

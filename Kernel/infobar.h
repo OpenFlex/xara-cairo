@@ -18,7 +18,6 @@
 #ifndef INC_INFOBAR
 #define INC_INFOBAR
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 #define OPTOKEN_INFOBAR _T("InfoBar")       

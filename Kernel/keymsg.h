@@ -19,7 +19,6 @@
 #ifndef INC_KEYMSG
 #define INC_KEYMSG
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /*********************************************************************************************

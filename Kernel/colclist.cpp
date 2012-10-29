@@ -23,8 +23,6 @@
 #include "camtypes.h"
 
 #include "colcontx.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

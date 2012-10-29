@@ -22,8 +22,6 @@
 #include "prvwmenu.h" // the context menu for the dialog
 //#include "exprwres.h"
 #include "giffiltr.h"	// for TI_GIFFilter
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h"		// for Document - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "webprvw.h"	// the resource strings for the web preview
 #include "product.h"	// the product name

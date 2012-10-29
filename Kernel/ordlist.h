@@ -26,8 +26,6 @@
 #define INC_ORDLIST
 
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 

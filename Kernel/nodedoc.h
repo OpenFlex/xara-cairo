@@ -20,7 +20,6 @@
 #ifndef INC_NODEDOC
 #define	INC_NODEDOC
 
-//#include "npaper.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class BaseDocument;
 

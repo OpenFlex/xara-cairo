@@ -19,8 +19,6 @@
 #ifndef INC_OPREGSHAPE
 #define INC_OPREGSHAPE
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_NEWREGSHAPE 	_T("NewRegShape")
 

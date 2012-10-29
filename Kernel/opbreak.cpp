@@ -21,18 +21,13 @@
 
 #include "camtypes.h"
 //#include "mike.h"
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opbreak.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "simon.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "ndtxtpth.h"
 //#include "resource.h" // _R(IDS_OK) _R(IDS_OUTOFMEMORY)
 //#include "barsdlgs.h" 
 //#include "jim.h"    
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 #include "ndbldpth.h"
 #include "ophist.h"

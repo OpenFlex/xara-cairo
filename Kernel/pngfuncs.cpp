@@ -21,7 +21,6 @@
 #include "png.h"
 #include "pngprgrs.h"
 #include "pngutil.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /******************************************************************* 
 

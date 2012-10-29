@@ -24,9 +24,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fitcurve.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathtrap.h"
 
 

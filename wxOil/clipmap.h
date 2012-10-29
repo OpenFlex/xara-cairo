@@ -20,7 +20,6 @@
 #ifndef INC_CLIPMAP
 #define INC_CLIPMAP
 
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cliptype.h"
 #include "cmxfiltr.h"
 

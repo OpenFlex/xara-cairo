@@ -19,34 +19,25 @@
 #include "camtypes.h"
 #include "sgliboil.h"
 
-//#include "app.h"		// For GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "galstr.h"
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "sginit.h"
 //#include "sglcart.h"	// This .cpp file's corresponding header
 //#include "sglib.h"
 //#include "sgfonts.h"
 //#include "sgscan.h"		// Generate code with hourglass...
 //#include "sgscanf.h"		// Generate code with hourglass...
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"		// For render-into-dialogue support
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "grnddib.h"
 //#include "galres.h"
 //#include "richard.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oilfltrs.h"
 //#include "tim.h"
 //#include "nev.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "filedlgs.h"
 //#include "scrcamvw.h"	// PageDropInfo
 //#include "resource.h"	// _R(IDS_CANCEL)
 #include "dlgmgr.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "reshlpid.h"
 #include "progress.h"
 #include "helpuser.h"
@@ -59,18 +50,12 @@
 #include "camdoc.h"
 #include "unicdman.h"
 //#include "fonts.h"
-//#include "camfiltr.h"	// BaseCamelotFilter - version 2 native filter - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	// TAG_DEFINEBITMAP_****
 #include "cxfile.h"		// CXF_UNKNOWN_SIZE
-//#include "cxfrech.h"	// CXaraFileRecordHandler - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "expcol.h"		// ExportedColours handling class
-//#include "cxfrec.h"		// CXaraFileRecord handler - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "webster.h"
 #include "pathnmex.h"
-//#include "docview.h"		// For DocView::GetCentreImportPosition - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "backgrnd.h"	// OpBackground
 #include "nodebmp.h"	// OpCreateBitmapNode
 #include "product.h"	// PROGRAM_NAME macro

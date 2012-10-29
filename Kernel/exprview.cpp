@@ -21,18 +21,10 @@
 #include "camtypes.h"
 #include "exprview.h"
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "vstate.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "ccdc.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "statline.h"
 
 

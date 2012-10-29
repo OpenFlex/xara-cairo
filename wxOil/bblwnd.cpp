@@ -22,9 +22,7 @@
 
 #include "bblwnd.h"
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fonts.h"
 #include "camelot.h"	// IsWin32s
 

@@ -20,7 +20,6 @@
 
 #include "camtypes.h"
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNCREATE(ListItem, CCObject)
 

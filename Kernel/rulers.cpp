@@ -25,11 +25,7 @@
 // No rulers in Webster
 #ifndef WEBSTER
 
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rulers.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sprdmsg.h"
 #include "optsmsgs.h"
 #include "userrect.h"

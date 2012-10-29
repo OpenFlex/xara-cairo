@@ -16,19 +16,13 @@
 
 #include "camtypes.h"
 #include "vectrndr.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 #include "nodetxtl.h"
-//#include "ccmaths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "pathshap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "webaddr.h"
 #include "webattr.h"
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "swfrndr.h"
 #include "swfexpdc.h"
 #include "slicehelper.h"	// For FindNextOfClass. ()
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "rendsel.h"
 #include "gclips.h"
 

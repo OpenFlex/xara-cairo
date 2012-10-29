@@ -23,11 +23,8 @@
 #include "camelot.h"
 #include "atmfonts.h"
 #include "fontman.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "atminfo.h"
 #include "oilmods.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textfuns.h"
 #include "atminst.h"
 #include "unicdman.h"

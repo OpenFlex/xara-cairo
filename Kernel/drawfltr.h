@@ -20,8 +20,6 @@
 #ifndef INC_DRAWFLTR
 #define INC_DRAWFLTR
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Node;
 

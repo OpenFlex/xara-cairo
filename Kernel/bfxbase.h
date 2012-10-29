@@ -19,7 +19,6 @@
 #ifndef INC_BFXBASE
 #define INC_BFXBASE
 
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class KernelBitmap;
 class BfxALU;

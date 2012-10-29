@@ -21,7 +21,6 @@
 #ifndef INC_URLIMPORTDLG
 #define INC_URLIMPORTDLG
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "webaddr.h"
 
 /********************************************************************************************

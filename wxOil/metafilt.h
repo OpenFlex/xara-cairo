@@ -20,9 +20,7 @@
 #ifndef INC_METAFILT
 #define	INC_METAFILT
 
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "clipmap.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class WinBitmap;
 class NodeBitmap;

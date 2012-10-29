@@ -22,8 +22,6 @@
 #include "camtypes.h"
 #include "galbar.h"
 #include "gallery.h"
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "mainfrm.h"
 #include "oilmods.h"
 #include "dlgmgr.h"
@@ -32,11 +30,9 @@
 #include "childbar.h"
 #include "bbutdef.h"
 #include "ctrlhelp.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
 #include "ctl3d.h"
 #include "fonts.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ed.h"
 
 #define MIN(a,b)	(((a)>(b)) ? (b) : (a))

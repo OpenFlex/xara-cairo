@@ -18,7 +18,6 @@
 
 
 #include "camtypes.h"
-//#include "app.h"			// GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "plugmngr.h"		// main header file
 #include "plugin.h"			// useful plug-in related items
@@ -33,7 +32,6 @@
 
 //#include "plugres.h"		// _R(IDS_PLUGIN_ONE)
 #include "progress.h"		// Progress
-//#include "fixmem.h"			// CCMalloc CCFree - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sgliboil.h"		// SGLibOil::AppendSlashIfNotPresent
 #include "sgrmfile.h"		// LibSettings
 #include "product.h"		// PRODUCT_PLUGINS_INIFILE

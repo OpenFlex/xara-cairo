@@ -21,9 +21,6 @@
 #define ZOOMOPS_H
 
 #include "opdragbx.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cursor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "wrkcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 // These define tokens for each operation associated with "zooming".

@@ -21,9 +21,7 @@
 
 #include "rechinfo.h"	// DocInfoRecordHandler for importing doc info from v2 native/web files
 #include "infocomp.h"	// Document info component, handles import of document information
-//#include "camfiltr.h"	// BaseCamelotFilter - version 2 native filter - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	// TAG_DOCUMENTCOMMENT
-//#include "cxfrec.h"		//  - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "localenv.h"	// LocalEnvironment
 

@@ -21,13 +21,6 @@
 #define INC_COLCONTX
 
 
-//#include "colcarry.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "colmodel.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "xaracms.h"
 
 

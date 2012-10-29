@@ -19,18 +19,9 @@
 #ifndef INC_BLENDTOOL
 #define INC_BLENDTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "biasgdgt.h"
-//#include "iprofile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodershp.h"
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "matrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selstate.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragtool.h"
 
 class Cursor;

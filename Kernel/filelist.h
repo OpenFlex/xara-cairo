@@ -19,7 +19,6 @@
 #ifndef INC_FILELIST
 #define INC_FILELIST
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 #define OPTOKEN_MRU_FILE1	_T("01MRUFile")

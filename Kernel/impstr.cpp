@@ -19,7 +19,6 @@
 #include "impstr.h"
 
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNCREATE(ImportedString,	ListItem);
 CC_IMPLEMENT_DYNAMIC(ImportedStringList,List);

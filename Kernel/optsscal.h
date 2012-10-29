@@ -23,7 +23,6 @@
 #ifndef INC_OPTSSCALE
 #define INC_OPTSSCALE
 
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 
 /********************************************************************************************

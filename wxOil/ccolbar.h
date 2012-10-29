@@ -20,10 +20,7 @@
 #define INC_CCOLBAR
 
 #include "collist.h"
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "gbrush.h"
-//#include "pump.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dragtrgt.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CColourBar;
 

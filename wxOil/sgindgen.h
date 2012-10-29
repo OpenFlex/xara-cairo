@@ -19,9 +19,6 @@
 #ifndef INC_SGINDGEN
 #define INC_SGINDGEN
 
-//#include "pathname.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

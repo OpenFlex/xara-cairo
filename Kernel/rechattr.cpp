@@ -25,7 +25,6 @@
 //#include "hotlink.h"		//For USERATTRKEY_WEBADDRESS
 
 #include "cxftags.h"
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1698 $");
 

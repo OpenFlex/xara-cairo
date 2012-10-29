@@ -20,7 +20,6 @@
 */
 
 #include "camtypes.h"
-//#include "coord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

@@ -24,9 +24,7 @@
 
 #include "plugmngr.h"		// main plug-in manager
 #include "bfxitem.h"		// useful Bfx plug-in related items
-//#include "app.h"			// GetApplication() - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "bitmap.h"			// KernelBitmap - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "menuitem.h"		// MenuItem
 
 // Place any IMPLEMENT type statements here

@@ -23,8 +23,6 @@
 #include "camtypes.h"
 #include "appprefs.h"
 #include "optsedit.h"
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h"		// units - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "resource.h"	// _R(IDS_OK)
 
 CC_IMPLEMENT_DYNAMIC(EditTab, OptionsTabs)   

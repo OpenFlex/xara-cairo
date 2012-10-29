@@ -23,9 +23,6 @@
 
 
 #include "camtypes.h"
-//#include "handles.h"						// include the header file - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "memblk.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /*==========================================================================================*/

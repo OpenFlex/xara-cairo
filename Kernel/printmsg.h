@@ -19,7 +19,6 @@
 #ifndef INC_PRINTMSG
 #define INC_PRINTMSG
 
-//#include "msg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /*********************************************************************************************

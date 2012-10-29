@@ -29,7 +29,6 @@
 #include <stdlib.h>
 #include "camelot.h"
 //#include "mainfrm.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "errorbox.h"
 
 #include "helpuser.h"

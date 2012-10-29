@@ -23,9 +23,7 @@
 
 #ifdef BUILDSHADOWS
 
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrappl.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "shadinfo.h"	// for SoftShadowInfoBarData
 #include "menuitem.h"
 #include "effects_stack.h"

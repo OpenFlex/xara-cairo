@@ -24,8 +24,6 @@
 #include "camtypes.h"
 #include "appprefs.h"
 #include "optsundo.h"
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "convert.h"	// StringToBytes and BytesToString - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ophist.h"
 
 CC_IMPLEMENT_DYNAMIC(UndoTab, OptionsTabs)   

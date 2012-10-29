@@ -25,10 +25,7 @@
 #ifdef RALPH
 
 #include "ralphdoc.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ralphvw.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "toollist.h"
 
 #include "nativeop.h"
@@ -36,15 +33,10 @@
 #include "grndrgn.h"
 //#include "mario.h"
 #include "product.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grnddib.h"
 #include "grndbmp.h"
 #include "ralphprn.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include <iostream.h>
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
 #include "camelot.h"
 #include "ralphcri.h"

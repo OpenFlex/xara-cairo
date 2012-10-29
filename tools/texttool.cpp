@@ -31,12 +31,9 @@
 //#include "will2.h"
 
 // Code headers
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blobs.h"
 #include "csrstack.h"
 #include "unicdman.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "keypress.h"
 #include "nodetext.h"
 #include "nodetxts.h"
@@ -45,8 +42,6 @@
 #include "oilfiles.h"
 #include "opscale.h"
 #include "opsquash.h"
-//#include "selmsg.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "textinfo.h"
 #include "textops.h"
 #include "textfuns.h"
@@ -54,7 +49,6 @@
 #include "nodetxts.h"
 #include "nodemold.h"
 #include "cutop.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "layer.h"
 #include "nodepostpro.h"
 #include "nodepath.h"

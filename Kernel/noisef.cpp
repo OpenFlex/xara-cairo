@@ -18,12 +18,9 @@
 #include "camtypes.h"
 #include "noisef.h"
 #include "vector3d.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "macros.h"
 #include "noisebas.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 CC_IMPLEMENT_DYNCREATE(NoiseFractalFill,CCObject);
 

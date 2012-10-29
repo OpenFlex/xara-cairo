@@ -18,10 +18,7 @@
 #ifndef INC_AI_EPS_5
 #define INC_AI_EPS_5
 
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ai_eps.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "impbmp.h"
 
 class AI5Gradient;

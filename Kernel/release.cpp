@@ -21,10 +21,8 @@
 */
 
 #include "camtypes.h"
-//#include "release.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "brandinf.h"
 //#include "justin2.h"
-//#include "app.h"		// Camelot object - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // these are packed so that a brander program can easily find & verify them
 

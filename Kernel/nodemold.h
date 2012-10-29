@@ -20,13 +20,8 @@
 #define INC_NODEMOULD
 
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "selop.h"
 //#include "moldshap.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 
 #define OPTOKEN_NODEMOULD _T("MouldObject")

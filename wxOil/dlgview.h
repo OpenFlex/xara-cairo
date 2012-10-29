@@ -20,7 +20,6 @@
 #ifndef INC_DLGVIEW
 #define INC_DLGVIEW
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

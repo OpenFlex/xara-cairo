@@ -20,11 +20,7 @@
 #ifndef INC_GRIDTOOL
 #define INC_GRIDTOOL
 
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "undoop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grid.h"
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class Cursor;
 class Spread;

@@ -19,9 +19,6 @@
 #ifndef INC_SGLINEPR
 #define INC_SGLINEPR
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dlgtypes.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "sgallery.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "strkcomp.h" // for strokehandle
 
 /***********************************************************************************************

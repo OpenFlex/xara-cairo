@@ -19,7 +19,6 @@
 #define INC_BMAPPREV
 
 #include "bmpprefs.h"	// ExportFileType
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpalctrl.h"	// Required as BmapPrevDlg HasA BitmapExportPaletteControl
 
 class BitmapExportPreviewDialog;

@@ -22,7 +22,6 @@
 #include "camtypes.h"
 
 #include "errorbox.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "andy.h"
 //#include "tim.h"
 //#include "resource.h"

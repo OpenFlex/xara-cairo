@@ -21,11 +21,9 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cversion.h"
 #include "product.h"
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "oilfltrs.h"	// Web oil filter i.e. Windows UI specific details e.g. extension
 //#include "filtrres.h"	// IDs
 
@@ -40,15 +38,11 @@
 #include "progress.h"
 //#include "sglayer.h"
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sprdmsg.h"
 #include "layer.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
-//#include "bars.h"		// UpdateStateOfAllBars - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "chapter.h"
 #include "nodershp.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "qualops.h"	// for QualitySliderDescriptor::Update();
 
 #include "bitfilt.h"	// GetSizeOfDrawing()
@@ -62,9 +56,7 @@
 #include "fontcomp.h"	// font component, record handling classes for font records
 
 #include "cxfile.h"		// The core v2 format class
-//#include "cxfrec.h"		// The v2 format record class - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"	// The tag definitions
-//#include "cxfdefs.h"	// The constants - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxflists.h"	// Lists for import & export
 #include "taglists.h"	// Lists for holding tag information
 
@@ -100,7 +92,6 @@
 //#include "webprefs.h"	// Web options dialog handler
 #include "webparam.h"	// WebPrefsDlgParam class
 #include "prvwflt.h"	// for PreviewBitmap::PreviewBitmapSize
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "grptrans.h"	// GroupTransparencyRecordHandler
 //#include "ndcchbmp.h"	// CacheBitmapRecordHandler
@@ -108,13 +99,11 @@
 
 //#include "ralphcri.h"
 
-//#include "winrect.h"	//for class WinRect - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "osrndrgn.h"	//for BitmapDocRectToWin
 //#include "resimmap.h"	//for HTML tag exporting resources 
 //#include "clipint.h"	//for putting text on the clipboard
 
 // WEBSTER - markn 29/1/97
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrmap.h"
 //#include "prevwres.h"	// _R(IDS_COMBINING_LAYERS)
 #include "exphint.h"

@@ -1,7 +1,6 @@
 // This class contains all the file deflating code
 
 #include "camtypes.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "zdeflate.h"
 #include "zstream.h"

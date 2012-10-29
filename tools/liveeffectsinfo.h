@@ -20,7 +20,6 @@
 #ifndef LIVEEFFECTSINFO_INC
 #define LIVEEFFECTSINFO_INC
 
-//#include "bars.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "xmlutils.h"
 #include "valfunc.h"  // for valuefunctionID
 

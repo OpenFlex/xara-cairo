@@ -20,8 +20,6 @@
 #ifndef INC_EXPRVIEW
 #define INC_EXPRVIEW
 
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CDC;
 class OILBitmap;

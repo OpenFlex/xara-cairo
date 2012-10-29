@@ -20,14 +20,8 @@
 #ifndef INC_NDBRSHMK
 #define INC_NDBRSHMK
 
-//#include "tranform.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "blendatt.h"
 #include "nodebldr.h"
-//#include "trans2d.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "brushref.h"
 #include "brshcomp.h"
 

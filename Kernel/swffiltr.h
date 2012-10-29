@@ -18,7 +18,6 @@
 #define INC_SWF_EXPORT
 
 #include "swfrndr.h"	// Definition of FlashRenderRegion.
-//#include "filters.h"	// Base filter class. - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

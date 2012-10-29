@@ -29,27 +29,17 @@
 #include "ngsentry.h"
 #include "ngsetop.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dragmgr.h"
 #include "keypress.h"
 
-//#include "bitmap.h"				// bitmaps - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "cxfrech.h"			// names - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "userattr.h"
 #include "tmpltatr.h"
 
 #include "fontman.h"			// fonts
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodetext.h"
 
-//#include "doccolor.h"			// colours - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colourix.h"
 
 //#include "galres.h"

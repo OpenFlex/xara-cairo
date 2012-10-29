@@ -18,10 +18,6 @@
 #ifndef INC_QUALATTR
 #define	INC_QUALATTR
 
-//#include "quality.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodeattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "doccolor.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

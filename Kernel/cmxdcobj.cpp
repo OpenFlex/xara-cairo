@@ -20,9 +20,6 @@
 #include "cmxexdc.h"
 #include "cmxrendr.h"
 #include "cmxform.h"
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "colcontx.h"
 //#include "nev.h"
 //#include "cmxres.h"

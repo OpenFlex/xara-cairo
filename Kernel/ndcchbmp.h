@@ -22,8 +22,6 @@
 #define INC_NODECACHEBMP
 
 #include "nodebmp.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class ExtendParams;
 

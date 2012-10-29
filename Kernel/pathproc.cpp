@@ -22,9 +22,6 @@
 
 #include "camtypes.h"
 #include "pathproc.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #if !defined(EXCLUDE_FROM_XARLIB)
 #include "pen.h"
 #else

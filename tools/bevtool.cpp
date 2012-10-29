@@ -28,7 +28,6 @@
 //#include "rik.h"
 //#include "markn.h"
 //#include "viewrc.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "document.h"
 //#include "mainfrm.h"
 #include "infobar.h"
@@ -53,7 +52,6 @@
 #include "attrbev.h"
 //#include "attrmgr.h"
 //#include "nodebev.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cntrtool.h"
 #include "gclips.h"
 #include "bubbleid.h"

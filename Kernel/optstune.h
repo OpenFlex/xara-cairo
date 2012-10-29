@@ -22,9 +22,6 @@
 #ifndef INC_OPTSTUNE
 #define INC_OPTSTUNE
 
-//#include "unittype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "units.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "appprefs.h"
 
 /********************************************************************************************

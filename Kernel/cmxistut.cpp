@@ -21,9 +21,6 @@
 // flag for parsing the header file
 #define COMPILING_CMXISTUT_CPP
 
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "basestr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "cmxistut.h"
 #include "cmxifltr.h"

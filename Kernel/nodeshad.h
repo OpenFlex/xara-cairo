@@ -23,14 +23,7 @@
 #include "nodebmp.h"
 
 //#include "combshps.h"
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "pathpcs.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "gconsts.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodeShadowController;
 class TrapsList;

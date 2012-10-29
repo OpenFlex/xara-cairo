@@ -18,7 +18,6 @@
 
 
 #include "camtypes.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "tmpltarg.h"
 
 #if defined( __WXMSW__ )
@@ -26,7 +25,6 @@
 #endif
 
 //#include "registry.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 
 /********************************************************************************************

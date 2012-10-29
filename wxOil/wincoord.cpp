@@ -18,9 +18,6 @@
 
 #include "camtypes.h"
 
-//#include "wincoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilcoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "view.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1395 $");
 

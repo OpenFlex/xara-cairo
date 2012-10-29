@@ -19,17 +19,10 @@
 */
 
 #include "camtypes.h"
-//#include "outptgif.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "andy.h"
-//#include "dibconv.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"		// For hourglass stuff
 #include "gifutil.h"		// GIF header definitions
 //#include "string.h"			// memcpy
-//#include "camfiltr.h"		// BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define	new	CAM_DEBUG_NEW
 

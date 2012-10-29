@@ -22,7 +22,6 @@
 #ifndef INC_CMXFILTER
 #define INC_CMXFILTER
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CMXExportDC;
 class CMXRenderRegion;

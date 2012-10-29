@@ -27,8 +27,6 @@
 #include "ngiter.h"
 #include "ngsentry.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #if 0
 #ifdef _DEBUG

@@ -17,27 +17,18 @@
 // Thumb.cpp - Thumbnail handling class for the library system
 
 #include "camtypes.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilbitmap.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "pngutil.h"
-//#include "thumb.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "sgscan.h"
 #include "bitfilt.h"
 #ifndef WEBSTER
 //#include "extfilts.h"
 #endif //WEBSTER
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "sgfonts.h"
-//#include "ccfile.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "thumbmsg.h"
 #include "sgliboil.h"
 //#include "fontpgen.h"
-//#include "camfiltr.h"	// BaseCamelotFilter - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "cmxifltr.h"	// CMXImportFilter
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 // Implement the dynamic class bits...
 CC_IMPLEMENT_MEMDUMP(SGThumbs, CC_CLASS_MEMDUMP)

@@ -20,9 +20,6 @@
 #define INC_NODEPATH
 
 
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #define OPTOKEN_NODEPATH	_T("PathObject")
 

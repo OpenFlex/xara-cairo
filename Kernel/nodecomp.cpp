@@ -19,10 +19,6 @@
 */
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "nodecomp.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "objchge.h"
 
 // Resource headers
@@ -35,8 +31,6 @@
 
 // attribute headers
 #include "lineattr.h"
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrbev.h"
 #include "cutop.h"
 #include "nodetxts.h"
@@ -44,13 +38,10 @@
 #include "opbevel.h"
 #include "textops.h"
 #include "blobs.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebldr.h"
 #include "blendatt.h"
 //#include "mario.h"
 #include "pathops.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE( "$Revision: 1385 $" );
 

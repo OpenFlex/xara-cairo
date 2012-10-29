@@ -23,10 +23,7 @@
 #include "oilmods.h"
 #include "module.h"
 #include "modlist.h"
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "viewrc.h"
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "zoomtool.h"
 //#include "pushtool.h"

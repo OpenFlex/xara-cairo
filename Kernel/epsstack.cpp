@@ -19,14 +19,7 @@
 
 
 #include "camtypes.h"
-//#include "list.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "listitem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ensure.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "basestr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "epsfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "epsstack.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "epssitem.h"
 
 /********************************************************************************************

@@ -22,20 +22,12 @@
 #include "tipsdlg.h"   
 //#include "tipsres.h"   
 //#include "tips.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "camelot.h"
-//#include "dialogop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccstatic.h"   
 #include "dragmgr.h"
-//#include "ensure.h"   - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h"  - in camtypes.h [AUTOMATICALLY REMOVED]
 
-//#include "rndrgn.h"			// For render-into-dialogue support - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "dlgcol.h"
-//#include "fillval.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
-//#include "bitmap.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "wbitmap.h"
 
 #include "helpuser.h"

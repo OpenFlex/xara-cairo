@@ -18,7 +18,6 @@
 #ifndef INC_RECHBLND
 #define INC_RECHBLND
 
-//#include "cxfrech.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class CXaraFileRecord;
 class NodeBlender;

@@ -22,11 +22,7 @@
 #include "camtypes.h"
 #include "oppull.h"
 
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "phil.h"
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "range.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE("$Revision: 1282 $");
 

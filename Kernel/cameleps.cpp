@@ -25,15 +25,10 @@
 #include "cameleps.h"
 
 #include "nodepath.h"
-//#include "paths.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "tim.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "ccdc.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "page.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bitmpinf.h"
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodebmp.h"
 #include "fracfill.h"
 //#include "resource.h"
@@ -45,17 +40,14 @@
 #include "nodemldr.h"
 #include "ndmldpth.h"
 #include "nodeshap.h"
-//#include "txtattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "grndbmp.h"
 #include "camview.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "opgrad.h"		// for AreLinesPerpendicular()
 #include "oilfiles.h"
 #include "ndoptmz.h"
 #include "ndtxtpth.h"
 #include "maskedrr.h"
 #include "oilbitmap.h"
-//#include "dibutil.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "native.h"			// The new designed native filter, used for v2
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 #include "psdc.h"
@@ -63,9 +55,7 @@
 #include "prdlgctl.h"
 #include "progress.h"
 #include "textfuns.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "will.h"		// for _R(IDE_UNKOWN_EPSOBJECT)
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "ben.h"
 #include "fontman.h"
 #include "guides.h"

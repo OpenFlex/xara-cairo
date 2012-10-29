@@ -20,7 +20,6 @@
 #define INC_INVALID
 
 
-//#include "ops.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 /********************************************************************************************
 

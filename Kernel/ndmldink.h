@@ -19,7 +19,6 @@
 #ifndef INC_NODEMOULDINK
 #define INC_NODEMOULDINK
 
-//#include "ink.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 class NodeMould;
 class kernelBitmap;

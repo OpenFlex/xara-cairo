@@ -23,20 +23,11 @@
 #include "ppbrush.h"
 #include "brshcomp.h"
 #include "pathproc.h"
-//#include "doccoord.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docrect.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrmap.h"
 #include "brushref.h"
 #include "ndbldpth.h"
-//#include "fixed16.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "matrix.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillval.h"  // for my traces, may remove  - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "qualattr.h"
 // Native file load/save includes
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfdefs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "cxfrec.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "cxftags.h"
 //#include "grndbrsh.h" // for real time brush drawing
 //#include "rik.h"      // for the strings
@@ -53,7 +44,6 @@
 #include "valfunc.h"
 #include "strkattr.h"
 //#include "offscrn.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 #include "ophist.h"
 #include "vectrndr.h"

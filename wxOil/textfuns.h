@@ -20,7 +20,6 @@
 #define INC_TEXTFUNS
 
 #include "fntcache.h"
-//#include "pathtype.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "textinfo.h"
 class CharDescription;
 class DocCoord;

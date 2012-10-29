@@ -18,25 +18,19 @@
 #include "camtypes.h"
 
 //#include "barsdlgs.h"	
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "dialogop.h"	 - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "optsres.h"	
 //#include "will.h"		
 //#include "resource.h"	
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "sprdmsg.h"	
 #include "optsmsgs.h"	
 #include "layer.h"
 //#include "nev.h"		
 #include "sglayer.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 //#include "markn.h"
 //#include "jason.h"
 #include "layermsg.h"
 #include "aprps.h"
 //#include "gifdlg.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 //#include "will3.h"
 #include "prevwdlg.h"

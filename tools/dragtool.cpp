@@ -19,7 +19,6 @@
 #include "dragtool.h"
 #include "toollist.h"
 #include "selector.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 
 DECLARE_SOURCE( "$Revision: 1282 $" );
 

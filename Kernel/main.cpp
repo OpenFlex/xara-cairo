@@ -24,8 +24,6 @@
 
 //#include "clipext.h"
 #include "clipint.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tool.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "module.h"
 #include "bfxbase.h"
 #include "printing.h"
@@ -36,7 +34,6 @@
 #include "fntcache.h"
 #include "sginit.h"
 #include "sgliboil.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "oilmenus.h"
 #include "oilruler.h"
 #include "layer.h"

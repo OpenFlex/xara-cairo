@@ -21,11 +21,8 @@
 
 #include "camtypes.h"
 //#include "oilfiles.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "selop.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "csrstack.h"
 //#include "markn.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "nodepath.h"
 #include "progress.h"
 #include "nodeblnd.h"
@@ -39,7 +36,6 @@
 //#include "will.h"
 #include "filltool.h"
 #include "bubbleid.h"
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "attrmap.h"
 #include "ndbldpth.h"
 #include "pathedit.h"
