@@ -38,7 +38,6 @@
 
 
 // Put my version number into the About box
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

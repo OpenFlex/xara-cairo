@@ -56,7 +56,6 @@
 #include "statline.h"
 #include <wx/imaglist.h>
 
-DECLARE_SOURCE("$Revision: 1770 $");
 
 CC_IMPLEMENT_DYNAMIC(CGadgetImageList, CCObject);
 

@@ -28,7 +28,6 @@
 
 #include <math.h>
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(GPerspective, GMould)
 CC_IMPLEMENT_DYNAMIC(MouldPerspective, MouldGeometry)

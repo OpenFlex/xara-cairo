@@ -68,7 +68,6 @@
 
 extern void Beep();
 
-DECLARE_SOURCE( "$Revision: 1446 $" );
 
 
 // CC_IMPLEMENTS for all classes

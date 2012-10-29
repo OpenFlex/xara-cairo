@@ -27,7 +27,6 @@
 //#include "clikdrag.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNCREATE(OpSquashTrans, TransOperation)

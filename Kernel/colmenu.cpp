@@ -29,7 +29,6 @@
 
 //#include "will2.h"
 
-DECLARE_SOURCE("$Revision: 1149 $");
 
 
 CC_IMPLEMENT_MEMDUMP(ColEditContextMenu, ContextMenu)

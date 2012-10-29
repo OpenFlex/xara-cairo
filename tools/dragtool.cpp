@@ -20,7 +20,6 @@
 #include "toollist.h"
 #include "selector.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 // Run-time type checking etc etc
 CC_IMPLEMENT_MEMDUMP(DragTool, Tool_v1)

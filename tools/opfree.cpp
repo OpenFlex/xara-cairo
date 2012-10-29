@@ -57,7 +57,6 @@
 #include "brshattr.h"
 
 // Set things up so that the tool will be listed in the Dialog box
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Declare the class
 CC_IMPLEMENT_DYNCREATE( OpFreeHand, SelOperation )

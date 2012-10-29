@@ -36,7 +36,6 @@
 //#include "xaracms.h"
 #include "printctl.h"
 
-DECLARE_SOURCE("$Revision: 1365 $");
 
 CC_IMPLEMENT_DYNAMIC(PrintPSRenderRegion, CamelotEPSRenderRegion)
 

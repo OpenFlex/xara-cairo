@@ -47,7 +47,6 @@
 #include "effects_stack.h"
 #include "fillattr2.h"
 
-DECLARE_SOURCE( "$Revision: 1744 $" );    
 
 CC_IMPLEMENT_DYNAMIC(Range, CCObject)   
 CC_IMPLEMENT_DYNAMIC(NodeListItem, ListItem)

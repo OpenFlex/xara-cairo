@@ -72,7 +72,6 @@
 #include "slicehelper.h"
 #include "ophist.h"
       
-DECLARE_SOURCE("$Revision: 1282 $");  
 
 CC_IMPLEMENT_DYNCREATE(OpBringToFront, SelOperation)
 CC_IMPLEMENT_DYNCREATE(OpPutToBack, SelOperation)

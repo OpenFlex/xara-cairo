@@ -39,7 +39,6 @@
 
 //#include "filtrres.h"	// for PhotoShop EPS strings.
 
-DECLARE_SOURCE("$Revision");
 
 #define new CAM_DEBUG_NEW
 

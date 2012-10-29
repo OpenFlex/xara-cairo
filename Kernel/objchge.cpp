@@ -25,7 +25,6 @@
 //#include "resource.h"
 #include "objchge.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(ObjChangeParam, CCObject)
 CC_IMPLEMENT_DYNAMIC(ObjChangePathEdit, ObjChangeParam)

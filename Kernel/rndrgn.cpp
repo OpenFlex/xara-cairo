@@ -52,7 +52,6 @@
 
 #include "rendwnd.h"	// Temporary until DC creation moved to wxOil
 
-DECLARE_SOURCE("$Revision: 1609 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

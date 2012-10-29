@@ -37,7 +37,6 @@
 #include "prnmks.h"
 #include "opbevel.h"
 
-DECLARE_SOURCE("$Revision: 1593 $");
 
 #define new CAM_DEBUG_NEW
 #define USERNAME "Mike"

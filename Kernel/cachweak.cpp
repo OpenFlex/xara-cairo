@@ -24,7 +24,6 @@
 #include "objcache.h"
 
 
-DECLARE_SOURCE( "$Revision: 751 $" );
 
 
 CC_IMPLEMENT_DYNCREATE(ObjectCacheWeakest, ObjectCache)

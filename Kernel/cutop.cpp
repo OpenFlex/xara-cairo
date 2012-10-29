@@ -61,7 +61,6 @@
 #include "effects_stack.h"
 #include "ophist.h"
 
-DECLARE_SOURCE("$Revision: 1467 $");
 
 CC_IMPLEMENT_DYNCREATE(OpCut, SelOperation)
 CC_IMPLEMENT_DYNCREATE(OpCopy, UndoableOperation)  

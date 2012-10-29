@@ -22,7 +22,6 @@
 
 #include "wrkrect.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
                                   

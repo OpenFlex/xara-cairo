@@ -36,7 +36,6 @@
 #include "sgrmfile.h"	// LibSettingsListItem
 
 // Code version.
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(SaveRegistryEntries, CC_CLASS_MEMDUMP)
 CC_IMPLEMENT_MEMDUMP(LoadRegistryEntries, CC_CLASS_MEMDUMP)

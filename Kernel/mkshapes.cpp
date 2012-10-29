@@ -31,7 +31,6 @@
 //#include "simon.h"
 //#include "extendres.h"
       
-DECLARE_SOURCE("$Revision: 1282 $");  
 
 CC_IMPLEMENT_DYNCREATE(OpMakeShapes, SelOperation)  
 CC_IMPLEMENT_DYNCREATE(OpMakeNodesShapes, UndoableOperation);

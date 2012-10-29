@@ -25,7 +25,6 @@
 #include "nodetext.h"
 #include "fontman.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(FontListItem, CC_CLASS_MEMDUMP);
 CC_IMPLEMENT_MEMDUMP(FontList, CC_CLASS_MEMDUMP);

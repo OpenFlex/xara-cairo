@@ -21,7 +21,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1765 $");
 
 #include "camelot.h"
 #include "finfodlg.h" 

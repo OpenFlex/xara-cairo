@@ -29,7 +29,6 @@
 
 
 // Revision information.
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Standard preliminaries.  We don't use new anywhere but if we ever do this will help us
 // use it properly (hee hee).

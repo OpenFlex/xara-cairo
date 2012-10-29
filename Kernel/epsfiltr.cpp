@@ -59,7 +59,6 @@
 #include "epscdef.h"
 #include "nodetext.h"
 
-DECLARE_SOURCE("$Revision: 1668 $");
 
 CC_IMPLEMENT_DYNAMIC(EPSFilter, VectorFilter);
 CC_IMPLEMENT_MEMDUMP(RangeList, List);

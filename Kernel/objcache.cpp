@@ -25,7 +25,6 @@
 #include <stdlib.h>
 
 
-DECLARE_SOURCE( "$Revision: 751 $" );
 
 
 CC_IMPLEMENT_DYNCREATE(ObjectCache, CCObject)

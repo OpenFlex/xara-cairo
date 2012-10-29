@@ -26,7 +26,6 @@
 
 #include "cxftags.h"
 
-DECLARE_SOURCE("$Revision: 1698 $");
 
 CC_IMPLEMENT_DYNAMIC(GeneralAttrRecordHandler, CamelotRecordHandler)
 

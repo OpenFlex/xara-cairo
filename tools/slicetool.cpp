@@ -72,7 +72,6 @@
 
 void UpdateCurrentStateGadget(); // forward def
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 #define MIN(a, b)	((a) < (b) ? (a) : (b))
 #define MAX(a, b)	((a) < (b) ? (b) : (a))

@@ -29,7 +29,6 @@
 
 #include "cxftags.h"
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNAMIC(CXaraFileRecordHandler,ListItem);

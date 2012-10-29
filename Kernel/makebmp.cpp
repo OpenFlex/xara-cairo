@@ -40,7 +40,6 @@
 
 #include "palman.h"		// PaletteManager::Get4bppBrowserPalette
 
-DECLARE_SOURCE("$Revision: 1282 $");  
 
 CC_IMPLEMENT_DYNCREATE(OpConvertToBitmap, SelOperation);
 CC_IMPLEMENT_DYNAMIC(MakeBitmapFilter, TI_GIFFilter);

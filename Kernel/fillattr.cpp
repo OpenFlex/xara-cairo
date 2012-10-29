@@ -69,7 +69,6 @@
 #include "effects_stack.h"
 
 
-DECLARE_SOURCE("$Revision: 1771 $");
 
 //
 // NodeAttribute classes

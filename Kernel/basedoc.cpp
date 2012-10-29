@@ -44,7 +44,6 @@
 #include "ralphcri.h"
 #endif
 
-DECLARE_SOURCE($Revision: 1282 $)
 CC_IMPLEMENT_DYNAMIC(BaseDocument, ListItem)
 
 // Declare smart memory handling in Debug builds

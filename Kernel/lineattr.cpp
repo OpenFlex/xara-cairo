@@ -34,7 +34,6 @@
 #include "cxfarrow.h"	// Default arrow head/tail references
 #include "cxfcols.h"	// REF_DEFAULTCOLOUR_TRANSPARENT ...
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 CC_IMPLEMENT_DYNCREATE(AttrStrokeColour,	AttrFillGeometry)
 CC_IMPLEMENT_DYNCREATE(AttrStrokeTransp,	AttrFillGeometry)

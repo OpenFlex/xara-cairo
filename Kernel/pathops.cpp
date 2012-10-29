@@ -29,7 +29,6 @@
 #include "progress.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE( OpBaseConvertPathSegment, SelOperation)
 CC_IMPLEMENT_DYNCREATE( OpMakeSegmentsCurves, OpBaseConvertPathSegment)

@@ -29,7 +29,6 @@
 #include "sprdmsg.h"
 #include "bubbleid.h"
 
-DECLARE_SOURCE("$Revision: 1785 $");
 
 CC_IMPLEMENT_DYNCREATE(OpShowGrid, 		Operation)
 CC_IMPLEMENT_DYNCREATE(OpSnapToGrid, 	Operation)

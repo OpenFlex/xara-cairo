@@ -28,7 +28,6 @@
 #include "clipint.h"
 
 IMPLEMENT_CLASS(CCamDocTemplate, wxDocTemplate);
-DECLARE_SOURCE("$Revision: 25 $");
 
 
 

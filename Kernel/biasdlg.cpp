@@ -19,7 +19,6 @@
 #include "camtypes.h"
 
 
-DECLARE_SOURCE("$Revision: 1771 $");
 
 
 #include "biasdlg.h"

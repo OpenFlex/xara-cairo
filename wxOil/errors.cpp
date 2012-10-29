@@ -37,7 +37,6 @@
 #endif
 
 // Put the source file into the revision list
-DECLARE_SOURCE("$Revision: 1783 $");
 
 #if 0
 #ifdef _DEBUG

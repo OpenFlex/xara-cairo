@@ -24,7 +24,6 @@
 #include "plgnfltr.h"
 #endif
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(FilterManager, CC_CLASS_MEMDUMP)
 CC_IMPLEMENT_MEMDUMP(FileFormat, CC_CLASS_MEMDUMP)

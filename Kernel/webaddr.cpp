@@ -22,7 +22,6 @@
 
 //#include "resimmap.h"
 	
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(WebAddress, CCObject)
 

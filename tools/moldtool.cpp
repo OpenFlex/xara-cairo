@@ -47,7 +47,6 @@
 
 //class NodeRenderableInk;
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_MEMDUMP( MouldTool,Tool_v1 )
 CC_IMPLEMENT_MEMDUMP( CreateMouldParam, OpParam )

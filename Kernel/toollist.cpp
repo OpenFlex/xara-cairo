@@ -23,7 +23,6 @@
 #include "toollist.h"
 //#include "oiltool.h"
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 CC_IMPLEMENT_MEMDUMP(ToolListItem, ListItem);
 // Declare smart memory handling in Debug builds

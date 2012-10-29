@@ -38,7 +38,6 @@
 #include "pathtrap.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(CCPen, CCObject);
 CC_IMPLEMENT_DYNCREATE(OpTogglePressure, Operation);

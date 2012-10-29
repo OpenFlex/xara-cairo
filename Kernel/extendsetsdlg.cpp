@@ -30,7 +30,6 @@
 static char BASED_CODE THIS_FILE[] = __FILE__;
 #endif
 
-DECLARE_SOURCE("$Revision: 892 $");
 
 // dynamic class creation stuff.
 CC_IMPLEMENT_DYNCREATE(ExtendSetsDlg, DialogOp);

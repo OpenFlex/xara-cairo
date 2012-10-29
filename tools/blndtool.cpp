@@ -66,7 +66,6 @@
 #include "layer.h"
 #include "ophist.h"
 
-DECLARE_SOURCE( "$Revision: 1401 $" );
 											 	
 CC_IMPLEMENT_MEMDUMP(BlendTool,Tool_v1)
 CC_IMPLEMENT_DYNCREATE(BlendInfoBarOp,InformationBarOp)

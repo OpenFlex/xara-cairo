@@ -23,7 +23,6 @@
 #include "colcomp.h"	// Document colour component, handles import of colours
 #include "cxftags.h"	// TAG_DEFINERGBCOLOUR TAG_DEFINECOMPLEXCOLOUR
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNAMIC(ColourRecordHandler,CamelotRecordHandler);

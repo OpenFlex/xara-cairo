@@ -32,7 +32,6 @@
 CC_IMPLEMENT_DYNCREATE(OpApplyClipView, SelOperation);
 CC_IMPLEMENT_DYNCREATE(OpRemoveClipView, SelOperation);
 
-DECLARE_SOURCE("$Revision: 1144 $");
 
 #define new CAM_DEBUG_NEW
 

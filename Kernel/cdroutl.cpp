@@ -24,7 +24,6 @@
 #include "nodepath.h"
 #include "impcol.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #define new CAM_DEBUG_NEW
 

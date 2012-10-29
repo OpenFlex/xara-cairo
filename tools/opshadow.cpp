@@ -59,7 +59,6 @@
 //#include "gerry.h"
 #include "ophist.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNCREATE(OpApplyShadow, SelOperation)
 CC_IMPLEMENT_DYNCREATE(OpChangeShadowType, SelOperation)

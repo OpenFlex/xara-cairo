@@ -38,7 +38,6 @@
 //#include "filtrres.h"	// _R(IDS_NATIVE_UNITSWARNING)
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

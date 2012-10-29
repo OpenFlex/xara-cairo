@@ -138,7 +138,6 @@ T Abs( T val )
 #define CAMAPI
 #define CCAPI
 
-#define DECLARE_SOURCE(String)
 #define BASED_CODE
 
 #include "compatdef.h"

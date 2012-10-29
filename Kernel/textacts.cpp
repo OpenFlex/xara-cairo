@@ -29,7 +29,6 @@
 // Resource headers
 
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 CC_IMPLEMENT_DYNCREATE(BaseTextAction, Action)
 CC_IMPLEMENT_DYNCREATE(StoreCharCodeAction, BaseTextAction)

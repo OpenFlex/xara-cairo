@@ -24,7 +24,6 @@
 //#include "justin2.h"
 //#include "oilfiles.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 CC_IMPLEMENT_DYNAMIC(Unit,ListItem)
 CC_IMPLEMENT_DYNAMIC(DocUnitList,List)
 CC_IMPLEMENT_DYNAMIC(UnitMsg,Msg)

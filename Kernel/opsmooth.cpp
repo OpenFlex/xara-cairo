@@ -29,7 +29,6 @@
 #include "ophist.h"
 //#include "jim.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 CC_IMPLEMENT_DYNCREATE( OpSmoothSelection, SelOperation )
 
 #define new CAM_DEBUG_NEW

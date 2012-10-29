@@ -30,7 +30,6 @@
 #include "basebar.h"
 #include "wxkeymap.h"
 
-DECLARE_SOURCE("$Revision: 1769 $");
 
 CC_IMPLEMENT_MEMDUMP(HotKey,ListItem)
 

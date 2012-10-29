@@ -51,7 +51,6 @@
 #include "selector.h"
 #include "ophist.h"
 
-DECLARE_SOURCE( "$Revision: 1401 $" );
 CC_IMPLEMENT_DYNCREATE(SoftShadowInfoBarOp,InformationBarOp)
 CC_IMPLEMENT_DYNCREATE(ShadowDragData,ListItem)
 

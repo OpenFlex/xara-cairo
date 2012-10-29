@@ -44,7 +44,6 @@
 
 //#include "hotlink.h"  //For the default status bar string
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 
 IMPLEMENT_DYNCREATE( RalphDocument, CCmdTarget )

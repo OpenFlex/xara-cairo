@@ -58,7 +58,6 @@
 #include "sginit.h"
 #include "sgname.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Implement the dynamic class bits...
 CC_IMPLEMENT_DYNCREATE(NameGallery, SuperGallery)

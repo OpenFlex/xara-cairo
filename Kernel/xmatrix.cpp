@@ -20,7 +20,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // (this source was based on the 1.5 revision of matrix.cpp done by Mario)
 

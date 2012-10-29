@@ -27,7 +27,6 @@
 #include "nodebmp.h"
 #include "nodetxts.h"
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 #define new CAM_DEBUG_NEW
 

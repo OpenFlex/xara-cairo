@@ -45,7 +45,6 @@
 //#include "accures.h"
 #include "bitmpinf.h"	// for BitmapInfo
 
-DECLARE_SOURCE("$Revision: 1635 $");
 
 CC_IMPLEMENT_DYNCREATE(BitmapExportPreviewDialog, DialogOp)
 

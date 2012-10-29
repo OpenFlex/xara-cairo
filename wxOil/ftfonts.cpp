@@ -21,7 +21,6 @@
 */
 
 #include "camtypes.h"
-DECLARE_SOURCE( "$Revision: 1535 $" );
 
 // we do not compile any of the functions on non-wxGTK builds
 #if defined(__WXGTK__)

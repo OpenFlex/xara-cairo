@@ -40,5 +40,4 @@
 //#include "mario.h"
 #include "mkshapes.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 

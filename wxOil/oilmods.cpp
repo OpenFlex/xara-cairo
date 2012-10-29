@@ -35,7 +35,6 @@
 #include "viewmod.h"
 //#include "zoomres.h"
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

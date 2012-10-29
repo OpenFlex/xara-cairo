@@ -22,7 +22,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 #define new CAM_DEBUG_NEW
 

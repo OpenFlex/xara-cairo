@@ -56,7 +56,6 @@
 #include "ralphdoc.h"
 #endif
 
-DECLARE_SOURCE("$Revision: 1357 $");
 
 CC_IMPLEMENT_DYNAMIC(View, ListItem)
 

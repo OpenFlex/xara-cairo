@@ -40,7 +40,6 @@
 #include "ophist.h"
 //#include "opliveeffects.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 CC_IMPLEMENT_DYNCREATE(OpCombineShapes,		SelOperation)

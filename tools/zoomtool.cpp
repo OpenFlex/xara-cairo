@@ -55,7 +55,6 @@
 //#include "userattr.h"
 //#include "ralphdoc.h"
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 CC_IMPLEMENT_MEMDUMP(ZoomTool, Tool_v1)
 

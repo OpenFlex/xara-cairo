@@ -26,7 +26,6 @@
 #include "cxftags.h"
 #include "rechattr.h"	// Record handling classes for attributes
 //#include "resimmap.h"	//_R(IDS_TAG_WEBADDRESS)
-DECLARE_SOURCE("$Revision: 1361 $");
 
 CC_IMPLEMENT_DYNCREATE(AttrWebAddress, NodeAttribute)
 CC_IMPLEMENT_DYNCREATE(WebAddressAttribute, AttributeValue)

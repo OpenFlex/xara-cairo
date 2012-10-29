@@ -24,7 +24,6 @@
 #include "osrndrgn.h"
 
 // Declare the source version number
-DECLARE_SOURCE("$Revision: 1601 $");
 
 //Give my name in memory dumps
 CC_IMPLEMENT_MEMDUMP(BlobManager, MessageHandler)

@@ -44,7 +44,6 @@
 #include "brshattr.h"
 #include "slicehelper.h"
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 CC_IMPLEMENT_DYNAMIC(NodeBlend,NodeGroup)
 CC_IMPLEMENT_DYNCREATE(InitBlendAction,Action)

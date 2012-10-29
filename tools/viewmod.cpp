@@ -51,7 +51,6 @@ static char Name[] 		= "Kernel Module";
 static char Purpose[] 	= "Tools that need to be in the kernel";
 static char Author[] 	= "The Nasty People";
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

@@ -25,5 +25,4 @@
 #include "grndbmp.h"
 #include "attrmap.h"
 
-DECLARE_SOURCE("$Revision: 751 $")
 

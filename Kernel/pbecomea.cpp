@@ -29,7 +29,6 @@
 #include "ndclpcnt.h"	// for ClipView path constants.
 #include "attrmap.h"
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 // dynamic class creation stuff.
 CC_IMPLEMENT_MEMDUMP(PathBecomeA, BecomeA)

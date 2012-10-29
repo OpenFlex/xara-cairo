@@ -32,7 +32,6 @@
 //#include "phil.h"
 #include "ophist.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");  
 
 CC_IMPLEMENT_DYNCREATE(OpGroup, SelOperation)  
 CC_IMPLEMENT_DYNCREATE(OpUngroup, SelOperation)  

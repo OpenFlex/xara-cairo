@@ -60,7 +60,6 @@
 #include "brshattr.h"
 
 
-DECLARE_SOURCE( "$Revision: 1776 $" );
 
 
 CC_IMPLEMENT_DYNCREATE(NodeRegularShape, NodeRenderableInk)

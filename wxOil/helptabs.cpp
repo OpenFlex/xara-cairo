@@ -137,7 +137,6 @@
 
 
 // Code version.
-DECLARE_SOURCE("$Revision: 1477 $");
 
 
 // This table associates all the non-common and non-error/warning dialogues in Camelot with

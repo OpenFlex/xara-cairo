@@ -30,7 +30,6 @@
 #include "oilmenus.h"
 #include "hotkeys.h"
 
-DECLARE_SOURCE("$Revision: 1464 $");  
 
 
 const OpState MenuItem::DefaultMenuState( FALSE, TRUE );		// not ticked, but greyed

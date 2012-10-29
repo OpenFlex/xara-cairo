@@ -59,7 +59,6 @@
 #include "cxftags.h"
 #include "ophist.h"
 
-DECLARE_SOURCE("$Revision: 1445 $");
 
 CC_IMPLEMENT_DYNAMIC(CurrentAttrChangedMsg, Msg) 
 

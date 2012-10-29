@@ -17,7 +17,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1608 $");
 
 #include "stdbars.h"
 #include "statline.h"

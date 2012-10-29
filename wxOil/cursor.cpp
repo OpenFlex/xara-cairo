@@ -32,7 +32,6 @@
 
 //#include "hotlink.h"  //For the pointing hand cursor
 
-DECLARE_SOURCE("$Revision: 1709 $");
 
 // Memory dump info
 CC_IMPLEMENT_MEMDUMP(Cursor, CC_CLASS_MEMDUMP)

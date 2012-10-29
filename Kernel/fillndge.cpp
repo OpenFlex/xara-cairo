@@ -28,7 +28,6 @@
 
 class Spread;
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(OpFillNudge,Operation)
 CC_IMPLEMENT_DYNCREATE(FillGeometryNudger, AttrValueChange)

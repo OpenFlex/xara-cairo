@@ -30,7 +30,6 @@
 
 
 // Put my version Number into the About box
-DECLARE_SOURCE( "$Revision: 1315 $" );
 
 // Declare class and give details in memory dumps
 CC_IMPLEMENT_DYNCREATE(NodeRect, NodeSimpleShape)

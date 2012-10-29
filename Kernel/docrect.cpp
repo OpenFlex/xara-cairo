@@ -18,7 +18,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 /*
   $Log: rect.ctt $
@@ -328,7 +327,6 @@ Initial revision
 
 #if !defined(EXCLUDE_FROM_XARLIB)
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #include "userrect.h"
 

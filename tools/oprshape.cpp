@@ -33,7 +33,6 @@
 #include "shapeops.h"
 //#include "viewrc.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNCREATE(OpNewRegShape, SelOperation)
 

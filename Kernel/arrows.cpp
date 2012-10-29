@@ -25,7 +25,6 @@
 
 //#include "will2.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(ArrowRec, CCObject)
 

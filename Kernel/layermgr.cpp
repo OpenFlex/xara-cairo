@@ -34,7 +34,6 @@
 
 //#include "will2.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Declare class for memory tracking etc
 CC_IMPLEMENT_DYNCREATE(OpLayerChange, UndoableOperation) 

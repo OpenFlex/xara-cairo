@@ -36,7 +36,6 @@ CC_IMPLEMENT_DYNAMIC(StrokeComponent,		LineComponent)
 CC_IMPLEMENT_DYNAMIC(StrokeComponentClass,	DocComponentClass)
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

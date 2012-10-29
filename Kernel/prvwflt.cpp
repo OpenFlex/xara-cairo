@@ -33,7 +33,6 @@
 #include "ai_epsrr.h"	// For AIEPSRenderRegion.
 						
 // This is not compulsory, registers the correct version of your file in the .exe
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(PreviewFilter, Filter)
 

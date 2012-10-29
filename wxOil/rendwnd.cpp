@@ -29,7 +29,6 @@
 #include "camframe.h"
 #include "keypress.h"
 
-DECLARE_SOURCE("$Revision: 1593 $");
 
 #if 0
 #ifdef _DEBUG

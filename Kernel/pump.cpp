@@ -24,7 +24,6 @@
 #include "brushmsg.h"
 #include "ctrllist.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 CC_IMPLEMENT_DYNCREATE(MessageHandler, ListItem)
 
 // All message implement macros here

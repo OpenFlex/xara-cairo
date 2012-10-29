@@ -43,7 +43,6 @@
 //#include "mario.h"
 #include "pathops.h"
 
-DECLARE_SOURCE( "$Revision: 1385 $" );
 
 CC_IMPLEMENT_DYNCREATE(CompoundNodeTreeFactory, CCObject)
 CC_IMPLEMENT_DYNCREATE(NodeCompound, NodeRenderableInk)

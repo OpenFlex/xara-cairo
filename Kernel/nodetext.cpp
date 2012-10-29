@@ -58,7 +58,6 @@
 
 #include "ai_epsrr.h"
 
-DECLARE_SOURCE("$Revision: 1478 $")
 
 CC_IMPLEMENT_DYNAMIC(VisibleTextNode, BaseTextClass)
 CC_IMPLEMENT_DYNAMIC(CaretNode, VisibleTextNode)

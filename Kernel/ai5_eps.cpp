@@ -36,7 +36,6 @@
 #include "swffiltr.h"
 #include "layer.h"
 
-DECLARE_SOURCE("$Revision");
 
 #define new CAM_DEBUG_NEW
 

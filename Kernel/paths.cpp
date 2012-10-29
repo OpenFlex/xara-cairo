@@ -49,7 +49,6 @@
 #define new CAM_DEBUG_NEW
 
 // Put my version number into the about box
-DECLARE_SOURCE( "$Revision: 1492 $" );
 
 /********************************************************************************************
 

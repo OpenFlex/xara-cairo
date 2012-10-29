@@ -29,7 +29,6 @@
 
 #include "blnktool.h"		// <******* Remember to change to include the tool's header file
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_MEMDUMP(BlankTool,Tool_v1)
 CC_IMPLEMENT_DYNCREATE(BlankInfoBarOp,InformationBarOp)

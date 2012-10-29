@@ -35,7 +35,6 @@
 #include "dbugtree.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 CC_IMPLEMENT_DYNCREATE( FactorOutCommonChildAttrAct, Action )
 CC_IMPLEMENT_DYNCREATE( LocaliseCommonAttrAct, Action )
 

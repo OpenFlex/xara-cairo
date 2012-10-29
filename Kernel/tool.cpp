@@ -172,7 +172,6 @@ CC_IMPLEMENT_MEMDUMP(TempToolItem,ListItem);
 #define new CAM_DEBUG_NEW
 
 
-DECLARE_SOURCE("$Revision: 1535 $");
 
 ToolList *Tool::Tools = NULL;
 

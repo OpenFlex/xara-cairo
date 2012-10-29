@@ -37,7 +37,6 @@
 //#include "sglinepr.h"	// For SGalleryLinePropertiesDlg::Init()
 #endif
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 CC_IMPLEMENT_MEMDUMP(SGInit, CC_CLASS_MEMDUMP)
 

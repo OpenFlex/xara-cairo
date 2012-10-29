@@ -21,7 +21,6 @@
 #include "ai5_eps.h"
 #include "fillramp.h"
 
-DECLARE_SOURCE("$Revision");
 
 #define new CAM_DEBUG_NEW
 

@@ -65,7 +65,6 @@
 #include "opbevel.h"
 #include "nodebev.h"
 
-DECLARE_SOURCE("$Revision: 1700 $");
 
 CC_IMPLEMENT_MEMDUMP( BezierTool, Tool_v1 )
 CC_IMPLEMENT_DYNCREATE( BezToolInfoBarOp, InformationBarOp )

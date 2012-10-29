@@ -63,7 +63,6 @@
 #include "fillramp.h"	// For colour/transparency ramps
 #include "pathutil.h"
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 
 // AttributeValue classes

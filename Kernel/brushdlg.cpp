@@ -17,7 +17,6 @@
 
 #include "camtypes.h"		// the precompiled stuff
 
-DECLARE_SOURCE("$Revision: 1732 $");
 
 #include "brushdlg.h"		// include our class header
 #include "dlgmgr.h"

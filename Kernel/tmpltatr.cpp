@@ -43,7 +43,6 @@
 #ifdef _DEBUG
 #endif
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 CC_IMPLEMENT_DYNAMIC(TemplateAttribute, AttrUser)
 CC_IMPLEMENT_MEMDUMP(VisibleTemplateAttribute, VisibleUserAttribute)

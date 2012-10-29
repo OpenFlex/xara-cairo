@@ -48,7 +48,6 @@
 static char BASED_CODE THIS_FILE[] = __FILE__;
 #endif
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(OpSelectSet,				Operation);
 CC_IMPLEMENT_DYNCREATE(OpSelectUnionSets,		Operation);

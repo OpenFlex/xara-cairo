@@ -32,7 +32,6 @@
 #include "vstate.h"
 #include "osrndrgn.h"
 
-DECLARE_SOURCE("$Revision: 1354 $");
 
 
 CC_IMPLEMENT_DYNAMIC(PrintView, View)

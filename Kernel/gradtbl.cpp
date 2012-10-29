@@ -30,7 +30,6 @@
 //#include "xaracms.h"
 #include "fillramp.h"
 
-DECLARE_SOURCE("$Revision: 1372 $");
 
 CC_IMPLEMENT_DYNCREATE(GradTable, CCObject)
 CC_IMPLEMENT_DYNCREATE(TranspGradTable, CCObject)

@@ -34,7 +34,6 @@
 #include "layerprp.h"
 #include "camelot.h"
 
-DECLARE_SOURCE("$Revision: 1535 $");
 
 CC_IMPLEMENT_MEMDUMP(RulerPair, MessageHandler)
 CC_IMPLEMENT_MEMDUMP(RulerBase, CC_CLASS_MEMDUMP)

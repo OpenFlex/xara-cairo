@@ -63,7 +63,6 @@
 //#include "bitmapcache.h"
 #include "pathndge.h"
 
-//DECLARE_SOURCE("$Revision: 1738 $")
 
 CC_IMPLEMENT_DYNCREATE( FeatherAttrValue, OffscreenAttrValue )
 CC_IMPLEMENT_DYNAMIC( AttrFeather, NodeAttribute )

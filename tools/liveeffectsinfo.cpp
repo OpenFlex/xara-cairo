@@ -35,7 +35,6 @@
 #include "opfeathr.h"
 #include "appprefs.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 // Declare stuff for the memory tracking
 CC_IMPLEMENT_DYNCREATE( LiveEffectsInfoBarOp, InformationBarOp )

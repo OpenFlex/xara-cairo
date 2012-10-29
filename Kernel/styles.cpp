@@ -170,7 +170,6 @@ public:
 
 
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 #define ENSURE_KIND(pInstance, Class)	ERROR3IF(!pInstance->IS_KIND_OF(Class), #pInstance" is not kind of "#Class);
 

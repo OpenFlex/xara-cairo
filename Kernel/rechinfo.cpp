@@ -25,7 +25,6 @@
 
 //#include "localenv.h"	// LocalEnvironment
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

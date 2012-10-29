@@ -61,7 +61,6 @@
 //#include "bevres.h"
 
 
-DECLARE_SOURCE( "$Revision: 1752 $" );
 
 CC_IMPLEMENT_DYNCREATE(OpCreateBevel, SelOperation)
 CC_IMPLEMENT_DYNCREATE(OpRemoveBevel, SelOperation)

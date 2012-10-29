@@ -29,7 +29,6 @@
 #include "printctl.h"
 #include "saveeps.h"
 
-DECLARE_SOURCE("$Revision: 1328 $");
 
 
 CC_IMPLEMENT_DYNAMIC(PrintComponentClass,	DocComponentClass)

@@ -30,7 +30,6 @@
 #include "page.h"
 //#include "node.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(CSnap, CC_CLASS_MEMDUMP)
 

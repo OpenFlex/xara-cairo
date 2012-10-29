@@ -28,7 +28,6 @@
 #define MAXPRESSURE 1023
 #endif
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(ProcessPath, CCObject);
 

@@ -30,7 +30,6 @@
 
 //#include "will2.h"
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 CC_IMPLEMENT_DYNAMIC(AttributeValue, CCObject);
 CC_IMPLEMENT_DYNCREATE(DashRec,	CCObject);

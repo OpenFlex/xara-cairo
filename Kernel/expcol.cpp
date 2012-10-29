@@ -25,7 +25,6 @@
 #include "expcol.h"
 #include "colourix.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(ExportColour, ListItem)
 CC_IMPLEMENT_MEMDUMP(ExportColourList, List)

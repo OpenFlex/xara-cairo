@@ -36,7 +36,6 @@
 
 CC_IMPLEMENT_DYNAMIC(GRenderPrint, GRenderDIB)
 
-DECLARE_SOURCE("$Revision: 3 $");
 
 // This will get Camelot to display the filename and linenumber of any memory allocations
 // that are not released at program exit

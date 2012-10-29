@@ -22,7 +22,6 @@
 //#include "oilkeys.h"
 //#include "oilbtns.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");  
 
 CC_IMPLEMENT_MEMDUMP(CmdControl, 	ListItem)
 //CC_IMPLEMENT_MEMDUMP(HotKeyO, 		CmdControl)

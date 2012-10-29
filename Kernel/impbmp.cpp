@@ -24,7 +24,6 @@
 
 #include "impbmp.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(ImportBitmap, ListItem)
 CC_IMPLEMENT_MEMDUMP(ImportBitmapList, List)

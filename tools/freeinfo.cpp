@@ -49,7 +49,6 @@
 #include "colmsg.h"
 #include "brshattr.h"
 
-DECLARE_SOURCE( "$Revision: 1771 $" );
 
 // Declare stuff for the memory tracking
 CC_IMPLEMENT_DYNCREATE( FreeHandInfoBarOp, InformationBarOp )

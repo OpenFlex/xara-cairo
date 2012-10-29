@@ -31,7 +31,6 @@
 //#include "ben.h"
 //#include "filtrres.h"	// _R(IDS_NATIVE_SORTCOLOURS)
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 NewColourInfo::NewColourInfo()

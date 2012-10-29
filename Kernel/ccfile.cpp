@@ -38,7 +38,6 @@
 //#include "nev.h"
 //#include "tim.h"
 
-DECLARE_SOURCE("$Revision: 1607 $");
 
 CC_IMPLEMENT_DYNAMIC(CCFile, CCObject);
 CC_IMPLEMENT_DYNAMIC(CCLexFile, CCFile);

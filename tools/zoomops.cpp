@@ -58,7 +58,6 @@
 
 
 // Revision information.
-DECLARE_SOURCE("$Revision: 1771 $");
 
 // Standard preliminaries.
 CC_IMPLEMENT_DYNCREATE(OpZoom, OpCentredDragBox)

@@ -28,7 +28,6 @@
 
 #define IS_CHICAGO ((LOBYTE(LOWORD(GetVersion()))) > 3) 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 IMPLEMENT_DYNAMIC(CCStatusBar, CStatusBar)
 

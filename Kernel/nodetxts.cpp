@@ -56,7 +56,6 @@
 
 #include "opbevel.h"	// For determining if a gradient fill is used in a TextStory.
 
-DECLARE_SOURCE("$Revision: 1445 $")				
 
 CC_IMPLEMENT_DYNAMIC(BaseTextClass, NodeRenderableInk)
 CC_IMPLEMENT_MEMDUMP(TextStoryInfo, CC_CLASS_MEMDUMP );

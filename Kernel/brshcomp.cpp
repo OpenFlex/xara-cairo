@@ -49,7 +49,6 @@
 //#include "brdlgres.h"
 #include "brushop.h"
 
-DECLARE_SOURCE("$Revision: 1732 $");
 
 CC_IMPLEMENT_DYNAMIC(BrushDefinition, LineDefinition)
 CC_IMPLEMENT_DYNAMIC(BrushComponent, LineComponent)

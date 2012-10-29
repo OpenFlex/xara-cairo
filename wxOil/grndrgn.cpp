@@ -109,7 +109,6 @@
 #include "camprofile.h"
 #include "fillattr2.h"
 
-DECLARE_SOURCE("$Revision: 1699 $");
 
 
 // Declare all the classes in this file and ask for memory tracking

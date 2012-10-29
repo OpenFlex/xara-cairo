@@ -21,7 +21,6 @@
 #include "bmpalctrl.h"
 #include "bmapprev.h"
 
-DECLARE_SOURCE("$Revision: 1088 $");
 
 //  An implementation to match the declaration in the header file.
 CC_IMPLEMENT_DYNCREATE(OpPalettePopupCommand, Operation)

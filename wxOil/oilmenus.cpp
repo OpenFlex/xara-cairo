@@ -35,7 +35,6 @@
 #include "camframe.h"	// GetMainFrame()
 #include "camelot.h"	// wxGetApp
 
-DECLARE_SOURCE("$Revision: 1667 $");  
 
 // This wasn't here before 7/3/97
 // We want better memory tracking

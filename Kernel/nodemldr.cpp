@@ -40,7 +40,6 @@
 #include "strkattr.h"
 #include "ophist.h"
 
-DECLARE_SOURCE("$Revision: 1315 $");
 
 CC_IMPLEMENT_DYNAMIC(NodeMoulder, NodeGroup )
 

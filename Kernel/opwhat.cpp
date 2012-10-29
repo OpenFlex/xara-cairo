@@ -23,7 +23,6 @@
 
 // #include <winuser.h>
 
-DECLARE_SOURCE("$Revision: 1282 $");  
 
 CC_IMPLEMENT_DYNCREATE(OpWhatsThis, Operation)  
 

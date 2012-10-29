@@ -39,7 +39,6 @@
 
 class Node;
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE( OpMouldLibSel,SelOperation )
 CC_IMPLEMENT_DYNCREATE( OpMouldLib,UndoableOperation )

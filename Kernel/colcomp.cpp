@@ -44,7 +44,6 @@
 #include "expcol.h"		// ExportedColours handling class
 //#include "filtrres.h"	// _R(IDS_NATIVE_COLOURWARNING)
 
-DECLARE_SOURCE("$Revision: 1315 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

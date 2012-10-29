@@ -47,7 +47,6 @@ CC_IMPLEMENT_DYNCREATE(OpChangeLayerColour,		UndoableOperation)
 
 // This is not compulsory, but you may as well put it in so that the correct version
 // of your file can be registered in the .exe
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #define new CAM_DEBUG_NEW
 

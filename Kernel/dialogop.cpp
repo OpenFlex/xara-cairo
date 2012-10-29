@@ -75,7 +75,6 @@ struct ReDrawInfoType;
 
 //-----------------------------------------------------------------------------------------
 
-DECLARE_SOURCE("$Revision: 1751 $");
 
 // All dynamic implement macros here before CAM_DEBUG_NEW
 

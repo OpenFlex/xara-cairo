@@ -27,7 +27,6 @@
 //#include "mario.h"
 #include "lineattr.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNCREATE(NodeEffect, NodeCompound)
 

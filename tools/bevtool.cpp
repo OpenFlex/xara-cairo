@@ -74,7 +74,6 @@
 #ifdef BUILDSHADOWS
 
 // Set things up so that the tool will be listed in the Dialog box
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 // These are still char* while we wait for resource technology to be developed for modules

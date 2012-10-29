@@ -84,7 +84,6 @@
 
 //#include "prntview.h"
 
-DECLARE_SOURCE( "$Revision: 1361 $" );
 
 CC_IMPLEMENT_DYNCREATE(NodeShadow, NodeRenderableInk)
 

@@ -61,7 +61,6 @@
 #include "nodeliveeffect.h"
 
 // Revision Number
-DECLARE_SOURCE( "$Revision: 1730 $" );
 
 // The Names of the tools
 TCHAR*		GradFillTool::FamilyName = _T("Fill Tools");

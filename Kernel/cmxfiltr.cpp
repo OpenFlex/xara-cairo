@@ -30,7 +30,6 @@
 #include "nodepath.h"
 //#include "cmxres.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(CMXFilter, VectorFilter)
 CC_IMPLEMENT_DYNAMIC(CMXFilter16, CMXFilter)

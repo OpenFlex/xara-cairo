@@ -25,7 +25,6 @@
 #include "xshelpid.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(NameDialogParam, OpParam);
 CC_IMPLEMENT_DYNCREATE(NameDialog, DialogOp)   

@@ -48,7 +48,6 @@
 #include "mkshapes.h" 
 #include "groupops.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(DaveDlg, DialogOp)
 

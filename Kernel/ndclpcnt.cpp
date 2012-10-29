@@ -53,7 +53,6 @@
 #include "ophist.h"
 //#include "cmxexdc.h"	// for CMXExportDC
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 // dynamic class creation stuff.
 CC_IMPLEMENT_DYNCREATE(NodeClipViewController, NodeGroup)

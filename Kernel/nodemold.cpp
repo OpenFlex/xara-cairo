@@ -62,7 +62,6 @@
 #include "ophist.h"
 
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 CC_IMPLEMENT_DYNAMIC( NodeMould, NodeGroup )  
 CC_IMPLEMENT_DYNCREATE( RecordChangeCodesAction, Action )

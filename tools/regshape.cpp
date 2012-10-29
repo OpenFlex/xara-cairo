@@ -39,7 +39,6 @@
 //#include "viewrc.h"	 
 //#include "will2.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_MEMDUMP(QuickShapeBase, Tool_v1)
 CC_IMPLEMENT_MEMDUMP(QuickShapeTool, QuickShapeBase)

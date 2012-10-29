@@ -27,7 +27,6 @@
 
 #include "camtypes.h"                          
 
-DECLARE_SOURCE("$Revision: 1328 $");
 
 #include "paper.h"
 #include "dumbnode.h"  

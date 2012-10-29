@@ -68,7 +68,6 @@ CC_IMPLEMENT_DYNCREATE(OpConvertPathToShapes, SelOperation)
 CC_IMPLEMENT_DYNCREATE(OpToggleContourInsetPath, SelOperation)
 CC_IMPLEMENT_DYNCREATE(ToggleInsetPathAction, Action)
 
-DECLARE_SOURCE( "$Revision: 1754 $" );
 
 #define new CAM_DEBUG_NEW
 

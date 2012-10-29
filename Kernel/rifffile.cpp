@@ -23,7 +23,6 @@
 #include "rifffile.h"
 #include "riffdata.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(RIFFFile, CC_CLASS_MEMDUMP)
 

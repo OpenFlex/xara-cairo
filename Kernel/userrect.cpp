@@ -19,7 +19,6 @@
 #include "camtypes.h"
 #include "userrect.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 /*
   $Log: rect.ctt $
@@ -327,7 +326,6 @@ Initial revision
 
 */
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 /********************************************************************************************

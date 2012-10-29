@@ -24,7 +24,6 @@
 //#include "resimmap.h"	//For _R(IDS_HTML_DOWNLOADFAILED)
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(OpBitmapDownload, DownloadOp) 
 

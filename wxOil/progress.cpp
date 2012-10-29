@@ -31,7 +31,6 @@
 #include "progress.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(Progress, CC_CLASS_MEMDUMP)
 

@@ -33,7 +33,6 @@
 //#include "peter.h"
 //#include "will2.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(PaletteFilter, Filter)
 CC_IMPLEMENT_DYNAMIC(CorelPaletteFilter, PaletteFilter)

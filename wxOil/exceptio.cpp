@@ -24,7 +24,6 @@
 //#include "andy.h"
 //#include "alex.h"
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 
 LPBYTE OpException::lpByte = NULL;

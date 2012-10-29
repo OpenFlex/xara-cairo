@@ -38,7 +38,6 @@
 #include "grndbmp.h"
 #include "palman.h"
 
-DECLARE_SOURCE("$Revision: 1658 $");
 
 CC_IMPLEMENT_DYNCREATE(BitmapDragInformation, DragInformation)
 

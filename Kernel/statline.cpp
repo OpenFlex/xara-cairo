@@ -43,7 +43,6 @@
 #include "camview.h"
 #include "prncamvw.h"
 
-DECLARE_SOURCE("$Revision: 1404 $");
 
 CC_IMPLEMENT_DYNCREATE(StatusLine, StandardBar);
 

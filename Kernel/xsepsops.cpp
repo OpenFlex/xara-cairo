@@ -28,7 +28,6 @@
 //#include "resource.h"
 #include "helpuser.h"
 
-DECLARE_SOURCE("$Revision: 2 $");
 
 CC_IMPLEMENT_DYNCREATE(XSEPSExportOptions, DialogOp)
 

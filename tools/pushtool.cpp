@@ -50,7 +50,6 @@ TCHAR* 	PushTool::ToolName		= _T("Push Tool");
 TCHAR*	PushTool::Purpose		= _T("To push the document around");
 TCHAR*	PushTool::Author		= _T("Rik");
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 
 CC_IMPLEMENT_MEMDUMP(PushTool, Tool_v1)

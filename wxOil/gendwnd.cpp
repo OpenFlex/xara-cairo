@@ -23,7 +23,6 @@
 //#include "resimmap.h"	//_R(IDS_HTML_DOWNLOADFAILED)
 
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 CC_IMPLEMENT_DYNCREATE(OpGenericDownload, DownloadOp) 
 

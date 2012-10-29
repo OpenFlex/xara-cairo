@@ -25,7 +25,6 @@
 #include "csrstack.h"
 
 
-DECLARE_SOURCE("$Revision $");
 
 // Own up in memory dumps
 CC_IMPLEMENT_MEMDUMP(CursorStack, CC_CLASS_MEMDUMP)

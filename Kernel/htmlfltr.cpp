@@ -29,7 +29,6 @@
 //#include "resimmap.h"	//For some resources
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(HTMLFilter, BaseTextFilter)
 

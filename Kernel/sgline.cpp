@@ -73,7 +73,6 @@
 //#include "linegal.h"
 
 // Version control.
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Implement the dynamic class bits...
 CC_IMPLEMENT_DYNCREATE(LineGallery, SuperGallery)

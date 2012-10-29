@@ -30,7 +30,6 @@
 //#include "dragmgr.h"
 #include "unicdman.h"
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 CC_IMPLEMENT_MEMDUMP(KeyPressSysMsg,CC_CLASS_MEMDUMP)
 CC_IMPLEMENT_MEMDUMP(KeyPress,		CC_CLASS_MEMDUMP)

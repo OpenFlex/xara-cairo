@@ -31,7 +31,6 @@
 #include "ralphcri.h"
 #endif
 
-DECLARE_SOURCE("$Revision: 1492 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

@@ -20,7 +20,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #include "camelot.h"
 #include "aligndlg.h" 

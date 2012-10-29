@@ -23,7 +23,6 @@
 //#include "tmpltres.h"	
 
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNAMIC(RemoveAttributeParam, OpParam)
 CC_IMPLEMENT_DYNCREATE(OpRemoveAttributeFromSelection, SelOperation)

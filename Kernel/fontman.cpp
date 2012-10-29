@@ -27,7 +27,6 @@
 #include "fontman.h"
 //#include "richard2.h"
 
-DECLARE_SOURCE( "$Revision: 1642 $" );
 
 CC_IMPLEMENT_DYNCREATE( CachedFontItem, ListItem )
 CC_IMPLEMENT_DYNCREATE( FontManager, CCObject )

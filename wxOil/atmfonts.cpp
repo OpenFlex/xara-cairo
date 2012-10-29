@@ -29,7 +29,6 @@
 #include "atminst.h"
 #include "unicdman.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNCREATE( ATMFontMan, CCObject )
 CC_IMPLEMENT_DYNCREATE( ATMFont, FontBase )

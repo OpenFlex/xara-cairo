@@ -41,7 +41,6 @@
 #define PACLASSNAME(a,b) CCRuntimeClass* Blob; Blob = a->GetRuntimeClass(); PATRACE(b,Blob->m_lpszClassName)
 
 
-DECLARE_SOURCE( "$Revision: 1776 $" );
 
 
 CC_IMPLEMENT_MEMDUMP(EditRegularShapeParam, OpParam)	

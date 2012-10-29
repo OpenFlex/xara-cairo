@@ -39,7 +39,6 @@
 #include <list>
 #pragma warning(default: 4786)
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // This definition allows sensible debug trace output of memory leaks...
 // Declare smart memory handling in Debug builds

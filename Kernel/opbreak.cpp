@@ -32,7 +32,6 @@
 #include "ndbldpth.h"
 #include "ophist.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 CC_IMPLEMENT_DYNCREATE( OpBreakAtPoints, SelOperation )
 
 #define new CAM_DEBUG_NEW

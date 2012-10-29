@@ -23,7 +23,6 @@
 #include "macros.h"
 //#include "grndrgn.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #define	TORADIANS(x)	((x)/180.0*PI)
 

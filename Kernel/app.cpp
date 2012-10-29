@@ -64,7 +64,6 @@
 
 #include "sgliboil.h"	// AppendSlashIfNotPresent
 
-DECLARE_SOURCE("$Revision: 1531 $");
 
 CC_IMPLEMENT_MEMDUMP(Application, CCObject)
 

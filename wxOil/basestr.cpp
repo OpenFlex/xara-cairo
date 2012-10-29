@@ -35,7 +35,6 @@
 //#include "richard3.h"			// for MakePercent
 //#include "mario.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 BOOL StringBase::ThrowExceptionStack[str_MAXEXCEPTIONS];
 INT32 StringBase::CurrEx = -1;

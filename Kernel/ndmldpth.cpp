@@ -34,7 +34,6 @@
 
 #include "cxftags.h"
 
-DECLARE_SOURCE("$Revision: 1315 $");
 
 CC_IMPLEMENT_DYNCREATE( NodeMouldPath, NodePath )  
 

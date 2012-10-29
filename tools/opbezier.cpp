@@ -30,7 +30,6 @@
 //#include "rik.h"
 #include "bubbleid.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNCREATE(OpSelectPathPoints, UndoableOperation)
 CC_IMPLEMENT_DYNCREATE(OpInsertFloater, UndoableOperation)

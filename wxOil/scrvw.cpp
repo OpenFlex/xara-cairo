@@ -75,7 +75,6 @@
   #include "ole2id.h"
 #endif
 
-DECLARE_SOURCE("$Revision: 1354 $");
 
 #if !defined(EXCLUDE_FROM_RALPH) && !defined(EXCLUDE_FROM_XARALX)
 CC_IMPLEMENT_DYNCREATE(PageDropInfo, CCObject)

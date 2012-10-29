@@ -32,7 +32,6 @@
 #include "ophist.h"
 
 // Put my version Number into the About box
-DECLARE_SOURCE( "$Revision: 1361 $" );
 
 
 CC_IMPLEMENT_DYNCREATE(NodeSimpleShape, NodeRenderableInk)

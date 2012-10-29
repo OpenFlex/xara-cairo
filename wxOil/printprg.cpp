@@ -35,7 +35,6 @@
 //#include "justin2.h"
 #include "prncamvw.h"
 
-DECLARE_SOURCE("$Revision: 1593 $");
 
 CC_IMPLEMENT_DYNCREATE(PrintProgressDlg, DialogOp)
 

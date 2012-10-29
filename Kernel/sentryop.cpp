@@ -21,7 +21,6 @@
 #include "sentryop.h" 
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 CC_IMPLEMENT_DYNCREATE(SentryOperation, Operation)
 
 #define new CAM_DEBUG_NEW                                                                    

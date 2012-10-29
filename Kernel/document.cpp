@@ -65,7 +65,6 @@
 //#include "ralphvw.h"
 #include "vstate.h"
 
-DECLARE_SOURCE("$Revision: 1668 $");
 
 CC_IMPLEMENT_DYNAMIC(Document, BaseDocument)
 CC_IMPLEMENT_DYNAMIC(DocChangingMsg, Msg)

@@ -30,5 +30,4 @@
 #include "nodecach.h"
 #include "extender.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 

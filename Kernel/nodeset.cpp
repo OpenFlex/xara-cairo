@@ -25,7 +25,6 @@
 #include "nodeset.h"
 
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

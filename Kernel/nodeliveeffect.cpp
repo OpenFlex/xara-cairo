@@ -45,7 +45,6 @@
 
 #include "ophist.h"
 
-DECLARE_SOURCE( "$Revision: 1688 $" );
 
 CC_IMPLEMENT_DYNCREATE(NodeBitmapEffect, NodeEffect)
 CC_IMPLEMENT_DYNCREATE(NodeLiveEffect, NodeBitmapEffect)

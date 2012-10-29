@@ -58,7 +58,6 @@
 #include "ophist.h"
 #include "shadinfo.h"
 
-DECLARE_SOURCE( "$Revision: 1386 $" );
 
 CC_IMPLEMENT_MEMDUMP(SoftShadowTool,Tool_v1)
 CC_IMPLEMENT_DYNCREATE(OpDragCreateShadow2, SelOperation)

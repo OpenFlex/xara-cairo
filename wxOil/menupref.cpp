@@ -27,7 +27,6 @@
 //#include "mario.h"
 #include "oilfiles.h"
 
-DECLARE_SOURCE("$Revision: 1550 $");  
 
 // We want better memory tracking
 #define new CAM_DEBUG_NEW

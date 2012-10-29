@@ -43,7 +43,6 @@
 //Graham 30/9/96: Need to maintain a node list for Drop Copy
 
 // declare this files version number to the program and give our name in memory dumps
-DECLARE_SOURCE("$Revision: 1393 $");
 CC_IMPLEMENT_DYNCREATE(TransOperation, UndoableOperation)
 
 // Declare smart memory handling in Debug builds

@@ -26,7 +26,6 @@
 //#include "clikdrag.h"
 
 // Register my files version number
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNCREATE(OpTranslateTrans, TransOperation)

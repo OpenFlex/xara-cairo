@@ -55,7 +55,6 @@
 #include "usercord.h"
 #include "camview.h"
 
-DECLARE_SOURCE( "$Revision: 1656 $" );
 
 CC_IMPLEMENT_MEMDUMP(TextTool,Tool_v1)
 CC_IMPLEMENT_DYNAMIC(TextToolBlobPosItem, ListItem);

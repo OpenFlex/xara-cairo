@@ -23,7 +23,6 @@
 //#include "princomp.h"
 #include "rechprnt.h"
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 
 CC_IMPLEMENT_DYNAMIC(PrintingRecordHandler, CamelotRecordHandler);

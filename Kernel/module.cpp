@@ -29,7 +29,6 @@
 //#include "pushtool.h"
 
 
-DECLARE_SOURCE("$Revision: 1464 $");
 
 ModuleList *Module::Modules = NULL;
 

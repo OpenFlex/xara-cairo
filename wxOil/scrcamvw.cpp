@@ -78,7 +78,6 @@
   #include "ole2id.h"
 #endif
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 /////////////////////////////////////////////////////////////////////////////
 // ScreenCamCanvas the message map.

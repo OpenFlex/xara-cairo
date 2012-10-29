@@ -32,7 +32,6 @@
 #include "blobs.h"
 #include "nodetext.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");     
 
 
 CC_IMPLEMENT_MEMDUMP(SelNdRng, CC_CLASS_MEMDUMP)

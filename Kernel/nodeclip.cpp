@@ -26,7 +26,6 @@
 
 //#include "mario.h"		// for _R(IDE_NOMORE_MEMORY)
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 // dynamic class creation stuff.
 CC_IMPLEMENT_DYNCREATE(NodeClipView, NodeRenderableInk)

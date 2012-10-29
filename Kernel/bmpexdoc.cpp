@@ -25,7 +25,6 @@
 
 #include "lineattr.h"	// AttrStrokeColour
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(BitmapExportDocument, Document)
 

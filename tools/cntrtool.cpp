@@ -73,7 +73,6 @@
 #include "blndtool.h"
 #include "nbevcont.h"
 
-DECLARE_SOURCE( "$Revision: 1386 $" );
 											 	
 CC_IMPLEMENT_MEMDUMP(ContourTool,Tool_v1)
 CC_IMPLEMENT_DYNCREATE(ContourInfoBarOp,InformationBarOp)

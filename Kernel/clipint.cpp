@@ -45,7 +45,6 @@
 
 #include "bmpcomp.h"	// BitmapList
 
-DECLARE_SOURCE("$Revision: 1282 $"); 
 
 
 CC_IMPLEMENT_DYNAMIC(InternalClipboard, Document)

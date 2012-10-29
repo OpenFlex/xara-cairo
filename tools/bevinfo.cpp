@@ -53,7 +53,6 @@
 //#include "camvw.h"
 #include "nodebev.h"
 
-DECLARE_SOURCE( "$Revision: 1752 $" );
 
 // Declare stuff for the memory tracking
 CC_IMPLEMENT_DYNCREATE( BevelInfoBarOp, InformationBarOp )

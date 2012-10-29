@@ -45,7 +45,6 @@
 
 extern BOOL MakeShortPath(LPTSTR lpszPath, size_t cchMaxLen);
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 CC_IMPLEMENT_DYNCREATE(GenerateIndexFile, CCObject)
 CC_IMPLEMENT_DYNCREATE(IndGenFileBuffer, CCObject)

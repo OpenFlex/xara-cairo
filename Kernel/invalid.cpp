@@ -23,7 +23,6 @@
 #include "invalid.h"
 
 // declare the source
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // An implement to match the Declare in the .h file.
 // If you have many classes, it is recommended to place them all together, here at the start of the file

@@ -22,7 +22,6 @@
 #include "camtypes.h"
 #include "layergal.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 //#include "ensure.h"
 #include "sprdmsg.h"

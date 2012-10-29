@@ -28,7 +28,6 @@
 #include "statline.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 // Place any IMPLEMENT type statements here

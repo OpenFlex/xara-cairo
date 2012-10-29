@@ -22,7 +22,6 @@
 #include "camtypes.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 // Naughty!!

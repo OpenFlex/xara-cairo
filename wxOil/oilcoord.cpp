@@ -21,7 +21,6 @@
 #include "paper.h"
 #include "chapter.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 

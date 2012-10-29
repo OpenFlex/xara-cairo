@@ -68,7 +68,6 @@
 #include "attrmap.h"
 
 // Put my version Number into the About box
-DECLARE_SOURCE( "$Revision: 1688 $" );
 
 CC_IMPLEMENT_DYNCREATE( NodePath, NodeRenderableInk )
 

@@ -26,7 +26,6 @@
 #include "xshelpid.h"	//For the help ID
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(URLImportDlg, DialogOp)
 

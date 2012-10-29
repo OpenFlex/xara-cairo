@@ -56,7 +56,6 @@
 #include "brshbeca.h"
 #include "strkattr.h"
 
-DECLARE_SOURCE("$Revision: 1315 $");
 
 // Declare smart memory handling in Debug builds
 //#define Swap(a,b,t) { t=a; a=b; b=t; }
@@ -134,7 +133,6 @@ CC_IMPLEMENT_DYNCREATE(BlendSubRenderContext,SubRenderContext);
 //-----------------------------------------------------------
 
 // Put my version Number into the About box
-DECLARE_SOURCE( "$Revision: 1315 $" );
 
 CC_IMPLEMENT_DYNCREATE(NodeBlender, NodeRenderableInk)
 CC_IMPLEMENT_MEMDUMP(BlendRef,CC_CLASS_MEMDUMP)

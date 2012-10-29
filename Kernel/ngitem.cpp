@@ -53,7 +53,6 @@
 static char BASED_CODE THIS_FILE[] = __FILE__;
 #endif
 
-DECLARE_SOURCE("$Revision: 1488 $");
 
 // Implement the dynamic class bits...
 CC_IMPLEMENT_DYNAMIC(SGNameItem,	SGDisplayItem);

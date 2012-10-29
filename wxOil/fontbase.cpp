@@ -30,7 +30,6 @@
 #include "fontimpl.h"       // private definitions
 //#include "mike.h"
 
-DECLARE_SOURCE( "$Revision: 1642 $" );
 
 CC_IMPLEMENT_DYNCREATE( FontBase, CCObject )
 CC_IMPLEMENT_DYNCREATE( OILFontMan, CCObject )

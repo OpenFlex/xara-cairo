@@ -39,7 +39,6 @@
 #include "nbevcont.h"
 #include "beveler.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(AttrBevel,	NodeAttribute)
 CC_IMPLEMENT_DYNCREATE(AttrBevelIndent,	AttrBevel)

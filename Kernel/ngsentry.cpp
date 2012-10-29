@@ -40,7 +40,6 @@
 static char BASED_CODE THIS_FILE[] = __FILE__;
 #endif
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(NodeSetSentinel, Node);
 CC_IMPLEMENT_DYNAMIC(NodeSetProperty, Node);

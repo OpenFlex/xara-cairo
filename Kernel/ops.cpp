@@ -32,7 +32,6 @@
 #include "camtypes.h"
 //#include "inetop.h"
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 #ifdef RALPH
 #include "nativeop.h"

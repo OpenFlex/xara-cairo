@@ -37,7 +37,6 @@
 //#include "justin.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 // This preference controls whether we restore docs etc on startup.

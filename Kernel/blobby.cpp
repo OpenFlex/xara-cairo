@@ -32,7 +32,6 @@
 */
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #include "blobby.h"
 #include "ophist.h"

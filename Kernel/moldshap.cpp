@@ -21,7 +21,6 @@
 #include "camtypes.h"
 #include "moldenv.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(MouldGeometry, CCObject)
 CC_IMPLEMENT_DYNAMIC(MouldTransform, TransformBase)

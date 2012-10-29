@@ -29,7 +29,6 @@
 #endif
 #include "unicdman.h"
 
-DECLARE_SOURCE( "$Revision: 1495 $" );
 
 CC_IMPLEMENT_MEMDUMP( CharMetrics, CC_CLASS_MEMDUMP );
 

@@ -18,7 +18,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 /********************************************************************************************
 >	void FIXED16::ToString(StringBase* out) const 

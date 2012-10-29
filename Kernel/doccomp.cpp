@@ -24,7 +24,6 @@
 
 
 
-DECLARE_SOURCE("$Revision: 1302 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

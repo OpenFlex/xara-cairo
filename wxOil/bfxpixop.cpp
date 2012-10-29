@@ -29,7 +29,6 @@
 
 // This is not compulsory, but you may as well put it in so that the correct version
 // of your file can be registered in the .exe
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(BfxPixelOp, CCObject)
 CC_IMPLEMENT_DYNCREATE(BfxPixelOp32, BfxPixelOp)

@@ -45,7 +45,6 @@
 
 #include "extender.h"
 
-DECLARE_SOURCE("$Revision: 1361 $");
 
 CC_IMPLEMENT_DYNAMIC(NodeMouldGroup,NodeGroup )  
 

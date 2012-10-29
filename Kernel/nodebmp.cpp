@@ -86,7 +86,6 @@
 #include "plugop.h"		// PlugInsContextMenu 
 #endif
 
-DECLARE_SOURCE("$Revision: 1771 $");
 
 CC_IMPLEMENT_DYNCREATE(NodeBitmap, NodeRect);
 #if !defined(EXCLUDE_FROM_RALPH)

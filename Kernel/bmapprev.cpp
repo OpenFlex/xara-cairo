@@ -55,7 +55,6 @@
 //#include "justin.h"		// for _R(IDS_ZOOM_INFO_FORMAT) a % readout
 //#include "exprwres.h"	// for _R(IDS_BITMAPPREVIEWDIALOG)
 
-DECLARE_SOURCE("$Revision: 1745 $");
 
 CC_IMPLEMENT_DYNCREATE(BmapPrevDlg, DialogTabOp)
 

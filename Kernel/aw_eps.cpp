@@ -36,7 +36,6 @@
 #include "ndmldpth.h"
 #include "nodeshap.h"
 
-DECLARE_SOURCE("$Revision: 1319 $");
 
 #define new CAM_DEBUG_NEW
 

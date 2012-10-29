@@ -34,7 +34,6 @@
 //#include "justin2.h"
 
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 
 

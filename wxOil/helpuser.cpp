@@ -45,7 +45,6 @@
 
 
 // Code version.
-DECLARE_SOURCE("$Revision: 1729 $");
 
 
 // We need to use the correct filename parsing functions, depending on whether we are

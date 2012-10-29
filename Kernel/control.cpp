@@ -26,7 +26,6 @@
 #include "textops.h"
 
 // source-safe version number.
-DECLARE_SOURCE("$Revision: 751 $");
 
 // dynamic runtime type info.
 CC_IMPLEMENT_DYNAMIC(NodeController, NodeGroup)

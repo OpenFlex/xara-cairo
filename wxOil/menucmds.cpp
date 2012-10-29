@@ -52,7 +52,6 @@
 #include "filedlgs.h"
 #include "tmplmngr.h"
 
-DECLARE_SOURCE("$Revision: 1739 $");  
 #define THIRTY_TWO 32
 
 /********************************************************************************************

@@ -22,7 +22,6 @@
 #include "pathtrap.h"
 #include "valfunc.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(PressureSmoother, CC_CLASS_MEMDUMP)
 

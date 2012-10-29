@@ -55,7 +55,6 @@
 // For tab stop dragging
 #include "csrstack.h"
 
-DECLARE_SOURCE( "$Revision: 1718 $" );
 
 CC_IMPLEMENT_DYNCREATE(TextInfoBarOp,InformationBarOp)
 CC_IMPLEMENT_DYNCREATE(TextInfoBarData,CCObject)

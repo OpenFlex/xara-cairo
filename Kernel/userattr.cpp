@@ -37,7 +37,6 @@
 //#include "dialogop.h"	// for slight bodge
 //#include "tmpltdlg.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(AttrUser, NodeAttribute)
 CC_IMPLEMENT_MEMDUMP(VisibleAttribute, UserInterface)

@@ -73,7 +73,6 @@
 
 #include "unicdman.h"		// For MBCS support
 
-DECLARE_SOURCE("$Revision: 1431 $");
 
 #define new CAM_DEBUG_NEW
 

@@ -22,7 +22,6 @@
 
 CC_IMPLEMENT_MEMDUMP(LoadDirect, CC_CLASS_MEMDUMP);
 
-DECLARE_SOURCE("$Revision: 1320 $");
 
 
 /*****************************************************************************************

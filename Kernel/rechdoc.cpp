@@ -43,7 +43,6 @@
 // used by SliceHelper::MeshImportedLayersWithExistingButtonBars()
 INT32 g_NoOfBarsBeforeImport;
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 CC_IMPLEMENT_DYNAMIC(DocumentRecordHandler,CamelotRecordHandler)
 

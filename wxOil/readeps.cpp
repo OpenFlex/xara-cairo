@@ -32,7 +32,6 @@
 
 #include "readeps.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 // Scale factor of ArtWorks EPS coords -> Camelot DocCoords
 const INT32 ScaleFactor = 1000;

@@ -24,7 +24,6 @@
 
 #include "sgmenu.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(GalleryContextMenu, ContextMenu)
 CC_IMPLEMENT_DYNCREATE(OpGalleryCommand, Operation);

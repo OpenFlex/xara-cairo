@@ -21,7 +21,6 @@
 
 
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 CC_IMPLEMENT_DYNAMIC(HTMLFileList, List)
 CC_IMPLEMENT_DYNAMIC(HTMLFileListItem, ListItem)

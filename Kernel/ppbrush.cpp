@@ -48,7 +48,6 @@
 #include "ophist.h"
 #include "vectrndr.h"
 
-DECLARE_SOURCE("$Revision: 1328 $");
 
 CC_IMPLEMENT_DYNAMIC(PathProcessorBrush, PathProcessor);
 PORTNOTE("other","Removed BrushSubRenderContext - derived from SubRenderContext")

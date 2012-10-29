@@ -31,7 +31,6 @@
 //#include "osrndrgn.h"
 //#include "rik.h"
 
-DECLARE_SOURCE( "$Revision: 1315 $" );
 
 // Declare this class and give my name for bad memory handling
 CC_IMPLEMENT_DYNCREATE(NodeEllipse, NodeSimpleShape)

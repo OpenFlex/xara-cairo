@@ -24,7 +24,6 @@
 
 #include "expbmp.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_MEMDUMP(ExportBitmap, ListItem)
 CC_IMPLEMENT_MEMDUMP(ExportBitmapList, List)

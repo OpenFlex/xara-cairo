@@ -31,7 +31,6 @@
 //#include "cdrfiltr.h"
 
 
-DECLARE_SOURCE("$Revision: 1312 $");
 
 #define new CAM_DEBUG_NEW
 

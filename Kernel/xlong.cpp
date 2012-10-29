@@ -19,7 +19,6 @@
 
 #include "camtypes.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #if !defined(USE_NATIVE_XLONG)
 

@@ -23,7 +23,6 @@
 #include "dll_lib.h"
 #include "viewmod.h"
 
-DECLARE_SOURCE("$Revision: 751 $");
 
 
 // Base new DLLs on this file.

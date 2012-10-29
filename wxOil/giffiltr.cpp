@@ -51,7 +51,6 @@
 #include "bmpprefs.h"
 #include "tmplmngr.h"
 
-DECLARE_SOURCE("$Revision: 1461 $");
 
 CC_IMPLEMENT_DYNAMIC(TI_GIFFilter, MaskedFilter)
 CC_IMPLEMENT_MEMDUMP(GIFImportOptions, BitmapImportOptions)

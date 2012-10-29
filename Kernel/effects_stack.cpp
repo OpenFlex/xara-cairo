@@ -28,7 +28,6 @@
 CC_IMPLEMENT_DYNAMIC(PPStackLevel, ListItem);
 CC_IMPLEMENT_DYNAMIC(EffectsStack, List);
 
-DECLARE_SOURCE("$Revision: 859 $");
 
 #define new CAM_DEBUG_NEW
 

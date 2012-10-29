@@ -27,7 +27,6 @@
 #include "collist.h"
 #include "nodepath.h"
 
-DECLARE_SOURCE("$Revision: 1314 $");
 
 CC_IMPLEMENT_DYNAMIC(FreeHandEPSFilter, EPSFilter)
 

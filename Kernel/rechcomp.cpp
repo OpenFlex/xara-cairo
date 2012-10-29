@@ -27,7 +27,6 @@
 
 #include "cxftags.h"	// TAG_DEFINERGBCOLOUR TAG_DEFINECOMPLEXCOLOUR
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

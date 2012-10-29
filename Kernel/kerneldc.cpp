@@ -25,7 +25,6 @@
 #include "kerneldc.h"
 #include "colourix.h"
 
-DECLARE_SOURCE("$Revision: 1432 $");
 
 #define new CAM_DEBUG_NEW
 

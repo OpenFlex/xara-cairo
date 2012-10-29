@@ -34,7 +34,6 @@
 #include "attrmap.h"
 #include "cxftext.h"
 
-DECLARE_SOURCE("$Revision: 1535 $")				 
 
 CC_IMPLEMENT_MEMDUMP(TextLineInfo,      CC_CLASS_MEMDUMP)
 CC_IMPLEMENT_DYNAMIC(TextLine, BaseTextClass)

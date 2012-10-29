@@ -76,7 +76,6 @@
 #include "rendwnd.h"	// Shouldn't need this
 #include "draginfo.h"
 
-DECLARE_SOURCE("$Revision: 1729 $");
 
 
 // Used by SpreadRedraws class.

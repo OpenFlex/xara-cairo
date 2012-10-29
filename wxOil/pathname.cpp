@@ -50,7 +50,6 @@
 #define END_OF_PATH_SYM	"\0"
 #define NET_DRIVE_SYM	"\\\\"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 extern void AbbreviateName(LPTSTR lpszCanon, INT32 cchMax, BOOL bAtLeastName);
 

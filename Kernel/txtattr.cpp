@@ -59,7 +59,6 @@
 #include "nodetext.h"
 #include "cxftext.h"
 
-DECLARE_SOURCE("$Revision: 1568 $");
 
 
 // All IMPLEMENTS here

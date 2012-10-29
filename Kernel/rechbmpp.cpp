@@ -28,7 +28,6 @@
 //#include "xmlutils.h"	// CXMLUtils (and msxml2.h)
 //#include "xpehost.h"	// XPEHost
 
-DECLARE_SOURCE("$Revision: 1688 $");
 
 // Declare smart memory handling in Debug builds
 #define new CAM_DEBUG_NEW

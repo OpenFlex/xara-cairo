@@ -28,7 +28,6 @@
 #include "pathedit.h"
 #include "ophist.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(OpPathNudge,TransOperation)
 

@@ -42,7 +42,6 @@
 #include "camnet.h"
 #include "pathnmex.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(Library, ListItem)
 

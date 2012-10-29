@@ -52,7 +52,6 @@
 #include "mrhbits.h"
 #include "page.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNCREATE(OpSelectStartFrame,	OpLayerGalChange);
 CC_IMPLEMENT_DYNCREATE(OpSelectEndFrame,	OpLayerGalChange);

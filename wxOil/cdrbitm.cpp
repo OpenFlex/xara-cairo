@@ -25,7 +25,6 @@
 #include "wbitmap.h"
 #include "cdrfiltr.h"
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 #define new CAM_DEBUG_NEW
 

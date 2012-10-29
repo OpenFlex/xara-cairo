@@ -53,7 +53,6 @@
 //#include "cmxres.h"
 #include "cmxifltr.h"		// so we can pass stuff to it nicely
 
-DECLARE_SOURCE("$Revision: 1282 $");
 
 CC_IMPLEMENT_DYNAMIC(CDRFilter, VectorFilter)
 CC_IMPLEMENT_MEMDUMP(CDRAttributeStore, List)

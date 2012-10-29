@@ -24,7 +24,6 @@
 //#include "mario.h"			// _R(IDE_NOMORE_MEMORY)
 #include "blendatt.h"		// BlendAttrParam
 
-DECLARE_SOURCE("$Revision: 1361 $")
 
 // runtime class creation stuff.
 CC_IMPLEMENT_DYNCREATE(ClipRegionAttribute, AttributeValue)

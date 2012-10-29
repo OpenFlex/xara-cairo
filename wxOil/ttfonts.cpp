@@ -25,7 +25,6 @@
 #include "textfuns.h"
 #include "oilpanse.h"
 
-DECLARE_SOURCE( "$Revision: 1282 $" );
 
 CC_IMPLEMENT_DYNCREATE( TTFontMan, CCObject )
 CC_IMPLEMENT_DYNCREATE( TTFont, FontBase )
