@@ -331,26 +331,17 @@ FontClass FTFontMan::GetFontClass(String_64& FaceName)
 	{
 		// At this stage, we know that the font is scalable, otherwise the above call
 		// would have returned an error already. Now, check whether this is a virtual
-		// font (e.g., "Monospace") presented to us by fontconfig. We do that by reading
-		// back the family name and comparing it to the one we passed.
-		PangoFontDescription *pRealDesc = pango_font_describe((PangoFont*)pPangoFcFont);
-		wxString wxName(pango_font_description_get_family(pRealDesc), wxConvUTF8);
-		String_64 OurFontName(wxName);
-		pango_font_description_free(pRealDesc);
-		if (OurFontName.CompareTo(FaceName, FALSE) == 0)
+		PS_FontInfoRec PSRec;
+		if (FT_Get_PS_Font_Info(pFreeTypeFace, &PSRec) != FT_Err_Invalid_Argument)
+			fc = FC_ATM;
+		else
 		{
-			PS_FontInfoRec PSRec;
-			if (FT_Get_PS_Font_Info(pFreeTypeFace, &PSRec) != FT_Err_Invalid_Argument)
-				fc = FC_ATM;
+			if (FT_IS_SFNT(pFreeTypeFace)) fc = FC_TRUETYPE;
 			else
 			{
-				if (FT_IS_SFNT(pFreeTypeFace)) fc = FC_TRUETYPE;
-				else
-				{
-					// scalable, but not PS-based and not SFNT-based, so not TrueType either
-					// ignore this for the time being, but we can probably support this type
-					// of font
-				}
+				// scalable, but not PS-based and not SFNT-based, so not TrueType either
+				// ignore this for the time being, but we can probably support this type
+				// of font
 			}
 		}
 		pango_fc_font_unlock_face(pPangoFcFont);

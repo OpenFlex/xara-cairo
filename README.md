@@ -56,6 +56,7 @@ Fixes and Additions
 - No more splash screen
 - Exclude files from the repo that are auto-generated or copied
 - Removed 4799 to obsolete header file references and DECLARE tags
+- Allow user to select so-called virtual fonts, such as 'Monospace'
 
 (ed44)
 

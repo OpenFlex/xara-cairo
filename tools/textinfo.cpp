@@ -2549,16 +2549,8 @@ MsgResult TextInfoBarOp::Message(Msg* Message)
 							FontDropItem *Selected = NameDropDown->DecodeSelection((INT32)SelIndex);
 							if (Selected)
 							{
-								if (FONTMANAGER->IsFontInstalled(&Selected->FontName, Selected->Type))
-								{
-									if (SetCurrentFontName(&Selected->FontName, Selected->Type, TRUE))
-										OnFieldChange(FontNameA);
-								}
-								else
-								{
-									InformWarning(_R(IDS_INVALIDFONT));
-									Update();
-								}
+								if (SetCurrentFontName(&Selected->FontName, Selected->Type, TRUE))
+									OnFieldChange(FontNameA);
 							}
 						}
 					}
